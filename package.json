@@ -1,8 +1,8 @@
 {
-  "name": "typify-type-parser",
+  "name": "typify-parser",
   "description": "Type signature parser for typify",
   "version": "0.0.1",
-  "homepage": "https://github.com/phadej/typify-type-parser",
+  "homepage": "https://github.com/phadej/typify-parser",
   "author": {
     "name": "Oleg Grenrus",
     "email": "oleg.grenrus@iki.fi",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/phadej/typify-type-parser.git"
+    "url": "git://github.com/phadej/typify-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/phadej/typify-type-parser/issues"
+    "url": "https://github.com/phadej/typify-parser/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/phadej/typify-type-parser/blob/master/LICENSE"
+      "url": "https://github.com/phadej/typify-parser/blob/master/LICENSE"
     }
   ],
   "main": "lib/parser",
