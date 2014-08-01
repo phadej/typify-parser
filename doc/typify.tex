@@ -1,0 +1,194 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{mathrsfs} % mathscr
+\usepackage{color}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+
+% multicol
+\usepackage{multicol}
+\usepackage{array}
+
+% graphics
+\usepackage{graphicx}
+\DeclareGraphicsRule{*}{mps}{*}{}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true
+}
+
+\usepackage{mathpazo}
+\usepackage{helvet}
+%\usepackage{courier}
+\usepackage{inconsolata}
+
+\title{Typify types}
+\author{Oleg Grenrus}
+%\date{July 25, 2014}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{3mm plus1mm minus1mm}
+
+\begin{document}
+\maketitle
+
+Parser and tools for type signatures of \href{https://github.com/phadej/typify}{typify}. 
+Essentially the language is dependent type theory, with omitted lambda constructor.
+
+\section{Formal syntax definition}
+
+\newcommand{\rulename}[1]{\ \boxed{\textsc{\footnotesize #1}}}
+\newcommand{\syntaxrule}[3]{\frac{#2}{#3}\rulename{#1}}
+
+\begin{figure}[ht]
+\small
+\begin{flalign*}
+&
+\textbf{Terminals:} \\&
+\syntaxrule{Any}{}{\top : \mathsf{type}} \qquad
+\syntaxrule{Nothing}{}{\bot : \mathsf{type}}
+\\&
+\syntaxrule{Number}{}{\mathtt{number} : \mathsf{type}} \qquad
+\syntaxrule{String}{}{\mathtt{string} : \mathsf{type}} \qquad
+\syntaxrule{Boolean}{}{\mathtt{bool} : \mathsf{type}}
+\\&
+\textbf{Identifiers:} \\&
+\syntaxrule{Identifier}{n : \mathsf{name}}{n : \mathsf{type}}
+\\&
+\textbf{Record pairs:} \\&
+\syntaxrule{Record-Pair}{n : \mathsf{name} \quad a : \mathsf{type}}{n : a : \mathsf{pair}} \qquad
+\syntaxrule{Record-Singleton}{r : \mathsf{pair}}{r : \mathsf{rlist}} \qquad
+\syntaxrule{Record-Cons}{p : \mathsf{pair} \quad r : \mathsf{rlist}}{p ;\, r : \mathsf{rlist}}  
+\\&
+\textbf{Records:} \\&
+\syntaxrule{Empty-Record}{}{\{\} : \mathsf{type}} \qquad
+\syntaxrule{Record}{r : \mathsf{rlist}}{\{ r \} : \mathsf{type}}
+\\&
+\textbf{Row types:} \\&
+\syntaxrule{Conjunction}{a : \mathsf{type} \quad b : \mathsf{type}}{a \land b : \mathsf{type}} \qquad
+\syntaxrule{Disjunction}{a : \mathsf{type} \quad b : \mathsf{type}}{a \lor b : \mathsf{type}} \qquad
+\syntaxrule{Optional}{a : \mathsf{type}}{a ? : \mathsf{type}}
+\\&
+\textbf{Application:} \\&
+\syntaxrule{Application}{a : \mathsf{type} \qquad b : \mathsf{type}}{a\ b : \mathsf{type}}
+\\&
+\textbf{Parameter types:} \\&
+\syntaxrule{Singular}{a : \mathsf{type}}{a : \mathsf{parameter''}} \qquad
+\syntaxrule{Variadic}{a : \mathsf{type}}{a\ldots : \mathsf{parameter''}}
+\\&
+\textbf{Function parameters:} \\&
+\syntaxrule{Anonymous}{p : \mathsf{parameter''}}{p : \mathsf{parameter'}} \qquad
+\syntaxrule{Named}{n : \mathsf{name} \quad p : \mathsf{parameter''}}{n : p : \mathsf{parameter'}}
+\\&
+\textbf{Function parameter modifiers:} \\&
+\syntaxrule{Mandatory}{p : \mathsf{parameter'}}{p : \mathsf{parameter}} \qquad
+\syntaxrule{Optional'}{p : \mathsf{parameter'}}{[p] : \mathsf{parameter}}
+\\&
+\textbf{Function parameter lists:} \\&
+\syntaxrule{Singleton}{p : \mathsf{parameter}}{p : \mathsf{plist}} \qquad
+\syntaxrule{Product}{p : \mathsf{parameter} \qquad l : \mathsf{plist}}{p \times l : \mathsf{plist}}
+\\&
+\textbf{Functions:} \\&
+\syntaxrule{Action}{a : \mathsf{type}}{\to a : \mathsf{type}} \qquad
+\syntaxrule{Function}{l : \mathsf{plist}}{l \to a : \mathsf{type}}
+\end{flalign*}
+\caption{Typify syntax rules}
+\end{figure}
+
+\begin{figure}
+\begin{flalign*}
+&
+\textbf{Anonymous:} \\&
+\syntaxrule{Anon-Mandatory-Singular}{t : \mathsf{type}}{t : \mathsf{parameter}} \qquad
+\syntaxrule{Anon-Mandatory-Variadic}{t : \mathsf{type}}{t\ldots : \mathsf{parameter}} \\&
+\syntaxrule{Anon-Optional-Singular}{t : \mathsf{type}}{[t] : \mathsf{parameter}} \qquad
+\syntaxrule{Anon-Optional-Variadic}{t : \mathsf{type}}{[t\ldots] : \mathsf{parameter}} \\&
+\textbf{Named:} \\&
+\syntaxrule{Named-Mandatory-Singular}{n : \mathsf{name} \quad t : \mathsf{type}}{n : t : \mathsf{parameter}} \qquad
+\syntaxrule{Named-Mandatory-Variadic}{n : \mathsf{name} \quad t : \mathsf{type}}{n : t\ldots : \mathsf{parameter}} \\&
+\syntaxrule{Named-Optional-Singular}{n : \mathsf{name} \quad t : \mathsf{type}}{[n : t] : \mathsf{parameter}} \qquad
+\syntaxrule{Named-Optional-Variadic}{n : \mathsf{name} \quad t : \mathsf{type}}{[n : t\ldots] : \mathsf{parameter}} \\&
+\end{flalign*}
+\caption{Alternative parameter rules}
+\end{figure}
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{clcll}
+level & name & & associativity & example \\
+\hline
+8 & optional     & $?$      & postfix            & $a?$ \\
+7 & application  & $a\;b$   & left associative   & $a\;b\;c \equiv (a\;b)\;c$ \\ 
+6 & conjunction  & $\land$  & associative        & $(a \land b) \land c \equiv a \land (b \land c)$ \\
+5 & disjunction  & $\lor$   & associative        & $(a \lor b) \lor c \equiv a \lor (b \lor c)$ \\
+4 & product      & $\times$ & associative        & $(a \times b) \times c \equiv a \times (b \times c)$ \\
+3 & ellipsis     & $\ldots$ & postfix            & $a \ldots$ \\
+2 & type         & $:$      & right associative  & $x : a$ \\
+1 & function     & $\to$    & right associative  & $a \to b \to c \equiv a \to (b \to c)$ \\
+0 & semicolon    & $;$      & associative        & \\
+\end{tabular}
+\end{center}
+\caption{Operator precedence}
+\end{table}
+
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{lcl}
+name & & code variants \\
+\hline
+any          & $\top$   & $\top$ $\mathtt{*}$ \\
+nothing      & $\bot$   & $\bot$ $\mathtt{\_|\_}$ \\
+optional     & $?$      & $\mathtt{?}$ \\
+conjunction  & $\land$  & $\land$ $\mathtt{|}$ \\
+disjunction  & $\lor$   & $\lor$ $\mathtt{\&}$ \\
+ellipsis     & $\ldots$ & \texttt{\ldots} (either three dots, or unicode ellipsis) \\
+type         & $:$      & $\mathtt{:}$ \\
+product      & $\times$ & $\times$ $\mathtt{,}$ \\
+function     & $\to$    & $\to$ \texttt{->} \\
+semicolon    & $;$      & $\mathtt{;}$
+\end{tabular}
+\end{center}
+\caption{Special character code representations}
+\end{table}
+
+\begin{figure}[ht]
+\begin{align*}
+&\begin{aligned}
+&a \times ys : b \ldots \times c \to d \to e \\
+&\quad\equiv x : a \times ys : (b \ldots) \times c \to d \to e \\
+&\quad\equiv (x : a) \times (ys : (b \ldots)) \times c \to d \to e \\
+&\quad\equiv ((x : a) \times \big(ys : (b \ldots)) \times c) \to d \to e \\
+&\quad\equiv ((x : a) \times \big(ys : (b \ldots)) \times c) \to (d \to e)
+\end{aligned}
+&
+&\begin{aligned}
+&a \lor b? \land c\; d \ldots \to e \\
+&\quad\equiv a \lor (b?) \land (c\; d) \ldots \to e \\
+&\quad\equiv a \lor ((b?) \land (c\; d)) \ldots \to e \\
+&\quad\equiv (a \lor ((b?) \land (c\; d))) \ldots \to e \\
+&\quad\equiv ((a \lor ((b?) \land (c\; d))) \ldots) \to e \\
+\end{aligned}
+\\
+&\begin{aligned}
+&a \times y : b \to c \\
+&\quad\equiv a \times (y : b) \to c \\
+&\quad\equiv (a \times (y : b)) \to c \\
+\end{aligned}
+&
+\end{align*}
+\caption{Examples of operator precedence}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{flalign*}
+&Either\;a\;b \equiv \{  type : \mathtt{"left"} ;\, value : a \} \lor \{ type: \mathtt{"right"} ;\, value: b \} \\
+&flatMap : (@ : Observable\; A \times f : A \to Observable\; B \lor Event\; B\lor B) \to EventStream\; B \\
+\end{flalign*}
+\caption{Examples of real world types}
+\end{figure}
+
+\end{document}
