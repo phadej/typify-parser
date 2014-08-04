@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{fullpage}
-\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{amsmath,amssymb,amsthm,mathtools,bbm}
 \usepackage{mathrsfs} % mathscr
 \usepackage{color}
 \usepackage[a4paper,margin=2.5cm]{geometry}
@@ -49,7 +49,8 @@ Essentially the language is dependent type theory, with omitted lambda construct
 &
 \textbf{Terminals:} \\&
 \syntaxrule{Any}{}{\top : \mathsf{type}} \qquad
-\syntaxrule{Nothing}{}{\bot : \mathsf{type}}
+\syntaxrule{Nothing}{}{\bot : \mathsf{type}} \qquad
+\syntaxrule{Unit}{}{\mathbbm{1} : \mathsf{type}}
 \\&
 \syntaxrule{Number}{}{\mathtt{number} : \mathsf{type}} \qquad
 \syntaxrule{String}{}{\mathtt{string} : \mathsf{type}} \qquad
@@ -75,44 +76,18 @@ Essentially the language is dependent type theory, with omitted lambda construct
 \textbf{Application:} \\&
 \syntaxrule{Application}{a : \mathsf{type} \qquad b : \mathsf{type}}{a\ b : \mathsf{type}}
 \\&
-\textbf{Parameter types:} \\&
-\syntaxrule{Singular}{a : \mathsf{type}}{a : \mathsf{parameter''}} \qquad
-\syntaxrule{Variadic}{a : \mathsf{type}}{a\ldots : \mathsf{parameter''}}
+\textbf{Special modifiers:} \\&
+\syntaxrule{Product}{a : \mathsf{type} \quad b : \mathsf{type}}{a \times  b : \mathsf{type}} \qquad
+\syntaxrule{Variadic}{a : \mathsf{type}}{a\ldots : \mathsf{type}} \qquad
+\syntaxrule{Named}{n : \mathsf{name} \quad p : \mathsf{type}}{n : p : \mathsf{type}}
 \\&
-\textbf{Function parameters:} \\&
-\syntaxrule{Anonymous}{p : \mathsf{parameter''}}{p : \mathsf{parameter'}} \qquad
-\syntaxrule{Named}{n : \mathsf{name} \quad p : \mathsf{parameter''}}{n : p : \mathsf{parameter'}}
-\\&
-\textbf{Function parameter modifiers:} \\&
-\syntaxrule{Mandatory}{p : \mathsf{parameter'}}{p : \mathsf{parameter}} \qquad
-\syntaxrule{Optional'}{p : \mathsf{parameter'}}{[p] : \mathsf{parameter}}
-\\&
-\textbf{Function parameter lists:} \\&
-\syntaxrule{Singleton}{p : \mathsf{parameter}}{p : \mathsf{plist}} \qquad
-\syntaxrule{Product}{p : \mathsf{parameter} \qquad l : \mathsf{plist}}{p \times l : \mathsf{plist}}
+\textbf{Brackets:} \\&
+\syntaxrule{Brackets}{p : \mathsf{type}}{[p] : \mathsf{type}}
 \\&
 \textbf{Functions:} \\&
-\syntaxrule{Action}{a : \mathsf{type}}{\to a : \mathsf{type}} \qquad
-\syntaxrule{Function}{l : \mathsf{plist}}{l \to a : \mathsf{type}}
+\syntaxrule{Function}{a : \mathsf{type} \quad b : \mathsf{type}}{a \to b : \mathsf{type}}
 \end{flalign*}
 \caption{Typify syntax rules}
-\end{figure}
-
-\begin{figure}
-\begin{flalign*}
-&
-\textbf{Anonymous:} \\&
-\syntaxrule{Anon-Mandatory-Singular}{t : \mathsf{type}}{t : \mathsf{parameter}} \qquad
-\syntaxrule{Anon-Mandatory-Variadic}{t : \mathsf{type}}{t\ldots : \mathsf{parameter}} \\&
-\syntaxrule{Anon-Optional-Singular}{t : \mathsf{type}}{[t] : \mathsf{parameter}} \qquad
-\syntaxrule{Anon-Optional-Variadic}{t : \mathsf{type}}{[t\ldots] : \mathsf{parameter}} \\&
-\textbf{Named:} \\&
-\syntaxrule{Named-Mandatory-Singular}{n : \mathsf{name} \quad t : \mathsf{type}}{n : t : \mathsf{parameter}} \qquad
-\syntaxrule{Named-Mandatory-Variadic}{n : \mathsf{name} \quad t : \mathsf{type}}{n : t\ldots : \mathsf{parameter}} \\&
-\syntaxrule{Named-Optional-Singular}{n : \mathsf{name} \quad t : \mathsf{type}}{[n : t] : \mathsf{parameter}} \qquad
-\syntaxrule{Named-Optional-Variadic}{n : \mathsf{name} \quad t : \mathsf{type}}{[n : t\ldots] : \mathsf{parameter}} \\&
-\end{flalign*}
-\caption{Alternative parameter rules}
 \end{figure}
 
 \begin{table}[ht]
@@ -124,9 +99,9 @@ level & name & & associativity & example \\
 7 & application  & $a\;b$   & left associative   & $a\;b\;c \equiv (a\;b)\;c$ \\ 
 6 & conjunction  & $\land$  & associative        & $(a \land b) \land c \equiv a \land (b \land c)$ \\
 5 & disjunction  & $\lor$   & associative        & $(a \lor b) \lor c \equiv a \lor (b \lor c)$ \\
-4 & product      & $\times$ & associative        & $(a \times b) \times c \equiv a \times (b \times c)$ \\
-3 & ellipsis     & $\ldots$ & postfix            & $a \ldots$ \\
-2 & type         & $:$      & right associative  & $x : a$ \\
+4 & ellipsis     & $\ldots$ & postfix            & $a \ldots$ \\
+3 & type         & $:$      & right associative  & $x : a$ \\
+2 & product      & $\times$ & associative        & $(a \times b) \times c \equiv a \times (b \times c)$ \\
 1 & function     & $\to$    & right associative  & $a \to b \to c \equiv a \to (b \to c)$ \\
 0 & semicolon    & $;$      & associative        & \\
 \end{tabular}
@@ -142,6 +117,7 @@ name & & code variants \\
 \hline
 any          & $\top$   & $\top$ $\mathtt{*}$ \\
 nothing      & $\bot$   & $\bot$ $\mathtt{\_|\_}$ \\
+unit         & $\mathbbm{1}$ & $\mathbbm{1}$ $\mathtt{()}$ \\
 optional     & $?$      & $\mathtt{?}$ \\
 conjunction  & $\land$  & $\land$ $\mathtt{|}$ \\
 disjunction  & $\lor$   & $\lor$ $\mathtt{\&}$ \\
