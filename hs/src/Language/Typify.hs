@@ -315,7 +315,7 @@ tyVariadicP = f <$> tyDisjunctionP <*> optionMaybe ellipsisP
         f t (Just _) = tyVariadic t
 
 tyNamedP :: Parser Type
-tyNamedP = (TyNamed <$> try (nameP <* colonP) <*> tyVariadicP) <|> tyVariadicP
+tyNamedP = (TyNamed <$> try (nameP <* colonP) <*> tyNamedP) <|> tyVariadicP
 
 tyProductP :: Parser Type
 tyProductP = tyProduct <$> tyNamedP `sepBy1` lexeme (oneOf "×,")
