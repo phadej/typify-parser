@@ -92,13 +92,19 @@ data PrettySpec = PrettySpec {
   pSemicolon   :: String
 }
 
+escapeString :: String -> String
+escapeString = concatMap f
+  where f '\'' = "\\'"
+        f '\\' = "\\\\"
+        f c    = [c]
+
 defaultPrettySpec :: PrettySpec
 defaultPrettySpec = PrettySpec {
   pTrue        = "*",
   pFalse       = "_|_",
   pUnit        = "()",
   pNumber      = show,
-  pString      = show,
+  pString      = \s -> '\'' : escapeString s ++ "'",
   pBool        = \b -> if b then "true" else "false",
   pIdentifier  = id,
   pRecordName  = id,
@@ -190,7 +196,7 @@ arbitraryType 0 = QC.oneof [
   pure TyFalse,
   pure TyUnit,
   (TyNumber . abs) <$> QC.arbitrary,
---  TyString <$> QC.arbitrary,
+  TyString <$> QC.arbitrary,
   TyBool <$> QC.arbitrary,
   TyIdentifier <$> arbitraryName
   ]
@@ -264,6 +270,18 @@ numP = lexeme (f <$> many1 digit)
         g x y = x * 10 + y
         h c = fromIntegral (fromEnum c - fromEnum '0')
 
+singleStringP :: Parser String
+singleStringP = char '\'' *> many (stringCharP '\'') <* char '\''
+
+doubleStringP :: Parser String
+doubleStringP = char '"' *> many (stringCharP '"') <* char '"'
+
+stringCharP :: Char -> Parser Char
+stringCharP c = escaped <|> others
+  where escaped = char '\\' *> oneOf ['\\', c]
+        others  = noneOf ['\\', c]
+
+
 tyTrueP :: Parser Type
 tyTrueP = const TyTrue <$> lexeme (oneOf "*⊤")
 
@@ -277,7 +295,7 @@ tyNumberP :: Parser Type
 tyNumberP = TyNumber <$> numP
 
 tyStringP :: Parser Type
-tyStringP = fail "can't parse strings"
+tyStringP = TyString <$> lexeme (singleStringP <|> doubleStringP)
 
 tyRecordP :: Parser Type
 tyRecordP = fail "can't parse records"
@@ -339,7 +357,8 @@ terminalP :: Parser Type
 terminalP = choice [
   tyTrueP, tyFalseP, tyUnitP,
   tyNumberP, 
-  -- tyStringP, tyRecordP
+  tyStringP,
+  -- tyRecordP
   tyIdentifierP,
   braces typeParser,
   brackets (TyBrackets <$> typeParser)
