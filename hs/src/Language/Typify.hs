@@ -189,10 +189,8 @@ arbitraryType 0 = QC.oneof [
   pure TyTrue,
   pure TyFalse,
   pure TyUnit,
-  {-
   (TyNumber . abs) <$> QC.arbitrary,
-  TyString <$> QC.arbitrary,
-  -}
+--  TyString <$> QC.arbitrary,
   TyBool <$> QC.arbitrary,
   TyIdentifier <$> arbitraryName
   ]
@@ -260,6 +258,12 @@ restNameLetter = oneOf "@$_" <|> alphaNum
 nameP :: Parser Name
 nameP = lexeme ((:) <$> firstNameLetter <*> many restNameLetter)
 
+numP :: Parser Integer
+numP = lexeme (f <$> many1 digit)
+  where f = foldl g 0 . map h
+        g x y = x * 10 + y
+        h c = fromIntegral (fromEnum c - fromEnum '0')
+
 tyTrueP :: Parser Type
 tyTrueP = const TyTrue <$> lexeme (oneOf "*⊤")
 
@@ -270,7 +274,7 @@ tyUnitP :: Parser Type
 tyUnitP = const TyUnit <$> lexeme (string "𝟙" <|> try (string "()"))
 
 tyNumberP :: Parser Type
-tyNumberP = fail "can't parse numbers"
+tyNumberP = TyNumber <$> numP
 
 tyStringP :: Parser Type
 tyStringP = fail "can't parse strings"
@@ -334,7 +338,8 @@ tyFunctionP = f <$> tyProductP <*> optionMaybe (arrowP *> tyFunctionP)
 terminalP :: Parser Type
 terminalP = choice [
   tyTrueP, tyFalseP, tyUnitP,
---  tyNumberP, tyStringP, tyRecordP
+  tyNumberP, 
+  -- tyStringP, tyRecordP
   tyIdentifierP,
   braces typeParser,
   brackets (TyBrackets <$> typeParser)
