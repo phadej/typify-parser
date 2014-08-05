@@ -8,6 +8,7 @@ import Text.Parsec.String
 import Data.List (intercalate)
 
 import Data.Map (Map)
+import qualified Data.Map as Map
 
 import qualified Test.QuickCheck as QC
 
@@ -139,7 +140,7 @@ instance Pretty Type where
   prettyPrec p _ (TyNumber x)          = pNumber p x
   prettyPrec p _ (TyString x)          = pString p x
   prettyPrec p _ (TyBool x)            = pBool p x
-  prettyPrec p _ (TyRecord x)          = undefined p x
+  prettyPrec p _ (TyRecord x)          = pRecord p $ intercalate (pSemicolon p) $ map (\(n, t) -> n ++ pRecColon p ++ prettyPrec p 0 t) $ Map.toList x
   prettyPrec p _ (TyIdentifier x)      = pIdentifier p x
   prettyPrec p _ (TyBrackets x)        = pBrackets p $ prettyPrec p 0 x
   prettyPrec p d (TyVariadic x)        = prettyParens (d > 4) $ prettyPrec p 4 x ++ pEllipsis p
@@ -203,6 +204,7 @@ arbitraryType 0 = QC.oneof [
 arbitraryType n = QC.oneof [
   arbitraryType 0,
   TyNamed <$> arbitraryName <*> arbitraryType',
+  TyRecord . Map.fromList <$> QC.listOf ((,) <$> arbitraryName <*> arbitraryType'),
   tyConjunction <$> QC.listOf arbitraryType',
   tyDisjunction <$> QC.listOf arbitraryType',
   tyProduct <$> QC.listOf arbitraryType',
@@ -249,11 +251,20 @@ openingBracket = const () <$> lexeme (char '[') <?> "opening bracket"
 closingBracket :: Parser ()
 closingBracket = const () <$> lexeme (char ']') <?> "closing bracket"
 
+openingCurly :: Parser ()
+openingCurly = const () <$> lexeme (char '{') <?> "opening curly brace"
+
+closingCurly :: Parser ()
+closingCurly = const () <$> lexeme (char '}') <?> "closing curly brace"
+
 braces :: Parser a -> Parser a
 braces p = openingBrace *> p <* closingBrace
 
 brackets :: Parser a -> Parser a
 brackets p = openingBracket *> p <* closingBracket
+
+curlyBraces :: Parser a -> Parser a
+curlyBraces p = openingCurly *> p <* closingCurly
 
 firstNameLetter :: Parser Char
 firstNameLetter = oneOf "@$_" <|> letter
@@ -297,8 +308,11 @@ tyNumberP = TyNumber <$> numP
 tyStringP :: Parser Type
 tyStringP = TyString <$> lexeme (singleStringP <|> doubleStringP)
 
+recordPairP :: Parser (Name, Type)
+recordPairP = (,) <$> nameP <* colonP <*> tyFunctionP
+
 tyRecordP :: Parser Type
-tyRecordP = fail "can't parse records"
+tyRecordP = curlyBraces (TyRecord . Map.fromList <$> recordPairP `sepBy` semiColonP)
 
 tyIdentifierP :: Parser Type
 tyIdentifierP = f <$> nameP
@@ -331,6 +345,9 @@ tyDisjunctionP = tyDisjunction <$> tyConjunctionP `sepBy1` lexeme (oneOf "∨|")
 colonP :: Parser ()
 colonP = const () <$> lexeme (char ':')
 
+semiColonP :: Parser ()
+semiColonP = const () <$> lexeme (char ';')
+
 tyVariadicP :: Parser Type
 tyVariadicP = f <$> tyDisjunctionP <*> optionMaybe ellipsisP
   where f t Nothing  = t
@@ -358,7 +375,7 @@ terminalP = choice [
   tyTrueP, tyFalseP, tyUnitP,
   tyNumberP, 
   tyStringP,
-  -- tyRecordP
+  tyRecordP,
   tyIdentifierP,
   braces typeParser,
   brackets (TyBrackets <$> typeParser)
