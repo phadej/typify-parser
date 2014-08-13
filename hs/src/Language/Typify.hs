@@ -164,7 +164,7 @@ instance Pretty Type where
   prettyPrec p d (TyDisjunction xs)    = prettyParens (d > 5) $ intercalate (pDisj p) $ map (prettyPrec p 5) xs
   prettyPrec p d (TyOptional x)        = prettyParens (d > 8) (prettyPrec p 8 x) ++ pQMark p
   prettyPrec p d (TyApplication x ys)  = prettyParens (d > 7) $ intercalate " " $ map (prettyPrec p 8) $ x : ys
-  prettyPrec p d (TyFunction x y)      = prettyParens (d > 1) $ prettyPrec p 0 x ++ pTo p ++ prettyPrec p 1 y
+  prettyPrec p d (TyFunction x y)      = prettyParens (d > 1) $ prettyPrec p 2 x ++ pTo p ++ prettyPrec p 1 y
 
 -- @(a... -> b)... -> c@
 test0 :: Type

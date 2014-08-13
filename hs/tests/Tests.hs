@@ -24,5 +24,10 @@ parseShowProp :: Type -> Property
 parseShowProp t = squash (parse (pretty <$> totalTypeParser) "" t') === Just t'
   where t' = pretty t
 
+parseShowProp' :: Type -> Property
+parseShowProp' t = squash (parse totalTypeParser "" (pretty t)) === Just t
+
 qcProps :: TestTree
-qcProps = QC.testProperty "parse . show . pretty = pretty" parseShowProp
+qcProps = testGroup "Properties" [
+  QC.testProperty "parse . show . pretty = pretty" parseShowProp,
+  QC.testProperty "parse . show = id" parseShowProp' ]
