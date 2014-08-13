@@ -1,9 +1,18 @@
+{-# LANGUAGE OverloadedStrings #-}
+
 module Language.Typify where
 
 import Control.Applicative hiding ((<|>), many, optional)
 
 import Text.Parsec
 import Text.Parsec.String
+
+import Numeric (showHex, readHex)
+
+import Data.Aeson
+import Data.Aeson.Types (Pair)
+
+import qualified Data.Text as T
 
 import Data.List (intercalate)
 
@@ -96,8 +105,13 @@ data PrettySpec = PrettySpec {
 escapeString :: String -> String
 escapeString = concatMap f
   where f '\'' = "\\'"
+        f '\n' = "\\n"
         f '\\' = "\\\\"
-        f c    = [c]
+        f c
+          | code < 16 = "\\x0" ++ showHex code ""
+          | code < 32 = "\\x" ++ showHex code ""
+          | otherwise = [c]
+          where code = fromEnum c
 
 defaultPrettySpec :: PrettySpec
 defaultPrettySpec = PrettySpec {
@@ -287,9 +301,18 @@ singleStringP = char '\'' *> many (stringCharP '\'') <* char '\''
 doubleStringP :: Parser String
 doubleStringP = char '"' *> many (stringCharP '"') <* char '"'
 
+readHex' :: String -> Int
+readHex' s = case readHex s of
+               [(n, "")] -> n
+               _         -> 0
+
 stringCharP :: Char -> Parser Char
 stringCharP c = escaped <|> others
-  where escaped = char '\\' *> oneOf ['\\', c]
+  where escaped = char '\\' *> ((f <$> oneOf ['\\', 'n', c]) <|> hexescaped)
+        f 'n'   = '\n'
+        f c'     = c'
+        hexescaped = char 'x' *> (g <$> hexDigit <*> hexDigit)
+        g x y = toEnum $ readHex' [x, y]
         others  = noneOf ['\\', c]
 
 
@@ -373,10 +396,34 @@ tyFunctionP = f <$> tyProductP <*> optionMaybe (arrowP *> tyFunctionP)
 terminalP :: Parser Type
 terminalP = choice [
   tyTrueP, tyFalseP, tyUnitP,
-  tyNumberP, 
+  tyNumberP,
   tyStringP,
   tyRecordP,
   tyIdentifierP,
   braces typeParser,
   brackets (TyBrackets <$> typeParser)
   ]
+
+typeObject :: String -> [Pair] -> Value
+typeObject ty ps = object $ ("type" .= ty) : ps
+
+-- Aeson serializing
+instance ToJSON Type where
+  toJSON TyTrue = typeObject "true" []
+  toJSON TyFalse = typeObject "false" []
+  toJSON TyUnit = typeObject "unit" []
+  toJSON (TyNumber n) = typeObject "number" [ "value" .= n ]
+  toJSON (TyString s) = typeObject "string" [ "value" .= s ]
+  toJSON (TyBool b)   = typeObject "bool" [ "value" .= b ]
+  toJSON (TyRecord x) = typeObject "record" [ "fields" .= fieldsToJSON x ]
+    where fieldsToJSON = object . map (\(n, t) -> T.pack n .= t) . Map.toList
+  toJSON (TyIdentifier i) = typeObject "ident" [ "value" .= i ]
+  toJSON (TyNamed n t)    = typeObject "named" [ "name" .= n, "arg" .= t ]
+  toJSON (TyConjunction ts) = typeObject "conj" [ "args" .= ts ]
+  toJSON (TyDisjunction ts) = typeObject "disj" [ "args" .= ts ]
+  toJSON (TyProduct ts) = typeObject "prod" [ "args" .= ts ]
+  toJSON (TyOptional t) = typeObject "optional" [ "arg" .= t ]
+  toJSON (TyVariadic t) = typeObject "variadic" [ "arg" .= t ]
+  toJSON (TyBrackets t) = typeObject "brackets" [ "arg" .= t ]
+  toJSON (TyApplication x ys) = typeObject "app" [ "rator" .= x, "rands" .= ys ]
+  toJSON (TyFunction a b) = typeObject "fn" [ "var" .= a, "result" .= b ]
