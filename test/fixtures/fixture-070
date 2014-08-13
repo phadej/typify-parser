@@ -1,0 +1,2 @@
+z : {a: foo; b: false; bar: (); c: true; x: 15; y: _|_; z: x}
+{"arg":{"type":"record","fields":{"z":{"value":"x","type":"ident"},"a":{"value":"foo","type":"ident"},"b":{"value":false,"type":"bool"},"x":{"value":15,"type":"number"},"c":{"value":true,"type":"bool"},"bar":{"type":"unit"},"y":{"type":"false"}}},"name":"z","type":"named"}

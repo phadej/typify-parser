@@ -1,0 +1,2 @@
+15 | {a: 24; bar: *; foo: (); x: 'iÆtR\x0b]%DLèõ²\x08s\x19+\\6ua'; z: ()} | c? | ['<Usd>\x1fº9tÚhô©\x0e\x0d\x03¾/!J']
+{"args":[{"value":15,"type":"number"},{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"unit"},"a":{"value":24,"type":"number"},"x":{"value":"iÆtR\u000b]%DLèõ²\u0008s\u0019+\\6ua","type":"string"},"bar":{"type":"true"}}},{"arg":{"value":"c","type":"ident"},"type":"optional"},{"arg":{"value":"<Usd>\u001fº9tÚhô©\u000e\r\u0003¾/!J","type":"string"},"type":"brackets"}],"type":"disj"}

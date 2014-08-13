@@ -1,0 +1,2 @@
+[{a: '\x0e\x07¤iÒÀ\x0bô\x15¦¯Ïð¾nÁ'; b: false; bar: 'S$w'; c: true; foo: true; y: ()}]
+{"arg":{"type":"record","fields":{"foo":{"value":true,"type":"bool"},"a":{"value":"\u000e\u0007¤iÒÀ\u000bô\u0015¦¯Ïð¾nÁ","type":"string"},"b":{"value":false,"type":"bool"},"c":{"value":true,"type":"bool"},"bar":{"value":"S$w","type":"string"},"y":{"type":"unit"}}},"type":"brackets"}

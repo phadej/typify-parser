@@ -1,0 +1,2 @@
+* () true * * * 27 false * -> ()?
+{"var":{"rator":{"type":"true"},"rands":[{"type":"unit"},{"value":true,"type":"bool"},{"type":"true"},{"type":"true"},{"type":"true"},{"value":27,"type":"number"},{"value":false,"type":"bool"},{"type":"true"}],"type":"app"},"result":{"arg":{"type":"unit"},"type":"optional"},"type":"fn"}

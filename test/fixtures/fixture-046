@@ -1,0 +1,2 @@
+b : {a: *; b: 'ijP=\nò'; bar: (); c: (); foo: true; x: b; y: *; z: _|_}
+{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":true,"type":"bool"},"a":{"type":"true"},"b":{"value":"ijP=\nò","type":"string"},"x":{"value":"b","type":"ident"},"c":{"type":"unit"},"bar":{"type":"unit"},"y":{"type":"true"}}},"name":"b","type":"named"}

@@ -1,0 +1,2 @@
+x : bar | 17 | () | * | '1"RÆU"\x15K+=`3õÄ\x17' | false | _|_
+{"arg":{"args":[{"value":"bar","type":"ident"},{"value":17,"type":"number"},{"type":"unit"},{"type":"true"},{"value":"1\"RÆU\"\u0015K+=`3õÄ\u0017","type":"string"},{"value":false,"type":"bool"},{"type":"false"}],"type":"disj"},"name":"x","type":"named"}

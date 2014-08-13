@@ -1,0 +1,2 @@
+(()...) & () & [_|_] & {a: *; bar: bar; c: '{'; x: _|_; y: z; z: *} & (bar : ())
+{"args":[{"arg":{"type":"unit"},"type":"variadic"},{"type":"unit"},{"arg":{"type":"false"},"type":"brackets"},{"type":"record","fields":{"z":{"type":"true"},"a":{"type":"true"},"x":{"type":"false"},"c":{"value":"{","type":"string"},"bar":{"value":"bar","type":"ident"},"y":{"value":"z","type":"ident"}}},{"arg":{"type":"unit"},"name":"bar","type":"named"}],"type":"conj"}

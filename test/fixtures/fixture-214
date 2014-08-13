@@ -1,0 +1,2 @@
+[{a: true; b: '\x1aO*fC;Tw#ÑO\\/yrm$('; c: *; foo: _|_}]
+{"arg":{"type":"record","fields":{"foo":{"type":"false"},"a":{"value":true,"type":"bool"},"b":{"value":"\u001aO*fC;Tw#ÑO\\/yrm$(","type":"string"},"c":{"type":"true"}}},"type":"brackets"}

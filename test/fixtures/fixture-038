@@ -1,0 +1,2 @@
+a : {a: '@\x1d`å`mÌiómkz\x19ÑQB'; bar: '|6\x13ùv\x08\x07^R2\x18\x14t'; c: 'HOp5XüLU2h'; foo: 8}
+{"arg":{"type":"record","fields":{"foo":{"value":8,"type":"number"},"a":{"value":"@\u001d`å`mÌiómkz\u0019ÑQB","type":"string"},"c":{"value":"HOp5XüLU2h","type":"string"},"bar":{"value":"|6\u0013ùv\u0008\u0007^R2\u0018\u0014t","type":"string"}}},"name":"a","type":"named"}

@@ -1,0 +1,2 @@
+true -> () -> true
+{"var":{"value":true,"type":"bool"},"result":{"var":{"type":"unit"},"result":{"value":true,"type":"bool"},"type":"fn"},"type":"fn"}

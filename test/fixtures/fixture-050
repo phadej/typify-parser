@@ -1,0 +1,2 @@
+bar : foo : 25
+{"arg":{"arg":{"value":25,"type":"number"},"name":"foo","type":"named"},"name":"bar","type":"named"}

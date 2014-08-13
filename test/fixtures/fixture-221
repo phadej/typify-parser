@@ -1,0 +1,2 @@
+[* & () & _|_ & _|_ & 11 & '\x07|\x00)Ómì&f0[\x1e"}A_pI*[=«' & 17 & * & * & z & 14 & * & foo & _|_ & z & c]
+{"arg":{"args":[{"type":"true"},{"type":"unit"},{"type":"false"},{"type":"false"},{"value":11,"type":"number"},{"value":"\u0007|\u0000)Ómì&f0[\u001e\"}A_pI*[=«","type":"string"},{"value":17,"type":"number"},{"type":"true"},{"type":"true"},{"value":"z","type":"ident"},{"value":14,"type":"number"},{"type":"true"},{"value":"foo","type":"ident"},{"type":"false"},{"value":"z","type":"ident"},{"value":"c","type":"ident"}],"type":"conj"},"type":"brackets"}

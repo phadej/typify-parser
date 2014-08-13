@@ -1,0 +1,2 @@
+z : _|_ -> * * 'U¬\x0en\x14öeW' () false * 9
+{"var":{"arg":{"type":"false"},"name":"z","type":"named"},"result":{"rator":{"type":"true"},"rands":[{"type":"true"},{"value":"U¬\u000en\u0014öeW","type":"string"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"true"},{"value":9,"type":"number"}],"type":"app"},"type":"fn"}

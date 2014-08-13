@@ -1,0 +1,2 @@
+b : '[\\F[Õo\x09\x01|\n~}Ps-8u\x17tWlü\x19u\x05S' | * | _|_ | z | '' | _|_ | c | () | false | 'X' | *
+{"arg":{"args":[{"value":"[\\F[Õo\t\u0001|\n~}Ps-8u\u0017tWlü\u0019u\u0005S","type":"string"},{"type":"true"},{"type":"false"},{"value":"z","type":"ident"},{"value":"","type":"string"},{"type":"false"},{"value":"c","type":"ident"},{"type":"unit"},{"value":false,"type":"bool"},{"value":"X","type":"string"},{"type":"true"}],"type":"disj"},"name":"b","type":"named"}

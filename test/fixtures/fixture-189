@@ -1,0 +1,2 @@
+(23 -> x)?
+{"arg":{"var":{"value":23,"type":"number"},"result":{"value":"x","type":"ident"},"type":"fn"},"type":"optional"}

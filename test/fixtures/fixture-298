@@ -1,0 +1,2 @@
+y () 'LQ\x17+ \x0b(\x073oþj[iYO\\é¶¾' _|_ 3 _|_ () * _|_ * _|_ false -> {c: true; x: _|_; z: 'Z{14I,y&»'}
+{"var":{"rator":{"value":"y","type":"ident"},"rands":[{"type":"unit"},{"value":"LQ\u0017+ \u000b(\u00073oþj[iYO\\é¶¾","type":"string"},{"type":"false"},{"value":3,"type":"number"},{"type":"false"},{"type":"unit"},{"type":"true"},{"type":"false"},{"type":"true"},{"type":"false"},{"value":false,"type":"bool"}],"type":"app"},"result":{"type":"record","fields":{"z":{"value":"Z{14I,y&»","type":"string"},"x":{"type":"false"},"c":{"value":true,"type":"bool"}}},"type":"fn"}

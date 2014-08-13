@@ -1,0 +1,2 @@
+y : (x -> 'M9\x17ÐÕ*`j')
+{"arg":{"var":{"value":"x","type":"ident"},"result":{"value":"M9\u0017ÐÕ*`j","type":"string"},"type":"fn"},"name":"y","type":"named"}

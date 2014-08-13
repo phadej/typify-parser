@@ -1,0 +1,2 @@
+foo? -> [3]
+{"var":{"arg":{"value":"foo","type":"ident"},"type":"optional"},"result":{"arg":{"value":3,"type":"number"},"type":"brackets"},"type":"fn"}

@@ -1,0 +1,2 @@
+(true & () & * & () & _|_ & 26 & _|_ & 'xA' & _|_)?
+{"arg":{"args":[{"value":true,"type":"bool"},{"type":"unit"},{"type":"true"},{"type":"unit"},{"type":"false"},{"value":26,"type":"number"},{"type":"false"},{"value":"xA","type":"string"},{"type":"false"}],"type":"conj"},"type":"optional"}

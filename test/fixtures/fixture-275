@@ -1,0 +1,2 @@
+_|_ -> x : z
+{"var":{"type":"false"},"result":{"arg":{"value":"z","type":"ident"},"name":"x","type":"named"},"type":"fn"}

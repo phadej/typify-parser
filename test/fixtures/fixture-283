@@ -1,0 +1,2 @@
+_|_ | () | _|_ | 29 | * -> {a: bar; b: (); bar: *; c: b; foo: *; x: bar; z: ()}
+{"var":{"args":[{"type":"false"},{"type":"unit"},{"type":"false"},{"value":29,"type":"number"},{"type":"true"}],"type":"disj"},"result":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"true"},"a":{"value":"bar","type":"ident"},"b":{"type":"unit"},"x":{"value":"bar","type":"ident"},"c":{"value":"b","type":"ident"},"bar":{"type":"true"}}},"type":"fn"}

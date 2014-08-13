@@ -1,0 +1,2 @@
+y : * | _|_ | * | () | _|_ | foo | '+\x1e"8' | b | '."ïp&l@.^\x1c\x10' | z | true | () | * | 13 | *
+{"arg":{"args":[{"type":"true"},{"type":"false"},{"type":"true"},{"type":"unit"},{"type":"false"},{"value":"foo","type":"ident"},{"value":"+\u001e\"8","type":"string"},{"value":"b","type":"ident"},{"value":".\"ïp&l@.^\u001c\u0010","type":"string"},{"value":"z","type":"ident"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"true"},{"value":13,"type":"number"},{"type":"true"}],"type":"disj"},"name":"y","type":"named"}

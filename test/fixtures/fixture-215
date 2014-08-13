@@ -1,0 +1,2 @@
+[{b: false; bar: (); c: '&\x05\x19Æ\x03ÍÜ9"*mìÍU<m"'; foo: _|_; y: '«>Q\x00*¤.ÝcÚ8è'}]
+{"arg":{"type":"record","fields":{"foo":{"type":"false"},"b":{"value":false,"type":"bool"},"c":{"value":"&\u0005\u0019Æ\u0003ÍÜ9\"*mìÍU<m\"","type":"string"},"bar":{"type":"unit"},"y":{"value":"«>Q\u0000*¤.ÝcÚ8è","type":"string"}}},"type":"brackets"}

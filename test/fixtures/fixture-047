@@ -1,0 +1,2 @@
+b : x : *
+{"arg":{"arg":{"type":"true"},"name":"x","type":"named"},"name":"b","type":"named"}

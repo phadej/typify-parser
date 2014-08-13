@@ -1,0 +1,2 @@
+c : true -> ()
+{"var":{"arg":{"value":true,"type":"bool"},"name":"c","type":"named"},"result":{"type":"unit"},"type":"fn"}

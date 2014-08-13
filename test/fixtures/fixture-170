@@ -1,0 +1,2 @@
+(9 & * & true & b & 15 & false & 13 & '`\x001' & _|_)?
+{"arg":{"args":[{"value":9,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"value":"b","type":"ident"},{"value":15,"type":"number"},{"value":false,"type":"bool"},{"value":13,"type":"number"},{"value":"`\u00001","type":"string"},{"type":"false"}],"type":"conj"},"type":"optional"}

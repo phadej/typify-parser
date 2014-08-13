@@ -1,0 +1,2 @@
+z : {a: 27; b: '\x17q\x15\x01(\\Ù\x0cìH\x1a~*Ù¯!{Q+½\n['; bar: x; c: (); foo: a; x: '\x00m\x0f~h\x18(ôö.ÈGì'; y: 8; z: _|_}
+{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":"a","type":"ident"},"a":{"value":27,"type":"number"},"b":{"value":"\u0017q\u0015\u0001(\\Ù\u000cìH\u001a~*Ù¯!{Q+½\n[","type":"string"},"x":{"value":"\u0000m\u000f~h\u0018(ôö.ÈGì","type":"string"},"c":{"type":"unit"},"bar":{"value":"x","type":"ident"},"y":{"value":8,"type":"number"}}},"name":"z","type":"named"}

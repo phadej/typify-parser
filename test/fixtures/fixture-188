@@ -1,0 +1,2 @@
+(_|_ -> '3\x09\x09\x012')?
+{"arg":{"var":{"type":"false"},"result":{"value":"3\t\t\u00012","type":"string"},"type":"fn"},"type":"optional"}

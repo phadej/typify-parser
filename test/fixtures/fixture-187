@@ -1,0 +1,2 @@
+(true true 'ìÆ7»' * false () _|_ 'º\x03H\x1eOÐP@Z0\x02' y * false ())?
+{"arg":{"rator":{"value":true,"type":"bool"},"rands":[{"value":true,"type":"bool"},{"value":"ìÆ7»","type":"string"},{"type":"true"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"false"},{"value":"º\u0003H\u001eOÐP@Z0\u0002","type":"string"},{"value":"y","type":"ident"},{"type":"true"},{"value":false,"type":"bool"},{"type":"unit"}],"type":"app"},"type":"optional"}

@@ -1,0 +1,2 @@
+foo : true?
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"optional"},"name":"foo","type":"named"}

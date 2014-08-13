@@ -1,0 +1,2 @@
+x : '\x0f,So\x0e°eÉnlkRX¯' & true & '5»/\x0f\x09G5]\x1fm\x14\x06\x0e"Rÿ' & ()
+{"arg":{"args":[{"value":"\u000f,So\u000e°eÉnlkRX¯","type":"string"},{"value":true,"type":"bool"},{"value":"5»/\u000f\tG5]\u001fm\u0014\u0006\u000e\"Rÿ","type":"string"},{"type":"unit"}],"type":"conj"},"name":"x","type":"named"}

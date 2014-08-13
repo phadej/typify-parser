@@ -1,0 +1,2 @@
+(_|_ | _|_ | * | 'h\x11Ò~\x07¨\x1adma6AIÌc\x1eÄ\x0cf' | false | 'N' | 17 | true | () | * | x | b | _|_ | _|_)?
+{"arg":{"args":[{"type":"false"},{"type":"false"},{"type":"true"},{"value":"h\u0011Ò~\u0007¨\u001adma6AIÌc\u001eÄ\u000cf","type":"string"},{"value":false,"type":"bool"},{"value":"N","type":"string"},{"value":17,"type":"number"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"true"},{"value":"x","type":"ident"},{"value":"b","type":"ident"},{"type":"false"},{"type":"false"}],"type":"disj"},"type":"optional"}

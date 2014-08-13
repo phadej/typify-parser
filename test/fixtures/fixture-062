@@ -1,0 +1,2 @@
+y : {a: 'n,¥9[Sd1th\x015FcF%#:m'; b: ',[^Qª@Jêt/\\\ngm=D\x0e\x16Ftú\x07ZW@@'; bar: '8:í\x06Î¯,SN'; c: '\'\x07t 8wª]'; foo: *; x: true; z: *}
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"true"},"a":{"value":"n,¥9[Sd1th\u00015FcF%#:m","type":"string"},"b":{"value":",[^Qª@Jêt/\\\ngm=D\u000e\u0016Ftú\u0007ZW@@","type":"string"},"x":{"value":true,"type":"bool"},"c":{"value":"'\u0007t 8wª]","type":"string"},"bar":{"value":"8:í\u0006Î¯,SN","type":"string"}}},"name":"y","type":"named"}

@@ -1,0 +1,2 @@
+[* false _|_ true true a _|_ z z false * () false _|_ () _|_]
+{"arg":{"rator":{"type":"true"},"rands":[{"value":false,"type":"bool"},{"type":"false"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"value":"a","type":"ident"},{"type":"false"},{"value":"z","type":"ident"},{"value":"z","type":"ident"},{"value":false,"type":"bool"},{"type":"true"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"false"},{"type":"unit"},{"type":"false"}],"type":"app"},"type":"brackets"}

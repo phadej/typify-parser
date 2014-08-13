@@ -1,0 +1,2 @@
+[foo : ()]
+{"arg":{"arg":{"type":"unit"},"name":"foo","type":"named"},"type":"brackets"}

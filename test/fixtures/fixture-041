@@ -1,0 +1,2 @@
+a : foo & _|_ & * & 'U"Ð\x1d<2' & 8 & * & _|_ & false & false & 20 & c & 5 & x & * & c
+{"arg":{"args":[{"value":"foo","type":"ident"},{"type":"false"},{"type":"true"},{"value":"U\"Ð\u001d<2","type":"string"},{"value":8,"type":"number"},{"type":"true"},{"type":"false"},{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"value":20,"type":"number"},{"value":"c","type":"ident"},{"value":5,"type":"number"},{"value":"x","type":"ident"},{"type":"true"},{"value":"c","type":"ident"}],"type":"conj"},"name":"a","type":"named"}

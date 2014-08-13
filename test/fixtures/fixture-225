@@ -1,0 +1,2 @@
+[(), false, *, *, 4, *, false, true, (), false, c, ()]
+{"arg":{"args":[{"type":"unit"},{"value":false,"type":"bool"},{"type":"true"},{"type":"true"},{"value":4,"type":"number"},{"type":"true"},{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"type":"unit"},{"value":false,"type":"bool"},{"value":"c","type":"ident"},{"type":"unit"}],"type":"prod"},"type":"brackets"}

@@ -1,0 +1,2 @@
+{b: *; bar: (); x: _|_; y: *; z: ()}
+{"type":"record","fields":{"z":{"type":"unit"},"b":{"type":"true"},"x":{"type":"false"},"bar":{"type":"unit"},"y":{"type":"true"}}}

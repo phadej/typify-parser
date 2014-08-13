@@ -1,0 +1,2 @@
+y : (b -> _|_)
+{"arg":{"var":{"value":"b","type":"ident"},"result":{"type":"false"},"type":"fn"},"name":"y","type":"named"}
