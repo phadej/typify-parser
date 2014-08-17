@@ -35,6 +35,13 @@
     "checking",
     "typify",
     "data",
-    "validation",
-  ]
+    "validation"
+  ],
+  "devDependencies": {
+    "ljs": "~0.2.4",
+    "jshint": "~2.5.3",
+    "istanbul": "~0.3.0",
+    "mocha": "~1.21.4",
+    "jscs": "~1.5.9"
+  }
 }
