@@ -1,0 +1,19 @@
+{
+  "name": "typify-parser",
+  "version": "0.0.0",
+  "homepage": "https://github.com/phadej/typify-parser",
+  "authors": [
+    "Oleg Grenrus <oleg.grenrus@iki.fi>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "purescript-maps": "~0.0.4"
+  }
+}

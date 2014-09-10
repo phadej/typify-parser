@@ -1,7 +1,7 @@
 /* global describe:true, it:true */
 "use strict";
 
-var parser = require("../lib/parser.js");
+var parser = require("Typify");
 var expect = require("chai").expect;
 var fs = require("fs");
 var path = require("path");
@@ -19,7 +19,7 @@ describe("fixtures", function () {
       var signature = lines[0];
       var json = JSON.parse(lines[1]);
 
-      expect(parser(signature)).to.deep.equal(json);
+      expect(parser.parse(signature)).to.deep.equal(json);
     });
   });
 });
