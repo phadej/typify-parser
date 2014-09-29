@@ -1,2 +1,2 @@
-['zQ)æ']...
-{"arg":{"arg":{"value":"zQ)æ","type":"string"},"type":"brackets"},"type":"variadic"}
+foo : (a, z, _|_, z)
+{"arg":{"args":[{"value":"a","type":"ident"},{"value":"z","type":"ident"},{"type":"false"},{"value":"z","type":"ident"}],"type":"product"},"name":"foo","type":"named"}

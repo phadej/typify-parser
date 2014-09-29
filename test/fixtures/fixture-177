@@ -1,2 +1,2 @@
-('2\x13\x18å]\x0bpTE"\x12`·Y1à' | * | z | true | '\x01q÷X9©H}\x18Þ\x02C8' | 23 | z | ())?
-{"arg":{"args":[{"value":"2\u0013\u0018å]\u000bpTE\"\u0012`·Y1à","type":"string"},{"type":"true"},{"value":"z","type":"ident"},{"value":true,"type":"bool"},{"value":"\u0001q÷X9©H}\u0018Þ\u0002C8","type":"string"},{"value":23,"type":"number"},{"value":"z","type":"ident"},{"type":"unit"}],"type":"disj"},"type":"optional"}
+bar : (_|_ -> ())
+{"arg":{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"},"name":"bar","type":"named"}

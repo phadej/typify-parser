@@ -1,2 +1,2 @@
-a : b : *
-{"arg":{"arg":{"type":"true"},"name":"b","type":"named"},"name":"a","type":"named"}
+{a: _|_; b: *; z: '.\x09,X\x13ÄmUV'...}
+{"type":"record","fields":{"z":{"arg":{"value":".\t,X\u0013ÄmUV","type":"string"},"type":"variadic"},"a":{"type":"false"},"b":{"type":"true"}}}

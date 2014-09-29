@@ -1,2 +1,2 @@
-'î¹¨÷PF.zt1dmg1ù' 4 _|_ () 8 b true true () y 'Ji\x14pW\x15' false false * foo 'un©=g¾' '\x16a\x16n.ZÂ>~~sh^C\x02\x01gî\x0c*\x1dCzû\x0cO'...
-{"arg":{"rator":{"value":"î¹¨÷PF.zt1dmg1ù","type":"string"},"rands":[{"value":4,"type":"number"},{"type":"false"},{"type":"unit"},{"value":8,"type":"number"},{"value":"b","type":"ident"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"type":"unit"},{"value":"y","type":"ident"},{"value":"Ji\u0014pW\u0015","type":"string"},{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"type":"true"},{"value":"foo","type":"ident"},{"value":"un©=g¾","type":"string"},{"value":"\u0016a\u0016n.ZÂ>~~sh^C\u0002\u0001gî\u000c*\u001dCzû\u000cO","type":"string"}],"type":"app"},"type":"variadic"}
+foo : [_|_]
+{"arg":{"arg":{"type":"false"},"type":"brackets"},"name":"foo","type":"named"}

@@ -1,2 +1,2 @@
-(* | _|_ | () | 'h_\x0e\x0bD¸\ns\x119çN\x06%Â\x1d*M' | c | 'êq\\ØGFd9Ò@\x1fde\x13\x19J\x1fÑ' | * | () | () | 13 | * | 25 | () | c | true | a | y)?
-{"arg":{"args":[{"type":"true"},{"type":"false"},{"type":"unit"},{"value":"h_\u000e\u000bD¸\ns\u00119çN\u0006%Â\u001d*M","type":"string"},{"value":"c","type":"ident"},{"value":"êq\\ØGFd9Ò@\u001fde\u0013\u0019J\u001fÑ","type":"string"},{"type":"true"},{"type":"unit"},{"type":"unit"},{"value":13,"type":"number"},{"type":"true"},{"value":25,"type":"number"},{"type":"unit"},{"value":"c","type":"ident"},{"value":true,"type":"bool"},{"value":"a","type":"ident"},{"value":"y","type":"ident"}],"type":"disj"},"type":"optional"}
+bar : '8^4\'í\x07S'...
+{"arg":{"arg":{"value":"8^4'í\u0007S","type":"string"},"type":"variadic"},"name":"bar","type":"named"}

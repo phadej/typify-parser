@@ -10,7 +10,7 @@ import Control.Applicative
 import Language.Typify
 
 limit :: Int
-limit = 300
+limit = 1000
 
 insertUniq :: Eq a => a -> [a] -> [a]
 insertUniq x xs | x `elem` xs = xs

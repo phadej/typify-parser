@@ -1,2 +1,2 @@
-{a: x?; x: ()?}
-{"type":"record","fields":{"a":{"arg":{"value":"x","type":"ident"},"type":"optional"},"x":{"arg":{"type":"unit"},"type":"optional"}}}
+21
+{"value":21,"type":"number"}

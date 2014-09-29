@@ -1,2 +1,2 @@
-[()?]
-{"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"brackets"}
+y : foo | 18 | c | false | 30 | '\x1e0gn¸)Ê\x14¸0\x1c|Wa/-[' | 26 | * | () | 21 | _|_ | () | * | 5 | 30 | * | _|_ | foo | false | _|_
+{"arg":{"args":[{"value":"foo","type":"ident"},{"value":18,"type":"number"},{"value":"c","type":"ident"},{"value":false,"type":"bool"},{"value":30,"type":"number"},{"value":"\u001e0gn¸)Ê\u0014¸0\u001c|Wa/-[","type":"string"},{"value":26,"type":"number"},{"type":"true"},{"type":"unit"},{"value":21,"type":"number"},{"type":"false"},{"type":"unit"},{"type":"true"},{"value":5,"type":"number"},{"value":30,"type":"number"},{"type":"true"},{"type":"false"},{"value":"foo","type":"ident"},{"value":false,"type":"bool"},{"type":"false"}],"type":"disjunction"},"name":"y","type":"named"}

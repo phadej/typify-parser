@@ -1,2 +1,2 @@
-['þF\x19ÁBOxh'...]
-{"arg":{"arg":{"value":"þF\u0019ÁBOxh","type":"string"},"type":"variadic"},"type":"brackets"}
+y : _|_...
+{"arg":{"arg":{"type":"false"},"type":"variadic"},"name":"y","type":"named"}

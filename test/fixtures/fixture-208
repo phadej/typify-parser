@@ -1,2 +1,2 @@
-(bar -> *)...
-{"arg":{"var":{"value":"bar","type":"ident"},"result":{"type":"true"},"type":"fn"},"type":"variadic"}
+x : false
+{"arg":{"value":false,"type":"bool"},"name":"x","type":"named"}

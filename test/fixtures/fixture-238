@@ -1,2 +1,2 @@
-[8 -> ()]
-{"arg":{"var":{"value":8,"type":"number"},"result":{"type":"unit"},"type":"fn"},"type":"brackets"}
+z : true...
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"variadic"},"name":"z","type":"named"}

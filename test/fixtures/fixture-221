@@ -1,2 +1,2 @@
-[* & () & _|_ & _|_ & 11 & '\x07|\x00)Ómì&f0[\x1e"}A_pI*[=«' & 17 & * & * & z & 14 & * & foo & _|_ & z & c]
-{"arg":{"args":[{"type":"true"},{"type":"unit"},{"type":"false"},{"type":"false"},{"value":11,"type":"number"},{"value":"\u0007|\u0000)Ómì&f0[\u001e\"}A_pI*[=«","type":"string"},{"value":17,"type":"number"},{"type":"true"},{"type":"true"},{"value":"z","type":"ident"},{"value":14,"type":"number"},{"type":"true"},{"value":"foo","type":"ident"},{"type":"false"},{"value":"z","type":"ident"},{"value":"c","type":"ident"}],"type":"conj"},"type":"brackets"}
+y : {b: 22; bar: false; c: '\x03\x12y\x13Hè-­: \x1d\x15ë('; x: false; y: *}
+{"arg":{"type":"record","fields":{"b":{"value":22,"type":"number"},"x":{"value":false,"type":"bool"},"c":{"value":"\u0003\u0012y\u0013Hè-­: \u001d\u0015ë(","type":"string"},"bar":{"value":false,"type":"bool"},"y":{"type":"true"}}},"name":"y","type":"named"}

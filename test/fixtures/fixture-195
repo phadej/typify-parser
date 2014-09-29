@@ -1,2 +1,2 @@
-16 | _|_ | y | 27 | a...
-{"arg":{"args":[{"value":16,"type":"number"},{"type":"false"},{"value":"y","type":"ident"},{"value":27,"type":"number"},{"value":"a","type":"ident"}],"type":"disj"},"type":"variadic"}
+c : (5 -> c)
+{"arg":{"result":{"value":"c","type":"ident"},"arg":{"value":5,"type":"number"},"type":"function"},"name":"c","type":"named"}

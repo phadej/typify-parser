@@ -1,2 +1,2 @@
-{bar: _|_; foo: ()...; z: true | false | 'Q-Ø\x03I\x10é&3A>gL(7f' | * | _|_ | false | b | () | * | () | _|_ | _|_ | 0 | 'yu' | 'É|r}\x1f\nüd|ø' | foo | * | 20 | * | _|_ | ()}
-{"type":"record","fields":{"z":{"args":[{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"value":"Q-Ø\u0003I\u0010é&3A>gL(7f","type":"string"},{"type":"true"},{"type":"false"},{"value":false,"type":"bool"},{"value":"b","type":"ident"},{"type":"unit"},{"type":"true"},{"type":"unit"},{"type":"false"},{"type":"false"},{"value":0,"type":"number"},{"value":"yu","type":"string"},{"value":"É|r}\u001f\nüd|ø","type":"string"},{"value":"foo","type":"ident"},{"type":"true"},{"value":20,"type":"number"},{"type":"true"},{"type":"false"},{"type":"unit"}],"type":"disj"},"foo":{"arg":{"type":"unit"},"type":"variadic"},"bar":{"type":"false"}}}
+'aP«Tyjª0Rmój[Á>¶\x13¶\x10t/¥íZ'
+{"value":"aP«Tyjª0Rmój[Á>¶\u0013¶\u0010t/¥íZ","type":"string"}

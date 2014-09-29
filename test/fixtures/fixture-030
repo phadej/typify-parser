@@ -1,2 +1,2 @@
-{bar: foo 4 22 * true true () a; y: '!\x07pd.óQºa:9âXîk\x1bI' -> _|_}
-{"type":"record","fields":{"bar":{"rator":{"value":"foo","type":"ident"},"rands":[{"value":4,"type":"number"},{"value":22,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"type":"unit"},{"value":"a","type":"ident"}],"type":"app"},"y":{"var":{"value":"!\u0007pd.óQºa:9âXîk\u001bI","type":"string"},"result":{"type":"false"},"type":"fn"}}}
+'Õ$\x0dm¦\x05\x13\x05Ýo'
+{"value":"Õ$\rm¦\u0005\u0013\u0005Ýo","type":"string"}

@@ -1,2 +1,2 @@
-(false, (), ())...
-{"arg":{"args":[{"value":false,"type":"bool"},{"type":"unit"},{"type":"unit"}],"type":"prod"},"type":"variadic"}
+foo : z : b
+{"arg":{"arg":{"value":"b","type":"ident"},"name":"z","type":"named"},"name":"foo","type":"named"}

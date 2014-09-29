@@ -1,2 +1,2 @@
-(bar : 6)?
-{"arg":{"arg":{"value":6,"type":"number"},"name":"bar","type":"named"},"type":"optional"}
+b : true...
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"variadic"},"name":"b","type":"named"}

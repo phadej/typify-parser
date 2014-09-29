@@ -1,2 +1,2 @@
-5?
-{"arg":{"value":5,"type":"number"},"type":"optional"}
+b : ((), _|_, 25, z, false)
+{"arg":{"args":[{"type":"unit"},{"type":"false"},{"value":25,"type":"number"},{"value":"z","type":"ident"},{"value":false,"type":"bool"}],"type":"product"},"name":"b","type":"named"}

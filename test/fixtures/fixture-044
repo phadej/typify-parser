@@ -1,2 +1,2 @@
-a : 2 () x y () 8 x () false 4 * '\x0dã}r\x121#' true * *
-{"arg":{"rator":{"value":2,"type":"number"},"rands":[{"type":"unit"},{"value":"x","type":"ident"},{"value":"y","type":"ident"},{"type":"unit"},{"value":8,"type":"number"},{"value":"x","type":"ident"},{"type":"unit"},{"value":false,"type":"bool"},{"value":4,"type":"number"},{"type":"true"},{"value":"\rã}r\u00121#","type":"string"},{"value":true,"type":"bool"},{"type":"true"},{"type":"true"}],"type":"app"},"name":"a","type":"named"}
+{a: true; b: _|_; bar: z; c: x; foo: false; x: 3; y: 5; z: ()}
+{"type":"record","fields":{"z":{"type":"unit"},"foo":{"value":false,"type":"bool"},"a":{"value":true,"type":"bool"},"b":{"type":"false"},"x":{"value":3,"type":"number"},"c":{"value":"x","type":"ident"},"bar":{"value":"z","type":"ident"},"y":{"value":5,"type":"number"}}}
