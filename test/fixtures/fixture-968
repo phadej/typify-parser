@@ -1,0 +1,2 @@
+[true] -> false
+{"result":{"value":false,"type":"bool"},"arg":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"type":"function"}

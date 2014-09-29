@@ -1,0 +1,2 @@
+false -> {a: false; bar: (); c: a; x: *; z: ()}
+{"result":{"type":"record","fields":{"z":{"type":"unit"},"a":{"value":false,"type":"bool"},"x":{"type":"true"},"c":{"value":"a","type":"ident"},"bar":{"type":"unit"}}},"arg":{"value":false,"type":"bool"},"type":"function"}

@@ -1,0 +1,2 @@
+(bar : y)?
+{"arg":{"arg":{"value":"y","type":"ident"},"name":"bar","type":"named"},"type":"optional"}

@@ -1,0 +1,2 @@
+{a: (); b: (); bar: 21; c: _|_; foo: y; x: *; y: 11; z: 0} | [false] | (foo : false)
+{"args":[{"type":"record","fields":{"z":{"value":0,"type":"number"},"foo":{"value":"y","type":"ident"},"a":{"type":"unit"},"b":{"type":"unit"},"x":{"type":"true"},"c":{"type":"false"},"bar":{"value":21,"type":"number"},"y":{"value":11,"type":"number"}}},{"arg":{"value":false,"type":"bool"},"type":"brackets"},{"arg":{"value":false,"type":"bool"},"name":"foo","type":"named"}],"type":"disjunction"}

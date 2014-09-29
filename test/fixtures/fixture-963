@@ -1,0 +1,2 @@
+[8] -> _|_ bar y a a '\x08'
+{"result":{"args":[{"value":"bar","type":"ident"},{"value":"y","type":"ident"},{"value":"a","type":"ident"},{"value":"a","type":"ident"},{"value":"\u0008","type":"string"}],"callee":{"type":"false"},"type":"application"},"arg":{"arg":{"value":8,"type":"number"},"type":"brackets"},"type":"function"}

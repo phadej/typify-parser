@@ -1,0 +1,2 @@
+z | () | * | * | 'es\x08ñæõ×w~3wåµÔ\x0cQ^' | * | _|_ | y | ()? | [false]
+{"args":[{"value":"z","type":"ident"},{"type":"unit"},{"type":"true"},{"type":"true"},{"value":"es\u0008ñæõ×w~3wåµÔ\u000cQ^","type":"string"},{"type":"true"},{"type":"false"},{"value":"y","type":"ident"},{"arg":{"type":"unit"},"type":"optional"},{"arg":{"value":false,"type":"bool"},"type":"brackets"}],"type":"disjunction"}

@@ -1,0 +1,2 @@
+z -> a : ()
+{"result":{"arg":{"type":"unit"},"name":"a","type":"named"},"arg":{"value":"z","type":"ident"},"type":"function"}

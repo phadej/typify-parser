@@ -1,0 +1,2 @@
+(true -> '(Ì\x19Û¹Q\x08') -> 8 'X\x11fT\x159I=EÑn\x01î\x15U³H¸Ð@' 1 _|_ false * () 24 'Ý_N'
+{"result":{"args":[{"value":"X\u0011fT\u00159I=EÑn\u0001î\u0015U³H¸Ð@","type":"string"},{"value":1,"type":"number"},{"type":"false"},{"value":false,"type":"bool"},{"type":"true"},{"type":"unit"},{"value":24,"type":"number"},{"value":"Ý_N","type":"string"}],"callee":{"value":8,"type":"number"},"type":"application"},"arg":{"result":{"value":"(Ì\u0019Û¹Q\u0008","type":"string"},"arg":{"value":true,"type":"bool"},"type":"function"},"type":"function"}

@@ -1,0 +1,2 @@
+{a: 'Ç8y\x123S×\x02/O]A=\x0fPQ\x08\x1fü2\x14\x0fX'; b: foo; bar: a; c: *; foo: (); x: 'l­\x10IæN,\x1c-?æ^Ye\x19.4\x0bµ\x19a_½'} -> [true]
+{"result":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"arg":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"value":"Ç8y\u00123S×\u0002/O]A=\u000fPQ\u0008\u001fü2\u0014\u000fX","type":"string"},"b":{"value":"foo","type":"ident"},"x":{"value":"l­\u0010IæN,\u001c-?æ^Ye\u0019.4\u000bµ\u0019a_½","type":"string"},"c":{"type":"true"},"bar":{"value":"a","type":"ident"}}},"type":"function"}

@@ -1,0 +1,2 @@
+(()...) [*] [*] (*, c, '}c¦', '<ÕéZ89Ëa\ne\x09.S', 4, 'Å!C(¬\x12)') (bar : *)
+{"args":[{"arg":{"type":"true"},"type":"brackets"},{"arg":{"type":"true"},"type":"brackets"},{"args":[{"type":"true"},{"value":"c","type":"ident"},{"value":"}c¦","type":"string"},{"value":"<ÕéZ89Ëa\ne\t.S","type":"string"},{"value":4,"type":"number"},{"value":"Å!C(¬\u0012)","type":"string"}],"type":"product"},{"arg":{"type":"true"},"name":"bar","type":"named"}],"callee":{"arg":{"type":"unit"},"type":"variadic"},"type":"application"}

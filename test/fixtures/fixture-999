@@ -1,0 +1,2 @@
+(x -> ()) -> false?
+{"result":{"arg":{"value":false,"type":"bool"},"type":"optional"},"arg":{"result":{"type":"unit"},"arg":{"value":"x","type":"ident"},"type":"function"},"type":"function"}

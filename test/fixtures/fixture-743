@@ -1,0 +1,2 @@
+[z | () | y | 29 | 6 | () | * | b | 20 | c | () | _|_]
+{"arg":{"args":[{"value":"z","type":"ident"},{"type":"unit"},{"value":"y","type":"ident"},{"value":29,"type":"number"},{"value":6,"type":"number"},{"type":"unit"},{"type":"true"},{"value":"b","type":"ident"},{"value":20,"type":"number"},{"value":"c","type":"ident"},{"type":"unit"},{"type":"false"}],"type":"disjunction"},"type":"brackets"}

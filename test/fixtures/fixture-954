@@ -1,0 +1,2 @@
+_|_... -> '\x0b»\x17ÕH6eÁ\x1c%N\\C', false, (), *, _|_, b, '\x0fwöÒ\x16"\x13#7rRPå\x1eQ\x10¸:w^\x03e', _|_, 4, 2, ()
+{"result":{"args":[{"value":"\u000b»\u0017ÕH6eÁ\u001c%N\\C","type":"string"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"true"},{"type":"false"},{"value":"b","type":"ident"},{"value":"\u000fwöÒ\u0016\"\u0013#7rRPå\u001eQ\u0010¸:w^\u0003e","type":"string"},{"type":"false"},{"value":4,"type":"number"},{"value":2,"type":"number"},{"type":"unit"}],"type":"product"},"arg":{"arg":{"type":"false"},"type":"variadic"},"type":"function"}

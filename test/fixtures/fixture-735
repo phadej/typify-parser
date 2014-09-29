@@ -1,0 +1,2 @@
+[() | _|_ | '.d´\x03\x19\x13' | _|_ | _|_ | _|_ | * | 14 | () | true | 7 | () | () | _|_ | _|_ | _|_]
+{"arg":{"args":[{"type":"unit"},{"type":"false"},{"value":".d´\u0003\u0019\u0013","type":"string"},{"type":"false"},{"type":"false"},{"type":"false"},{"type":"true"},{"value":14,"type":"number"},{"type":"unit"},{"value":true,"type":"bool"},{"value":7,"type":"number"},{"type":"unit"},{"type":"unit"},{"type":"false"},{"type":"false"},{"type":"false"}],"type":"disjunction"},"type":"brackets"}

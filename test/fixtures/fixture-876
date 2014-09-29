@@ -1,0 +1,2 @@
+[()] (9...)
+{"args":[{"arg":{"value":9,"type":"number"},"type":"variadic"}],"callee":{"arg":{"type":"unit"},"type":"brackets"},"type":"application"}

@@ -1,0 +1,2 @@
+[* | () | () | () | '|"%\x08\x14J' | * | z | 12 | _|_ | 2 | 3 | () | () | 27 | 'vg\x08*&#_s' | _|_ | 18]
+{"arg":{"args":[{"type":"true"},{"type":"unit"},{"type":"unit"},{"type":"unit"},{"value":"|\"%\u0008\u0014J","type":"string"},{"type":"true"},{"value":"z","type":"ident"},{"value":12,"type":"number"},{"type":"false"},{"value":2,"type":"number"},{"value":3,"type":"number"},{"type":"unit"},{"type":"unit"},{"value":27,"type":"number"},{"value":"vg\u0008*&#_s","type":"string"},{"type":"false"},{"value":18,"type":"number"}],"type":"disjunction"},"type":"brackets"}

@@ -1,0 +1,2 @@
+[3] -> x | '¨Ð"\x1e,ÿÙ^~¥\x149©¸N¢34? [ \x0eºàÙ3' | _|_ | bar | () | ()
+{"result":{"args":[{"value":"x","type":"ident"},{"value":"¨Ð\"\u001e,ÿÙ^~¥\u00149©¸N¢34? [ \u000eºàÙ3","type":"string"},{"type":"false"},{"value":"bar","type":"ident"},{"type":"unit"},{"type":"unit"}],"type":"disjunction"},"arg":{"arg":{"value":3,"type":"number"},"type":"brackets"},"type":"function"}

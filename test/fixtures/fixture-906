@@ -1,0 +1,2 @@
+true -> ()
+{"result":{"type":"unit"},"arg":{"value":true,"type":"bool"},"type":"function"}

@@ -1,0 +1,2 @@
+(* -> _|_)?
+{"arg":{"result":{"type":"false"},"arg":{"type":"true"},"type":"function"},"type":"optional"}

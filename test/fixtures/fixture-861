@@ -1,0 +1,2 @@
+(()...) (_|_, 21) (_|_ -> ())
+{"args":[{"args":[{"type":"false"},{"value":21,"type":"number"}],"type":"product"},{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"}],"callee":{"arg":{"type":"unit"},"type":"variadic"},"type":"application"}

@@ -1,0 +1,2 @@
+20? -> y?
+{"result":{"arg":{"value":"y","type":"ident"},"type":"optional"},"arg":{"arg":{"value":20,"type":"number"},"type":"optional"},"type":"function"}

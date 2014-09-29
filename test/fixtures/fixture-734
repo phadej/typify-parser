@@ -1,0 +1,2 @@
+[_|_ | () | foo | _|_ | * | _|_ | _|_]
+{"arg":{"args":[{"type":"false"},{"type":"unit"},{"value":"foo","type":"ident"},{"type":"false"},{"type":"true"},{"type":"false"},{"type":"false"}],"type":"disjunction"},"type":"brackets"}

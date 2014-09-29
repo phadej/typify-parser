@@ -1,0 +1,2 @@
+19 | 26 | false | * | 21 | () | _|_ | *
+{"args":[{"value":19,"type":"number"},{"value":26,"type":"number"},{"value":false,"type":"bool"},{"type":"true"},{"value":21,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"true"}],"type":"disjunction"}

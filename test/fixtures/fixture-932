@@ -1,0 +1,2 @@
+() | _|_ | 2 | _|_ | () -> {a: (); b: false; bar: *; c: a; foo: 5; y: ''; z: _|_}
+{"result":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":5,"type":"number"},"a":{"type":"unit"},"b":{"value":false,"type":"bool"},"c":{"value":"a","type":"ident"},"bar":{"type":"true"},"y":{"value":"","type":"string"}}},"arg":{"args":[{"type":"unit"},{"type":"false"},{"value":2,"type":"number"},{"type":"false"},{"type":"unit"}],"type":"disjunction"},"type":"function"}

@@ -1,0 +1,2 @@
+'Á\x1blL"\x0cÌ+k\x10\x06!ö/B\x0bC°' -> x
+{"result":{"value":"x","type":"ident"},"arg":{"value":"Á\u001blL\"\u000cÌ+k\u0010\u0006!ö/B\u000bC°","type":"string"},"type":"function"}

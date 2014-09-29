@@ -1,0 +1,2 @@
+[true] -> _|_ & bar & true
+{"result":{"args":[{"type":"false"},{"value":"bar","type":"ident"},{"value":true,"type":"bool"}],"type":"conjunction"},"arg":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"type":"function"}

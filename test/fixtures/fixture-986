@@ -1,0 +1,2 @@
+(() -> 'TXBWý\x00¡ÖFa\x1eÈ\'\x04\x19EÎÄ/') -> y y _|_ 28 22 11 c () * * '1!ÿ7n' *
+{"result":{"args":[{"value":"y","type":"ident"},{"type":"false"},{"value":28,"type":"number"},{"value":22,"type":"number"},{"value":11,"type":"number"},{"value":"c","type":"ident"},{"type":"unit"},{"type":"true"},{"type":"true"},{"value":"1!ÿ7n","type":"string"},{"type":"true"}],"callee":{"value":"y","type":"ident"},"type":"application"},"arg":{"result":{"value":"TXBWý\u0000¡ÖFa\u001eÈ'\u0004\u0019EÎÄ/","type":"string"},"arg":{"type":"unit"},"type":"function"},"type":"function"}

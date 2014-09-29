@@ -1,0 +1,2 @@
+4?, _|_, *, 'ìne]s\x02¸w$e', z, 17, 22, true, '|ë?\x08È\x10uÍi\x0e', y, 29, [_|_]
+{"args":[{"arg":{"value":4,"type":"number"},"type":"optional"},{"type":"false"},{"type":"true"},{"value":"ìne]s\u0002¸w$e","type":"string"},{"value":"z","type":"ident"},{"value":17,"type":"number"},{"value":22,"type":"number"},{"value":true,"type":"bool"},{"value":"|ë?\u0008È\u0010uÍi\u000e","type":"string"},{"value":"y","type":"ident"},{"value":29,"type":"number"},{"arg":{"type":"false"},"type":"brackets"}],"type":"product"}

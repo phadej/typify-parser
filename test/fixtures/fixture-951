@@ -1,0 +1,2 @@
+*... -> [()]
+{"result":{"arg":{"type":"unit"},"type":"brackets"},"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"function"}

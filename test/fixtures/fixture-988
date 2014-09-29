@@ -1,0 +1,2 @@
+(14 -> false) -> 15?
+{"result":{"arg":{"value":15,"type":"number"},"type":"optional"},"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":14,"type":"number"},"type":"function"},"type":"function"}

@@ -1,0 +1,2 @@
+[{a: '?W\x10{*ý.à]SªRl'; b: 'T'; bar: bar; c: false; foo: a; x: 'spû(u`Y[v\x06JhSMÏ\x08»\x02¨\x1a,d_Ðg**\x0cD4'; y: *; z: true}]
+{"arg":{"type":"record","fields":{"z":{"value":true,"type":"bool"},"foo":{"value":"a","type":"ident"},"a":{"value":"?W\u0010{*ý.à]SªRl","type":"string"},"b":{"value":"T","type":"string"},"x":{"value":"spû(u`Y[v\u0006JhSMÏ\u0008»\u0002¨\u001a,d_Ðg**\u000cD4","type":"string"},"c":{"value":false,"type":"bool"},"bar":{"value":"bar","type":"ident"},"y":{"type":"true"}}},"type":"brackets"}

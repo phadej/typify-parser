@@ -1,0 +1,2 @@
+(bar | 1 | () | _|_ | a | _|_)?
+{"arg":{"args":[{"value":"bar","type":"ident"},{"value":1,"type":"number"},{"type":"unit"},{"type":"false"},{"value":"a","type":"ident"},{"type":"false"}],"type":"disjunction"},"type":"optional"}

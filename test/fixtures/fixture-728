@@ -1,0 +1,2 @@
+[() & b & _|_ & _|_ & * & _|_ & true & ()]
+{"arg":{"args":[{"type":"unit"},{"value":"b","type":"ident"},{"type":"false"},{"type":"false"},{"type":"true"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"}],"type":"conjunction"},"type":"brackets"}

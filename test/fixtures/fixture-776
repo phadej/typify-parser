@@ -1,0 +1,2 @@
+[() () 'ÆøU\x09' b () b * * * _|_ false 26 _|_ true]
+{"arg":{"args":[{"type":"unit"},{"value":"ÆøU\t","type":"string"},{"value":"b","type":"ident"},{"type":"unit"},{"value":"b","type":"ident"},{"type":"true"},{"type":"true"},{"type":"true"},{"type":"false"},{"value":false,"type":"bool"},{"value":26,"type":"number"},{"type":"false"},{"value":true,"type":"bool"}],"callee":{"type":"unit"},"type":"application"},"type":"brackets"}

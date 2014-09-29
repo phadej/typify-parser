@@ -1,0 +1,2 @@
+(() -> false)?
+{"arg":{"result":{"value":false,"type":"bool"},"arg":{"type":"unit"},"type":"function"},"type":"optional"}

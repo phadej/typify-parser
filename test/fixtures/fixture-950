@@ -1,0 +1,2 @@
+foo? -> b : ()
+{"result":{"arg":{"type":"unit"},"name":"b","type":"named"},"arg":{"arg":{"value":"foo","type":"ident"},"type":"optional"},"type":"function"}

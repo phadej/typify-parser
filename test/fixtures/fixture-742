@@ -1,0 +1,2 @@
+[true | 8 | z | 17 | _|_ | 'O!\x1e\x0b-&\x05^K1' | _|_ | z | * | * | _|_]
+{"arg":{"args":[{"value":true,"type":"bool"},{"value":8,"type":"number"},{"value":"z","type":"ident"},{"value":17,"type":"number"},{"type":"false"},{"value":"O!\u001e\u000b-&\u0005^K1","type":"string"},{"type":"false"},{"value":"z","type":"ident"},{"type":"true"},{"type":"true"},{"type":"false"}],"type":"disjunction"},"type":"brackets"}

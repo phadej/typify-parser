@@ -1,0 +1,2 @@
+{a: 'O^'; b: false; bar: *; c: *; foo: false; x: true; y: _|_; z: _|_}?
+{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":false,"type":"bool"},"a":{"value":"O^","type":"string"},"b":{"value":false,"type":"bool"},"x":{"value":true,"type":"bool"},"c":{"type":"true"},"bar":{"type":"true"},"y":{"type":"false"}}},"type":"optional"}

@@ -1,0 +1,2 @@
+[() -> 22]
+{"arg":{"result":{"value":22,"type":"number"},"arg":{"type":"unit"},"type":"function"},"type":"brackets"}

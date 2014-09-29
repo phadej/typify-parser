@@ -1,0 +1,2 @@
+(() -> _|_) -> {a: (); foo: ()}
+{"result":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"type":"unit"}}},"arg":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"},"type":"function"}

@@ -1,0 +1,2 @@
+[{a: 12; bar: false; foo: _|_; x: foo; y: _|_}]
+{"arg":{"type":"record","fields":{"foo":{"type":"false"},"a":{"value":12,"type":"number"},"x":{"value":"foo","type":"ident"},"bar":{"value":false,"type":"bool"},"y":{"type":"false"}}},"type":"brackets"}

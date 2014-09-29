@@ -1,0 +1,2 @@
+bar false * () * 13 -> false -> c
+{"result":{"result":{"value":"c","type":"ident"},"arg":{"value":false,"type":"bool"},"type":"function"},"arg":{"args":[{"value":false,"type":"bool"},{"type":"true"},{"type":"unit"},{"type":"true"},{"value":13,"type":"number"}],"callee":{"value":"bar","type":"ident"},"type":"application"},"type":"function"}

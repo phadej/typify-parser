@@ -1,0 +1,2 @@
+[17] -> x
+{"result":{"value":"x","type":"ident"},"arg":{"arg":{"value":17,"type":"number"},"type":"brackets"},"type":"function"}

@@ -1,0 +1,2 @@
+{a: *; b: c; bar: _|_; c: 12; foo: _|_; x: bar; y: a; z: _|_}?
+{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"type":"false"},"a":{"type":"true"},"b":{"value":"c","type":"ident"},"x":{"value":"bar","type":"ident"},"c":{"value":12,"type":"number"},"bar":{"type":"false"},"y":{"value":"a","type":"ident"}}},"type":"optional"}

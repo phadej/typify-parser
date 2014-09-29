@@ -1,0 +1,2 @@
+_|_... -> * & () & 7 & c & 17 & () & _|_
+{"result":{"args":[{"type":"true"},{"type":"unit"},{"value":7,"type":"number"},{"value":"c","type":"ident"},{"value":17,"type":"number"},{"type":"unit"},{"type":"false"}],"type":"conjunction"},"arg":{"arg":{"type":"false"},"type":"variadic"},"type":"function"}

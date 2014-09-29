@@ -1,0 +1,2 @@
+[{a: ')\x04CÚ\x0c-hLÂd\x0b_\x12=\x17w\x04]]M\x19q\x07ä\x1b\x0f'; b: 30; bar: 27; c: *; foo: false; y: (); z: 'ë\x186|x\x07\x14JdXð6HÑ4\x0b'}]
+{"arg":{"type":"record","fields":{"z":{"value":"ë\u00186|x\u0007\u0014JdXð6HÑ4\u000b","type":"string"},"foo":{"value":false,"type":"bool"},"a":{"value":")\u0004CÚ\u000c-hLÂd\u000b_\u0012=\u0017w\u0004]]M\u0019q\u0007ä\u001b\u000f","type":"string"},"b":{"value":30,"type":"number"},"c":{"type":"true"},"bar":{"value":27,"type":"number"},"y":{"type":"unit"}}},"type":"brackets"}

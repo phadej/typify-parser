@@ -1,0 +1,2 @@
+a? -> ['#QqYW4M"¶O\x1e*åvn)ÏMT']
+{"result":{"arg":{"value":"#QqYW4M\"¶O\u001e*åvn)ÏMT","type":"string"},"type":"brackets"},"arg":{"arg":{"value":"a","type":"ident"},"type":"optional"},"type":"function"}

@@ -1,0 +1,2 @@
+(a : *)?
+{"arg":{"arg":{"type":"true"},"name":"a","type":"named"},"type":"optional"}

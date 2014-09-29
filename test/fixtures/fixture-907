@@ -1,0 +1,2 @@
+{a: *; b: (); bar: 21; c: (); foo: '3\x03q[xU\'J\x18\x04ó]\n<C'; x: foo; y: *; z: 26} -> false -> 30
+{"result":{"result":{"value":30,"type":"number"},"arg":{"value":false,"type":"bool"},"type":"function"},"arg":{"type":"record","fields":{"z":{"value":26,"type":"number"},"foo":{"value":"3\u0003q[xU'J\u0018\u0004ó]\n<C","type":"string"},"a":{"type":"true"},"b":{"type":"unit"},"x":{"value":"foo","type":"ident"},"c":{"type":"unit"},"bar":{"value":21,"type":"number"},"y":{"type":"true"}}},"type":"function"}

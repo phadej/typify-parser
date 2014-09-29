@@ -1,0 +1,2 @@
+{a: _|_; b: (); bar: _|_; c: false; foo: _|_; x: false; y: c; z: *} -> 11?
+{"result":{"arg":{"value":11,"type":"number"},"type":"optional"},"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"false"},"a":{"type":"false"},"b":{"type":"unit"},"x":{"value":false,"type":"bool"},"c":{"value":false,"type":"bool"},"bar":{"type":"false"},"y":{"value":"c","type":"ident"}}},"type":"function"}

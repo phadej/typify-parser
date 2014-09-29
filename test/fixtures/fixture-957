@@ -1,0 +1,2 @@
+()... -> ()?
+{"result":{"arg":{"type":"unit"},"type":"optional"},"arg":{"arg":{"type":"unit"},"type":"variadic"},"type":"function"}

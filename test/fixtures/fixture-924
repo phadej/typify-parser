@@ -1,0 +1,2 @@
+() & true & _|_ & * & a & () & false & false & 7 -> true
+{"result":{"value":true,"type":"bool"},"arg":{"args":[{"type":"unit"},{"value":true,"type":"bool"},{"type":"false"},{"type":"true"},{"value":"a","type":"ident"},{"type":"unit"},{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"value":7,"type":"number"}],"type":"conjunction"},"type":"function"}

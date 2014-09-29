@@ -1,0 +1,2 @@
+(false | '2ÖÏðµ' | a | * | _|_ | _|_ | () | y | * | bar | _|_ | _|_)?
+{"arg":{"args":[{"value":false,"type":"bool"},{"value":"2ÖÏðµ","type":"string"},{"value":"a","type":"ident"},{"type":"true"},{"type":"false"},{"type":"false"},{"type":"unit"},{"value":"y","type":"ident"},{"type":"true"},{"value":"bar","type":"ident"},{"type":"false"},{"type":"false"}],"type":"disjunction"},"type":"optional"}

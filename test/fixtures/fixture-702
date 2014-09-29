@@ -1,0 +1,2 @@
+[{a: 12; b: ':\x10u½f&\x03\x1a!A'; bar: z; c: _|_; foo: '\x18\x197/.{'; x: b; y: *; z: *}]
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"value":"\u0018\u00197/.{","type":"string"},"a":{"value":12,"type":"number"},"b":{"value":":\u0010u½f&\u0003\u001a!A","type":"string"},"x":{"value":"b","type":"ident"},"c":{"type":"false"},"bar":{"value":"z","type":"ident"},"y":{"type":"true"}}},"type":"brackets"}

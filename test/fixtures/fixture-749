@@ -1,0 +1,2 @@
+[15, '', 10, *, '\x02\x0b¨B_në #Ây\x04', (), (), _|_, '[ \x10\x19 g\x04`aë\x16*S\x0b,{g-Bþ', _|_, *, (), _|_, _|_]
+{"arg":{"args":[{"value":15,"type":"number"},{"value":"","type":"string"},{"value":10,"type":"number"},{"type":"true"},{"value":"\u0002\u000b¨B_në #Ây\u0004","type":"string"},{"type":"unit"},{"type":"unit"},{"type":"false"},{"value":"[ \u0010\u0019 g\u0004`aë\u0016*S\u000b,{g-Bþ","type":"string"},{"type":"false"},{"type":"true"},{"type":"unit"},{"type":"false"},{"type":"false"}],"type":"product"},"type":"brackets"}

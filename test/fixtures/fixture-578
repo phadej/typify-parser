@@ -1,0 +1,2 @@
+(*, b, *)?
+{"arg":{"args":[{"type":"true"},{"value":"b","type":"ident"},{"type":"true"}],"type":"product"},"type":"optional"}

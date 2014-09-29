@@ -1,0 +1,2 @@
+[24 -> *]
+{"arg":{"result":{"type":"true"},"arg":{"value":24,"type":"number"},"type":"function"},"type":"brackets"}

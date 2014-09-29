@@ -1,0 +1,2 @@
+_|_? | false
+{"args":[{"arg":{"type":"false"},"type":"optional"},{"value":false,"type":"bool"}],"type":"disjunction"}

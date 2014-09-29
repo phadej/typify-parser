@@ -1,0 +1,2 @@
+[_|_] & [_|_] & (x...) & (c : ())
+{"args":[{"arg":{"type":"false"},"type":"brackets"},{"arg":{"type":"false"},"type":"brackets"},{"arg":{"value":"x","type":"ident"},"type":"variadic"},{"arg":{"type":"unit"},"name":"c","type":"named"}],"type":"conjunction"}

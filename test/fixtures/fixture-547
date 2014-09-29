@@ -1,0 +1,2 @@
+{a: '<\x17Y\x08\x0d\x1e'; b: _|_; c: false; foo: *; x: (); y: 'x?\x13q©¬'}?
+{"arg":{"type":"record","fields":{"foo":{"type":"true"},"a":{"value":"<\u0017Y\u0008\r\u001e","type":"string"},"b":{"type":"false"},"x":{"type":"unit"},"c":{"value":false,"type":"bool"},"y":{"value":"x?\u0013q©¬","type":"string"}}},"type":"optional"}

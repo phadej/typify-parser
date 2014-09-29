@@ -1,0 +1,2 @@
+_|_ | [*] | (x : *)
+{"args":[{"type":"false"},{"arg":{"type":"true"},"type":"brackets"},{"arg":{"type":"true"},"name":"x","type":"named"}],"type":"disjunction"}

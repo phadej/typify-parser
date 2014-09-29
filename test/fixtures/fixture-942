@@ -1,0 +1,2 @@
+()? -> foo -> 26
+{"result":{"result":{"value":26,"type":"number"},"arg":{"value":"foo","type":"ident"},"type":"function"},"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"function"}

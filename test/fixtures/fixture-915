@@ -1,0 +1,2 @@
+a : _|_ -> _|_ -> true
+{"result":{"result":{"value":true,"type":"bool"},"arg":{"type":"false"},"type":"function"},"arg":{"arg":{"type":"false"},"name":"a","type":"named"},"type":"function"}

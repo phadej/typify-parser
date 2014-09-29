@@ -1,0 +1,2 @@
+(21...)?
+{"arg":{"arg":{"value":21,"type":"number"},"type":"variadic"},"type":"optional"}

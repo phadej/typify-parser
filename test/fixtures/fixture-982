@@ -1,0 +1,2 @@
+x b 26 * 1 _|_ '¿,ì\x03?' -> () -> 'RÊ\' bIMWF*Ã\x08\x0e\x00úB9'
+{"result":{"result":{"value":"RÊ' bIMWF*Ã\u0008\u000e\u0000úB9","type":"string"},"arg":{"type":"unit"},"type":"function"},"arg":{"args":[{"value":"b","type":"ident"},{"value":26,"type":"number"},{"type":"true"},{"value":1,"type":"number"},{"type":"false"},{"value":"¿,ì\u0003?","type":"string"}],"callee":{"value":"x","type":"ident"},"type":"application"},"type":"function"}

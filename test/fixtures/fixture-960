@@ -1,0 +1,2 @@
+[()] -> false
+{"result":{"value":false,"type":"bool"},"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"function"}

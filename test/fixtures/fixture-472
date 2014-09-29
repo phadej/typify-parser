@@ -1,0 +1,2 @@
+{y: false}, y?
+{"args":[{"type":"record","fields":{"y":{"value":false,"type":"bool"}}},{"arg":{"value":"y","type":"ident"},"type":"optional"}],"type":"product"}

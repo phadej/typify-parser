@@ -1,0 +1,2 @@
+() | 11 | false | 'JN\x1f¿.=L<%|\x11\x0e\x18)-' -> () _|_ true
+{"result":{"args":[{"type":"false"},{"value":true,"type":"bool"}],"callee":{"type":"unit"},"type":"application"},"arg":{"args":[{"type":"unit"},{"value":11,"type":"number"},{"value":false,"type":"bool"},{"value":"JN\u001f¿.=L<%|\u0011\u000e\u0018)-","type":"string"}],"type":"disjunction"},"type":"function"}

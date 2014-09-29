@@ -1,0 +1,2 @@
+*? | () | 12 | {a: bar; b: 20; bar: _|_; c: 10; foo: 19; y: _|_; z: a} | (c : ':x') | ()
+{"args":[{"arg":{"type":"true"},"type":"optional"},{"type":"unit"},{"value":12,"type":"number"},{"type":"record","fields":{"z":{"value":"a","type":"ident"},"foo":{"value":19,"type":"number"},"a":{"value":"bar","type":"ident"},"b":{"value":20,"type":"number"},"c":{"value":10,"type":"number"},"bar":{"type":"false"},"y":{"type":"false"}}},{"arg":{"value":":x","type":"string"},"name":"c","type":"named"},{"type":"unit"}],"type":"disjunction"}

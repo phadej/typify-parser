@@ -1,0 +1,2 @@
+* -> _|_ -> a
+{"result":{"result":{"value":"a","type":"ident"},"arg":{"type":"false"},"type":"function"},"arg":{"type":"true"},"type":"function"}

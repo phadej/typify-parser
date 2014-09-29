@@ -1,0 +1,2 @@
+('f' -> 11) -> _|_ & () & * & * & 18 & '\nÂ=CÝ \x02ï;t\x03 \x03\ný' & ')2uÀ¼|Biy\x0b£'
+{"result":{"args":[{"type":"false"},{"type":"unit"},{"type":"true"},{"type":"true"},{"value":18,"type":"number"},{"value":"\nÂ=CÝ \u0002ï;t\u0003 \u0003\ný","type":"string"},{"value":")2uÀ¼|Biy\u000b£","type":"string"}],"type":"conjunction"},"arg":{"result":{"value":11,"type":"number"},"arg":{"value":"f","type":"string"},"type":"function"},"type":"function"}

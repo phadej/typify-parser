@@ -1,0 +1,2 @@
+* & 'ß"@\x122' & * & * & * & true & _|_ & () & a & () & false & () & _|_ -> 26 -> *
+{"result":{"result":{"type":"true"},"arg":{"value":26,"type":"number"},"type":"function"},"arg":{"args":[{"type":"true"},{"value":"ß\"@\u00122","type":"string"},{"type":"true"},{"type":"true"},{"type":"true"},{"value":true,"type":"bool"},{"type":"false"},{"type":"unit"},{"value":"a","type":"ident"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"false"}],"type":"conjunction"},"type":"function"}

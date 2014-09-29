@@ -1,0 +1,2 @@
+[false | 'G\x04WïE!\x03&a\x08\x14o\x02\x1b' | y | _|_ | * | * | false | ')@\x14Á_bÙÙ4H_?\x03H7ÂIPYfiÊÉ\n6' | z | false | ()]
+{"arg":{"args":[{"value":false,"type":"bool"},{"value":"G\u0004WïE!\u0003&a\u0008\u0014o\u0002\u001b","type":"string"},{"value":"y","type":"ident"},{"type":"false"},{"type":"true"},{"type":"true"},{"value":false,"type":"bool"},{"value":")@\u0014Á_bÙÙ4H_?\u0003H7ÂIPYfiÊÉ\n6","type":"string"},{"value":"z","type":"ident"},{"value":false,"type":"bool"},{"type":"unit"}],"type":"disjunction"},"type":"brackets"}

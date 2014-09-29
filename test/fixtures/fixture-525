@@ -1,0 +1,2 @@
+(9 -> true), 3, a?
+{"args":[{"result":{"value":true,"type":"bool"},"arg":{"value":9,"type":"number"},"type":"function"},{"value":3,"type":"number"},{"arg":{"value":"a","type":"ident"},"type":"optional"}],"type":"product"}

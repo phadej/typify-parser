@@ -1,0 +1,2 @@
+[false] -> false?
+{"result":{"arg":{"value":false,"type":"bool"},"type":"optional"},"arg":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"type":"function"}

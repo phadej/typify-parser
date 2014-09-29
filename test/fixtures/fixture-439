@@ -1,0 +1,2 @@
+(a -> 21) | (foo...)
+{"args":[{"result":{"value":21,"type":"number"},"arg":{"value":"a","type":"ident"},"type":"function"},{"arg":{"value":"foo","type":"ident"},"type":"variadic"}],"type":"disjunction"}

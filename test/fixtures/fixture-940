@@ -1,0 +1,2 @@
+()? -> [*]
+{"result":{"arg":{"type":"true"},"type":"brackets"},"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"function"}

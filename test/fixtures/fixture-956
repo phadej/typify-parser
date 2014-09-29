@@ -1,0 +1,2 @@
+()... -> _|_ & true & _|_ & _|_ & 21 & z & '1à29FÍ\x05:YÓ\x07Re»@}\x1d' & 'À?'
+{"result":{"args":[{"type":"false"},{"value":true,"type":"bool"},{"type":"false"},{"type":"false"},{"value":21,"type":"number"},{"value":"z","type":"ident"},{"value":"1à29FÍ\u0005:YÓ\u0007Re»@}\u001d","type":"string"},{"value":"À?","type":"string"}],"type":"conjunction"},"arg":{"arg":{"type":"unit"},"type":"variadic"},"type":"function"}

@@ -1,0 +1,2 @@
+(a, 16, bar, 20, *, _|_, 29, (), false)?
+{"arg":{"args":[{"value":"a","type":"ident"},{"value":16,"type":"number"},{"value":"bar","type":"ident"},{"value":20,"type":"number"},{"type":"true"},{"type":"false"},{"value":29,"type":"number"},{"type":"unit"},{"value":false,"type":"bool"}],"type":"product"},"type":"optional"}

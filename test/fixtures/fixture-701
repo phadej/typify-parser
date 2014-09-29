@@ -1,0 +1,2 @@
+[{a: 8; b: '|J!&)\x0b=Ã=\'r=d²d~HQ'; c: c; foo: z; y: ()}]
+{"arg":{"type":"record","fields":{"foo":{"value":"z","type":"ident"},"a":{"value":8,"type":"number"},"b":{"value":"|J!&)\u000b=Ã='r=d²d~HQ","type":"string"},"c":{"value":"c","type":"ident"},"y":{"type":"unit"}}},"type":"brackets"}

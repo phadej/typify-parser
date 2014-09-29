@@ -1,0 +1,2 @@
+(* -> true) | (bar : *) | () & true
+{"args":[{"result":{"value":true,"type":"bool"},"arg":{"type":"true"},"type":"function"},{"arg":{"type":"true"},"name":"bar","type":"named"},{"args":[{"type":"unit"},{"value":true,"type":"bool"}],"type":"conjunction"}],"type":"disjunction"}

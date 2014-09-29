@@ -1,0 +1,2 @@
+[_|_, true, '#', _|_, 3, true, (), 28, (), *]
+{"arg":{"args":[{"type":"false"},{"value":true,"type":"bool"},{"value":"#","type":"string"},{"type":"false"},{"value":3,"type":"number"},{"value":true,"type":"bool"},{"type":"unit"},{"value":28,"type":"number"},{"type":"unit"},{"type":"true"}],"type":"product"},"type":"brackets"}

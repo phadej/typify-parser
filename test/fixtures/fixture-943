@@ -1,0 +1,2 @@
+20? -> _|_ & 'jÖU\x18k\\BPe(dþÉ\x1f,H5\x1a\x0c%5' & _|_ & () & * & 6 & _|_ & false & true & 'nÛuK@R<\x0c;}ñW6B\x00h"!\\c' & ()
+{"result":{"args":[{"type":"false"},{"value":"jÖU\u0018k\\BPe(dþÉ\u001f,H5\u001a\u000c%5","type":"string"},{"type":"false"},{"type":"unit"},{"type":"true"},{"value":6,"type":"number"},{"type":"false"},{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"value":"nÛuK@R<\u000c;}ñW6B\u0000h\"!\\c","type":"string"},{"type":"unit"}],"type":"conjunction"},"arg":{"arg":{"value":20,"type":"number"},"type":"optional"},"type":"function"}

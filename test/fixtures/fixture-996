@@ -1,0 +1,2 @@
+(a -> 'MSÞ`Å') -> () & _|_ & 4 & _|_ & foo & y & _|_ & * & _|_ & '\x0b\x008AsnL´Q' & true & ()
+{"result":{"args":[{"type":"unit"},{"type":"false"},{"value":4,"type":"number"},{"type":"false"},{"value":"foo","type":"ident"},{"value":"y","type":"ident"},{"type":"false"},{"type":"true"},{"type":"false"},{"value":"\u000b\u00008AsnL´Q","type":"string"},{"value":true,"type":"bool"},{"type":"unit"}],"type":"conjunction"},"arg":{"result":{"value":"MSÞ`Å","type":"string"},"arg":{"value":"a","type":"ident"},"type":"function"},"type":"function"}

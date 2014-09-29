@@ -1,0 +1,2 @@
+[{foo: x}]
+{"arg":{"type":"record","fields":{"foo":{"value":"x","type":"ident"}}},"type":"brackets"}

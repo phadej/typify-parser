@@ -1,0 +1,2 @@
+{a: _|_; b: _|_; c: 14; x: _|_; y: 'Rè\'té¢biÊ\\'} -> [23]
+{"result":{"arg":{"value":23,"type":"number"},"type":"brackets"},"arg":{"type":"record","fields":{"a":{"type":"false"},"b":{"type":"false"},"x":{"type":"false"},"c":{"value":14,"type":"number"},"y":{"value":"Rè'té¢biÊ\\","type":"string"}}},"type":"function"}

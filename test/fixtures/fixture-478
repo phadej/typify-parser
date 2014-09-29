@@ -1,0 +1,2 @@
+foo : 24, 'a\x1eef'
+{"args":[{"arg":{"value":24,"type":"number"},"name":"foo","type":"named"},{"value":"a\u001eef","type":"string"}],"type":"product"}
