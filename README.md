@@ -11,32 +11,32 @@
 Turns `(foo, bar 42) -> quux` into
 ```js
 {
-  "type": "fn",
-  "var": {
+  "type": "function",
+  "arg": {
+    "type": "product",
     "args": [
       {
-        "value": "foo",
-        "type": "ident"
+        "type": "ident",
+        "value": "foo"
       },
       {
-        "rator": {
-          "value": "bar",
-          "type": "ident"
+        "type": "application",
+        "callee": {
+          "type": "ident",
+          "value": "bar"
         },
-        "rands": [
+        "args": [
           {
-            "value": 42,
-            "type": "number"
+            "type": "number",
+            "value": 42
           }
-        ],
-        "type": "app"
+        ]
       }
-    ],
-    "type": "prod"
+    ]
   },
   "result": {
-    "value": "quux",
-    "type": "ident"
+    "type": "ident",
+    "value": "quux"
   }
 }
 ```
