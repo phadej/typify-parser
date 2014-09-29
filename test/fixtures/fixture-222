@@ -1,2 +1,2 @@
-[y & b & y & '\x1a\x08\x11ÝuuqnW\x1eB\x0dGX\x09R>uXCU\x01Bv' & true & ()]
-{"arg":{"args":[{"value":"y","type":"ident"},{"value":"b","type":"ident"},{"value":"y","type":"ident"},{"value":"\u001a\u0008\u0011ÝuuqnW\u001eB\rGX\tR>uXCU\u0001Bv","type":"string"},{"value":true,"type":"bool"},{"type":"unit"}],"type":"conj"},"type":"brackets"}
+y : {foo: *}
+{"arg":{"type":"record","fields":{"foo":{"type":"true"}}},"name":"y","type":"named"}

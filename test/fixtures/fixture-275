@@ -1,2 +1,2 @@
-_|_ -> x : z
-{"var":{"type":"false"},"result":{"arg":{"value":"z","type":"ident"},"name":"x","type":"named"},"type":"fn"}
+{b: 'äsÔ\x15JkM®K,Xß+@'} & (_|_...) & ()?
+{"args":[{"type":"record","fields":{"b":{"value":"äsÔ\u0015JkM®K,Xß+@","type":"string"}}},{"arg":{"type":"false"},"type":"variadic"},{"arg":{"type":"unit"},"type":"optional"}],"type":"conjunction"}

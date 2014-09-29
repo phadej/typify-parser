@@ -1,2 +1,2 @@
-['@Q' -> c]
-{"arg":{"var":{"value":"@Q","type":"string"},"result":{"value":"c","type":"ident"},"type":"fn"},"type":"brackets"}
+z : [()]
+{"arg":{"arg":{"type":"unit"},"type":"brackets"},"name":"z","type":"named"}

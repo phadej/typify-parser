@@ -1,2 +1,2 @@
-y : 'ýhsà[N'
-{"arg":{"value":"ýhsà[N","type":"string"},"name":"y","type":"named"}
+{a: * & _|_ & x & a & true & true & * & false; foo: * -> *; y: c : true; z: {a: *; b: c; bar: false; y: _|_; z: z}}
+{"type":"record","fields":{"z":{"type":"record","fields":{"z":{"value":"z","type":"ident"},"a":{"type":"true"},"b":{"value":"c","type":"ident"},"bar":{"value":false,"type":"bool"},"y":{"type":"false"}}},"foo":{"result":{"type":"true"},"arg":{"type":"true"},"type":"function"},"a":{"args":[{"type":"true"},{"type":"false"},{"value":"x","type":"ident"},{"value":"a","type":"ident"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"type":"true"},{"value":false,"type":"bool"}],"type":"conjunction"},"y":{"arg":{"value":true,"type":"bool"},"name":"c","type":"named"}}}

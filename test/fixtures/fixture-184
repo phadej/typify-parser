@@ -1,2 +1,2 @@
-[()]?
-{"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"optional"}
+c : bar & false & _|_
+{"arg":{"args":[{"value":"bar","type":"ident"},{"value":false,"type":"bool"},{"type":"false"}],"type":"conjunction"},"name":"c","type":"named"}

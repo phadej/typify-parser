@@ -1,2 +1,2 @@
-(true & () & * & () & _|_ & 26 & _|_ & 'xA' & _|_)?
-{"arg":{"args":[{"value":true,"type":"bool"},{"type":"unit"},{"type":"true"},{"type":"unit"},{"type":"false"},{"value":26,"type":"number"},{"type":"false"},{"value":"xA","type":"string"},{"type":"false"}],"type":"conj"},"type":"optional"}
+bar : () & * & 2 & _|_ & _|_ & * & false & y & _|_ & _|_ & 'GB;' & false & () & _|_ & _|_ & * & () & _|_ & *
+{"arg":{"args":[{"type":"unit"},{"type":"true"},{"value":2,"type":"number"},{"type":"false"},{"type":"false"},{"type":"true"},{"value":false,"type":"bool"},{"value":"y","type":"ident"},{"type":"false"},{"type":"false"},{"value":"GB;","type":"string"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"false"},{"type":"false"},{"type":"true"},{"type":"unit"},{"type":"false"},{"type":"true"}],"type":"conjunction"},"name":"bar","type":"named"}

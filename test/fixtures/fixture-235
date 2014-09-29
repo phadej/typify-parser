@@ -1,2 +1,2 @@
-[* false _|_ true true a _|_ z z false * () false _|_ () _|_]
-{"arg":{"rator":{"type":"true"},"rands":[{"value":false,"type":"bool"},{"type":"false"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"value":"a","type":"ident"},{"type":"false"},{"value":"z","type":"ident"},{"value":"z","type":"ident"},{"value":false,"type":"bool"},{"type":"true"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"false"},{"type":"unit"},{"type":"false"}],"type":"app"},"type":"brackets"}
+z : 26 & * & 3 & foo & 9
+{"arg":{"args":[{"value":26,"type":"number"},{"type":"true"},{"value":3,"type":"number"},{"value":"foo","type":"ident"},{"value":9,"type":"number"}],"type":"conjunction"},"name":"z","type":"named"}

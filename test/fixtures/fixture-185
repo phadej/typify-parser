@@ -1,2 +1,2 @@
-[8]?
-{"arg":{"arg":{"value":8,"type":"number"},"type":"brackets"},"type":"optional"}
+c : * | () | 'Q;T=@c8#\x01{w\x11î0%6]LÇ\x1a>º\x15Fõ®Ü' | _|_ | * | * | z
+{"arg":{"args":[{"type":"true"},{"type":"unit"},{"value":"Q;T=@c8#\u0001{w\u0011î0%6]LÇ\u001a>º\u0015Fõ®Ü","type":"string"},{"type":"false"},{"type":"true"},{"type":"true"},{"value":"z","type":"ident"}],"type":"disjunction"},"name":"c","type":"named"}

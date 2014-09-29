@@ -1,2 +1,2 @@
-y 'D|Ò\'\x06E\x12' 29 26 x _|_ false * _|_ | [true] | (a : *) | _|_? | _|_? | _|_? | (_|_...) | (b : a)
-{"args":[{"rator":{"value":"y","type":"ident"},"rands":[{"value":"D|Ò'\u0006E\u0012","type":"string"},{"value":29,"type":"number"},{"value":26,"type":"number"},{"value":"x","type":"ident"},{"type":"false"},{"value":false,"type":"bool"},{"type":"true"},{"type":"false"}],"type":"app"},{"arg":{"value":true,"type":"bool"},"type":"brackets"},{"arg":{"type":"true"},"name":"a","type":"named"},{"arg":{"type":"false"},"type":"optional"},{"arg":{"type":"false"},"type":"optional"},{"arg":{"type":"false"},"type":"optional"},{"arg":{"type":"false"},"type":"variadic"},{"arg":{"value":"a","type":"ident"},"name":"b","type":"named"}],"type":"disj"}
+{y: bar : true}
+{"type":"record","fields":{"y":{"arg":{"value":true,"type":"bool"},"name":"bar","type":"named"}}}

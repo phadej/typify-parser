@@ -1,2 +1,2 @@
-(foo : '¿ä\x16¡37-ÛKMþ<7Á_tsà\x146\x18R·w¬\\')...
-{"arg":{"arg":{"value":"¿ä\u0016¡37-ÛKMþ<7Á_tsà\u00146\u0018R·w¬\\","type":"string"},"name":"foo","type":"named"},"type":"variadic"}
+c : [b]
+{"arg":{"arg":{"value":"b","type":"ident"},"type":"brackets"},"name":"c","type":"named"}

@@ -1,2 +1,2 @@
-[true]
-{"arg":{"value":true,"type":"bool"},"type":"brackets"}
+x : false | false | 'ZÿG\x03wå9<ð~H$.2È8\x04(' | '|µ\x05' | 9 | _|_ | () | _|_ | _|_ | 'ëh' | _|_ | x | ()
+{"arg":{"args":[{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"value":"ZÿG\u0003wå9<ð~H$.2È8\u0004(","type":"string"},{"value":"|µ\u0005","type":"string"},{"value":9,"type":"number"},{"type":"false"},{"type":"unit"},{"type":"false"},{"type":"false"},{"value":"ëh","type":"string"},{"type":"false"},{"value":"x","type":"ident"},{"type":"unit"}],"type":"disjunction"},"name":"x","type":"named"}

@@ -1,2 +1,2 @@
-[[_|_]]
-{"arg":{"arg":{"type":"false"},"type":"brackets"},"type":"brackets"}
+z : '8p9*"\'18'
+{"arg":{"value":"8p9*\"'18","type":"string"},"name":"z","type":"named"}

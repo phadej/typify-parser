@@ -1,2 +1,2 @@
-(true...)?
-{"arg":{"arg":{"value":true,"type":"bool"},"type":"variadic"},"type":"optional"}
+c : {a: b; b: *; bar: 'f7]X\x09>f\x14\x12Á[r'; c: (); foo: _|_; x: y; y: 8; z: *}
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"false"},"a":{"value":"b","type":"ident"},"b":{"type":"true"},"x":{"value":"y","type":"ident"},"c":{"type":"unit"},"bar":{"value":"f7]X\t>f\u0014\u0012Á[r","type":"string"},"y":{"value":8,"type":"number"}}},"name":"c","type":"named"}

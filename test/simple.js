@@ -65,17 +65,17 @@ describe("simple cases", function () {
 
   it("application", function () {
     fixture("foo bar", {
-      type: "app",
-      rator: { type: "ident", value: "foo" },
-      rands: [
+      type: "application",
+      callee: { type: "ident", value: "foo" },
+      args: [
         { type: "ident", value: "bar" },
       ],
     });
 
     fixture("foo bar baz", {
-      type: "app",
-      rator: { type:"ident", value: "foo" },
-      rands: [
+      type: "application",
+      callee: { type: "ident", value: "foo" },
+      args: [
         { type: "ident", value: "bar" },
         { type: "ident", value: "baz" },
       ],
@@ -91,7 +91,7 @@ describe("simple cases", function () {
 
   it("conjunction", function () {
     fixture("1 & 2", {
-      type: "conj",
+      type: "conjunction",
       args: [
         { type: "number", value: 1 },
         { type: "number", value: 2 },
@@ -99,7 +99,7 @@ describe("simple cases", function () {
     });
 
     fixture("1 ∧ 2", {
-      type: "conj",
+      type: "conjunction",
       args: [
         { type: "number", value: 1 },
         { type: "number", value: 2 },
@@ -109,7 +109,7 @@ describe("simple cases", function () {
 
   it("disjunction", function () {
     fixture("1 | 2", {
-      type: "disj",
+      type: "disjunction",
       args: [
         { type: "number", value: 1 },
         { type: "number", value: 2 },
@@ -117,7 +117,7 @@ describe("simple cases", function () {
     });
 
     fixture("1 ∨ 2", {
-      type: "disj",
+      type: "disjunction",
       args: [
         { type: "number", value: 1 },
         { type: "number", value: 2 },
@@ -127,7 +127,7 @@ describe("simple cases", function () {
 
   it("product", function () {
     fixture("1 , 2", {
-      type: "prod",
+      type: "product",
       args: [
         { type: "number", value: 1 },
         { type: "number", value: 2 },
@@ -135,7 +135,7 @@ describe("simple cases", function () {
     });
 
     fixture("1 × 2", {
-      type: "prod",
+      type: "product",
       args: [
         { type: "number", value: 1 },
         { type: "number", value: 2 },
@@ -156,14 +156,14 @@ describe("simple cases", function () {
 
   it("function", function () {
     fixture("1 -> 2", {
-      type: "fn",
-      "var": { type: "number", value: 1 },
+      type: "function",
+      arg: { type: "number", value: 1 },
       result: { type: "number", value: 2 },
     });
 
     fixture("1 → 2", {
-      type: "fn",
-      "var": { type: "number", value: 1 },
+      type: "function",
+      arg: { type: "number", value: 1 },
       result: { type: "number", value: 2 },
     });
   });

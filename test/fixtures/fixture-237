@@ -1,2 +1,2 @@
-[4 -> '\x13þ)$j|±\x02ÝK\x19\x08;ö)]×szx\x19|GH\x1e÷\x0cy']
-{"arg":{"var":{"value":4,"type":"number"},"result":{"value":"\u0013þ)$j|±\u0002ÝK\u0019\u0008;ö)]×szx\u0019|GH\u001e÷\u000cy","type":"string"},"type":"fn"},"type":"brackets"}
+z : ()...
+{"arg":{"arg":{"type":"unit"},"type":"variadic"},"name":"z","type":"named"}

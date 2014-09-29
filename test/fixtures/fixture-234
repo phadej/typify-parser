@@ -1,2 +1,2 @@
-[[19]]
-{"arg":{"arg":{"value":19,"type":"number"},"type":"brackets"},"type":"brackets"}
+z : {a: y; bar: 13; c: *; foo: _|_; x: true; y: *; z: ()}
+{"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"false"},"a":{"value":"y","type":"ident"},"x":{"value":true,"type":"bool"},"c":{"type":"true"},"bar":{"value":13,"type":"number"},"y":{"type":"true"}}},"name":"z","type":"named"}

@@ -1,2 +1,2 @@
-[() 16 * true a _|_ () foo '\x16\x18b\x0bNÂy\x0f\x0fº\x18\\@JL|5VÑ\x14ôÀØj' * b 19 * _|_ * _|_ true 21 _|_ () () * _|_ 'z\x06ó4nÂu1' b]
-{"arg":{"rator":{"type":"unit"},"rands":[{"value":16,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"value":"a","type":"ident"},{"type":"false"},{"type":"unit"},{"value":"foo","type":"ident"},{"value":"\u0016\u0018b\u000bNÂy\u000f\u000fº\u0018\\@JL|5VÑ\u0014ôÀØj","type":"string"},{"type":"true"},{"value":"b","type":"ident"},{"value":19,"type":"number"},{"type":"true"},{"type":"false"},{"type":"true"},{"type":"false"},{"value":true,"type":"bool"},{"value":21,"type":"number"},{"type":"false"},{"type":"unit"},{"type":"unit"},{"type":"true"},{"type":"false"},{"value":"z\u0006ó4nÂu1","type":"string"},{"value":"b","type":"ident"}],"type":"app"},"type":"brackets"}
+z : foo?
+{"arg":{"arg":{"value":"foo","type":"ident"},"type":"optional"},"name":"z","type":"named"}

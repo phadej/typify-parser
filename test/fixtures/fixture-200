@@ -1,2 +1,2 @@
-c?...
-{"arg":{"arg":{"value":"c","type":"ident"},"type":"optional"},"type":"variadic"}
+foo : '\x0e!\x01:Gbåâá' & () & _|_ & * & () & bar & 2 & 23 & x & _|_ & 21 & '\\\x076ÚjÆV1d'
+{"arg":{"args":[{"value":"\u000e!\u0001:Gbåâá","type":"string"},{"type":"unit"},{"type":"false"},{"type":"true"},{"type":"unit"},{"value":"bar","type":"ident"},{"value":2,"type":"number"},{"value":23,"type":"number"},{"value":"x","type":"ident"},{"type":"false"},{"value":21,"type":"number"},{"value":"\\\u00076ÚjÆV1d","type":"string"}],"type":"conjunction"},"name":"foo","type":"named"}

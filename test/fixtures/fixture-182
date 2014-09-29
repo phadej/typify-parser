@@ -1,2 +1,2 @@
-(x...)?
-{"arg":{"arg":{"value":"x","type":"ident"},"type":"variadic"},"type":"optional"}
+c : {bar: b; foo: 'Ý{y¥\x11VA`EaBvP\nSJP\x11\x1d0X'; x: (); z: c}
+{"arg":{"type":"record","fields":{"z":{"value":"c","type":"ident"},"foo":{"value":"Ý{y¥\u0011VA`EaBvP\nSJP\u0011\u001d0X","type":"string"},"x":{"type":"unit"},"bar":{"value":"b","type":"ident"}}},"name":"c","type":"named"}

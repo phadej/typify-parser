@@ -1,2 +1,2 @@
-(true true 'ìÆ7»' * false () _|_ 'º\x03H\x1eOÐP@Z0\x02' y * false ())?
-{"arg":{"rator":{"value":true,"type":"bool"},"rands":[{"value":true,"type":"bool"},{"value":"ìÆ7»","type":"string"},{"type":"true"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"false"},{"value":"º\u0003H\u001eOÐP@Z0\u0002","type":"string"},{"value":"y","type":"ident"},{"type":"true"},{"value":false,"type":"bool"},{"type":"unit"}],"type":"app"},"type":"optional"}
+c : ('', true, false, true, c, _|_, 18, bar, _|_, _|_, (), bar, *, 12)
+{"arg":{"args":[{"value":"","type":"string"},{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"value":"c","type":"ident"},{"type":"false"},{"value":18,"type":"number"},{"value":"bar","type":"ident"},{"type":"false"},{"type":"false"},{"type":"unit"},{"value":"bar","type":"ident"},{"type":"true"},{"value":12,"type":"number"}],"type":"product"},"name":"c","type":"named"}

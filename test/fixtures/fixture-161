@@ -1,2 +1,2 @@
-{a: false; c: false}?
-{"arg":{"type":"record","fields":{"a":{"value":false,"type":"bool"},"c":{"value":false,"type":"bool"}}},"type":"optional"}
+b : 9?
+{"arg":{"arg":{"value":9,"type":"number"},"type":"optional"},"name":"b","type":"named"}

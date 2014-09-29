@@ -1,2 +1,2 @@
-{bar: *...; foo: ()...; y: true; z: '2õ1ÓKý"­è®D\x18°wqª;'}
-{"type":"record","fields":{"z":{"value":"2õ1ÓKý\"­è®D\u0018°wqª;","type":"string"},"foo":{"arg":{"type":"unit"},"type":"variadic"},"bar":{"arg":{"type":"true"},"type":"variadic"},"y":{"value":true,"type":"bool"}}}
+'~.~\'\nûK\x0d¼\'èkboï\x16*Nhj\x1dP+'
+{"value":"~.~'\nûK\r¼'èkboï\u0016*Nhj\u001dP+","type":"string"}

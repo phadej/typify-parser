@@ -1,2 +1,2 @@
-[* | _|_ | _|_ | 'n' | 25 | () | _|_ | _|_ | _|_ | * | false | foo | () | true | _|_ | a | _|_ | * | false | 5 | _|_ | _|_ | false | *]
-{"arg":{"args":[{"type":"true"},{"type":"false"},{"type":"false"},{"value":"n","type":"string"},{"value":25,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"false"},{"type":"false"},{"type":"true"},{"value":false,"type":"bool"},{"value":"foo","type":"ident"},{"type":"unit"},{"value":true,"type":"bool"},{"type":"false"},{"value":"a","type":"ident"},{"type":"false"},{"type":"true"},{"value":false,"type":"bool"},{"value":5,"type":"number"},{"type":"false"},{"type":"false"},{"value":false,"type":"bool"},{"type":"true"}],"type":"disj"},"type":"brackets"}
+y : z : ()
+{"arg":{"arg":{"type":"unit"},"name":"z","type":"named"},"name":"y","type":"named"}

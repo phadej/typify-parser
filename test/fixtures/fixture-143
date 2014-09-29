@@ -1,2 +1,2 @@
-{a: _|_; b: false; bar: 6; c: *; foo: _|_}, (), ('5:2\x17/\x07d\x0b^X\n\x13ý-n#' -> 27)
-{"args":[{"type":"record","fields":{"foo":{"type":"false"},"a":{"type":"false"},"b":{"value":false,"type":"bool"},"c":{"type":"true"},"bar":{"value":6,"type":"number"}}},{"type":"unit"},{"var":{"value":"5:2\u0017/\u0007d\u000b^X\n\u0013ý-n#","type":"string"},"result":{"value":27,"type":"number"},"type":"fn"}],"type":"prod"}
+foo
+{"value":"foo","type":"ident"}

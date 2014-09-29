@@ -1,2 +1,2 @@
-{b: *; bar: (); x: _|_; y: *; z: ()}
-{"type":"record","fields":{"z":{"type":"unit"},"b":{"type":"true"},"x":{"type":"false"},"bar":{"type":"unit"},"y":{"type":"true"}}}
+'/V\x09\x16\x002nEö{¢ì/\x14A\x07\x07`'
+{"value":"/V\t\u0016\u00002nEö{¢ì/\u0014A\u0007\u0007`","type":"string"}
