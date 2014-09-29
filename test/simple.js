@@ -9,9 +9,14 @@ function fixture(signature, json) {
 }
 
 describe("simple cases", function () {
-  it("top and bottom", function () {
+  it("top, bottom, unit", function () {
     fixture("*", { type: "true" });
     fixture("_|_", { type: "false" });
+    fixture("()", { type: "unit" });
+
+    fixture("⊤", { type: "true" });
+    fixture("⊥", { type: "false" });
+    fixture("𝟙", { type: "unit" });
   });
 
   it("booleans", function () {
@@ -92,6 +97,14 @@ describe("simple cases", function () {
         { type: "number", value: 2 },
       ],
     });
+
+    fixture("1 ∧ 2", {
+      type: "conj",
+      args: [
+        { type: "number", value: 1 },
+        { type: "number", value: 2 },
+      ],
+    });
   });
 
   it("disjunction", function () {
@@ -102,10 +115,26 @@ describe("simple cases", function () {
         { type: "number", value: 2 },
       ],
     });
+
+    fixture("1 ∨ 2", {
+      type: "disj",
+      args: [
+        { type: "number", value: 1 },
+        { type: "number", value: 2 },
+      ],
+    });
   });
 
   it("product", function () {
     fixture("1 , 2", {
+      type: "prod",
+      args: [
+        { type: "number", value: 1 },
+        { type: "number", value: 2 },
+      ],
+    });
+
+    fixture("1 × 2", {
       type: "prod",
       args: [
         { type: "number", value: 1 },
@@ -131,10 +160,21 @@ describe("simple cases", function () {
       "var": { type: "number", value: 1 },
       result: { type: "number", value: 2 },
     });
+
+    fixture("1 → 2", {
+      type: "fn",
+      "var": { type: "number", value: 1 },
+      result: { type: "number", value: 2 },
+    });
   });
 
   it("variadic", function () {
     fixture("foo...", {
+      type: "variadic",
+      arg: { type: "ident", value: "foo" },
+    });
+
+    fixture("foo…", {
       type: "variadic",
       arg: { type: "ident", value: "foo" },
     });
