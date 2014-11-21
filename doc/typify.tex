@@ -59,15 +59,6 @@ Essentially the language is dependent type theory, with omitted lambda construct
 \textbf{Identifiers:} \\&
 \syntaxrule{Identifier}{n : \mathsf{name}}{n : \mathsf{type}}
 \\&
-\textbf{Record pairs:} \\&
-\syntaxrule{Record-Pair}{n : \mathsf{name} \quad a : \mathsf{type}}{n : a : \mathsf{pair}} \qquad
-\syntaxrule{Record-Singleton}{r : \mathsf{pair}}{r : \mathsf{rlist}} \qquad
-\syntaxrule{Record-Cons}{p : \mathsf{pair} \quad r : \mathsf{rlist}}{p ;\, r : \mathsf{rlist}}  
-\\&
-\textbf{Records:} \\&
-\syntaxrule{Empty-Record}{}{\{\} : \mathsf{type}} \qquad
-\syntaxrule{Record}{r : \mathsf{rlist}}{\{ r \} : \mathsf{type}}
-\\&
 \textbf{Row types:} \\&
 \syntaxrule{Conjunction}{a : \mathsf{type} \quad b : \mathsf{type}}{a \land b : \mathsf{type}} \qquad
 \syntaxrule{Disjunction}{a : \mathsf{type} \quad b : \mathsf{type}}{a \lor b : \mathsf{type}} \qquad
@@ -79,10 +70,11 @@ Essentially the language is dependent type theory, with omitted lambda construct
 \textbf{Special modifiers:} \\&
 \syntaxrule{Product}{a : \mathsf{type} \quad b : \mathsf{type}}{a \times  b : \mathsf{type}} \qquad
 \syntaxrule{Variadic}{a : \mathsf{type}}{a\ldots : \mathsf{type}} \qquad
-\syntaxrule{Named}{n : \mathsf{name} \quad p : \mathsf{type}}{n : p : \mathsf{type}}
+\syntaxrule{Named}{n : \mathsf{type} \quad p : \mathsf{type}}{n : p : \mathsf{type}}
 \\&
 \textbf{Brackets:} \\&
-\syntaxrule{Brackets}{p : \mathsf{type}}{[p] : \mathsf{type}}
+\syntaxrule{Square}{p : \mathsf{type}}{[p] : \mathsf{type}} \qquad
+\syntaxrule{Curly}{p : \mathsf{type}}{\{p\} : \mathsf{type}}
 \\&
 \textbf{Functions:} \\&
 \syntaxrule{Function}{a : \mathsf{type} \quad b : \mathsf{type}}{a \to b : \mathsf{type}}
@@ -100,10 +92,9 @@ level & name & & associativity & example \\
 6 & conjunction  & $\land$  & associative        & $(a \land b) \land c \equiv a \land (b \land c)$ \\
 5 & disjunction  & $\lor$   & associative        & $(a \lor b) \lor c \equiv a \lor (b \lor c)$ \\
 4 & ellipsis     & $\ldots$ & postfix            & $a \ldots$ \\
-3 & type         & $:$      & right associative  & $x : a$ \\
+3 & type         & $:$      & left associative   & $x : a : b \equiv (x : a) : b$ \\
 2 & product      & $\times$ & associative        & $(a \times b) \times c \equiv a \times (b \times c)$ \\
 1 & function     & $\to$    & right associative  & $a \to b \to c \equiv a \to (b \to c)$ \\
-0 & semicolon    & $;$      & associative        & \\
 \end{tabular}
 \end{center}
 \caption{Operator precedence}
@@ -125,7 +116,6 @@ ellipsis     & $\ldots$ & \texttt{\ldots} (either three dots, or unicode ellipsi
 type         & $:$      & $\mathtt{:}$ \\
 product      & $\times$ & $\times$ $\mathtt{,}$ \\
 function     & $\to$    & $\to$ \texttt{->} \\
-semicolon    & $;$      & $\mathtt{;}$
 \end{tabular}
 \end{center}
 \caption{Special character code representations}
@@ -161,7 +151,7 @@ semicolon    & $;$      & $\mathtt{;}$
 
 \begin{figure}[ht]
 \begin{flalign*}
-&Either\;a\;b \equiv \{  type : \mathtt{"left"} ;\, value : a \} \lor \{ type: \mathtt{"right"} ;\, value: b \} \\
+&Either\;a\;b \equiv \{  type : \mathtt{"left"} ,\, value : a \} \lor \{ type: \mathtt{"right"} ,\, value: b \} \\
 &flatMap : (@ : Observable\; A \times f : A \to Observable\; B \lor Event\; B\lor B) \to EventStream\; B \\
 \end{flalign*}
 \caption{Examples of real world types}
