@@ -13,7 +13,8 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 library
-  exposed-modules:     Language.Typify
+  exposed-modules:     Language.Typify,
+                       Language.Typify.Types
   build-depends:       base >=4.7 && <4.8,
                        parsec >=3.1.5 && <3.2,
                        aeson >=0.8 && <0.9,

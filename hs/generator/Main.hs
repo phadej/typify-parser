@@ -8,6 +8,7 @@ import qualified Data.ByteString.Lazy as B
 import Data.List (sort)
 import Control.Applicative
 import Language.Typify
+import Language.Typify.Types
 
 limit :: Int
 limit = 1000

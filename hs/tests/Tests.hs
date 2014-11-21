@@ -6,6 +6,7 @@ import Control.Applicative
 import Text.Parsec
 
 import Language.Typify
+import Language.Typify.Types
 
 -- Main
 main :: IO ()
