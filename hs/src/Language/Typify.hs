@@ -40,7 +40,28 @@ data Type  = TyTrue | TyFalse | TyUnit
            | TyBrackets Type
            | TyApplication Type [Type]
            | TyFunction Type Type
+           | TyRecursive Name Type
   deriving (Eq, Ord, Show)
+
+tyFreeNames :: Type -> [Name]
+tyFreeNames TyTrue                = []
+tyFreeNames TyFalse               = []
+tyFreeNames TyUnit                = []
+tyFreeNames (TyNumber _)          = []
+tyFreeNames (TyString _)          = []
+tyFreeNames (TyBool _)            = []
+tyFreeNames (TyRecord x)          = concatMap (tyFreeNames . snd) . Map.toList $ x
+tyFreeNames (TyIdentifier x)      = [x]
+tyFreeNames (TyBrackets x)        = tyFreeNames x
+tyFreeNames (TyVariadic x)        = tyFreeNames x
+tyFreeNames (TyNamed _ x)         = tyFreeNames x
+tyFreeNames (TyProduct xs)        = concatMap tyFreeNames xs
+tyFreeNames (TyConjunction xs)    = concatMap tyFreeNames xs
+tyFreeNames (TyDisjunction xs)    = concatMap tyFreeNames xs
+tyFreeNames (TyOptional x)        = tyFreeNames x
+tyFreeNames (TyApplication x ys)  = tyFreeNames x ++ concatMap tyFreeNames ys
+tyFreeNames (TyFunction x y)      = tyFreeNames x ++ tyFreeNames y
+tyFreeNames (TyRecursive n x)     = filter (/= n) . tyFreeNames $ x
 
 tyOptional :: Type -> Type
 tyOptional (TyOptional t) = TyOptional t
@@ -78,6 +99,11 @@ tyApplication :: Type -> [Type] -> Type
 tyApplication rator [] = rator
 tyApplication rator rs = TyApplication rator rs
 
+tyRecursive :: Name -> Type -> Type
+tyRecursive n t
+  | n `elem` tyFreeNames t = TyRecursive n t
+  | otherwise              = t
+
 -- Pretty printing
 data PrettySpec = PrettySpec {
   pTrue        :: String,
@@ -99,7 +125,8 @@ data PrettySpec = PrettySpec {
   pTimes       :: String,
   pColon       :: String,
   pRecColon    :: String,
-  pSemicolon   :: String
+  pSemicolon   :: String,
+  pRec         :: String
 }
 
 escapeString :: String -> String
@@ -134,7 +161,8 @@ defaultPrettySpec = PrettySpec {
   pTimes       = ", ",
   pColon       = " : ",
   pRecColon    = ": ",
-  pSemicolon   = "; "
+  pSemicolon   = "; ",
+  pRec         = "mu"
 }
 
 class Pretty a where
@@ -165,6 +193,7 @@ instance Pretty Type where
   prettyPrec p d (TyOptional x)        = prettyParens (d > 8) (prettyPrec p 8 x) ++ pQMark p
   prettyPrec p d (TyApplication x ys)  = prettyParens (d > 7) $ intercalate " " $ map (prettyPrec p 8) $ x : ys
   prettyPrec p d (TyFunction x y)      = prettyParens (d > 1) $ prettyPrec p 2 x ++ pTo p ++ prettyPrec p 1 y
+  prettyPrec p _ (TyRecursive n x)     = pRec p ++ " " ++ n ++ " " ++ prettyPrec p 0 x
 
 -- @(a... -> b)... -> c@
 test0 :: Type
@@ -226,7 +255,8 @@ arbitraryType n = QC.oneof [
   tyVariadic <$> arbitraryType',
   TyBrackets <$> arbitraryType',
   TyApplication <$> arbitraryType' <*> QC.listOf1 arbitraryType',
-  TyFunction <$> arbitraryType' <*> arbitraryType'
+  TyFunction <$> arbitraryType' <*> arbitraryType',
+  tyRecursive <$> arbitraryName <*> arbitraryType'
   ]
   where arbitraryType' = arbitraryType $ n - 1
 
@@ -240,6 +270,7 @@ shrinkType (TyFunction x y)   = [ TyFunction x'' y | x'' <- x' ] ++ [ TyFunction
 shrinkType (TyApplication x ys) = [ tyApplication x'' ys | x'' <- x' ] ++ [ tyApplication x ys'' | ys'' <- ys' ] ++ [ tyApplication x'' ys'' | x'' <- x', ys'' <- ys' ]
   where x' = shrinkType x
         ys' = QC.shrinkList shrinkType ys
+shrinkType (TyRecursive n t) = [ tyRecursive n t' | t' <- shrinkType t ]
 shrinkType _ = []
 
 instance QC.Arbitrary Type where
@@ -427,3 +458,4 @@ instance ToJSON Type where
   toJSON (TyBrackets t) = typeObject "brackets" [ "arg" .= t ]
   toJSON (TyApplication x ys) = typeObject "application" [ "callee" .= x, "args" .= ys ]
   toJSON (TyFunction a b) = typeObject "function" [ "arg" .= a, "result" .= b ]
+  toJSON (TyRecursive n t) = typeObject "recursive" [ "name" .= n, "arg" .= t ]
