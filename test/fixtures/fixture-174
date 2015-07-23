@@ -1,2 +1,2 @@
-bar : [()]
-{"arg":{"arg":{"type":"unit"},"type":"brackets"},"name":"bar","type":"named"}
+b : (x -> true)
+{"arg":{"result":{"value":true,"type":"bool"},"arg":{"value":"x","type":"ident"},"type":"function"},"name":"b","type":"named"}

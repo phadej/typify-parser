@@ -1,2 +1,2 @@
-'Á\x1blL"\x0cÌ+k\x10\x06!ö/B\x0bC°' -> x
-{"result":{"value":"x","type":"ident"},"arg":{"value":"Á\u001blL\"\u000cÌ+k\u0010\u0006!ö/B\u000bC°","type":"string"},"type":"function"}
+'\x0bµ' -> {bar: '\x1f\x1b\x13\x1e'; c: *; foo: (); x: c}
+{"result":{"type":"record","fields":{"foo":{"type":"unit"},"x":{"value":"c","type":"ident"},"c":{"type":"true"},"bar":{"value":"\u001f\u001b\u0013\u001e","type":"string"}}},"arg":{"value":"\u000bµ","type":"string"},"type":"function"}

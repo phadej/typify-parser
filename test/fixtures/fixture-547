@@ -1,2 +1,2 @@
-{a: '<\x17Y\x08\x0d\x1e'; b: _|_; c: false; foo: *; x: (); y: 'x?\x13q©¬'}?
-{"arg":{"type":"record","fields":{"foo":{"type":"true"},"a":{"value":"<\u0017Y\u0008\r\u001e","type":"string"},"b":{"type":"false"},"x":{"type":"unit"},"c":{"value":false,"type":"bool"},"y":{"value":"x?\u0013q©¬","type":"string"}}},"type":"optional"}
+{a: *; b: '|]+mFÛáy'; foo: '=g\x19Eëg¬F\x1d\x02-LA\x11V\\\x09BD^vt9 Z­a\x15'; x: c; z: false}?
+{"arg":{"type":"record","fields":{"z":{"value":false,"type":"bool"},"foo":{"value":"=g\u0019Eëg¬F\u001d\u0002-LA\u0011V\\\tBD^vt9 Z­a\u0015","type":"string"},"a":{"type":"true"},"b":{"value":"|]+mFÛáy","type":"string"},"x":{"value":"c","type":"ident"}}},"type":"optional"}

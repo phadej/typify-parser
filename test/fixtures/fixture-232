@@ -1,2 +1,2 @@
-z : 21
-{"arg":{"value":21,"type":"number"},"name":"z","type":"named"}
+x : (* -> c)
+{"arg":{"result":{"value":"c","type":"ident"},"arg":{"type":"true"},"type":"function"},"name":"x","type":"named"}

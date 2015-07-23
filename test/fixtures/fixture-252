@@ -1,2 +1,2 @@
-() & () & * & 6 & '_ÖG/3YBy3?eJB\x0c' & 29 & * & z & false & () & () & 7 & () & 'o®#' & _|_ & () & false & z & true & * & false & z & (*...)
-{"args":[{"type":"unit"},{"type":"unit"},{"type":"true"},{"value":6,"type":"number"},{"value":"_ÖG/3YBy3?eJB\u000c","type":"string"},{"value":29,"type":"number"},{"type":"true"},{"value":"z","type":"ident"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"unit"},{"value":7,"type":"number"},{"type":"unit"},{"value":"o®#","type":"string"},{"type":"false"},{"type":"unit"},{"value":false,"type":"bool"},{"value":"z","type":"ident"},{"value":true,"type":"bool"},{"type":"true"},{"value":false,"type":"bool"},{"value":"z","type":"ident"},{"arg":{"type":"true"},"type":"variadic"}],"type":"conjunction"}
+z : b : *
+{"arg":{"arg":{"type":"true"},"name":"b","type":"named"},"name":"z","type":"named"}

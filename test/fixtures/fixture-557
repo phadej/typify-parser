@@ -1,2 +1,2 @@
-(c : _|_)?
-{"arg":{"arg":{"type":"false"},"name":"c","type":"named"},"type":"optional"}
+{b: bar}?
+{"arg":{"type":"record","fields":{"b":{"value":"bar","type":"ident"}}},"type":"optional"}

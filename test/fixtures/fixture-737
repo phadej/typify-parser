@@ -1,2 +1,2 @@
-[() | 24 | 'i/é\x0dgJ$-\x12v\x13Ãw¹Tª\x1b\x07\x0dý?GFG\x17A4f' | true | () | false]
-{"arg":{"args":[{"type":"unit"},{"value":24,"type":"number"},{"value":"i/é\rgJ$-\u0012v\u0013Ãw¹Tª\u001b\u0007\rý?GFG\u0017A4f","type":"string"},{"value":true,"type":"bool"},{"type":"unit"},{"value":false,"type":"bool"}],"type":"disjunction"},"type":"brackets"}
+[bar : c]
+{"arg":{"arg":{"value":"c","type":"ident"},"name":"bar","type":"named"},"type":"brackets"}

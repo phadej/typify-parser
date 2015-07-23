@@ -1,2 +1,2 @@
-b : ['\x09²\x03s\x1cþÛNåEeONZaJó4N,\x1agu¹¢9\x07']
-{"arg":{"arg":{"value":"\t²\u0003s\u001cþÛNåEeONZaJó4N,\u001agu¹¢9\u0007","type":"string"},"type":"brackets"},"name":"b","type":"named"}
+b : bar?
+{"arg":{"arg":{"value":"bar","type":"ident"},"type":"optional"},"name":"b","type":"named"}

@@ -1,2 +1,2 @@
-c : ('', true, false, true, c, _|_, 18, bar, _|_, _|_, (), bar, *, 12)
-{"arg":{"args":[{"value":"","type":"string"},{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"value":"c","type":"ident"},{"type":"false"},{"value":18,"type":"number"},{"value":"bar","type":"ident"},{"type":"false"},{"type":"false"},{"type":"unit"},{"value":"bar","type":"ident"},{"type":"true"},{"value":12,"type":"number"}],"type":"product"},"name":"c","type":"named"}
+bar : [10]
+{"arg":{"arg":{"value":10,"type":"number"},"type":"brackets"},"name":"bar","type":"named"}

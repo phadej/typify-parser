@@ -1,2 +1,2 @@
-z : '8p9*"\'18'
-{"arg":{"value":"8p9*\"'18","type":"string"},"name":"z","type":"named"}
+y : 28
+{"arg":{"value":28,"type":"number"},"name":"y","type":"named"}

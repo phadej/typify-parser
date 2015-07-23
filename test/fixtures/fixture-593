@@ -1,2 +1,2 @@
-(x...)?
-{"arg":{"arg":{"value":"x","type":"ident"},"type":"variadic"},"type":"optional"}
+('\x07=e%k_ô\'ùu<\x18Sm!\nLc4íA`Í>7¿9nq+ª\x0dDú2â"k%\x1bf\x0e=9X\x15\x10è\x1d4ø\x19Xd\x1ei\x19S\x0djC;1'...)?
+{"arg":{"arg":{"value":"\u0007=e%k_ô'ùu<\u0018Sm!\nLc4íA`Í>7¿9nq+ª\rDú2â\"k%\u001bf\u000e=9X\u0015\u0010è\u001d4ø\u0019Xd\u001ei\u0019S\rjC;1","type":"string"},"type":"variadic"},"type":"optional"}

@@ -1,2 +1,2 @@
-[[23]]
-{"arg":{"arg":{"value":23,"type":"number"},"type":"brackets"},"type":"brackets"}
+[true...]
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"variadic"},"type":"brackets"}

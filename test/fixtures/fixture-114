@@ -1,2 +1,2 @@
-{a: 12 -> 26; b: *...; bar: b : _|_; foo: 7?; x: true -> *; y: () & 7 & false & * & _|_; z: [true]}
-{"type":"record","fields":{"z":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"foo":{"arg":{"value":7,"type":"number"},"type":"optional"},"a":{"result":{"value":26,"type":"number"},"arg":{"value":12,"type":"number"},"type":"function"},"b":{"arg":{"type":"true"},"type":"variadic"},"x":{"result":{"type":"true"},"arg":{"value":true,"type":"bool"},"type":"function"},"bar":{"arg":{"type":"false"},"name":"b","type":"named"},"y":{"args":[{"type":"unit"},{"value":7,"type":"number"},{"value":false,"type":"bool"},{"type":"true"},{"type":"false"}],"type":"conjunction"}}}
+{b: '\x1c*V'}
+{"type":"record","fields":{"b":{"value":"\u001c*V","type":"string"}}}

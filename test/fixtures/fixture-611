@@ -1,2 +1,2 @@
-*...
-{"arg":{"type":"true"},"type":"variadic"}
+(() 'Sª¿(\x17KB' false () * false * * 20 y true () () z 'í\x0f[7ÀU¬?7YLA)\x0cÑ' _|_ * z _|_ () '' false bar bar true z * false)?
+{"arg":{"args":[{"value":"Sª¿(\u0017KB","type":"string"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"true"},{"value":false,"type":"bool"},{"type":"true"},{"type":"true"},{"value":20,"type":"number"},{"value":"y","type":"ident"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"unit"},{"value":"z","type":"ident"},{"value":"í\u000f[7ÀU¬?7YLA)\u000cÑ","type":"string"},{"type":"false"},{"type":"true"},{"value":"z","type":"ident"},{"type":"false"},{"type":"unit"},{"value":"","type":"string"},{"value":false,"type":"bool"},{"value":"bar","type":"ident"},{"value":"bar","type":"ident"},{"value":true,"type":"bool"},{"value":"z","type":"ident"},{"type":"true"},{"value":false,"type":"bool"}],"callee":{"type":"unit"},"type":"application"},"type":"optional"}

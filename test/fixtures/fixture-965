@@ -1,2 +1,2 @@
-[17] -> x
-{"result":{"value":"x","type":"ident"},"arg":{"arg":{"value":17,"type":"number"},"type":"brackets"},"type":"function"}
+[()] -> {a: *; b: (); bar: '\x06\x06\x0c\x13VKÕv\x01lyë\x1b\x08S"\x14FG?mm'; x: true; z: 34}
+{"result":{"type":"record","fields":{"z":{"value":34,"type":"number"},"a":{"type":"true"},"b":{"type":"unit"},"x":{"value":true,"type":"bool"},"bar":{"value":"\u0006\u0006\u000c\u0013VKÕv\u0001lyë\u001b\u0008S\"\u0014FG?mm","type":"string"}}},"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"function"}

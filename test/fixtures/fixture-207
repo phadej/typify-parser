@@ -1,2 +1,2 @@
-foo : (* -> y)
-{"arg":{"result":{"value":"y","type":"ident"},"arg":{"type":"true"},"type":"function"},"name":"foo","type":"named"}
+c : * () 'å\x06U\x17vº¹n' 12 'âÕ\x1dk[7µYÑ~s*\x1b¾nê-NÎ\nÝ!' 'v\x09<Ú°éHm\x1bC' 10 4 _|_ () '\x1a' () 'E\x1cwàÑHè\x1d*µ^w8n\x03.\x1c#'
+{"arg":{"args":[{"type":"unit"},{"value":"å\u0006U\u0017vº¹n","type":"string"},{"value":12,"type":"number"},{"value":"âÕ\u001dk[7µYÑ~s*\u001b¾nê-NÎ\nÝ!","type":"string"},{"value":"v\t<Ú°éHm\u001bC","type":"string"},{"value":10,"type":"number"},{"value":4,"type":"number"},{"type":"false"},{"type":"unit"},{"value":"\u001a","type":"string"},{"type":"unit"},{"value":"E\u001cwàÑHè\u001d*µ^w8n\u0003.\u001c#","type":"string"}],"callee":{"type":"true"},"type":"application"},"name":"c","type":"named"}

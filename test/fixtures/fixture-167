@@ -1,2 +1,2 @@
-b : x _|_ 'k' '' () b 'E\x00\x06ÙÐJV4Cô~' * x
-{"arg":{"args":[{"type":"false"},{"value":"k","type":"string"},{"value":"","type":"string"},{"type":"unit"},{"value":"b","type":"ident"},{"value":"E\u0000\u0006ÙÐJV4Cô~","type":"string"},{"type":"true"},{"value":"x","type":"ident"}],"callee":{"value":"x","type":"ident"},"type":"application"},"name":"b","type":"named"}
+b : x...
+{"arg":{"arg":{"value":"x","type":"ident"},"type":"variadic"},"name":"b","type":"named"}

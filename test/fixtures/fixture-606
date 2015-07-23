@@ -1,2 +1,2 @@
-(* -> _|_)?
-{"arg":{"result":{"type":"false"},"arg":{"type":"true"},"type":"function"},"type":"optional"}
+[z]?
+{"arg":{"arg":{"value":"z","type":"ident"},"type":"brackets"},"type":"optional"}

@@ -1,2 +1,2 @@
-(false | '2ÖÏðµ' | a | * | _|_ | _|_ | () | y | * | bar | _|_ | _|_)?
-{"arg":{"args":[{"value":false,"type":"bool"},{"value":"2ÖÏðµ","type":"string"},{"value":"a","type":"ident"},{"type":"true"},{"type":"false"},{"type":"false"},{"type":"unit"},{"value":"y","type":"ident"},{"type":"true"},{"value":"bar","type":"ident"},{"type":"false"},{"type":"false"}],"type":"disjunction"},"type":"optional"}
+('4¯&Gxq^9oA\x19\x14\x10\x0e"p\x09µÝA\x15m%jZ$ÈI2\x10' & _|_ & bar & _|_ & () & 25 & 'Hy8!Ë*×³-' & true & * & () & y & ())?
+{"arg":{"args":[{"value":"4¯&Gxq^9oA\u0019\u0014\u0010\u000e\"p\tµÝA\u0015m%jZ$ÈI2\u0010","type":"string"},{"type":"false"},{"value":"bar","type":"ident"},{"type":"false"},{"type":"unit"},{"value":25,"type":"number"},{"value":"Hy8!Ë*×³-","type":"string"},{"value":true,"type":"bool"},{"type":"true"},{"type":"unit"},{"value":"y","type":"ident"},{"type":"unit"}],"type":"conjunction"},"type":"optional"}

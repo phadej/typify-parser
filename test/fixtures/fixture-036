@@ -1,2 +1,2 @@
-true
-{"value":true,"type":"bool"}
+{a: _|_; b: x : x; bar: _|_; foo: 11 & '«)Du2ÄhzY\'G' & _|_ & true & false & () & 'Ut>\x14Áy!E\x11U' & * & b; x: 6 | 7 | 'û¶öU]]\x08\x1bÀ^qc' | _|_ | 8 | 3 | _|_ | 'w\x01B'}
+{"type":"record","fields":{"foo":{"args":[{"value":11,"type":"number"},{"value":"«)Du2ÄhzY'G","type":"string"},{"type":"false"},{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"type":"unit"},{"value":"Ut>\u0014Áy!E\u0011U","type":"string"},{"type":"true"},{"value":"b","type":"ident"}],"type":"conjunction"},"a":{"type":"false"},"b":{"arg":{"value":"x","type":"ident"},"name":"x","type":"named"},"x":{"args":[{"value":6,"type":"number"},{"value":7,"type":"number"},{"value":"û¶öU]]\u0008\u001bÀ^qc","type":"string"},{"type":"false"},{"value":8,"type":"number"},{"value":3,"type":"number"},{"type":"false"},{"value":"w\u0001B","type":"string"}],"type":"disjunction"},"bar":{"type":"false"}}}

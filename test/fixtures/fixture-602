@@ -1,2 +1,2 @@
-(() true false true)?
-{"arg":{"args":[{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"value":true,"type":"bool"}],"callee":{"type":"unit"},"type":"application"},"type":"optional"}
+[false]?
+{"arg":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"type":"optional"}

@@ -1,2 +1,2 @@
-[() () 'ÆøU\x09' b () b * * * _|_ false 26 _|_ true]
-{"arg":{"args":[{"type":"unit"},{"value":"ÆøU\t","type":"string"},{"value":"b","type":"ident"},{"type":"unit"},{"value":"b","type":"ident"},{"type":"true"},{"type":"true"},{"type":"true"},{"type":"false"},{"value":false,"type":"bool"},{"value":26,"type":"number"},{"type":"false"},{"value":true,"type":"bool"}],"callee":{"type":"unit"},"type":"application"},"type":"brackets"}
+[['\x1fóðñ\x10\x0b\x1b«5\x13\'\x02\x1bat\x17\x09T¶\nTÄ\x02ÊTw¬GKDèÏ[ãs.n­³r6c\nÌ|\x02{5']]
+{"arg":{"arg":{"value":"\u001fóðñ\u0010\u000b\u001b«5\u0013'\u0002\u001bat\u0017\tT¶\nTÄ\u0002ÊTw¬GKDèÏ[ãs.n­³r6c\nÌ|\u0002{5","type":"string"},"type":"brackets"},"type":"brackets"}

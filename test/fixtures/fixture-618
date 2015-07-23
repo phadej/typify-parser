@@ -1,2 +1,2 @@
-'áºÛi\x1b|jh}'...
-{"arg":{"value":"áºÛi\u001b|jh}","type":"string"},"type":"variadic"}
+(b true 4 x () b)?
+{"arg":{"args":[{"value":true,"type":"bool"},{"value":4,"type":"number"},{"value":"x","type":"ident"},{"type":"unit"},{"value":"b","type":"ident"}],"callee":{"value":"b","type":"ident"},"type":"application"},"type":"optional"}

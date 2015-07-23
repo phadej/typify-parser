@@ -1,2 +1,2 @@
-[* | 9 | _|_ | 'k30oC\x08=\x1eÌ8U8¹/T*' | () | bar | foo | * | true | b | () | 22 | () | 'A\x18WO,\x08\x05K0k\x134·sD\x1d:aPTWR^fø' | * | _|_ | _|_ | true | () | _|_ | () | () | 0 | foo]
-{"arg":{"args":[{"type":"true"},{"value":9,"type":"number"},{"type":"false"},{"value":"k30oC\u0008=\u001eÌ8U8¹/T*","type":"string"},{"type":"unit"},{"value":"bar","type":"ident"},{"value":"foo","type":"ident"},{"type":"true"},{"value":true,"type":"bool"},{"value":"b","type":"ident"},{"type":"unit"},{"value":22,"type":"number"},{"type":"unit"},{"value":"A\u0018WO,\u0008\u0005K0k\u00134·sD\u001d:aPTWR^fø","type":"string"},{"type":"true"},{"type":"false"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"false"},{"type":"unit"},{"type":"unit"},{"value":0,"type":"number"},{"value":"foo","type":"ident"}],"type":"disjunction"},"type":"brackets"}
+[x]
+{"arg":{"value":"x","type":"ident"},"type":"brackets"}

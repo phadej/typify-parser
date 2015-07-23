@@ -1,2 +1,2 @@
-[c : 19]
-{"arg":{"arg":{"value":19,"type":"number"},"name":"c","type":"named"},"type":"brackets"}
+[()]
+{"arg":{"type":"unit"},"type":"brackets"}

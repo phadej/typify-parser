@@ -1,2 +1,2 @@
-[['3nU\x04<\x18NCØg\\_÷Povl\x0b\x0bz\x08]\x1d\x07']]
-{"arg":{"arg":{"value":"3nU\u0004<\u0018NCØg\\_÷Povl\u000b\u000bz\u0008]\u001d\u0007","type":"string"},"type":"brackets"},"type":"brackets"}
+[b...]
+{"arg":{"arg":{"value":"b","type":"ident"},"type":"variadic"},"type":"brackets"}

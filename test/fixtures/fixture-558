@@ -1,2 +1,2 @@
-(x : '\x15>Ó\x01dgh;\x03\x09+w\x00#\x19\'?¸ç:µ?\x10\x05´\x1c')?
-{"arg":{"arg":{"value":"\u0015>Ó\u0001dgh;\u0003\t+w\u0000#\u0019'?¸ç:µ?\u0010\u0005´\u001c","type":"string"},"name":"x","type":"named"},"type":"optional"}
+b?
+{"arg":{"value":"b","type":"ident"},"type":"optional"}

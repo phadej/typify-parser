@@ -1,2 +1,2 @@
-c : _|_
-{"arg":{"type":"false"},"name":"c","type":"named"}
+bar : b : *
+{"arg":{"arg":{"type":"true"},"name":"b","type":"named"},"name":"bar","type":"named"}

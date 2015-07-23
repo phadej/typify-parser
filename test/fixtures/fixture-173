@@ -1,2 +1,2 @@
-bar : '8^4\'í\x07S'...
-{"arg":{"arg":{"value":"8^4'í\u0007S","type":"string"},"type":"variadic"},"name":"bar","type":"named"}
+b : false * _|_ () c * true _|_ 27 x 36 () *
+{"arg":{"args":[{"type":"true"},{"type":"false"},{"type":"unit"},{"value":"c","type":"ident"},{"type":"true"},{"value":true,"type":"bool"},{"type":"false"},{"value":27,"type":"number"},{"value":"x","type":"ident"},{"value":36,"type":"number"},{"type":"unit"},{"type":"true"}],"callee":{"value":false,"type":"bool"},"type":"application"},"name":"b","type":"named"}

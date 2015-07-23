@@ -1,2 +1,2 @@
-[()] -> false
-{"result":{"value":false,"type":"bool"},"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"function"}
+49... -> 'Y|Â=\x06 Pö@7J5\x0dZ3PÌ\x1eàÌ.4\x15(d7kV\x18Pbõ<&à59A²;vse>v3`' | a | () | c | 'Á[I\x19cD{áp$ß\x1cgz<|M\x02\x0fR\x02µC'
+{"result":{"args":[{"value":"Y|Â=\u0006 Pö@7J5\rZ3PÌ\u001eàÌ.4\u0015(d7kV\u0018Pbõ<&à59A²;vse>v3`","type":"string"},{"value":"a","type":"ident"},{"type":"unit"},{"value":"c","type":"ident"},{"value":"Á[I\u0019cD{áp$ß\u001cgz<|M\u0002\u000fR\u0002µC","type":"string"}],"type":"disjunction"},"arg":{"arg":{"value":49,"type":"number"},"type":"variadic"},"type":"function"}

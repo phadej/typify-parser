@@ -1,2 +1,2 @@
-x : foo & _|_ & 'Í4C,(juJ{e\x10\x08}?n&\x14±' & () & 12 & true & a
-{"arg":{"args":[{"value":"foo","type":"ident"},{"type":"false"},{"value":"Í4C,(juJ{e\u0010\u0008}?n&\u0014±","type":"string"},{"type":"unit"},{"value":12,"type":"number"},{"value":true,"type":"bool"},{"value":"a","type":"ident"}],"type":"conjunction"},"name":"x","type":"named"}
+foo : _|_ & a
+{"arg":{"args":[{"type":"false"},{"value":"a","type":"ident"}],"type":"conjunction"},"name":"foo","type":"named"}

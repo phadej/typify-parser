@@ -1,2 +1,2 @@
-[() & b & _|_ & _|_ & * & _|_ & true & ()]
-{"arg":{"args":[{"type":"unit"},{"value":"b","type":"ident"},{"type":"false"},{"type":"false"},{"type":"true"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"}],"type":"conjunction"},"type":"brackets"}
+[{a: (); b: (); bar: c; c: '1sÞy?WY$ªé\x1chz\x0f;\x01H\x16UtMQ\x17s­"\x1fÂ\n\x1e\x08={4\x11É,(u\'\x14\x0c=¸\x01'; foo: (); x: (); y: (); z: *}]
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"unit"},"a":{"type":"unit"},"b":{"type":"unit"},"x":{"type":"unit"},"c":{"value":"1sÞy?WY$ªé\u001chz\u000f;\u0001H\u0016UtMQ\u0017s­\"\u001fÂ\n\u001e\u0008={4\u0011É,(u'\u0014\u000c=¸\u0001","type":"string"},"bar":{"value":"c","type":"ident"},"y":{"type":"unit"}}},"type":"brackets"}

@@ -1,2 +1,2 @@
-[z]
-{"arg":{"value":"z","type":"ident"},"type":"brackets"}
+(() -> 'B-')...
+{"arg":{"result":{"value":"B-","type":"string"},"arg":{"type":"unit"},"type":"function"},"type":"variadic"}

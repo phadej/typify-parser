@@ -1,2 +1,2 @@
-false? -> * -> *
-{"result":{"result":{"type":"true"},"arg":{"type":"true"},"type":"function"},"arg":{"arg":{"value":false,"type":"bool"},"type":"optional"},"type":"function"}
+*? -> * -> 's\x0dL[a+Í\x19'
+{"result":{"result":{"value":"s\rL[a+Í\u0019","type":"string"},"arg":{"type":"true"},"type":"function"},"arg":{"arg":{"type":"true"},"type":"optional"},"type":"function"}

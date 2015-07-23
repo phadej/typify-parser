@@ -1,2 +1,2 @@
-foo : (*, '\x19X \x11[/', 'rMOOdUpb#\x03qJ', _|_, false, '²wbT@äv®W%¸', *, *)
-{"arg":{"args":[{"type":"true"},{"value":"\u0019X \u0011[/","type":"string"},{"value":"rMOOdUpb#\u0003qJ","type":"string"},{"type":"false"},{"value":false,"type":"bool"},{"value":"²wbT@äv®W%¸","type":"string"},{"type":"true"},{"type":"true"}],"type":"product"},"name":"foo","type":"named"}
+c : 10...
+{"arg":{"arg":{"value":10,"type":"number"},"type":"variadic"},"name":"c","type":"named"}

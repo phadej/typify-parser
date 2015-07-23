@@ -1,2 +1,2 @@
-true -> ()
-{"result":{"type":"unit"},"arg":{"value":true,"type":"bool"},"type":"function"}
+{} -> [2]
+{"result":{"arg":{"value":2,"type":"number"},"type":"brackets"},"arg":{"type":"record","fields":{}},"type":"function"}

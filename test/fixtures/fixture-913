@@ -1,2 +1,2 @@
-y -> *...
-{"result":{"arg":{"type":"true"},"type":"variadic"},"arg":{"value":"y","type":"ident"},"type":"function"}
+{a: x; b: *; bar: true; c: true; foo: _|_; x: '­u\x00§Ú#5ë\x08|Cp!º\x18'; y: '\x189G\x1ee7K[«W18N>\x0bÅ\x0d/RmË\x17=ªcs\x18sR>ÞÌ\x0d@\x050\x115?æ±'; z: ()} -> ()?
+{"result":{"arg":{"type":"unit"},"type":"optional"},"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"false"},"a":{"value":"x","type":"ident"},"b":{"type":"true"},"x":{"value":"­u\u0000§Ú#5ë\u0008|Cp!º\u0018","type":"string"},"c":{"value":true,"type":"bool"},"bar":{"value":true,"type":"bool"},"y":{"value":"\u00189G\u001ee7K[«W18N>\u000bÅ\r/RmË\u0017=ªcs\u0018sR>ÞÌ\r@\u00050\u00115?æ±","type":"string"}}},"type":"function"}

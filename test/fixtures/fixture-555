@@ -1,2 +1,2 @@
-(a : *)?
-{"arg":{"arg":{"type":"true"},"name":"a","type":"named"},"type":"optional"}
+{a: x; b: c; bar: z; c: 'ofó2:×§y±ªFS3WGK?G\x04rD\x19ª(\x1a}\x0cÖåt dtÛ\x197M\x0f'; foo: foo; x: '\x12äx\x15$\x16\x03è :Ë\x17O-\x07\n}S\nÊá\x08oÉ\nx\x1f$}\x07;&N\x1b)Luk|1¿+\x08\x07ct6;'; y: a; z: z}?
+{"arg":{"type":"record","fields":{"z":{"value":"z","type":"ident"},"foo":{"value":"foo","type":"ident"},"a":{"value":"x","type":"ident"},"b":{"value":"c","type":"ident"},"x":{"value":"\u0012äx\u0015$\u0016\u0003è :Ë\u0017O-\u0007\n}S\nÊá\u0008oÉ\nx\u001f$}\u0007;&N\u001b)Luk|1¿+\u0008\u0007ct6;","type":"string"},"c":{"value":"ofó2:×§y±ªFS3WGK?G\u0004rD\u0019ª(\u001a}\u000cÖåt dtÛ\u00197M\u000f","type":"string"},"bar":{"value":"z","type":"ident"},"y":{"value":"a","type":"ident"}}},"type":"optional"}

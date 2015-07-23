@@ -1,2 +1,2 @@
-[* _|_ () 15 () '¾a×)^\x1c\x18Ïu@' 'Gvng1J' 10 'KÕ?ö3§0ôfg\x02=\x1cQÚ&\x0c' c () '~B=ÌÑEO\\Ã' _|_ 18 _|_]
-{"arg":{"args":[{"type":"false"},{"type":"unit"},{"value":15,"type":"number"},{"type":"unit"},{"value":"¾a×)^\u001c\u0018Ïu@","type":"string"},{"value":"Gvng1J","type":"string"},{"value":10,"type":"number"},{"value":"KÕ?ö3§0ôfg\u0002=\u001cQÚ&\u000c","type":"string"},{"value":"c","type":"ident"},{"type":"unit"},{"value":"~B=ÌÑEO\\Ã","type":"string"},{"type":"false"},{"value":18,"type":"number"},{"type":"false"}],"callee":{"type":"true"},"type":"application"},"type":"brackets"}
+[[()]]
+{"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"brackets"}

@@ -1,2 +1,2 @@
-[[b]]
-{"arg":{"arg":{"value":"b","type":"ident"},"type":"brackets"},"type":"brackets"}
+[[_|_]]
+{"arg":{"arg":{"type":"false"},"type":"brackets"},"type":"brackets"}

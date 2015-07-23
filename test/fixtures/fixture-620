@@ -1,2 +1,2 @@
-true...
-{"arg":{"value":true,"type":"bool"},"type":"variadic"}
+(100 -> _|_)?
+{"arg":{"result":{"type":"false"},"arg":{"value":100,"type":"number"},"type":"function"},"type":"optional"}

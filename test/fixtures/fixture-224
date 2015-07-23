@@ -1,2 +1,2 @@
-y : x & 'o-n,<Q7L?îßnÌ\x17@hâµ(M\x101T' & 10 & true & z & 14 & () & false & () & () & () & * & * & * & _|_ & true & 'C99\x01ð&"l_ÙLOf46$\x09=c\x0dwr' & '' & y & true
-{"arg":{"args":[{"value":"x","type":"ident"},{"value":"o-n,<Q7L?îßnÌ\u0017@hâµ(M\u00101T","type":"string"},{"value":10,"type":"number"},{"value":true,"type":"bool"},{"value":"z","type":"ident"},{"value":14,"type":"number"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"unit"},{"type":"unit"},{"type":"true"},{"type":"true"},{"type":"true"},{"type":"false"},{"value":true,"type":"bool"},{"value":"C99\u0001ð&\"l_ÙLOf46$\t=c\rwr","type":"string"},{"value":"","type":"string"},{"value":"y","type":"ident"},{"value":true,"type":"bool"}],"type":"conjunction"},"name":"y","type":"named"}
+x : z : _|_
+{"arg":{"arg":{"type":"false"},"name":"z","type":"named"},"name":"x","type":"named"}

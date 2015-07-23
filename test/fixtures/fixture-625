@@ -1,2 +1,2 @@
-{a: 8; bar: foo; c: 21; foo: (); x: '5QJI\nWgJ\x16\x05H3Q'; y: *; z: '@#\x04\x1bõ*HÁ~X\x087E·QÚyh\x0c/Uf,w7c'}...
-{"arg":{"type":"record","fields":{"z":{"value":"@#\u0004\u001bõ*HÁ~X\u00087E·QÚyh\u000c/Uf,w7c","type":"string"},"foo":{"type":"unit"},"a":{"value":8,"type":"number"},"x":{"value":"5QJI\nWgJ\u0016\u0005H3Q","type":"string"},"c":{"value":21,"type":"number"},"bar":{"value":"foo","type":"ident"},"y":{"type":"true"}}},"type":"variadic"}
+()...
+{"arg":{"type":"unit"},"type":"variadic"}

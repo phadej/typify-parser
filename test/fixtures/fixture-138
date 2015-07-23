@@ -1,2 +1,2 @@
-{z: {a: *; b: 21; bar: false; c: *; foo: '?\x02Y9r-R\x00\x03J7âc\x0e\\úg\x18¤%'; x: (); y: *; z: '/ñvChG¯ñP»gDzÎ\x12©F+c/Ú-\x00Á\x01\x01@ÎGf'}}
-{"type":"record","fields":{"z":{"type":"record","fields":{"z":{"value":"/ñvChG¯ñP»gDzÎ\u0012©F+c/Ú-\u0000Á\u0001\u0001@ÎGf","type":"string"},"foo":{"value":"?\u0002Y9r-R\u0000\u0003J7âc\u000e\\úg\u0018¤%","type":"string"},"a":{"type":"true"},"b":{"value":21,"type":"number"},"x":{"type":"unit"},"c":{"type":"true"},"bar":{"value":false,"type":"bool"},"y":{"type":"true"}}}}}
+bar
+{"value":"bar","type":"ident"}

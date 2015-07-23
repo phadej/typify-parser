@@ -1,2 +1,2 @@
-[[*]]
-{"arg":{"arg":{"type":"true"},"type":"brackets"},"type":"brackets"}
+[*...]
+{"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"brackets"}

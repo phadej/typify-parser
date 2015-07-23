@@ -1,2 +1,2 @@
-[{foo: x}]
-{"arg":{"type":"record","fields":{"foo":{"value":"x","type":"ident"}}},"type":"brackets"}
+(* -> bar)...
+{"arg":{"result":{"value":"bar","type":"ident"},"arg":{"type":"true"},"type":"function"},"type":"variadic"}

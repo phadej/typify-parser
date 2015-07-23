@@ -1,2 +1,2 @@
-(* & 14 & 15 & foo & * & '\x1aú\x1c\x01Dþ\x0ffp|â-%2½_z]Z\\{' & _|_ & false & () & () & * & 'CrÐ97\x19ER\'\x189¨' & * & _|_ & _|_ & 9 & '\x03nv4\x18\x11^-On\x01HÅ\x1c\x1f\x1a,K3r¿' & () & 'ú4Xb_(v\x18')?
-{"arg":{"args":[{"type":"true"},{"value":14,"type":"number"},{"value":15,"type":"number"},{"value":"foo","type":"ident"},{"type":"true"},{"value":"\u001aú\u001c\u0001Dþ\u000ffp|â-%2½_z]Z\\{","type":"string"},{"type":"false"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"unit"},{"type":"true"},{"value":"CrÐ97\u0019ER'\u00189¨","type":"string"},{"type":"true"},{"type":"false"},{"type":"false"},{"value":9,"type":"number"},{"value":"\u0003nv4\u0018\u0011^-On\u0001HÅ\u001c\u001f\u001a,K3r¿","type":"string"},{"type":"unit"},{"value":"ú4Xb_(v\u0018","type":"string"}],"type":"conjunction"},"type":"optional"}
+foo?
+{"arg":{"value":"foo","type":"ident"},"type":"optional"}

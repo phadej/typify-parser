@@ -1,2 +1,2 @@
-{y: false}, y?
-{"args":[{"type":"record","fields":{"y":{"value":false,"type":"bool"}}},{"arg":{"value":"y","type":"ident"},"type":"optional"}],"type":"product"}
+bar : true, false | y | _|_ | 'æ0&cRO\x056tå\x1a+' | (), (13 -> false), [()], ()
+{"args":[{"arg":{"value":true,"type":"bool"},"name":"bar","type":"named"},{"args":[{"value":false,"type":"bool"},{"value":"y","type":"ident"},{"type":"false"},{"value":"æ0&cRO\u00056tå\u001a+","type":"string"},{"type":"unit"}],"type":"disjunction"},{"result":{"value":false,"type":"bool"},"arg":{"value":13,"type":"number"},"type":"function"},{"arg":{"type":"unit"},"type":"brackets"},{"type":"unit"}],"type":"product"}

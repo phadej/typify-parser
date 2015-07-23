@@ -1,2 +1,2 @@
-z -> a : ()
-{"result":{"arg":{"type":"unit"},"name":"a","type":"named"},"arg":{"value":"z","type":"ident"},"type":"function"}
+{a: x; b: *; c: *; foo: true; x: a; y: 69; z: b} -> _|_ * false false false 'ìN)1÷\x05ôJØy!J5y6²+G\x1d2±[\x05¥Âj\x12P\x01Q®.9\x1d"¯4¦¾HI}¬áÚ/D0P|' z 10
+{"result":{"args":[{"type":"true"},{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"value":"ìN)1÷\u0005ôJØy!J5y6²+G\u001d2±[\u0005¥Âj\u0012P\u0001Q®.9\u001d\"¯4¦¾HI}¬áÚ/D0P|","type":"string"},{"value":"z","type":"ident"},{"value":10,"type":"number"}],"callee":{"type":"false"},"type":"application"},"arg":{"type":"record","fields":{"z":{"value":"b","type":"ident"},"foo":{"value":true,"type":"bool"},"a":{"value":"x","type":"ident"},"b":{"type":"true"},"x":{"value":"a","type":"ident"},"c":{"type":"true"},"y":{"value":69,"type":"number"}}},"type":"function"}

@@ -1,2 +1,2 @@
-['T\x16lt\x04\x17\x04Jj\x1evU~c' -> false]
-{"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":"T\u0016lt\u0004\u0017\u0004Jj\u001evU~c","type":"string"},"type":"function"},"type":"brackets"}
+[true _|_ _|_ false 41 *]
+{"arg":{"args":[{"type":"false"},{"type":"false"},{"value":false,"type":"bool"},{"value":41,"type":"number"},{"type":"true"}],"callee":{"value":true,"type":"bool"},"type":"application"},"type":"brackets"}

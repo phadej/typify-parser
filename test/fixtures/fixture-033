@@ -1,2 +1,2 @@
-'ø{9\x06.\x0e\\/XA{¦Ï\x1e\x16\x13+p'
-{"value":"ø{9\u0006.\u000e\\/XA{¦Ï\u001e\u0016\u0013+p","type":"string"}
+{a: *; bar: _|_}
+{"type":"record","fields":{"a":{"type":"true"},"bar":{"type":"false"}}}

@@ -1,2 +1,2 @@
-bar : y -> {b: 7; bar: bar; foo: _|_; x: true; y: false}
-{"result":{"type":"record","fields":{"foo":{"type":"false"},"b":{"value":7,"type":"number"},"x":{"value":true,"type":"bool"},"bar":{"value":"bar","type":"ident"},"y":{"value":false,"type":"bool"}}},"arg":{"arg":{"value":"y","type":"ident"},"name":"bar","type":"named"},"type":"function"}
+{c: _|_} -> z, y
+{"result":{"args":[{"value":"z","type":"ident"},{"value":"y","type":"ident"}],"type":"product"},"arg":{"type":"record","fields":{"c":{"type":"false"}}},"type":"function"}

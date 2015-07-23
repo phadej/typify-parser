@@ -1,2 +1,2 @@
-[bar : '\x09»\x18@ÿ\\`\x03¡\x0cF[\x05;\x19|']
-{"arg":{"arg":{"value":"\t»\u0018@ÿ\\`\u0003¡\u000cF[\u0005;\u0019|","type":"string"},"name":"bar","type":"named"},"type":"brackets"}
+(foo -> a)...
+{"arg":{"result":{"value":"a","type":"ident"},"arg":{"value":"foo","type":"ident"},"type":"function"},"type":"variadic"}

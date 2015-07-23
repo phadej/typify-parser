@@ -1,2 +1,2 @@
-y : {b: 22; bar: false; c: '\x03\x12y\x13Hè-­: \x1d\x15ë('; x: false; y: *}
-{"arg":{"type":"record","fields":{"b":{"value":22,"type":"number"},"x":{"value":false,"type":"bool"},"c":{"value":"\u0003\u0012y\u0013Hè-­: \u001d\u0015ë(","type":"string"},"bar":{"value":false,"type":"bool"},"y":{"type":"true"}}},"name":"y","type":"named"}
+x : ()
+{"arg":{"type":"unit"},"name":"x","type":"named"}

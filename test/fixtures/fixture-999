@@ -1,2 +1,2 @@
-(x -> ()) -> false?
-{"result":{"arg":{"value":false,"type":"bool"},"type":"optional"},"arg":{"result":{"type":"unit"},"arg":{"value":"x","type":"ident"},"type":"function"},"type":"function"}
+(z -> 'µ Q\x156ÍÄ\x11e´eÖ\x1b\x07\x19') -> _|_?
+{"result":{"arg":{"type":"false"},"type":"optional"},"arg":{"result":{"value":"µ Q\u00156ÍÄ\u0011e´eÖ\u001b\u0007\u0019","type":"string"},"arg":{"value":"z","type":"ident"},"type":"function"},"type":"function"}

@@ -1,2 +1,2 @@
-[_|_]
-{"arg":{"type":"false"},"type":"brackets"}
+false?...
+{"arg":{"arg":{"value":false,"type":"bool"},"type":"optional"},"type":"variadic"}

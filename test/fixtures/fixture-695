@@ -1,2 +1,2 @@
-[27]
-{"arg":{"value":27,"type":"number"},"type":"brackets"}
+[54]...
+{"arg":{"arg":{"value":54,"type":"number"},"type":"brackets"},"type":"variadic"}

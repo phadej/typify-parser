@@ -1,2 +1,2 @@
-[false, _|_, *, false, bar, (), '%HI\x17R\x11)qNP¶È){0ï', c, *, false, '";\x0eÑGWímKªë(q\x08)7\x12RV)>à,_', (), (), 4, 26, 11, _|_, 9, *]
-{"arg":{"args":[{"value":false,"type":"bool"},{"type":"false"},{"type":"true"},{"value":false,"type":"bool"},{"value":"bar","type":"ident"},{"type":"unit"},{"value":"%HI\u0017R\u0011)qNP¶È){0ï","type":"string"},{"value":"c","type":"ident"},{"type":"true"},{"value":false,"type":"bool"},{"value":"\";\u000eÑGWímKªë(q\u0008)7\u0012RV)>à,_","type":"string"},{"type":"unit"},{"type":"unit"},{"value":4,"type":"number"},{"value":26,"type":"number"},{"value":11,"type":"number"},{"type":"false"},{"value":9,"type":"number"},{"type":"true"}],"type":"product"},"type":"brackets"}
+[*, (), _|_, true, (), _|_]
+{"arg":{"args":[{"type":"true"},{"type":"unit"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"false"}],"type":"product"},"type":"brackets"}

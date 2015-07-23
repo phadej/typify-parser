@@ -1,2 +1,2 @@
-b : 9?
-{"arg":{"arg":{"value":9,"type":"number"},"type":"optional"},"name":"b","type":"named"}
+b : {a: _|_; b: false; bar: true; c: z; foo: c; x: '\x1dmOH÷-\n.FOÌ\x04%·\x01¤\x19\x17(@è¢ôðÕÞu;0c\x09*&ÙF#Ô`\x00\x1e\x0cHFî¦,\x05'; y: _|_; z: 15}
+{"arg":{"type":"record","fields":{"z":{"value":15,"type":"number"},"foo":{"value":"c","type":"ident"},"a":{"type":"false"},"b":{"value":false,"type":"bool"},"x":{"value":"\u001dmOH÷-\n.FOÌ\u0004%·\u0001¤\u0019\u0017(@è¢ôðÕÞu;0c\t*&ÙF#Ô`\u0000\u001e\u000cHFî¦,\u0005","type":"string"},"c":{"value":"z","type":"ident"},"bar":{"value":true,"type":"bool"},"y":{"type":"false"}}},"name":"b","type":"named"}

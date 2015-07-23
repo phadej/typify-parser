@@ -1,2 +1,2 @@
-{foo: ()...; z: _|_}
-{"type":"record","fields":{"z":{"type":"false"},"foo":{"arg":{"type":"unit"},"type":"variadic"}}}
+{z: 'M\x0dûN/K\x1c äB'...}
+{"type":"record","fields":{"z":{"arg":{"value":"M\rûN/K\u001c äB","type":"string"},"type":"variadic"}}}

@@ -1,2 +1,2 @@
-{a: true; b: *; bar: _|_; c: x; foo: 'rfoÍ\x0c\x01<\x19\x09,eò=À\x05'; x: bar; y: *; z: ''}?
-{"arg":{"type":"record","fields":{"z":{"value":"","type":"string"},"foo":{"value":"rfoÍ\u000c\u0001<\u0019\t,eò=À\u0005","type":"string"},"a":{"value":true,"type":"bool"},"b":{"type":"true"},"x":{"value":"bar","type":"ident"},"c":{"value":"x","type":"ident"},"bar":{"type":"false"},"y":{"type":"true"}}},"type":"optional"}
+{a: _|_; b: *; bar: _|_; c: _|_; foo: foo; y: _|_; z: y}?
+{"arg":{"type":"record","fields":{"z":{"value":"y","type":"ident"},"foo":{"value":"foo","type":"ident"},"a":{"type":"false"},"b":{"type":"true"},"c":{"type":"false"},"bar":{"type":"false"},"y":{"type":"false"}}},"type":"optional"}

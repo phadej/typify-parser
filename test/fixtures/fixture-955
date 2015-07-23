@@ -1,2 +1,2 @@
-()... -> {a: 23; b: (); bar: *; c: x; foo: (); x: 'Kk«\x10Us³éZ\x0e#D³8\x10ù9'; y: 4; z: '&4ûÍ×b'}
-{"result":{"type":"record","fields":{"z":{"value":"&4ûÍ×b","type":"string"},"foo":{"type":"unit"},"a":{"value":23,"type":"number"},"b":{"type":"unit"},"x":{"value":"Kk«\u0010Us³éZ\u000e#D³8\u0010ù9","type":"string"},"c":{"value":"x","type":"ident"},"bar":{"type":"true"},"y":{"value":4,"type":"number"}}},"arg":{"arg":{"type":"unit"},"type":"variadic"},"type":"function"}
+*... -> '±\x08\x0et.\x14$;>\x1b'?
+{"result":{"arg":{"value":"±\u0008\u000et.\u0014$;>\u001b","type":"string"},"type":"optional"},"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"function"}

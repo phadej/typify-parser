@@ -1,2 +1,2 @@
-(_|_ & *)?
-{"arg":{"args":[{"type":"false"},{"type":"true"}],"type":"conjunction"},"type":"optional"}
+y?
+{"arg":{"value":"y","type":"ident"},"type":"optional"}

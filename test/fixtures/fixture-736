@@ -1,2 +1,2 @@
-[() | () | b | 'uà\x1be\x0c¥u,]NB;64\x13' | * | 28 | () | z | 'Å' | * | 'r­¢(U¡\x10îk620\x02WOY' | 25 | true | foo | ()]
-{"arg":{"args":[{"type":"unit"},{"type":"unit"},{"value":"b","type":"ident"},{"value":"uà\u001be\u000c¥u,]NB;64\u0013","type":"string"},{"type":"true"},{"value":28,"type":"number"},{"type":"unit"},{"value":"z","type":"ident"},{"value":"Å","type":"string"},{"type":"true"},{"value":"r­¢(U¡\u0010îk620\u0002WOY","type":"string"},{"value":25,"type":"number"},{"value":true,"type":"bool"},{"value":"foo","type":"ident"},{"type":"unit"}],"type":"disjunction"},"type":"brackets"}
+[bar : true]
+{"arg":{"arg":{"value":true,"type":"bool"},"name":"bar","type":"named"},"type":"brackets"}

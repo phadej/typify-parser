@@ -1,2 +1,2 @@
-c
-{"value":"c","type":"ident"}
+a : '`2ÊE.&,\x16u2Q\x06%\x13e¿\x07:/Ò\x1eWÜû¯'
+{"arg":{"value":"`2ÊE.&,\u0016u2Q\u0006%\u0013e¿\u0007:/Ò\u001eWÜû¯","type":"string"},"name":"a","type":"named"}

@@ -1,2 +1,2 @@
-() -> *
-{"result":{"type":"true"},"arg":{"type":"unit"},"type":"function"}
+_|_ -> x?
+{"result":{"arg":{"value":"x","type":"ident"},"type":"optional"},"arg":{"type":"false"},"type":"function"}

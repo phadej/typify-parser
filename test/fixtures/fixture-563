@@ -1,2 +1,2 @@
-(_|_ & * & foo & * & '/\x1bp©?YW[2b¬õ,+\x1a]4\x1dK9sò\x19\x12tbI' & 23 & b & * & () & () & _|_ & '\x11éF}h\x07%' & * & z & _|_ & () & a & _|_ & () & * & bar & () & true)?
-{"arg":{"args":[{"type":"false"},{"type":"true"},{"value":"foo","type":"ident"},{"type":"true"},{"value":"/\u001bp©?YW[2b¬õ,+\u001a]4\u001dK9sò\u0019\u0012tbI","type":"string"},{"value":23,"type":"number"},{"value":"b","type":"ident"},{"type":"true"},{"type":"unit"},{"type":"unit"},{"type":"false"},{"value":"\u0011éF}h\u0007%","type":"string"},{"type":"true"},{"value":"z","type":"ident"},{"type":"false"},{"type":"unit"},{"value":"a","type":"ident"},{"type":"false"},{"type":"unit"},{"type":"true"},{"value":"bar","type":"ident"},{"type":"unit"},{"value":true,"type":"bool"}],"type":"conjunction"},"type":"optional"}
+(a : _|_)?
+{"arg":{"arg":{"type":"false"},"name":"a","type":"named"},"type":"optional"}

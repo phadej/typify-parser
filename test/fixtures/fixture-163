@@ -1,2 +1,2 @@
-b : true...
-{"arg":{"arg":{"value":true,"type":"bool"},"type":"variadic"},"name":"b","type":"named"}
+b : {a: 'l'; b: z; c: _|_; foo: _|_; x: ']ÀD'; y: bar; z: *}
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"false"},"a":{"value":"l","type":"string"},"b":{"value":"z","type":"ident"},"x":{"value":"]ÀD","type":"string"},"c":{"type":"false"},"y":{"value":"bar","type":"ident"}}},"name":"b","type":"named"}

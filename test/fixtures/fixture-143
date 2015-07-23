@@ -1,2 +1,2 @@
-foo
-{"value":"foo","type":"ident"}
+a : {bar: c; c: *}
+{"arg":{"type":"record","fields":{"c":{"type":"true"},"bar":{"value":"c","type":"ident"}}},"name":"a","type":"named"}

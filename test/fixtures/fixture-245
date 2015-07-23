@@ -1,2 +1,2 @@
-_|_ & true & * & 3 & _|_ & * & () & z & * & 7 & _|_ & 26 & bar & 18 & (_|_ -> ()) & '*:6\x158LK\x1bF\n.\x05\x19\x0eº7Cl\x1b\x15-%' & (bar : *) & (c : 29) & () & {x: b}
-{"args":[{"type":"false"},{"value":true,"type":"bool"},{"type":"true"},{"value":3,"type":"number"},{"type":"false"},{"type":"true"},{"type":"unit"},{"value":"z","type":"ident"},{"type":"true"},{"value":7,"type":"number"},{"type":"false"},{"value":26,"type":"number"},{"value":"bar","type":"ident"},{"value":18,"type":"number"},{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"},{"value":"*:6\u00158LK\u001bF\n.\u0005\u0019\u000eº7Cl\u001b\u0015-%","type":"string"},{"arg":{"type":"true"},"name":"bar","type":"named"},{"arg":{"value":29,"type":"number"},"name":"c","type":"named"},{"type":"unit"},{"type":"record","fields":{"x":{"value":"b","type":"ident"}}}],"type":"conjunction"}
+y : [_|_]
+{"arg":{"arg":{"type":"false"},"type":"brackets"},"name":"y","type":"named"}

@@ -1,2 +1,2 @@
-[* bar]
-{"arg":{"args":[{"value":"bar","type":"ident"}],"callee":{"type":"true"},"type":"application"},"type":"brackets"}
+[[15]]
+{"arg":{"arg":{"value":15,"type":"number"},"type":"brackets"},"type":"brackets"}

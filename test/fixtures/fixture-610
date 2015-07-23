@@ -1,2 +1,2 @@
-(false -> c)?
-{"arg":{"result":{"value":"c","type":"ident"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"optional"}
+(_|_ false * '8' _|_ () false)?
+{"arg":{"args":[{"value":false,"type":"bool"},{"type":"true"},{"value":"8","type":"string"},{"type":"false"},{"type":"unit"},{"value":false,"type":"bool"}],"callee":{"type":"false"},"type":"application"},"type":"optional"}

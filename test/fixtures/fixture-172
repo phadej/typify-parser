@@ -1,2 +1,2 @@
-bar : ()?
-{"arg":{"arg":{"type":"unit"},"type":"optional"},"name":"bar","type":"named"}
+b : 'nöm\x1a¦ÿ^d|' '9\'nOFt' 'qR\n' c * _|_ * false
+{"arg":{"args":[{"value":"9'nOFt","type":"string"},{"value":"qR\n","type":"string"},{"value":"c","type":"ident"},{"type":"true"},{"type":"false"},{"type":"true"},{"value":false,"type":"bool"}],"callee":{"value":"nöm\u001a¦ÿ^d|","type":"string"},"type":"application"},"name":"b","type":"named"}

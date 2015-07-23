@@ -1,2 +1,2 @@
-foo : 7 & () & _|_ & 18 & _|_ & * & 14 & _|_ & * & z & false & 6 & z & '\x13J\x0d.«\x16' & () & '\x09e!Å\'oFòB®\x19 )Ã\x06\x11~' & () & _|_ & () & false & *
-{"arg":{"args":[{"value":7,"type":"number"},{"type":"unit"},{"type":"false"},{"value":18,"type":"number"},{"type":"false"},{"type":"true"},{"value":14,"type":"number"},{"type":"false"},{"type":"true"},{"value":"z","type":"ident"},{"value":false,"type":"bool"},{"value":6,"type":"number"},{"value":"z","type":"ident"},{"value":"\u0013J\r.«\u0016","type":"string"},{"type":"unit"},{"value":"\te!Å'oFòB®\u0019 )Ã\u0006\u0011~","type":"string"},{"type":"unit"},{"type":"false"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"true"}],"type":"conjunction"},"name":"foo","type":"named"}
+c : true?
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"optional"},"name":"c","type":"named"}

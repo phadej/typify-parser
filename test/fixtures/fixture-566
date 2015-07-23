@@ -1,2 +1,2 @@
-(true & 10 & _|_)?
-{"arg":{"args":[{"value":true,"type":"bool"},{"value":10,"type":"number"},{"type":"false"}],"type":"conjunction"},"type":"optional"}
+(x : c)?
+{"arg":{"arg":{"value":"c","type":"ident"},"name":"x","type":"named"},"type":"optional"}

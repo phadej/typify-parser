@@ -1,2 +1,2 @@
-[true]?
-{"arg":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"type":"optional"}
+[_|_]?
+{"arg":{"arg":{"type":"false"},"type":"brackets"},"type":"optional"}

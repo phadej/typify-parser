@@ -1,2 +1,2 @@
-[y : 18]
-{"arg":{"arg":{"value":18,"type":"number"},"name":"y","type":"named"},"type":"brackets"}
+[{a: *; b: (); bar: *; c: true; foo: 28; x: true; y: bar; z: *}]
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"value":28,"type":"number"},"a":{"type":"true"},"b":{"type":"unit"},"x":{"value":true,"type":"bool"},"c":{"value":true,"type":"bool"},"bar":{"type":"true"},"y":{"value":"bar","type":"ident"}}},"type":"brackets"}

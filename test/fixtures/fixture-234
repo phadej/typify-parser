@@ -1,2 +1,2 @@
-z : {a: y; bar: 13; c: *; foo: _|_; x: true; y: *; z: ()}
-{"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"false"},"a":{"value":"y","type":"ident"},"x":{"value":true,"type":"bool"},"c":{"type":"true"},"bar":{"value":13,"type":"number"},"y":{"type":"true"}}},"name":"z","type":"named"}
+y : 'iyN\x11(Év\x11K|U\x17P_\x1c5D\x00)(ª÷HuShBv­øA#Þ\x16#+\x1bhÐ\x19AG{@\x00\x0b5OCÙ/{3yC#D|täc'
+{"arg":{"value":"iyN\u0011(Év\u0011K|U\u0017P_\u001c5D\u0000)(ª÷HuShBv­øA#Þ\u0016#+\u001bhÐ\u0019AG{@\u0000\u000b5OCÙ/{3yC#D|täc","type":"string"},"name":"y","type":"named"}

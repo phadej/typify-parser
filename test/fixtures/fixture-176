@@ -1,2 +1,2 @@
-bar : (* -> z)
-{"arg":{"result":{"value":"z","type":"ident"},"arg":{"type":"true"},"type":"function"},"name":"bar","type":"named"}
+bar : ()
+{"arg":{"type":"unit"},"name":"bar","type":"named"}

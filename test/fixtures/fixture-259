@@ -1,2 +1,2 @@
-8 & () & (() -> *) & *
-{"args":[{"value":8,"type":"number"},{"type":"unit"},{"result":{"type":"true"},"arg":{"type":"unit"},"type":"function"},{"type":"true"}],"type":"conjunction"}
+z : [()]
+{"arg":{"arg":{"type":"unit"},"type":"brackets"},"name":"z","type":"named"}

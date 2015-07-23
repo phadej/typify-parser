@@ -1,2 +1,2 @@
-[()] -> () c true foo 'x' 16 () _|_ () 11 _|_ () x true () _|_ 15 () 'v8Zþn\x04*dR÷<E¢t58Ül\x00P,\x19' () true * 3
-{"result":{"args":[{"value":"c","type":"ident"},{"value":true,"type":"bool"},{"value":"foo","type":"ident"},{"value":"x","type":"string"},{"value":16,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"unit"},{"value":11,"type":"number"},{"type":"false"},{"type":"unit"},{"value":"x","type":"ident"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"false"},{"value":15,"type":"number"},{"type":"unit"},{"value":"v8Zþn\u0004*dR÷<E¢t58Ül\u0000P,\u0019","type":"string"},{"type":"unit"},{"value":true,"type":"bool"},{"type":"true"},{"value":3,"type":"number"}],"callee":{"type":"unit"},"type":"application"},"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"function"}
+foo... -> *...
+{"result":{"arg":{"type":"true"},"type":"variadic"},"arg":{"arg":{"value":"foo","type":"ident"},"type":"variadic"},"type":"function"}

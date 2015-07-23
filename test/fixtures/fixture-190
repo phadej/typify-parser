@@ -1,2 +1,2 @@
-c : 6...
-{"arg":{"arg":{"value":6,"type":"number"},"type":"variadic"},"name":"c","type":"named"}
+bar : (_|_ -> *)
+{"arg":{"result":{"type":"true"},"arg":{"type":"false"},"type":"function"},"name":"bar","type":"named"}

@@ -1,2 +1,2 @@
-[bar () true ()]
-{"arg":{"args":[{"type":"unit"},{"value":true,"type":"bool"},{"type":"unit"}],"callee":{"value":"bar","type":"ident"},"type":"application"},"type":"brackets"}
+[[false]]
+{"arg":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"type":"brackets"}

@@ -1,2 +1,2 @@
-foo : bar?
-{"arg":{"arg":{"value":"bar","type":"ident"},"type":"optional"},"name":"foo","type":"named"}
+c : foo...
+{"arg":{"arg":{"value":"foo","type":"ident"},"type":"variadic"},"name":"c","type":"named"}

@@ -1,2 +1,2 @@
-[z : *]
-{"arg":{"arg":{"type":"true"},"name":"z","type":"named"},"type":"brackets"}
+[{a: *; b: false; bar: *; c: _|_; foo: 85; x: *; y: x; z: ()}]
+{"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"value":85,"type":"number"},"a":{"type":"true"},"b":{"value":false,"type":"bool"},"x":{"type":"true"},"c":{"type":"false"},"bar":{"type":"true"},"y":{"value":"x","type":"ident"}}},"type":"brackets"}

@@ -1,2 +1,2 @@
-c : foo?
-{"arg":{"arg":{"value":"foo","type":"ident"},"type":"optional"},"name":"c","type":"named"}
+bar : (* -> 'L$\x14°\x0cF\x0búìV\x16ß')
+{"arg":{"result":{"value":"L$\u0014°\u000cF\u000búìV\u0016ß","type":"string"},"arg":{"type":"true"},"type":"function"},"name":"bar","type":"named"}

@@ -1,2 +1,2 @@
-(_|_ y x)?
-{"arg":{"args":[{"value":"y","type":"ident"},{"value":"x","type":"ident"}],"callee":{"type":"false"},"type":"application"},"type":"optional"}
+[50]?
+{"arg":{"arg":{"value":50,"type":"number"},"type":"brackets"},"type":"optional"}

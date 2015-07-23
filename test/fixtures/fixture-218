@@ -1,2 +1,2 @@
-y : *
-{"arg":{"type":"true"},"name":"y","type":"named"}
+foo : '\x03w}ìIk\x00w{\x0f\x1e~=&\x06\x19'...
+{"arg":{"arg":{"value":"\u0003w}ìIk\u0000w{\u000f\u001e~=&\u0006\u0019","type":"string"},"type":"variadic"},"name":"foo","type":"named"}

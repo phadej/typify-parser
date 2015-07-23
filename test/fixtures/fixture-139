@@ -1,2 +1,2 @@
-a
-{"value":"a","type":"ident"}
+foo
+{"value":"foo","type":"ident"}

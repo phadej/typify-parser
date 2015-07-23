@@ -1,2 +1,2 @@
-{a: _|_; b: (); bar: _|_; c: false; foo: _|_; x: false; y: c; z: *} -> 11?
-{"result":{"arg":{"value":11,"type":"number"},"type":"optional"},"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"false"},"a":{"type":"false"},"b":{"type":"unit"},"x":{"value":false,"type":"bool"},"c":{"value":false,"type":"bool"},"bar":{"type":"false"},"y":{"value":"c","type":"ident"}}},"type":"function"}
+{a: (); b: _|_; bar: *; c: z; foo: (); x: (); y: 'ÀFÑµ\x01dU\x08'} -> a : 'y\x1c$\x14\x1bÊ\\!g_\x12à/l'
+{"result":{"arg":{"value":"y\u001c$\u0014\u001bÊ\\!g_\u0012à/l","type":"string"},"name":"a","type":"named"},"arg":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"type":"unit"},"b":{"type":"false"},"x":{"type":"unit"},"c":{"value":"z","type":"ident"},"bar":{"type":"true"},"y":{"value":"ÀFÑµ\u0001dU\u0008","type":"string"}}},"type":"function"}

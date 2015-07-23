@@ -1,2 +1,2 @@
-a : (*, 2, false, x, true, 18, false, 9, (), true)
-{"arg":{"args":[{"type":"true"},{"value":2,"type":"number"},{"value":false,"type":"bool"},{"value":"x","type":"ident"},{"value":true,"type":"bool"},{"value":18,"type":"number"},{"value":false,"type":"bool"},{"value":9,"type":"number"},{"type":"unit"},{"value":true,"type":"bool"}],"type":"product"},"name":"a","type":"named"}
+a : false...
+{"arg":{"arg":{"value":false,"type":"bool"},"type":"variadic"},"name":"a","type":"named"}

@@ -1,2 +1,2 @@
-[_|_] & [_|_] & (x...) & (c : ())
-{"args":[{"arg":{"type":"false"},"type":"brackets"},{"arg":{"type":"false"},"type":"brackets"},{"arg":{"value":"x","type":"ident"},"type":"variadic"},{"arg":{"type":"unit"},"name":"c","type":"named"}],"type":"conjunction"}
+(false...) & (3 -> *) & ()
+{"args":[{"arg":{"value":false,"type":"bool"},"type":"variadic"},{"result":{"type":"true"},"arg":{"value":3,"type":"number"},"type":"function"},{"type":"unit"}],"type":"conjunction"}

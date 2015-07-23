@@ -1,2 +1,2 @@
-a : c & 15 & b & ()
-{"arg":{"args":[{"value":"c","type":"ident"},{"value":15,"type":"number"},{"value":"b","type":"ident"},{"type":"unit"}],"type":"conjunction"},"name":"a","type":"named"}
+a : '\x01|' | false | 'X\x0b' | 2
+{"arg":{"args":[{"value":"\u0001|","type":"string"},{"value":false,"type":"bool"},{"value":"X\u000b","type":"string"},{"value":2,"type":"number"}],"type":"disjunction"},"name":"a","type":"named"}

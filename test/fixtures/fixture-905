@@ -1,2 +1,2 @@
-false -> {a: false; bar: (); c: a; x: *; z: ()}
-{"result":{"type":"record","fields":{"z":{"type":"unit"},"a":{"value":false,"type":"bool"},"x":{"type":"true"},"c":{"value":"a","type":"ident"},"bar":{"type":"unit"}}},"arg":{"value":false,"type":"bool"},"type":"function"}
+'1SO\x05W.=\x14' -> _|_, true, *, 9, (), z, '/:)\x00"«X', '\x09ü\x17Xk?dqè3', 13, (), '¼\x18\x0c3Q', _|_, y
+{"result":{"args":[{"type":"false"},{"value":true,"type":"bool"},{"type":"true"},{"value":9,"type":"number"},{"type":"unit"},{"value":"z","type":"ident"},{"value":"/:)\u0000\"«X","type":"string"},{"value":"\tü\u0017Xk?dqè3","type":"string"},{"value":13,"type":"number"},{"type":"unit"},{"value":"¼\u0018\u000c3Q","type":"string"},{"type":"false"},{"value":"y","type":"ident"}],"type":"product"},"arg":{"value":"1SO\u0005W.=\u0014","type":"string"},"type":"function"}

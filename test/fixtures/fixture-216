@@ -1,2 +1,2 @@
-x : [16]
-{"arg":{"arg":{"value":16,"type":"number"},"type":"brackets"},"name":"x","type":"named"}
+foo : (true, 10, foo, '$\x1aT+×\x1f', 39, x, 14, (), *, x, 23, 'oEWSënG vaT¬CTp(Ê«\x14Õ¬iEû+\x02&µ<Sú', *, false, true)
+{"arg":{"args":[{"value":true,"type":"bool"},{"value":10,"type":"number"},{"value":"foo","type":"ident"},{"value":"$\u001aT+×\u001f","type":"string"},{"value":39,"type":"number"},{"value":"x","type":"ident"},{"value":14,"type":"number"},{"type":"unit"},{"type":"true"},{"value":"x","type":"ident"},{"value":23,"type":"number"},{"value":"oEWSënG vaT¬CTp(Ê«\u0014Õ¬iEû+\u0002&µ<Sú","type":"string"},{"type":"true"},{"value":false,"type":"bool"},{"value":true,"type":"bool"}],"type":"product"},"name":"foo","type":"named"}

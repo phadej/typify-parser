@@ -1,2 +1,2 @@
-{a: foo; b: true; bar: 24; c: false; foo: _|_; x: _|_; y: 13; z: *}?
-{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"false"},"a":{"value":"foo","type":"ident"},"b":{"value":true,"type":"bool"},"x":{"type":"false"},"c":{"value":false,"type":"bool"},"bar":{"value":24,"type":"number"},"y":{"value":13,"type":"number"}}},"type":"optional"}
+{a: _|_; b: z; bar: '|h3\x12Nªq\x02r\x1a§w\x06<\x18kõt\x15ÍJ@\x08\x18\x0e\x01nlmy=&|l&\x11¹EV¸¶'; c: _|_; foo: false; x: 64; y: (); z: *}?
+{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"value":false,"type":"bool"},"a":{"type":"false"},"b":{"value":"z","type":"ident"},"x":{"value":64,"type":"number"},"c":{"type":"false"},"bar":{"value":"|h3\u0012Nªq\u0002r\u001a§w\u0006<\u0018kõt\u0015ÍJ@\u0008\u0018\u000e\u0001nlmy=&|l&\u0011¹EV¸¶","type":"string"},"y":{"type":"unit"}}},"type":"optional"}

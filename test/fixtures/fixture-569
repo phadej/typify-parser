@@ -1,2 +1,2 @@
-(_|_ | '\x12òTT' | 26 | '\x03G\x1a' | _|_ | * | x | true | () | 9 | () | z | '4nåÁA0aÁ®' | 3 | false | 3 | _|_ | true | 16 | z | 'Z>ïB3ò#e')?
-{"arg":{"args":[{"type":"false"},{"value":"\u0012òTT","type":"string"},{"value":26,"type":"number"},{"value":"\u0003G\u001a","type":"string"},{"type":"false"},{"type":"true"},{"value":"x","type":"ident"},{"value":true,"type":"bool"},{"type":"unit"},{"value":9,"type":"number"},{"type":"unit"},{"value":"z","type":"ident"},{"value":"4nåÁA0aÁ®","type":"string"},{"value":3,"type":"number"},{"value":false,"type":"bool"},{"value":3,"type":"number"},{"type":"false"},{"value":true,"type":"bool"},{"value":16,"type":"number"},{"value":"z","type":"ident"},{"value":"Z>ïB3ò#e","type":"string"}],"type":"disjunction"},"type":"optional"}
+(z : *)?
+{"arg":{"arg":{"type":"true"},"name":"z","type":"named"},"type":"optional"}

@@ -1,2 +1,2 @@
-(*, b, *)?
-{"arg":{"args":[{"type":"true"},{"value":"b","type":"ident"},{"type":"true"}],"type":"product"},"type":"optional"}
+('a]tXÁ¼' | 'ä\x0c¨(\x11\x13"YH¡k\n\x02¬\x08\x13ÏyÎËF' | _|_ | 5 | 'B' | () | () | bar | 'n!(DÝUr\x10Om\x16Mt?¼\x11æ~' | true | true | 'Çz,Wu\x03' | 14 | _|_ | 1 | _|_ | _|_)?
+{"arg":{"args":[{"value":"a]tXÁ¼","type":"string"},{"value":"ä\u000c¨(\u0011\u0013\"YH¡k\n\u0002¬\u0008\u0013ÏyÎËF","type":"string"},{"type":"false"},{"value":5,"type":"number"},{"value":"B","type":"string"},{"type":"unit"},{"type":"unit"},{"value":"bar","type":"ident"},{"value":"n!(DÝUr\u0010Om\u0016Mt?¼\u0011æ~","type":"string"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"value":"Çz,Wu\u0003","type":"string"},{"value":14,"type":"number"},{"type":"false"},{"value":1,"type":"number"},{"type":"false"},{"type":"false"}],"type":"disjunction"},"type":"optional"}

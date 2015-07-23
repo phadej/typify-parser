@@ -1,2 +1,2 @@
-foo : [4]
-{"arg":{"arg":{"value":4,"type":"number"},"type":"brackets"},"name":"foo","type":"named"}
+c : ['\x07)=æ\x05~&ì\x09']
+{"arg":{"arg":{"value":"\u0007)=æ\u0005~&ì\t","type":"string"},"type":"brackets"},"name":"c","type":"named"}

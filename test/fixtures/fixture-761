@@ -1,2 +1,2 @@
-['\x0cO&\x0cR¦%Feq\x00j*\x01³q'...]
-{"arg":{"arg":{"value":"\u000cO&\u000cR¦%Feq\u0000j*\u0001³q","type":"string"},"type":"variadic"},"type":"brackets"}
+[false?]
+{"arg":{"arg":{"value":false,"type":"bool"},"type":"optional"},"type":"brackets"}

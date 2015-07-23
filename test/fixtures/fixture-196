@@ -1,2 +1,2 @@
-c : ('@\x0db\x07i)\x10g\x19_ xDa\x10Þ' -> true)
-{"arg":{"result":{"value":true,"type":"bool"},"arg":{"value":"@\rb\u0007i)\u0010g\u0019_ xDa\u0010Þ","type":"string"},"type":"function"},"name":"c","type":"named"}
+c : true & 8 & '' & '' & () & 9 & * & true & _|_ & x & '§\x18ÒJfQ'
+{"arg":{"args":[{"value":true,"type":"bool"},{"value":8,"type":"number"},{"value":"","type":"string"},{"value":"","type":"string"},{"type":"unit"},{"value":9,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"type":"false"},{"value":"x","type":"ident"},{"value":"§\u0018ÒJfQ","type":"string"}],"type":"conjunction"},"name":"c","type":"named"}

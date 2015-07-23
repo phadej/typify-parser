@@ -1,2 +1,2 @@
-b : ((), *, false, (), c, _|_, (), 27, a)
-{"arg":{"args":[{"type":"unit"},{"type":"true"},{"value":false,"type":"bool"},{"type":"unit"},{"value":"c","type":"ident"},{"type":"false"},{"type":"unit"},{"value":27,"type":"number"},{"value":"a","type":"ident"}],"type":"product"},"name":"b","type":"named"}
+b : _|_
+{"arg":{"type":"false"},"name":"b","type":"named"}

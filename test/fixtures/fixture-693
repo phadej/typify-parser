@@ -1,2 +1,2 @@
-[()]
-{"arg":{"type":"unit"},"type":"brackets"}
+a?...
+{"arg":{"arg":{"value":"a","type":"ident"},"type":"optional"},"type":"variadic"}

@@ -1,2 +1,2 @@
-[foo : 21]
-{"arg":{"arg":{"value":21,"type":"number"},"name":"foo","type":"named"},"type":"brackets"}
+['3aO\x1d4\x14ToS2C\x01ì`ÂëaWa']
+{"arg":{"value":"3aO\u001d4\u0014ToS2C\u0001ì`ÂëaWa","type":"string"},"type":"brackets"}

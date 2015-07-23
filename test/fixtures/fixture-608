@@ -1,2 +1,2 @@
-(false -> ())?
-{"arg":{"result":{"type":"unit"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"optional"}
+(_|_ () _|_ 88 'Tf\x0dÚëii8cOV64\x1b\x05¹\x06\x13¶R0Éñ!7\x0e' _|_ _|_ * _|_ * _|_)?
+{"arg":{"args":[{"type":"unit"},{"type":"false"},{"value":88,"type":"number"},{"value":"Tf\rÚëii8cOV64\u001b\u0005¹\u0006\u0013¶R0Éñ!7\u000e","type":"string"},{"type":"false"},{"type":"false"},{"type":"true"},{"type":"false"},{"type":"true"},{"type":"false"}],"callee":{"type":"false"},"type":"application"},"type":"optional"}

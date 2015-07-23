@@ -1,2 +1,2 @@
-c : {a: _|_; b: *; bar: 13; c: (); foo: x; x: *; y: foo; z: 21}
-{"arg":{"type":"record","fields":{"z":{"value":21,"type":"number"},"foo":{"value":"x","type":"ident"},"a":{"type":"false"},"b":{"type":"true"},"x":{"type":"true"},"c":{"type":"unit"},"bar":{"value":13,"type":"number"},"y":{"value":"foo","type":"ident"}}},"name":"c","type":"named"}
+bar : foo : '"?\x03í\x03\x1at\x0e'
+{"arg":{"arg":{"value":"\"?\u0003í\u0003\u001at\u000e","type":"string"},"name":"foo","type":"named"},"name":"bar","type":"named"}

@@ -1,2 +1,2 @@
-[bar : ()]
-{"arg":{"arg":{"type":"unit"},"name":"bar","type":"named"},"type":"brackets"}
+(false -> false)...
+{"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"variadic"}

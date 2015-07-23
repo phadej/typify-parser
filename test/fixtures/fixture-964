@@ -1,2 +1,2 @@
-[12] -> * _|_
-{"result":{"args":[{"type":"false"}],"callee":{"type":"true"},"type":"application"},"arg":{"arg":{"value":12,"type":"number"},"type":"brackets"},"type":"function"}
+[()] -> 44
+{"result":{"value":44,"type":"number"},"arg":{"arg":{"type":"unit"},"type":"brackets"},"type":"function"}

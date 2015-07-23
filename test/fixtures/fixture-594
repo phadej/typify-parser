@@ -1,2 +1,2 @@
-[*]?
-{"arg":{"arg":{"type":"true"},"type":"brackets"},"type":"optional"}
+('Ku\x1eÉ[\x0f'...)?
+{"arg":{"arg":{"value":"Ku\u001eÉ[\u000f","type":"string"},"type":"variadic"},"type":"optional"}

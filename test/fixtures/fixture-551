@@ -1,2 +1,2 @@
-{a: x; b: *; bar: foo; c: a; foo: *; x: 26; y: 20; z: _|_}?
-{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"type":"true"},"a":{"value":"x","type":"ident"},"b":{"type":"true"},"x":{"value":26,"type":"number"},"c":{"value":"a","type":"ident"},"bar":{"value":"foo","type":"ident"},"y":{"value":20,"type":"number"}}},"type":"optional"}
+{a: _|_; bar: *; c: (); foo: (); x: (); y: ()}?
+{"arg":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"type":"false"},"x":{"type":"unit"},"c":{"type":"unit"},"bar":{"type":"true"},"y":{"type":"unit"}}},"type":"optional"}

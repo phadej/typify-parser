@@ -1,2 +1,2 @@
-()? -> foo -> 26
-{"result":{"result":{"value":26,"type":"number"},"arg":{"value":"foo","type":"ident"},"type":"function"},"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"function"}
+'\x14ABgfbnY\x10%\x10', b, *, 'Z)V¾â$`¨Ke\x10Ë' -> *?
+{"result":{"arg":{"type":"true"},"type":"optional"},"arg":{"args":[{"value":"\u0014ABgfbnY\u0010%\u0010","type":"string"},{"value":"b","type":"ident"},{"type":"true"},{"value":"Z)V¾â$`¨Ke\u0010Ë","type":"string"}],"type":"product"},"type":"function"}

@@ -1,2 +1,2 @@
-c : [*]
-{"arg":{"arg":{"type":"true"},"type":"brackets"},"name":"c","type":"named"}
+bar : ('?\x17' -> '^¤')
+{"arg":{"result":{"value":"^¤","type":"string"},"arg":{"value":"?\u0017","type":"string"},"type":"function"},"name":"bar","type":"named"}

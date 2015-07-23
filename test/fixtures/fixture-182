@@ -1,2 +1,2 @@
-c : {bar: b; foo: 'Ý{y¥\x11VA`EaBvP\nSJP\x11\x1d0X'; x: (); z: c}
-{"arg":{"type":"record","fields":{"z":{"value":"c","type":"ident"},"foo":{"value":"Ý{y¥\u0011VA`EaBvP\nSJP\u0011\u001d0X","type":"string"},"x":{"type":"unit"},"bar":{"value":"b","type":"ident"}}},"name":"c","type":"named"}
+bar : c | '~u\x16¹' | true | 'å\n[À;w\x01ry\x09m,\x02!(¢~Ìs\x13¡1T®0f\x01\x02HÖÕ\x19£^' | '\x0c`V\x01EÍ¨~:.dtÙÑzR¢rKyN|F\x14\x16%ä\x16is' | 58 | _|_
+{"arg":{"args":[{"value":"c","type":"ident"},{"value":"~u\u0016¹","type":"string"},{"value":true,"type":"bool"},{"value":"å\n[À;w\u0001ry\tm,\u0002!(¢~Ìs\u0013¡1T®0f\u0001\u0002HÖÕ\u0019£^","type":"string"},{"value":"\u000c`V\u0001EÍ¨~:.dtÙÑzR¢rKyN|F\u0014\u0016%ä\u0016is","type":"string"},{"value":58,"type":"number"},{"type":"false"}],"type":"disjunction"},"name":"bar","type":"named"}

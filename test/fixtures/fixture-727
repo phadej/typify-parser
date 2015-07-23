@@ -1,2 +1,2 @@
-[() & true & _|_ & _|_ & '/0B' & * & b & * & bar & foo & 'Õ³\x02~ ly$÷MY8n$LD~' & c & false & 11 & _|_]
-{"arg":{"args":[{"type":"unit"},{"value":true,"type":"bool"},{"type":"false"},{"type":"false"},{"value":"/0B","type":"string"},{"type":"true"},{"value":"b","type":"ident"},{"type":"true"},{"value":"bar","type":"ident"},{"value":"foo","type":"ident"},{"value":"Õ³\u0002~ ly$÷MY8n$LD~","type":"string"},{"value":"c","type":"ident"},{"value":false,"type":"bool"},{"value":11,"type":"number"},{"type":"false"}],"type":"conjunction"},"type":"brackets"}
+[{a: _|_; bar: '\x17S×p'; foo: 't\x12ÜÑW'; x: *}]
+{"arg":{"type":"record","fields":{"foo":{"value":"t\u0012ÜÑW","type":"string"},"a":{"type":"false"},"x":{"type":"true"},"bar":{"value":"\u0017S×p","type":"string"}}},"type":"brackets"}

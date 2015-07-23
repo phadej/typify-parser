@@ -1,2 +1,2 @@
-y : 'ÿ\x0d\x08\x1bm"s\x06Ï\x09­2hWg\x1au>'
-{"arg":{"value":"ÿ\r\u0008\u001bm\"s\u0006Ï\t­2hWg\u001au>","type":"string"},"name":"y","type":"named"}
+foo : 'N¨'...
+{"arg":{"arg":{"value":"N¨","type":"string"},"type":"variadic"},"name":"foo","type":"named"}

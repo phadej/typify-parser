@@ -1,2 +1,2 @@
-{a: (); b: *; bar: (); c: 16; x: (); y: 'L\x05i¢0\x03D'; z: 'iè;1ôi}'}?
-{"arg":{"type":"record","fields":{"z":{"value":"iè;1ôi}","type":"string"},"a":{"type":"unit"},"b":{"type":"true"},"x":{"type":"unit"},"c":{"value":16,"type":"number"},"bar":{"type":"unit"},"y":{"value":"L\u0005i¢0\u0003D","type":"string"}}},"type":"optional"}
+false?
+{"arg":{"value":false,"type":"bool"},"type":"optional"}

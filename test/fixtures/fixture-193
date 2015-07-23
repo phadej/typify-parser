@@ -1,2 +1,2 @@
-c : bar _|_ y '#.~¢loj\x05' 'CM.YcÄ´xn\x0e-Ix´GnJÒv\x16Nrò\x05%' foo x 27 _|_ a true true c * '3mr8D÷;Ü!HKs\x08ÃD£' '-ÿk' 6 17 x false
-{"arg":{"args":[{"type":"false"},{"value":"y","type":"ident"},{"value":"#.~¢loj\u0005","type":"string"},{"value":"CM.YcÄ´xn\u000e-Ix´GnJÒv\u0016Nrò\u0005%","type":"string"},{"value":"foo","type":"ident"},{"value":"x","type":"ident"},{"value":27,"type":"number"},{"type":"false"},{"value":"a","type":"ident"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"value":"c","type":"ident"},{"type":"true"},{"value":"3mr8D÷;Ü!HKs\u0008ÃD£","type":"string"},{"value":"-ÿk","type":"string"},{"value":6,"type":"number"},{"value":17,"type":"number"},{"value":"x","type":"ident"},{"value":false,"type":"bool"}],"callee":{"value":"bar","type":"ident"},"type":"application"},"name":"c","type":"named"}
+c : z : true
+{"arg":{"arg":{"value":true,"type":"bool"},"name":"z","type":"named"},"name":"c","type":"named"}

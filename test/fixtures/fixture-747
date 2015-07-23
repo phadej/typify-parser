@@ -1,2 +1,2 @@
-[_|_, true, '#', _|_, 3, true, (), 28, (), *]
-{"arg":{"args":[{"type":"false"},{"value":true,"type":"bool"},{"value":"#","type":"string"},{"type":"false"},{"value":3,"type":"number"},{"value":true,"type":"bool"},{"type":"unit"},{"value":28,"type":"number"},{"type":"unit"},{"type":"true"}],"type":"product"},"type":"brackets"}
+['\x0cM$\x1e\x16Vj·3q.zxTG;,B\x15¸\x05¼\x0fc]zq0\x19ãyù/4?~O3' | () | () | '$³}@gC~\x14Wm>\x07Si{' | *]
+{"arg":{"args":[{"value":"\u000cM$\u001e\u0016Vj·3q.zxTG;,B\u0015¸\u0005¼\u000fc]zq0\u0019ãyù/4?~O3","type":"string"},{"type":"unit"},{"type":"unit"},{"value":"$³}@gC~\u0014Wm>\u0007Si{","type":"string"},{"type":"true"}],"type":"disjunction"},"type":"brackets"}

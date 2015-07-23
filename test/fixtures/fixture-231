@@ -1,2 +1,2 @@
-y : [*]
-{"arg":{"arg":{"type":"true"},"type":"brackets"},"name":"y","type":"named"}
+x : ['w:\x1cu \x0fj0']
+{"arg":{"arg":{"value":"w:\u001cu \u000fj0","type":"string"},"type":"brackets"},"name":"x","type":"named"}

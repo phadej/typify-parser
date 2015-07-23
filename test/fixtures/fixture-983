@@ -1,2 +1,2 @@
-(_|_ -> _|_) -> *?
-{"result":{"arg":{"type":"true"},"type":"optional"},"arg":{"result":{"type":"false"},"arg":{"type":"false"},"type":"function"},"type":"function"}
+'Lt2\x03s|y\x1b_j' false 17 _|_ () 'JAHwÓ9' true _|_ y 15 _|_ 7 true * -> bar?
+{"result":{"arg":{"value":"bar","type":"ident"},"type":"optional"},"arg":{"args":[{"value":false,"type":"bool"},{"value":17,"type":"number"},{"type":"false"},{"type":"unit"},{"value":"JAHwÓ9","type":"string"},{"value":true,"type":"bool"},{"type":"false"},{"value":"y","type":"ident"},{"value":15,"type":"number"},{"type":"false"},{"value":7,"type":"number"},{"value":true,"type":"bool"},{"type":"true"}],"callee":{"value":"Lt2\u0003s|y\u001b_j","type":"string"},"type":"application"},"type":"function"}

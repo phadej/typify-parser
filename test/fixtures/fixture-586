@@ -1,2 +1,2 @@
-(()...)?
-{"arg":{"arg":{"type":"unit"},"type":"variadic"},"type":"optional"}
+('Y\x0b\n', (), bar)?
+{"arg":{"args":[{"value":"Y\u000b\n","type":"string"},{"type":"unit"},{"value":"bar","type":"ident"}],"type":"product"},"type":"optional"}

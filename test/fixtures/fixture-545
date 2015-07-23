@@ -1,2 +1,2 @@
-{a: (); b: *; bar: true; foo: _|_; x: true; y: _|_; z: _|_}?
-{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"type":"false"},"a":{"type":"unit"},"b":{"type":"true"},"x":{"value":true,"type":"bool"},"bar":{"value":true,"type":"bool"},"y":{"type":"false"}}},"type":"optional"}
+true?
+{"arg":{"value":true,"type":"bool"},"type":"optional"}

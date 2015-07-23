@@ -1,2 +1,2 @@
-[6]
-{"arg":{"value":6,"type":"number"},"type":"brackets"}
+[_|_]...
+{"arg":{"arg":{"type":"false"},"type":"brackets"},"type":"variadic"}

@@ -1,2 +1,2 @@
-b : (21 -> *)
-{"arg":{"result":{"type":"true"},"arg":{"value":21,"type":"number"},"type":"function"},"name":"b","type":"named"}
+b : [true]
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"name":"b","type":"named"}

@@ -1,2 +1,2 @@
-c : ((), foo, _|_, _|_, *)
-{"arg":{"args":[{"type":"unit"},{"value":"foo","type":"ident"},{"type":"false"},{"type":"false"},{"type":"true"}],"type":"product"},"name":"c","type":"named"}
+bar : false?
+{"arg":{"arg":{"value":false,"type":"bool"},"type":"optional"},"name":"bar","type":"named"}

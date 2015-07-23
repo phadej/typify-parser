@@ -1,2 +1,2 @@
-(bar : y)?
-{"arg":{"arg":{"value":"y","type":"ident"},"name":"bar","type":"named"},"type":"optional"}
+{b: (); bar: '}\x16'; x: *; y: _|_; z: _|_}?
+{"arg":{"type":"record","fields":{"z":{"type":"false"},"b":{"type":"unit"},"x":{"type":"true"},"bar":{"value":"}\u0016","type":"string"},"y":{"type":"false"}}},"type":"optional"}

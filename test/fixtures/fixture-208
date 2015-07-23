@@ -1,2 +1,2 @@
-x : false
-{"arg":{"value":false,"type":"bool"},"name":"x","type":"named"}
+c : (false -> false)
+{"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":false,"type":"bool"},"type":"function"},"name":"c","type":"named"}

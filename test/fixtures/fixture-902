@@ -1,2 +1,2 @@
-5 -> 'Iw\x0b\x17¬`¿oNñ\x1aGWÖDJ\x02¼QÅ\x04bÞY>G¦]'
-{"result":{"value":"Iw\u000b\u0017¬`¿oNñ\u001aGWÖDJ\u0002¼QÅ\u0004bÞY>G¦]","type":"string"},"arg":{"value":5,"type":"number"},"type":"function"}
+7 -> c : 3
+{"result":{"arg":{"value":3,"type":"number"},"name":"c","type":"named"},"arg":{"value":7,"type":"number"},"type":"function"}

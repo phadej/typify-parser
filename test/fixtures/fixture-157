@@ -1,2 +1,2 @@
-b : z : *
-{"arg":{"arg":{"type":"true"},"name":"z","type":"named"},"name":"b","type":"named"}
+a : (20 -> false)
+{"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":20,"type":"number"},"type":"function"},"name":"a","type":"named"}

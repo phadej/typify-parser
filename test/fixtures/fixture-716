@@ -1,2 +1,2 @@
-[bar : *]
-{"arg":{"arg":{"type":"true"},"name":"bar","type":"named"},"type":"brackets"}
+(false -> ';º}\x0dz]hR')...
+{"arg":{"result":{"value":";º}\rz]hR","type":"string"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"variadic"}

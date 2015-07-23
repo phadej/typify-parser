@@ -1,2 +1,2 @@
-[_|_ -> 19]
-{"arg":{"result":{"value":19,"type":"number"},"arg":{"type":"false"},"type":"function"},"type":"brackets"}
+[* 14 17 () 12]
+{"arg":{"args":[{"value":14,"type":"number"},{"value":17,"type":"number"},{"type":"unit"},{"value":12,"type":"number"}],"callee":{"type":"true"},"type":"application"},"type":"brackets"}

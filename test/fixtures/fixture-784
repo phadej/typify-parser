@@ -1,2 +1,2 @@
-[() -> 22]
-{"arg":{"result":{"value":22,"type":"number"},"arg":{"type":"unit"},"type":"function"},"type":"brackets"}
+[() 'F\\ (_©\x04ÜôjéC½Í8\x08<)dÞ0' y b 'nvo@7-ø\x08zE,8\x108' false _|_ '']
+{"arg":{"args":[{"value":"F\\ (_©\u0004ÜôjéC½Í8\u0008<)dÞ0","type":"string"},{"value":"y","type":"ident"},{"value":"b","type":"ident"},{"value":"nvo@7-ø\u0008zE,8\u00108","type":"string"},{"value":false,"type":"bool"},{"type":"false"},{"value":"","type":"string"}],"callee":{"type":"unit"},"type":"application"},"type":"brackets"}

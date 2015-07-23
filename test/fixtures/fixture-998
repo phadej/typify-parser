@@ -1,2 +1,2 @@
-(c -> 'g\x16\x06ºòVgm_(\x07·\x02§±\x037# 9*/') -> false?
-{"result":{"arg":{"value":false,"type":"bool"},"type":"optional"},"arg":{"result":{"value":"g\u0016\u0006ºòVgm_(\u0007·\u0002§±\u00037# 9*/","type":"string"},"arg":{"value":"c","type":"ident"},"type":"function"},"type":"function"}
+(z -> ()) -> z : '¾éVÚ*\x0fu É­V7\x0cor\x029.\\í\x06\x0e1`ô/'
+{"result":{"arg":{"value":"¾éVÚ*\u000fu É­V7\u000cor\u00029.\\í\u0006\u000e1`ô/","type":"string"},"name":"z","type":"named"},"arg":{"result":{"type":"unit"},"arg":{"value":"z","type":"ident"},"type":"function"},"type":"function"}

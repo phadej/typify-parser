@@ -1,2 +1,2 @@
-[b]
-{"arg":{"value":"b","type":"ident"},"type":"brackets"}
+(_|_ -> ())...
+{"arg":{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"},"type":"variadic"}

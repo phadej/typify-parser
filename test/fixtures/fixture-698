@@ -1,2 +1,2 @@
-[true]
-{"arg":{"value":true,"type":"bool"},"type":"brackets"}
+* 34 ']\x01Gq<[9\x17gÐ' _|_ 25 true _|_ () _|_ false 11 x () true _|_ * 20 * _|_ () 16 foo _|_ ()...
+{"arg":{"args":[{"value":34,"type":"number"},{"value":"]\u0001Gq<[9\u0017gÐ","type":"string"},{"type":"false"},{"value":25,"type":"number"},{"value":true,"type":"bool"},{"type":"false"},{"type":"unit"},{"type":"false"},{"value":false,"type":"bool"},{"value":11,"type":"number"},{"value":"x","type":"ident"},{"type":"unit"},{"value":true,"type":"bool"},{"type":"false"},{"type":"true"},{"value":20,"type":"number"},{"type":"true"},{"type":"false"},{"type":"unit"},{"value":16,"type":"number"},{"value":"foo","type":"ident"},{"type":"false"},{"type":"unit"}],"callee":{"type":"true"},"type":"application"},"type":"variadic"}

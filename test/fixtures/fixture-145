@@ -1,2 +1,2 @@
-y
-{"value":"y","type":"ident"}
+a : y : ()
+{"arg":{"arg":{"type":"unit"},"name":"y","type":"named"},"name":"a","type":"named"}

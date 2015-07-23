@@ -1,2 +1,2 @@
-[24 -> *]
-{"arg":{"result":{"type":"true"},"arg":{"value":24,"type":"number"},"type":"function"},"type":"brackets"}
+[false _|_ true]
+{"arg":{"args":[{"type":"false"},{"value":true,"type":"bool"}],"callee":{"value":false,"type":"bool"},"type":"application"},"type":"brackets"}

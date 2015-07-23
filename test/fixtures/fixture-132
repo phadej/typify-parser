@@ -1,2 +1,2 @@
-{bar: [false]; c: _|_ * 16 () c _|_ () 29 _|_ c 27 false () 0 'Ãq¾2Ú\'' 6 _|_ b 6 28 5 bar (); x: [false]}
-{"type":"record","fields":{"x":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"c":{"args":[{"type":"true"},{"value":16,"type":"number"},{"type":"unit"},{"value":"c","type":"ident"},{"type":"false"},{"type":"unit"},{"value":29,"type":"number"},{"type":"false"},{"value":"c","type":"ident"},{"value":27,"type":"number"},{"value":false,"type":"bool"},{"type":"unit"},{"value":0,"type":"number"},{"value":"Ãq¾2Ú'","type":"string"},{"value":6,"type":"number"},{"type":"false"},{"value":"b","type":"ident"},{"value":6,"type":"number"},{"value":28,"type":"number"},{"value":5,"type":"number"},{"value":"bar","type":"ident"},{"type":"unit"}],"callee":{"type":"false"},"type":"application"},"bar":{"arg":{"value":false,"type":"bool"},"type":"brackets"}}}
+{foo: *; y: {}}
+{"type":"record","fields":{"foo":{"type":"true"},"y":{"type":"record","fields":{}}}}

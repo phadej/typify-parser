@@ -1,2 +1,2 @@
-{foo: * -> true; y: true}
-{"type":"record","fields":{"foo":{"result":{"value":true,"type":"bool"},"arg":{"type":"true"},"type":"function"},"y":{"value":true,"type":"bool"}}}
+a
+{"value":"a","type":"ident"}

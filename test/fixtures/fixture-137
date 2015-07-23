@@ -1,2 +1,2 @@
-{y: bar : true}
-{"type":"record","fields":{"y":{"arg":{"value":true,"type":"bool"},"name":"bar","type":"named"}}}
+b
+{"value":"b","type":"ident"}

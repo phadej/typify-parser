@@ -1,2 +1,2 @@
-(() -> _|_) -> {a: (); foo: ()}
-{"result":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"type":"unit"}}},"arg":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"},"type":"function"}
+true '\x01\\\x1e´æÛ*(fC½lõ#\x00g¸\x1b\x0c\x18' () false * () 6 '\x0b\'Ûé:2Hï\x05×âaU\x13>\x03\x08òÊ' * false * _|_ 'Q' '9!ã|`w' -> c : _|_
+{"result":{"arg":{"type":"false"},"name":"c","type":"named"},"arg":{"args":[{"value":"\u0001\\\u001e´æÛ*(fC½lõ#\u0000g¸\u001b\u000c\u0018","type":"string"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"true"},{"type":"unit"},{"value":6,"type":"number"},{"value":"\u000b'Ûé:2Hï\u0005×âaU\u0013>\u0003\u0008òÊ","type":"string"},{"type":"true"},{"value":false,"type":"bool"},{"type":"true"},{"type":"false"},{"value":"Q","type":"string"},{"value":"9!ã|`w","type":"string"}],"callee":{"value":true,"type":"bool"},"type":"application"},"type":"function"}

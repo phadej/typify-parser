@@ -1,2 +1,2 @@
-[{a: (); b: 10; bar: _|_; c: (); foo: (); x: _|_; y: 29; z: *}]
-{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"unit"},"a":{"type":"unit"},"b":{"value":10,"type":"number"},"x":{"type":"false"},"c":{"type":"unit"},"bar":{"type":"false"},"y":{"value":29,"type":"number"}}},"type":"brackets"}
+_|_ false true 7 () '\x19N©}\x1a\x17\x13' '\x07' 10 _|_...
+{"arg":{"args":[{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"value":7,"type":"number"},{"type":"unit"},{"value":"\u0019N©}\u001a\u0017\u0013","type":"string"},{"value":"\u0007","type":"string"},{"value":10,"type":"number"},{"type":"false"}],"callee":{"type":"false"},"type":"application"},"type":"variadic"}

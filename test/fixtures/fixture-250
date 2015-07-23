@@ -1,2 +1,2 @@
-_|_ & (_|_...) & {a: *; b: true; bar: (); foo: '!\x06'; x: '¤\x17T»\x0fÅ\x08\x07,\x12N\n®\x07_pZz%'; y: 18; z: 9}
-{"args":[{"type":"false"},{"arg":{"type":"false"},"type":"variadic"},{"type":"record","fields":{"z":{"value":9,"type":"number"},"foo":{"value":"!\u0006","type":"string"},"a":{"type":"true"},"b":{"value":true,"type":"bool"},"x":{"value":"¤\u0017T»\u000fÅ\u0008\u0007,\u0012N\n®\u0007_pZz%","type":"string"},"bar":{"type":"unit"},"y":{"value":18,"type":"number"}}}],"type":"conjunction"}
+z : ()
+{"arg":{"type":"unit"},"name":"z","type":"named"}

@@ -1,2 +1,2 @@
-(']ÎC' -> bar) -> foo : true
-{"result":{"arg":{"value":true,"type":"bool"},"name":"foo","type":"named"},"arg":{"result":{"value":"bar","type":"ident"},"arg":{"value":"]ÎC","type":"string"},"type":"function"},"type":"function"}
+(() -> _|_) -> *?
+{"result":{"arg":{"type":"true"},"type":"optional"},"arg":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"},"type":"function"}

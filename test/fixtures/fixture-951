@@ -1,2 +1,2 @@
-*... -> [()]
-{"result":{"arg":{"type":"unit"},"type":"brackets"},"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"function"}
+()? -> foo : 17
+{"result":{"arg":{"value":17,"type":"number"},"name":"foo","type":"named"},"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"function"}

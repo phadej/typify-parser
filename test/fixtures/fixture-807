@@ -1,2 +1,2 @@
-foo c y _|_ () () true c 24 false z '}Gª:G\x0d\x06\x1c' a () true
-{"args":[{"value":"c","type":"ident"},{"value":"y","type":"ident"},{"type":"false"},{"type":"unit"},{"type":"unit"},{"value":true,"type":"bool"},{"value":"c","type":"ident"},{"value":24,"type":"number"},{"value":false,"type":"bool"},{"value":"z","type":"ident"},{"value":"}Gª:G\r\u0006\u001c","type":"string"},{"value":"a","type":"ident"},{"type":"unit"},{"value":true,"type":"bool"}],"callee":{"value":"foo","type":"ident"},"type":"application"}
+'\\Êr\x1as' () ('%b\x1eh\x12' * z _|_) 'ÝEx'? false
+{"args":[{"type":"unit"},{"args":[{"type":"true"},{"value":"z","type":"ident"},{"type":"false"}],"callee":{"value":"%b\u001eh\u0012","type":"string"},"type":"application"},{"arg":{"value":"ÝEx","type":"string"},"type":"optional"},{"value":false,"type":"bool"}],"callee":{"value":"\\Êr\u001as","type":"string"},"type":"application"}

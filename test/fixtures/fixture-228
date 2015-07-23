@@ -1,2 +1,2 @@
-y : false?
-{"arg":{"arg":{"value":false,"type":"bool"},"type":"optional"},"name":"y","type":"named"}
+x : b?
+{"arg":{"arg":{"value":"b","type":"ident"},"type":"optional"},"name":"x","type":"named"}

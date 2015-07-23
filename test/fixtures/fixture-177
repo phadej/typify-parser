@@ -1,2 +1,2 @@
-bar : (_|_ -> ())
-{"arg":{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"},"name":"bar","type":"named"}
+bar : false
+{"arg":{"value":false,"type":"bool"},"name":"bar","type":"named"}

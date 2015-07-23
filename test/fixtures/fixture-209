@@ -1,2 +1,2 @@
-x : bar : *
-{"arg":{"arg":{"type":"true"},"name":"bar","type":"named"},"name":"x","type":"named"}
+c : (bar -> _|_)
+{"arg":{"result":{"type":"false"},"arg":{"value":"bar","type":"ident"},"type":"function"},"name":"c","type":"named"}

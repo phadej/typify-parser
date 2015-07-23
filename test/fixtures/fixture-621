@@ -1,2 +1,2 @@
-{}...
-{"arg":{"type":"record","fields":{}},"type":"variadic"}
+(false -> _|_)?
+{"arg":{"result":{"type":"false"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"optional"}

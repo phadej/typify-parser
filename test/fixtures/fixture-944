@@ -1,2 +1,2 @@
-20? -> y?
-{"result":{"arg":{"value":"y","type":"ident"},"type":"optional"},"arg":{"arg":{"value":20,"type":"number"},"type":"optional"},"type":"function"}
+bar, '.\x1fÿ\x0fT/\x06b4}E\x17j-)\\\x10w\x04x¯\x0fPÎ;}\x16ó\x117Ú_}]õ\x03', true -> c -> '\x0eÎ¬\x14Í\x11?9z\x0100ÎQ;'
+{"result":{"result":{"value":"\u000eÎ¬\u0014Í\u0011?9z\u000100ÎQ;","type":"string"},"arg":{"value":"c","type":"ident"},"type":"function"},"arg":{"args":[{"value":"bar","type":"ident"},{"value":".\u001fÿ\u000fT/\u0006b4}E\u0017j-)\\\u0010w\u0004x¯\u000fPÎ;}\u0016ó\u00117Ú_}]õ\u0003","type":"string"},{"value":true,"type":"bool"}],"type":"product"},"type":"function"}

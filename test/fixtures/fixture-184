@@ -1,2 +1,2 @@
-c : bar & false & _|_
-{"arg":{"args":[{"value":"bar","type":"ident"},{"value":false,"type":"bool"},{"type":"false"}],"type":"conjunction"},"name":"c","type":"named"}
+bar : ((), (), '|\x0e!\x01Í~\x103\x181\x19H\x14\\6wî\x0ci\nÞÓdR­ï\x16P\x1f9bZ6 \x15Ñ~\x11t\x11\x00ñy', _|_)
+{"arg":{"args":[{"type":"unit"},{"type":"unit"},{"value":"|\u000e!\u0001Í~\u00103\u00181\u0019H\u0014\\6wî\u000ci\nÞÓdR­ï\u0016P\u001f9bZ6 \u0015Ñ~\u0011t\u0011\u0000ñy","type":"string"},{"type":"false"}],"type":"product"},"name":"bar","type":"named"}

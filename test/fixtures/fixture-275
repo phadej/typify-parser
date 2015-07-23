@@ -1,2 +1,2 @@
-{b: 'äsÔ\x15JkM®K,Xß+@'} & (_|_...) & ()?
-{"args":[{"type":"record","fields":{"b":{"value":"äsÔ\u0015JkM®K,Xß+@","type":"string"}}},{"arg":{"type":"false"},"type":"variadic"},{"arg":{"type":"unit"},"type":"optional"}],"type":"conjunction"}
+'Üv' & (false, foo, *, false)
+{"args":[{"value":"Üv","type":"string"},{"args":[{"value":false,"type":"bool"},{"value":"foo","type":"ident"},{"type":"true"},{"value":false,"type":"bool"}],"type":"product"}],"type":"conjunction"}

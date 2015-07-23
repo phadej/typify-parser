@@ -1,2 +1,2 @@
-[{a: ''; bar: 10; c: _|_; foo: 'Y\x10x}ÒRCkI\x1a\x09b8q\x17 Ç'; x: 12; y: ()}]
-{"arg":{"type":"record","fields":{"foo":{"value":"Y\u0010x}ÒRCkI\u001a\tb8q\u0017 Ç","type":"string"},"a":{"value":"","type":"string"},"x":{"value":12,"type":"number"},"c":{"type":"false"},"bar":{"value":10,"type":"number"},"y":{"type":"unit"}}},"type":"brackets"}
+true * * ()...
+{"arg":{"args":[{"type":"true"},{"type":"true"},{"type":"unit"}],"callee":{"value":true,"type":"bool"},"type":"application"},"type":"variadic"}

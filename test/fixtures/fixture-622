@@ -1,2 +1,2 @@
-{a: *; b: _|_; c: true; foo: _|_}...
-{"arg":{"type":"record","fields":{"foo":{"type":"false"},"a":{"type":"true"},"b":{"type":"false"},"c":{"value":true,"type":"bool"}}},"type":"variadic"}
+(true -> *)?
+{"arg":{"result":{"type":"true"},"arg":{"value":true,"type":"bool"},"type":"function"},"type":"optional"}

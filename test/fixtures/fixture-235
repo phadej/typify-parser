@@ -1,2 +1,2 @@
-z : 26 & * & 3 & foo & 9
-{"arg":{"args":[{"value":26,"type":"number"},{"type":"true"},{"value":3,"type":"number"},{"value":"foo","type":"ident"},{"value":9,"type":"number"}],"type":"conjunction"},"name":"z","type":"named"}
+y : {a: _|_; b: b; bar: (); c: bar; foo: 'Ñ%s#(Kê\x0e)«E\x18¾^RËm¬\x045¦Yûj)/(\'\x1f&\x02ä\x10'; x: _|_; y: 'w\x1b\x01*c| \x16dsurGóÏ2d>\x0c\x17U<-\'.T ,Ý}ìH9\x18&'}
+{"arg":{"type":"record","fields":{"foo":{"value":"Ñ%s#(Kê\u000e)«E\u0018¾^RËm¬\u00045¦Yûj)/('\u001f&\u0002ä\u0010","type":"string"},"a":{"type":"false"},"b":{"value":"b","type":"ident"},"x":{"type":"false"},"c":{"value":"bar","type":"ident"},"bar":{"type":"unit"},"y":{"value":"w\u001b\u0001*c| \u0016dsurGóÏ2d>\u000c\u0017U<-'.T ,Ý}ìH9\u0018&","type":"string"}}},"name":"y","type":"named"}

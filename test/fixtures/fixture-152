@@ -1,2 +1,2 @@
-a : 'ÇP'?
-{"arg":{"arg":{"value":"ÇP","type":"string"},"type":"optional"},"name":"a","type":"named"}
+a : [()]
+{"arg":{"arg":{"type":"unit"},"type":"brackets"},"name":"a","type":"named"}

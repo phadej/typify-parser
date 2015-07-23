@@ -1,2 +1,2 @@
-y : z : ()
-{"arg":{"arg":{"type":"unit"},"name":"z","type":"named"},"name":"y","type":"named"}
+x : x : 58
+{"arg":{"arg":{"value":58,"type":"number"},"name":"x","type":"named"},"name":"x","type":"named"}
