@@ -5,7 +5,7 @@ var parser = require("../lib/parser.js");
 var expect = require("chai").expect;
 
 function fixture(signature) {
-  expect(function() {
+  expect(function () {
     parser(signature);
   }).to.throw();
 }

@@ -33,11 +33,13 @@
     "validation"
   ],
   "devDependencies": {
-    "ljs": "~0.2.4",
-    "jshint": "~2.5.3",
+    "chai": "^3.2.0",
+    "david": "^6.1.6",
+    "eslint": "^0.24.1",
     "istanbul": "~0.3.0",
-    "mocha": "~1.21.4",
-    "jscs": "~1.6.2",
-    "chai": "~1.9.1"
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "ljs": "^0.3.1",
+    "mocha": "^2.2.5"
   }
 }
