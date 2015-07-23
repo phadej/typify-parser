@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/phadej/typify-parser/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/phadej/typify-parser/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/parser",
   "engines": {
     "node": ">= 0.10.0"
