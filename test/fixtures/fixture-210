@@ -1,2 +1,2 @@
-foo : _|_ & a
-{"arg":{"args":[{"type":"false"},{"value":"a","type":"ident"}],"type":"conjunction"},"name":"foo","type":"named"}
+z : ()
+{"arg":{"type":"unit"},"name":"z","type":"named"}

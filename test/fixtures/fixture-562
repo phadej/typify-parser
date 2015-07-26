@@ -1,2 +1,2 @@
-y?
-{"arg":{"value":"y","type":"ident"},"type":"optional"}
+false...
+{"arg":{"value":false,"type":"bool"},"type":"variadic"}

@@ -1,2 +1,2 @@
-foo : true & * & * & _|_ & 43 & foo & 28 & _|_ & 5 & 20 & 31 & () & 'YY·y\x181\x18ua\x08Q"e\x05\x0b\x0fVm,>ÙâZÖÑu\\yµ' & 10 & x
-{"arg":{"args":[{"value":true,"type":"bool"},{"type":"true"},{"type":"true"},{"type":"false"},{"value":43,"type":"number"},{"value":"foo","type":"ident"},{"value":28,"type":"number"},{"type":"false"},{"value":5,"type":"number"},{"value":20,"type":"number"},{"value":31,"type":"number"},{"type":"unit"},{"value":"YY·y\u00181\u0018ua\u0008Q\"e\u0005\u000b\u000fVm,>ÙâZÖÑu\\yµ","type":"string"},{"value":10,"type":"number"},{"value":"x","type":"ident"}],"type":"conjunction"},"name":"foo","type":"named"}
+z : bar
+{"arg":{"value":"bar","type":"ident"},"name":"z","type":"named"}

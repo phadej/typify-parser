@@ -1,2 +1,2 @@
-'\x14ABgfbnY\x10%\x10', b, *, 'Z)V¾â$`¨Ke\x10Ë' -> *?
-{"result":{"arg":{"type":"true"},"type":"optional"},"arg":{"args":[{"value":"\u0014ABgfbnY\u0010%\u0010","type":"string"},{"value":"b","type":"ident"},{"type":"true"},{"value":"Z)V¾â$`¨Ke\u0010Ë","type":"string"}],"type":"product"},"type":"function"}
+rec bar -> {a: false; b: false; bar: false; c: 'º_?x1\x06"©\n\x02bmÍfMvvÆkL\nl@M~\x14z\x0d\x0d\x12Eb0\x0c!\x1eVÏS\x1dH?)'; foo: false; x: bar; y: a; z: _|_}
+{"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":false,"type":"bool"},"a":{"value":false,"type":"bool"},"b":{"value":false,"type":"bool"},"x":{"value":"bar","type":"ident"},"c":{"value":"º_?x1\u0006\"©\n\u0002bmÍfMvvÆkL\nl@M~\u0014z\r\r\u0012Eb0\u000c!\u001eVÏS\u001dH?)","type":"string"},"bar":{"value":false,"type":"bool"},"y":{"value":"a","type":"ident"}}},"name":"bar","type":"recursive"}

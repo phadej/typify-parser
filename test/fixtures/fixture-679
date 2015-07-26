@@ -1,2 +1,2 @@
-3 | true | x...
-{"arg":{"args":[{"value":3,"type":"number"},{"value":true,"type":"bool"},{"value":"x","type":"ident"}],"type":"disjunction"},"type":"variadic"}
+[*...]
+{"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"brackets"}

@@ -1,2 +1,2 @@
-'\x05\x04Y\x05WG\x06JU\x09V[\x04d²\x1d\'\x1b^\x09\x08j]^1»\x146' '\x1d\x00£R])8%9Aí\x18¾d`0*fÉL\x12},i\x1e?aD$\x03tt\x01\x01á\\Î\x12x|_Ð\x06\\p\x180@Å\x07$nq'?
-{"args":[{"arg":{"value":"\u001d\u0000£R])8%9Aí\u0018¾d`0*fÉL\u0012},i\u001e?aD$\u0003tt\u0001\u0001á\\Î\u0012x|_Ð\u0006\\p\u00180@Å\u0007$nq","type":"string"},"type":"optional"}],"callee":{"value":"\u0005\u0004Y\u0005WG\u0006JU\tV[\u0004d²\u001d'\u001b^\t\u0008j]^1»\u00146","type":"string"},"type":"application"}
+* -> '' & 5 & 'ý*z' & _|_ & _|_
+{"result":{"args":[{"value":"","type":"string"},{"value":5,"type":"number"},{"value":"ý*z","type":"string"},{"type":"false"},{"type":"false"}],"type":"conjunction"},"arg":{"type":"true"},"type":"function"}

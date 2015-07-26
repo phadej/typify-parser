@@ -1,2 +1,2 @@
-[_|_]
-{"arg":{"type":"false"},"type":"brackets"}
+* _|_
+{"args":[{"type":"false"}],"callee":{"type":"true"},"type":"application"}

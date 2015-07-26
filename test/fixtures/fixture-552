@@ -1,2 +1,2 @@
-{a: 8; b: _|_; bar: true; c: foo; foo: (); x: 39; y: *; z: *}?
-{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"unit"},"a":{"value":8,"type":"number"},"b":{"type":"false"},"x":{"value":39,"type":"number"},"c":{"value":"foo","type":"ident"},"bar":{"value":true,"type":"bool"},"y":{"type":"true"}}},"type":"optional"}
+(rec y -> true)?
+{"arg":{"arg":{"value":true,"type":"bool"},"name":"y","type":"recursive"},"type":"optional"}

@@ -1,2 +1,2 @@
-['lg\x0f\x03'] {foo: (); x: _|_; z: _|_} ['\x16\x14N<\x0c\x09ò'] _|_ (* () 5 c c () '') (() -> b) (bar : x) ()
-{"args":[{"type":"record","fields":{"z":{"type":"false"},"foo":{"type":"unit"},"x":{"type":"false"}}},{"arg":{"value":"\u0016\u0014N<\u000c\tò","type":"string"},"type":"brackets"},{"type":"false"},{"args":[{"type":"unit"},{"value":5,"type":"number"},{"value":"c","type":"ident"},{"value":"c","type":"ident"},{"type":"unit"},{"value":"","type":"string"}],"callee":{"type":"true"},"type":"application"},{"result":{"value":"b","type":"ident"},"arg":{"type":"unit"},"type":"function"},{"arg":{"value":"x","type":"ident"},"name":"bar","type":"named"},{"type":"unit"}],"callee":{"arg":{"value":"lg\u000f\u0003","type":"string"},"type":"brackets"},"type":"application"}
+true... -> ()?
+{"result":{"arg":{"type":"unit"},"type":"optional"},"arg":{"arg":{"value":true,"type":"bool"},"type":"variadic"},"type":"function"}

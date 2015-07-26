@@ -1,2 +1,2 @@
-b : (x -> true)
-{"arg":{"result":{"value":true,"type":"bool"},"arg":{"value":"x","type":"ident"},"type":"function"},"name":"b","type":"named"}
+c : (rec x -> false)
+{"arg":{"arg":{"value":false,"type":"bool"},"name":"x","type":"recursive"},"name":"c","type":"named"}

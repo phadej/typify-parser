@@ -1,2 +1,2 @@
-2 '\x1eôD' false a *, () | '\x09Ú\x12' | bar | 4 | ()
-{"args":[{"args":[{"value":"\u001eôD","type":"string"},{"value":false,"type":"bool"},{"value":"a","type":"ident"},{"type":"true"}],"callee":{"value":2,"type":"number"},"type":"application"},{"args":[{"type":"unit"},{"value":"\tÚ\u0012","type":"string"},{"value":"bar","type":"ident"},{"value":4,"type":"number"},{"type":"unit"}],"type":"disjunction"}],"type":"product"}
+('wå1"\x101lDÅ\x14\x1a:\x0b%\nKdPµ¢\x0d©'...)?
+{"arg":{"arg":{"value":"wå1\"\u00101lDÅ\u0014\u001a:\u000b%\nKdPµ¢\r©","type":"string"},"type":"variadic"},"type":"optional"}

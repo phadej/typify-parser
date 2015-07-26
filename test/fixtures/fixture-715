@@ -1,2 +1,2 @@
-(false -> *)...
-{"arg":{"result":{"type":"true"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"variadic"}
+[rec c -> true]
+{"arg":{"arg":{"value":true,"type":"bool"},"name":"c","type":"recursive"},"type":"brackets"}

@@ -1,2 +1,2 @@
-_|_ x 22 true b _|_ true 16 () _|_ * () 'G' 'Qa%s\x14W\x1a©Þ' * b () _|_ -> ()
-{"result":{"type":"unit"},"arg":{"args":[{"value":"x","type":"ident"},{"value":22,"type":"number"},{"value":true,"type":"bool"},{"value":"b","type":"ident"},{"type":"false"},{"value":true,"type":"bool"},{"value":16,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"true"},{"type":"unit"},{"value":"G","type":"string"},{"value":"Qa%s\u0014W\u001a©Þ","type":"string"},{"type":"true"},{"value":"b","type":"ident"},{"type":"unit"},{"type":"false"}],"callee":{"type":"false"},"type":"application"},"type":"function"}
+rec x -> () -> 15
+{"arg":{"result":{"value":15,"type":"number"},"arg":{"type":"unit"},"type":"function"},"name":"x","type":"recursive"}

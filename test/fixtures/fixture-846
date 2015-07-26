@@ -1,2 +1,2 @@
-true? 8? (* -> a) a (c : ()) a (_|_ -> *) ('>\x0bÃD^' -> *)
-{"args":[{"arg":{"value":8,"type":"number"},"type":"optional"},{"result":{"value":"a","type":"ident"},"arg":{"type":"true"},"type":"function"},{"value":"a","type":"ident"},{"arg":{"type":"unit"},"name":"c","type":"named"},{"value":"a","type":"ident"},{"result":{"type":"true"},"arg":{"type":"false"},"type":"function"},{"result":{"type":"true"},"arg":{"value":">\u000bÃD^","type":"string"},"type":"function"}],"callee":{"arg":{"value":true,"type":"bool"},"type":"optional"},"type":"application"}
+_|_ | false | '\x13rg\x00\x1aº' | * | * | false | 12 | _|_ -> (rec foo -> true)
+{"result":{"arg":{"value":true,"type":"bool"},"name":"foo","type":"recursive"},"arg":{"args":[{"type":"false"},{"value":false,"type":"bool"},{"value":"\u0013rg\u0000\u001aº","type":"string"},{"type":"true"},{"type":"true"},{"value":false,"type":"bool"},{"value":12,"type":"number"},{"type":"false"}],"type":"disjunction"},"type":"function"}

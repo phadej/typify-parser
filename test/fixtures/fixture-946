@@ -1,2 +1,2 @@
-*? -> b true x bar 'ôsL¡9H*' bar a () _|_ 2 () * ()
-{"result":{"args":[{"value":true,"type":"bool"},{"value":"x","type":"ident"},{"value":"bar","type":"ident"},{"value":"ôsL¡9H*","type":"string"},{"value":"bar","type":"ident"},{"value":"a","type":"ident"},{"type":"unit"},{"type":"false"},{"value":2,"type":"number"},{"type":"unit"},{"type":"true"},{"type":"unit"}],"callee":{"value":"b","type":"ident"},"type":"application"},"arg":{"arg":{"type":"true"},"type":"optional"},"type":"function"}
+rec bar -> * -> *
+{"arg":{"result":{"type":"true"},"arg":{"type":"true"},"type":"function"},"name":"bar","type":"recursive"}

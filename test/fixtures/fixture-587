@@ -1,2 +1,2 @@
-('[@q\'^y\\ZyJ¦>', *, _|_, y, 10, '\x0c6Â\x0c,;n', (), 17, b)?
-{"arg":{"args":[{"value":"[@q'^y\\ZyJ¦>","type":"string"},{"type":"true"},{"type":"false"},{"value":"y","type":"ident"},{"value":10,"type":"number"},{"value":"\u000c6Â\u000c,;n","type":"string"},{"type":"unit"},{"value":17,"type":"number"},{"value":"b","type":"ident"}],"type":"product"},"type":"optional"}
+foo | () | () | () | * | 11 | 6 | b | 1...
+{"arg":{"args":[{"value":"foo","type":"ident"},{"type":"unit"},{"type":"unit"},{"type":"unit"},{"type":"true"},{"value":11,"type":"number"},{"value":6,"type":"number"},{"value":"b","type":"ident"},{"value":1,"type":"number"}],"type":"disjunction"},"type":"variadic"}

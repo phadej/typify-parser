@@ -1,2 +1,2 @@
-(b : 7)...
-{"arg":{"arg":{"value":7,"type":"number"},"name":"b","type":"named"},"type":"variadic"}
+[{a: y; b: false; bar: *; c: _|_; foo: bar; x: 'O<B%,\x10D1@\x090Óì]r%iT\x0e\x05»ÅdXI'; y: y; z: '|[ù\'\x15\x03nÝMt¬>\x1eðâtÕZ\x14âyzysZ%íÜµ~&~\n\x16wq\x08,;+i]êS\x1b'}]
+{"arg":{"type":"record","fields":{"z":{"value":"|[ù'\u0015\u0003nÝMt¬>\u001eðâtÕZ\u0014âyzysZ%íÜµ~&~\n\u0016wq\u0008,;+i]êS\u001b","type":"string"},"foo":{"value":"bar","type":"ident"},"a":{"value":"y","type":"ident"},"b":{"value":false,"type":"bool"},"x":{"value":"O<B%,\u0010D1@\t0Óì]r%iT\u000e\u0005»ÅdXI","type":"string"},"c":{"type":"false"},"bar":{"type":"true"},"y":{"value":"y","type":"ident"}}},"type":"brackets"}

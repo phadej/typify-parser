@@ -1,2 +1,2 @@
-(false -> ';º}\x0dz]hR')...
-{"arg":{"result":{"value":";º}\rz]hR","type":"string"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"variadic"}
+[rec x -> x]
+{"arg":{"arg":{"value":"x","type":"ident"},"name":"x","type":"recursive"},"type":"brackets"}

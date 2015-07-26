@@ -1,2 +1,2 @@
-c : ['\x07)=æ\x05~&ì\x09']
-{"arg":{"arg":{"value":"\u0007)=æ\u0005~&ì\t","type":"string"},"type":"brackets"},"name":"c","type":"named"}
+y : * foo 4 * _|_ _|_ '\x06\x03l\x17\x10\x1fO' _|_
+{"arg":{"args":[{"value":"foo","type":"ident"},{"value":4,"type":"number"},{"type":"true"},{"type":"false"},{"type":"false"},{"value":"\u0006\u0003l\u0017\u0010\u001fO","type":"string"},{"type":"false"}],"callee":{"type":"true"},"type":"application"},"name":"y","type":"named"}

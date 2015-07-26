@@ -1,2 +1,2 @@
-{a: _|_; b: '°jíjk\\PÜc'; bar: *; c: _|_; foo: '-\x0b\x12}Þ\x04$\x00¤d\nbÐ'; x: '^Ç-/ppj'; y: ()} -> 10?
-{"result":{"arg":{"value":10,"type":"number"},"type":"optional"},"arg":{"type":"record","fields":{"foo":{"value":"-\u000b\u0012}Þ\u0004$\u0000¤d\nbÐ","type":"string"},"a":{"type":"false"},"b":{"value":"°jíjk\\PÜc","type":"string"},"x":{"value":"^Ç-/ppj","type":"string"},"c":{"type":"false"},"bar":{"type":"true"},"y":{"type":"unit"}}},"type":"function"}
+rec a -> '\x09\x1e\x12+M/'
+{"arg":{"value":"\t\u001e\u0012+M/","type":"string"},"name":"a","type":"recursive"}

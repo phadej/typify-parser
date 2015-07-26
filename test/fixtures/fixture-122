@@ -1,2 +1,2 @@
-{b: _|_, 9; bar: '¿5'; c: 3...; foo: false, 3, _|_, _|_, _|_}
-{"type":"record","fields":{"foo":{"args":[{"value":false,"type":"bool"},{"value":3,"type":"number"},{"type":"false"},{"type":"false"},{"type":"false"}],"type":"product"},"b":{"args":[{"type":"false"},{"value":9,"type":"number"}],"type":"product"},"c":{"arg":{"value":3,"type":"number"},"type":"variadic"},"bar":{"value":"¿5","type":"string"}}}
+a
+{"value":"a","type":"ident"}

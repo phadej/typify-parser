@@ -1,2 +1,2 @@
-* | * | bar | * | 7 | _|_ | 'uw*Uü' | 'suW' | ()...
-{"arg":{"args":[{"type":"true"},{"type":"true"},{"value":"bar","type":"ident"},{"type":"true"},{"value":7,"type":"number"},{"type":"false"},{"value":"uw*Uü","type":"string"},{"value":"suW","type":"string"},{"type":"unit"}],"type":"disjunction"},"type":"variadic"}
+[()?]
+{"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"brackets"}

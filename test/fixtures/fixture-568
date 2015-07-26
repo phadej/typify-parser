@@ -1,2 +1,2 @@
-(y : bar)?
-{"arg":{"arg":{"value":"bar","type":"ident"},"name":"y","type":"named"},"type":"optional"}
+{a: 'v\x13,R~ÕQx\x0eLi\x1al5"§N ~\' ^ÈÁ]x\x1aQ\\Y\x18´\x12\x1aD/dc±ä?)Bô'; b: false; bar: (); c: z; foo: 77; x: '`9\x0f4-z\x1b\x19c\x11w\x1dÃ\x11?;ö{2\x03H$\x16\x07\x11#\x11b*òhË0?1%\x19[%jK[p<<TZÊ<T,%=0\'\'dÅ¹k¯vj\x0e'; y: '\x1a\x10k\x19S\x18Ì\x17vºö\nXç\x1a0£O4/\x16rB¨Õx%'; z: ()}...
+{"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"value":77,"type":"number"},"a":{"value":"v\u0013,R~ÕQx\u000eLi\u001al5\"§N ~' ^ÈÁ]x\u001aQ\\Y\u0018´\u0012\u001aD/dc±ä?)Bô","type":"string"},"b":{"value":false,"type":"bool"},"x":{"value":"`9\u000f4-z\u001b\u0019c\u0011w\u001dÃ\u0011?;ö{2\u0003H$\u0016\u0007\u0011#\u0011b*òhË0?1%\u0019[%jK[p<<TZÊ<T,%=0''dÅ¹k¯vj\u000e","type":"string"},"c":{"value":"z","type":"ident"},"bar":{"type":"unit"},"y":{"value":"\u001a\u0010k\u0019S\u0018Ì\u0017vºö\nXç\u001a0£O4/\u0016rB¨Õx%","type":"string"}}},"type":"variadic"}

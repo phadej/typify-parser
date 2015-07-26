@@ -1,2 +1,2 @@
-bar : (_|_ -> *)
-{"arg":{"result":{"type":"true"},"arg":{"type":"false"},"type":"function"},"name":"bar","type":"named"}
+foo : (rec c -> '\x1aiZù¿¡zPMÙ".[b0\x04àH\x13\x1eB%ø\x17zÝD¾>;')
+{"arg":{"arg":{"value":"\u001aiZù¿¡zPMÙ\".[b0\u0004àH\u0013\u001eB%ø\u0017zÝD¾>;","type":"string"},"name":"c","type":"recursive"},"name":"foo","type":"named"}

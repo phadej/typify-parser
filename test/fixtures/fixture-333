@@ -1,2 +1,2 @@
-(* -> true) & true?
-{"args":[{"result":{"value":true,"type":"bool"},"arg":{"type":"true"},"type":"function"},{"arg":{"value":true,"type":"bool"},"type":"optional"}],"type":"conjunction"}
+(y : ()) | (false -> ()) | (_|_, 'Òý ', *) | (6 -> true) | false & * & '¥0' & '\x02' & 3 & * | (x : 5)
+{"args":[{"arg":{"type":"unit"},"name":"y","type":"named"},{"result":{"type":"unit"},"arg":{"value":false,"type":"bool"},"type":"function"},{"args":[{"type":"false"},{"value":"Òý ","type":"string"},{"type":"true"}],"type":"product"},{"result":{"value":true,"type":"bool"},"arg":{"value":6,"type":"number"},"type":"function"},{"args":[{"value":false,"type":"bool"},{"type":"true"},{"value":"¥0","type":"string"},{"value":"\u0002","type":"string"},{"value":3,"type":"number"},{"type":"true"}],"type":"conjunction"},{"arg":{"value":5,"type":"number"},"name":"x","type":"named"}],"type":"disjunction"}

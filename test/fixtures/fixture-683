@@ -1,2 +1,2 @@
-('`lK\x0b±\x06ìq\x10\x02A:*e+\x18\x0cY/Ê:\x16¤\x0fªiêP´id', 'FôÙt:^-&1\x01H9zÓ´\x0dã\x14ö4', a, *, *, bar, (), ())...
-{"arg":{"args":[{"value":"`lK\u000b±\u0006ìq\u0010\u0002A:*e+\u0018\u000cY/Ê:\u0016¤\u000fªiêP´id","type":"string"},{"value":"FôÙt:^-&1\u0001H9zÓ´\rã\u0014ö4","type":"string"},{"value":"a","type":"ident"},{"type":"true"},{"type":"true"},{"value":"bar","type":"ident"},{"type":"unit"},{"type":"unit"}],"type":"product"},"type":"variadic"}
+[8...]
+{"arg":{"arg":{"value":8,"type":"number"},"type":"variadic"},"type":"brackets"}

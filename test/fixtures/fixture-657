@@ -1,2 +1,2 @@
-(foo : true)...
-{"arg":{"arg":{"value":true,"type":"bool"},"name":"foo","type":"named"},"type":"variadic"}
+[() & 'j0[?1p05j\x03' & 'td\\\x079*c­j\'\x1b¹\x1d\x0fXO' & 18 & '·4ÔG:=ðDE+\x10,' & y & '¯Bî\x04R:4' & * & * & x & () & true]
+{"arg":{"args":[{"type":"unit"},{"value":"j0[?1p05j\u0003","type":"string"},{"value":"td\\\u00079*c­j'\u001b¹\u001d\u000fXO","type":"string"},{"value":18,"type":"number"},{"value":"·4ÔG:=ðDE+\u0010,","type":"string"},{"value":"y","type":"ident"},{"value":"¯Bî\u0004R:4","type":"string"},{"type":"true"},{"type":"true"},{"value":"x","type":"ident"},{"type":"unit"},{"value":true,"type":"bool"}],"type":"conjunction"},"type":"brackets"}

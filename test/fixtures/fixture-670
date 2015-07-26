@@ -1,2 +1,2 @@
-'N|\x15' & z & foo & true & a...
-{"arg":{"args":[{"value":"N|\u0015","type":"string"},{"value":"z","type":"ident"},{"value":"foo","type":"ident"},{"value":true,"type":"bool"},{"value":"a","type":"ident"}],"type":"conjunction"},"type":"variadic"}
+[false | true | 10 | () | z | _|_ | _|_]
+{"arg":{"args":[{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"value":10,"type":"number"},{"type":"unit"},{"value":"z","type":"ident"},{"type":"false"},{"type":"false"}],"type":"disjunction"},"type":"brackets"}

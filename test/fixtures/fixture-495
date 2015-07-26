@@ -1,2 +1,2 @@
-*?, () () * () 2 '' _|_ _|_ * 2 () bar () *, ()?, '\x18x\x17¡§' _|_ 'å²Uë\\\x1b7S\x19v' _|_ () a, _|_?
-{"args":[{"arg":{"type":"true"},"type":"optional"},{"args":[{"type":"unit"},{"type":"true"},{"type":"unit"},{"value":2,"type":"number"},{"value":"","type":"string"},{"type":"false"},{"type":"false"},{"type":"true"},{"value":2,"type":"number"},{"type":"unit"},{"value":"bar","type":"ident"},{"type":"unit"},{"type":"true"}],"callee":{"type":"unit"},"type":"application"},{"arg":{"type":"unit"},"type":"optional"},{"args":[{"type":"false"},{"value":"å²Uë\\\u001b7S\u0019v","type":"string"},{"type":"false"},{"type":"unit"},{"value":"a","type":"ident"}],"callee":{"value":"\u0018x\u0017¡§","type":"string"},"type":"application"},{"arg":{"type":"false"},"type":"optional"}],"type":"product"}
+(c : 17)?
+{"arg":{"arg":{"value":17,"type":"number"},"name":"c","type":"named"},"type":"optional"}

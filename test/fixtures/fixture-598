@@ -1,2 +1,2 @@
-[*]?
-{"arg":{"arg":{"type":"true"},"type":"brackets"},"type":"optional"}
+*?...
+{"arg":{"arg":{"type":"true"},"type":"optional"},"type":"variadic"}

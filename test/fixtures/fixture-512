@@ -1,2 +1,2 @@
-[*], ()..., foo : ()
-{"args":[{"arg":{"type":"true"},"type":"brackets"},{"arg":{"type":"unit"},"type":"variadic"},{"arg":{"type":"unit"},"name":"foo","type":"named"}],"type":"product"}
+(true, (), a, 3, a, _|_, true, (), (), 7, (), _|_, *, y)?
+{"arg":{"args":[{"value":true,"type":"bool"},{"type":"unit"},{"value":"a","type":"ident"},{"value":3,"type":"number"},{"value":"a","type":"ident"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"unit"},{"value":7,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"true"},{"value":"y","type":"ident"}],"type":"product"},"type":"optional"}

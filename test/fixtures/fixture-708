@@ -1,2 +1,2 @@
-(* -> bar)...
-{"arg":{"result":{"value":"bar","type":"ident"},"arg":{"type":"true"},"type":"function"},"type":"variadic"}
+[15 -> foo]
+{"arg":{"result":{"value":"foo","type":"ident"},"arg":{"value":15,"type":"number"},"type":"function"},"type":"brackets"}

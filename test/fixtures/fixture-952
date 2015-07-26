@@ -1,2 +1,2 @@
-'qKÇG5\x17S=C\x06?\x19q\x1a\x1d6VÒÖC/\x18\x1a/mo'? -> b true _|_ 'zæU)\x1bl' _|_ ']:\x10q&#Ía7\x05ËwT\x19Dd=J' () _|_ true 14 () false *
-{"result":{"args":[{"value":true,"type":"bool"},{"type":"false"},{"value":"zæU)\u001bl","type":"string"},{"type":"false"},{"value":"]:\u0010q&#Ía7\u0005ËwT\u0019Dd=J","type":"string"},{"type":"unit"},{"type":"false"},{"value":true,"type":"bool"},{"value":14,"type":"number"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"true"}],"callee":{"value":"b","type":"ident"},"type":"application"},"arg":{"arg":{"value":"qKÇG5\u0017S=C\u0006?\u0019q\u001a\u001d6VÒÖC/\u0018\u001a/mo","type":"string"},"type":"optional"},"type":"function"}
+rec c -> false & 4 & z & 1 & () & _|_ & true
+{"arg":{"args":[{"value":false,"type":"bool"},{"value":4,"type":"number"},{"value":"z","type":"ident"},{"value":1,"type":"number"},{"type":"unit"},{"type":"false"},{"value":true,"type":"bool"}],"type":"conjunction"},"name":"c","type":"recursive"}

@@ -1,2 +1,2 @@
-true * * ()...
-{"arg":{"args":[{"type":"true"},{"type":"true"},{"type":"unit"}],"callee":{"value":true,"type":"bool"},"type":"application"},"type":"variadic"}
+[_|_ -> ()]
+{"arg":{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"},"type":"brackets"}

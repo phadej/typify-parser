@@ -1,2 +1,2 @@
-_|_ -> x?
-{"result":{"arg":{"value":"x","type":"ident"},"type":"optional"},"arg":{"type":"false"},"type":"function"}
+(rec b -> *) -> 'n77Ò\x18C\x1f'...
+{"result":{"arg":{"value":"n77Ò\u0018C\u001f","type":"string"},"type":"variadic"},"arg":{"arg":{"type":"true"},"name":"b","type":"recursive"},"type":"function"}

@@ -1,2 +1,2 @@
-b
-{"value":"b","type":"ident"}
+a : [_|_]
+{"arg":{"arg":{"type":"false"},"type":"brackets"},"name":"a","type":"named"}

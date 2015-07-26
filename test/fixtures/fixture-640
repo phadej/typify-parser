@@ -1,2 +1,2 @@
-{a: _|_; b: *; bar: (); c: 'À\x0c,\x05\x15`H9\x11®!n\x07~*;m'; foo: *; x: *; y: true; z: *}...
-{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"true"},"a":{"type":"false"},"b":{"type":"true"},"x":{"type":"true"},"c":{"value":"À\u000c,\u0005\u0015`H9\u0011®!n\u0007~*;m","type":"string"},"bar":{"type":"unit"},"y":{"value":true,"type":"bool"}}},"type":"variadic"}
+[*]
+{"arg":{"type":"true"},"type":"brackets"}

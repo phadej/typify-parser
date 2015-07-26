@@ -1,2 +1,2 @@
-* | _|_ | 8 | false | (z : a)
-{"args":[{"type":"true"},{"type":"false"},{"value":8,"type":"number"},{"value":false,"type":"bool"},{"arg":{"value":"a","type":"ident"},"name":"z","type":"named"}],"type":"disjunction"}
+() & _|_ | [*]
+{"args":[{"args":[{"type":"unit"},{"type":"false"}],"type":"conjunction"},{"arg":{"type":"true"},"type":"brackets"}],"type":"disjunction"}

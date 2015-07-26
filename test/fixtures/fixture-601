@@ -1,2 +1,2 @@
-[50]?
-{"arg":{"arg":{"value":50,"type":"number"},"type":"brackets"},"type":"optional"}
+'m'?...
+{"arg":{"arg":{"value":"m","type":"string"},"type":"optional"},"type":"variadic"}

@@ -1,2 +1,2 @@
-c : _|_
-{"arg":{"type":"false"},"name":"c","type":"named"}
+x : 13 | () | _|_ | _|_ | () | 'QÄ¢\\"\x19Q\x02:' | 14 | _|_ | true | () | '6X4ë\x01ïø\x12' | z | a
+{"arg":{"args":[{"value":13,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"false"},{"type":"unit"},{"value":"QÄ¢\\\"\u0019Q\u0002:","type":"string"},{"value":14,"type":"number"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"},{"value":"6X4ë\u0001ïø\u0012","type":"string"},{"value":"z","type":"ident"},{"value":"a","type":"ident"}],"type":"disjunction"},"name":"x","type":"named"}

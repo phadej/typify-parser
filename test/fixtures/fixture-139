@@ -1,2 +1,2 @@
-foo
-{"value":"foo","type":"ident"}
+a : (rec y -> z)
+{"arg":{"arg":{"value":"z","type":"ident"},"name":"y","type":"recursive"},"name":"a","type":"named"}

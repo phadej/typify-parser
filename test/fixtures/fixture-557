@@ -1,2 +1,2 @@
-{b: bar}?
-{"arg":{"type":"record","fields":{"b":{"value":"bar","type":"ident"}}},"type":"optional"}
+_|_...
+{"arg":{"type":"false"},"type":"variadic"}

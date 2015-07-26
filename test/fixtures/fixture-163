@@ -1,2 +1,2 @@
-b : {a: 'l'; b: z; c: _|_; foo: _|_; x: ']ÀD'; y: bar; z: *}
-{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"false"},"a":{"value":"l","type":"string"},"b":{"value":"z","type":"ident"},"x":{"value":"]ÀD","type":"string"},"c":{"type":"false"},"y":{"value":"bar","type":"ident"}}},"name":"b","type":"named"}
+c : b : 'uE\x01v\x0e^z%G\x0e\x1f\x01À\x017=Ê@\x06\x0c^\x0f1\x0f\x063\x14[UfËl"¬;\x0cÄYtkl²\x0fÏHaP\x1aMÛJ~¥'
+{"arg":{"arg":{"value":"uE\u0001v\u000e^z%G\u000e\u001f\u0001À\u00017=Ê@\u0006\u000c^\u000f1\u000f\u00063\u0014[UfËl\"¬;\u000cÄYtkl²\u000fÏHaP\u001aMÛJ~¥","type":"string"},"name":"b","type":"named"},"name":"c","type":"named"}

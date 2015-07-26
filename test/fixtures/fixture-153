@@ -1,2 +1,2 @@
-a : [c]
-{"arg":{"arg":{"value":"c","type":"ident"},"type":"brackets"},"name":"a","type":"named"}
+bar : ('mVK', (), true, (), ())
+{"arg":{"args":[{"value":"mVK","type":"string"},{"type":"unit"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"unit"}],"type":"product"},"name":"bar","type":"named"}

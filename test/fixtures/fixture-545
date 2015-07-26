@@ -1,2 +1,2 @@
-true?
-{"arg":{"value":true,"type":"bool"},"type":"optional"}
+(rec a -> b)?
+{"arg":{"arg":{"value":"b","type":"ident"},"name":"a","type":"recursive"},"type":"optional"}

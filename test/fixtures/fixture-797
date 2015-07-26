@@ -1,2 +1,2 @@
-[false -> 7]
-{"arg":{"result":{"value":7,"type":"number"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"brackets"}
+(rec b -> 9) (false false _|_ _|_ _|_) (() & 6 & 1 & () & 14 & 'OpQc;4ÇÌç\x0b\'s' & 14 & false & foo)
+{"args":[{"args":[{"value":false,"type":"bool"},{"type":"false"},{"type":"false"},{"type":"false"}],"callee":{"value":false,"type":"bool"},"type":"application"},{"args":[{"type":"unit"},{"value":6,"type":"number"},{"value":1,"type":"number"},{"type":"unit"},{"value":14,"type":"number"},{"value":"OpQc;4ÇÌç\u000b's","type":"string"},{"value":14,"type":"number"},{"value":false,"type":"bool"},{"value":"foo","type":"ident"}],"type":"conjunction"}],"callee":{"arg":{"value":9,"type":"number"},"name":"b","type":"recursive"},"type":"application"}

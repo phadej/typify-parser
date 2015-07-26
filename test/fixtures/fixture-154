@@ -1,2 +1,2 @@
-a : _|_ a 4 2
-{"arg":{"args":[{"value":"a","type":"ident"},{"value":4,"type":"number"},{"value":2,"type":"number"}],"callee":{"type":"false"},"type":"application"},"name":"a","type":"named"}
+bar : (() -> _|_)
+{"arg":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"},"name":"bar","type":"named"}

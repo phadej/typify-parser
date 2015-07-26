@@ -1,2 +1,2 @@
-(c : ())...
-{"arg":{"arg":{"type":"unit"},"name":"c","type":"named"},"type":"variadic"}
+[b : foo]
+{"arg":{"arg":{"value":"foo","type":"ident"},"name":"b","type":"named"},"type":"brackets"}

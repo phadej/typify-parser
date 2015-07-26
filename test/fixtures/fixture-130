@@ -1,2 +1,2 @@
-{c: _|_; x: '\x1f'?}
-{"type":"record","fields":{"x":{"arg":{"value":"\u001f","type":"string"},"type":"optional"},"c":{"type":"false"}}}
+a : _|_
+{"arg":{"type":"false"},"name":"a","type":"named"}

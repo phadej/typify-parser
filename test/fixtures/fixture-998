@@ -1,2 +1,2 @@
-(z -> ()) -> z : '¾éVÚ*\x0fu É­V7\x0cor\x029.\\í\x06\x0e1`ô/'
-{"result":{"arg":{"value":"¾éVÚ*\u000fu É­V7\u000cor\u00029.\\í\u0006\u000e1`ô/","type":"string"},"name":"z","type":"named"},"arg":{"result":{"type":"unit"},"arg":{"value":"z","type":"ident"},"type":"function"},"type":"function"}
+rec z -> rec a -> _|_
+{"arg":{"arg":{"type":"false"},"name":"a","type":"recursive"},"name":"z","type":"recursive"}

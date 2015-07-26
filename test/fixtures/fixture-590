@@ -1,2 +1,2 @@
-(*...)?
-{"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"optional"}
+((), _|_)...
+{"arg":{"args":[{"type":"unit"},{"type":"false"}],"type":"product"},"type":"variadic"}

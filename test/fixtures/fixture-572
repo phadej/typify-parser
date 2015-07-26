@@ -1,2 +1,2 @@
-(z : bar)?
-{"arg":{"arg":{"value":"bar","type":"ident"},"name":"z","type":"named"},"type":"optional"}
+(a : ())...
+{"arg":{"arg":{"type":"unit"},"name":"a","type":"named"},"type":"variadic"}

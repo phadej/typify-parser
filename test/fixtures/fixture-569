@@ -1,2 +1,2 @@
-(z : *)?
-{"arg":{"arg":{"type":"true"},"name":"z","type":"named"},"type":"optional"}
+{bar: _|_; x: '_\x0d'; z: true}...
+{"arg":{"type":"record","fields":{"z":{"value":true,"type":"bool"},"x":{"value":"_\r","type":"string"},"bar":{"type":"false"}}},"type":"variadic"}

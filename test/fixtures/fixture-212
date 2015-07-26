@@ -1,2 +1,2 @@
-foo : * | 'F'
-{"arg":{"args":[{"type":"true"},{"value":"F","type":"string"}],"type":"disjunction"},"name":"foo","type":"named"}
+z : a : *
+{"arg":{"arg":{"type":"true"},"name":"a","type":"named"},"name":"z","type":"named"}

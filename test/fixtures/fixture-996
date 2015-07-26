@@ -1,2 +1,2 @@
-('^\x08"ä' -> _|_) -> {bar: bar; foo: 'ÀükK$'}
-{"result":{"type":"record","fields":{"foo":{"value":"ÀükK$","type":"string"},"bar":{"value":"bar","type":"ident"}}},"arg":{"result":{"type":"false"},"arg":{"value":"^\u0008\"ä","type":"string"},"type":"function"},"type":"function"}
+rec z -> ()...
+{"arg":{"arg":{"type":"unit"},"type":"variadic"},"name":"z","type":"recursive"}

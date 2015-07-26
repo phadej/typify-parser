@@ -1,2 +1,2 @@
-'»+<Ð»k\x15NÀd1S°\x11D\x12\x0f'?
-{"arg":{"value":"»+<Ð»k\u0015NÀd1S°\u0011D\u0012\u000f","type":"string"},"type":"optional"}
+(c -> true)?
+{"arg":{"result":{"value":true,"type":"bool"},"arg":{"value":"c","type":"ident"},"type":"function"},"type":"optional"}

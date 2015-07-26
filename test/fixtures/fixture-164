@@ -1,2 +1,2 @@
-b : {bar: false; c: 2; foo: foo; x: *; y: *}
-{"arg":{"type":"record","fields":{"foo":{"value":"foo","type":"ident"},"x":{"type":"true"},"c":{"value":2,"type":"number"},"bar":{"value":false,"type":"bool"},"y":{"type":"true"}}},"name":"b","type":"named"}
+c : y : ()
+{"arg":{"arg":{"type":"unit"},"name":"y","type":"named"},"name":"c","type":"named"}

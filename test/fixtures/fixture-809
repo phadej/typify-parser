@@ -1,2 +1,2 @@
-true true
-{"args":[{"value":true,"type":"bool"}],"callee":{"value":true,"type":"bool"},"type":"application"}
+() -> (rec y -> *)
+{"result":{"arg":{"type":"true"},"name":"y","type":"recursive"},"arg":{"type":"unit"},"type":"function"}

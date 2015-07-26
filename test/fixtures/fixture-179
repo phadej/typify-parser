@@ -1,2 +1,2 @@
-bar : b : *
-{"arg":{"arg":{"type":"true"},"name":"b","type":"named"},"name":"bar","type":"named"}
+foo : bar : 'j8zPû¢<)Uge9'
+{"arg":{"arg":{"value":"j8zPû¢<)Uge9","type":"string"},"name":"bar","type":"named"},"name":"foo","type":"named"}

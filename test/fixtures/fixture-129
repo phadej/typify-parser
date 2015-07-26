@@ -1,2 +1,2 @@
-{bar: x...; foo: 4 * (); y: ()...; z: y, 'þ\x05"äXQ}'}
-{"type":"record","fields":{"z":{"args":[{"value":"y","type":"ident"},{"value":"þ\u0005\"äXQ}","type":"string"}],"type":"product"},"foo":{"args":[{"type":"true"},{"type":"unit"}],"callee":{"value":4,"type":"number"},"type":"application"},"bar":{"arg":{"value":"x","type":"ident"},"type":"variadic"},"y":{"arg":{"type":"unit"},"type":"variadic"}}}
+z
+{"value":"z","type":"ident"}

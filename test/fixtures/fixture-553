@@ -1,2 +1,2 @@
-{a: '\x0c7ñ\x02Oæ'; c: *; y: b}?
-{"arg":{"type":"record","fields":{"a":{"value":"\u000c7ñ\u0002Oæ","type":"string"},"c":{"type":"true"},"y":{"value":"b","type":"ident"}}},"type":"optional"}
+(rec z -> _|_)?
+{"arg":{"arg":{"type":"false"},"name":"z","type":"recursive"},"type":"optional"}

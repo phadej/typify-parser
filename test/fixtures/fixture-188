@@ -1,2 +1,2 @@
-bar : 18 * 36 false * *
-{"arg":{"args":[{"type":"true"},{"value":36,"type":"number"},{"value":false,"type":"bool"},{"type":"true"},{"type":"true"}],"callee":{"value":18,"type":"number"},"type":"application"},"name":"bar","type":"named"}
+foo : y foo ';ðX<\x05å' _|_ false _|_ _|_ 0
+{"arg":{"args":[{"value":"foo","type":"ident"},{"value":";ðX<\u0005å","type":"string"},{"type":"false"},{"value":false,"type":"bool"},{"type":"false"},{"type":"false"},{"value":0,"type":"number"}],"callee":{"value":"y","type":"ident"},"type":"application"},"name":"foo","type":"named"}

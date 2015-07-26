@@ -1,2 +1,2 @@
-{b: bar; bar: *; c: 'WxTrXl\x0f%N_wúi5'; foo: ()} -> {a: true; b: '\x16n»\x01jPí\x01\x02{\x08"ß'; bar: _|_; c: true; foo: (); x: bar; y: _|_; z: _|_}
-{"result":{"type":"record","fields":{"z":{"type":"false"},"foo":{"type":"unit"},"a":{"value":true,"type":"bool"},"b":{"value":"\u0016n»\u0001jPí\u0001\u0002{\u0008\"ß","type":"string"},"x":{"value":"bar","type":"ident"},"c":{"value":true,"type":"bool"},"bar":{"type":"false"},"y":{"type":"false"}}},"arg":{"type":"record","fields":{"foo":{"type":"unit"},"b":{"value":"bar","type":"ident"},"c":{"value":"WxTrXl\u000f%N_wúi5","type":"string"},"bar":{"type":"true"}}},"type":"function"}
+rec a -> *?
+{"arg":{"arg":{"type":"true"},"type":"optional"},"name":"a","type":"recursive"}

@@ -1,2 +1,2 @@
-y : (false, _|_, 7, _|_, 7, *)
-{"arg":{"args":[{"value":false,"type":"bool"},{"type":"false"},{"value":7,"type":"number"},{"type":"false"},{"value":7,"type":"number"},{"type":"true"}],"type":"product"},"name":"y","type":"named"}
+{bar: 10; c: b; foo: 'S}$©\x1ccnq\x1eK'; x: *; y: 2} & (false -> ()) & _|_?
+{"args":[{"type":"record","fields":{"foo":{"value":"S}$©\u001ccnq\u001eK","type":"string"},"x":{"type":"true"},"c":{"value":"b","type":"ident"},"bar":{"value":10,"type":"number"},"y":{"value":2,"type":"number"}}},{"result":{"type":"unit"},"arg":{"value":false,"type":"bool"},"type":"function"},{"arg":{"type":"false"},"type":"optional"}],"type":"conjunction"}

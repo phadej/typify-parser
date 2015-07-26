@@ -1,2 +1,2 @@
-{} -> [2]
-{"result":{"arg":{"value":2,"type":"number"},"type":"brackets"},"arg":{"type":"record","fields":{}},"type":"function"}
+(rec y -> 'bÐ') -> x '³'
+{"result":{"args":[{"value":"³","type":"string"}],"callee":{"value":"x","type":"ident"},"type":"application"},"arg":{"arg":{"value":"bÐ","type":"string"},"name":"y","type":"recursive"},"type":"function"}

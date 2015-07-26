@@ -1,2 +1,2 @@
-x : x : 58
-{"arg":{"arg":{"value":58,"type":"number"},"name":"x","type":"named"},"name":"x","type":"named"}
+_|_ & *
+{"args":[{"type":"false"},{"type":"true"}],"type":"conjunction"}

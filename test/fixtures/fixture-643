@@ -1,2 +1,2 @@
-{a: '[Ê÷7@\n\x02'; bar: bar; foo: *; z: ()}...
-{"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"true"},"a":{"value":"[Ê÷7@\n\u0002","type":"string"},"bar":{"value":"bar","type":"ident"}}},"type":"variadic"}
+[41]
+{"arg":{"value":41,"type":"number"},"type":"brackets"}

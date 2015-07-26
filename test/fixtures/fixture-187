@@ -1,2 +1,2 @@
-bar : [10]
-{"arg":{"arg":{"value":10,"type":"number"},"type":"brackets"},"name":"bar","type":"named"}
+foo : [8]
+{"arg":{"arg":{"value":8,"type":"number"},"type":"brackets"},"name":"foo","type":"named"}

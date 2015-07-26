@@ -1,2 +1,2 @@
-{b: (); c: '¦\x06\x0f¼q.â\x14\x09hkQ\\9++}3\x09\x11lZ\\èÿÝcÐ'; foo: _|_; y: 22}...
-{"arg":{"type":"record","fields":{"foo":{"type":"false"},"b":{"type":"unit"},"c":{"value":"¦\u0006\u000f¼q.â\u0014\thkQ\\9++}3\t\u0011lZ\\èÿÝcÐ","type":"string"},"y":{"value":22,"type":"number"}}},"type":"variadic"}
+[{a: _|_; b: *; bar: 6; c: (); foo: y; y: false; z: 'Ç¤\\'}]
+{"arg":{"type":"record","fields":{"z":{"value":"Ç¤\\","type":"string"},"foo":{"value":"y","type":"ident"},"a":{"type":"false"},"b":{"type":"true"},"c":{"type":"unit"},"bar":{"value":6,"type":"number"},"y":{"value":false,"type":"bool"}}},"type":"brackets"}

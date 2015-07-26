@@ -1,2 +1,2 @@
-c : z : true
-{"arg":{"arg":{"value":true,"type":"bool"},"name":"z","type":"named"},"name":"c","type":"named"}
+x : 13?
+{"arg":{"arg":{"value":13,"type":"number"},"type":"optional"},"name":"x","type":"named"}

@@ -1,2 +1,2 @@
-_|_? -> () & _|_ & y
-{"result":{"args":[{"type":"unit"},{"type":"false"},{"value":"y","type":"ident"}],"type":"conjunction"},"arg":{"arg":{"type":"false"},"type":"optional"},"type":"function"}
+rec bar -> rec bar -> 7
+{"arg":{"arg":{"value":7,"type":"number"},"name":"bar","type":"recursive"},"name":"bar","type":"recursive"}

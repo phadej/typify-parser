@@ -1,2 +1,2 @@
-foo... -> *...
-{"result":{"arg":{"type":"true"},"type":"variadic"},"arg":{"arg":{"value":"foo","type":"ident"},"type":"variadic"},"type":"function"}
+rec foo -> 5?
+{"arg":{"arg":{"value":5,"type":"number"},"type":"optional"},"name":"foo","type":"recursive"}

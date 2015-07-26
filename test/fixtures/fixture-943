@@ -1,2 +1,2 @@
-true, _|_, z, () -> _|_
-{"result":{"type":"false"},"arg":{"args":[{"value":true,"type":"bool"},{"type":"false"},{"value":"z","type":"ident"},{"type":"unit"}],"type":"product"},"type":"function"}
+rec bar -> b : b
+{"arg":{"arg":{"value":"b","type":"ident"},"name":"b","type":"named"},"name":"bar","type":"recursive"}

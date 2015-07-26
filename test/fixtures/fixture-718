@@ -1,2 +1,2 @@
-(foo -> a)...
-{"arg":{"result":{"value":"a","type":"ident"},"arg":{"value":"foo","type":"ident"},"type":"function"},"type":"variadic"}
+[rec z -> _|_]
+{"arg":{"arg":{"type":"false"},"name":"z","type":"recursive"},"type":"brackets"}

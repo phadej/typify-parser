@@ -1,2 +1,2 @@
-(z : 84)?
-{"arg":{"arg":{"value":84,"type":"number"},"name":"z","type":"named"},"type":"optional"}
+a...
+{"arg":{"value":"a","type":"ident"},"type":"variadic"}

@@ -1,2 +1,2 @@
-[*] -> [0]
-{"result":{"arg":{"value":0,"type":"number"},"type":"brackets"},"arg":{"arg":{"type":"true"},"type":"brackets"},"type":"function"}
+rec foo -> b -> z
+{"arg":{"result":{"value":"z","type":"ident"},"arg":{"value":"b","type":"ident"},"type":"function"},"name":"foo","type":"recursive"}

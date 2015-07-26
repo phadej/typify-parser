@@ -1,2 +1,2 @@
-z
-{"value":"z","type":"ident"}
+b : y : *
+{"arg":{"arg":{"type":"true"},"name":"y","type":"named"},"name":"b","type":"named"}

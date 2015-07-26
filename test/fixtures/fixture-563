@@ -1,2 +1,2 @@
-(a : _|_)?
-{"arg":{"arg":{"type":"false"},"name":"a","type":"named"},"type":"optional"}
+true...
+{"arg":{"value":true,"type":"bool"},"type":"variadic"}

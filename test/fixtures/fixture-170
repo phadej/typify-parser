@@ -1,2 +1,2 @@
-b : _|_ a () _|_ _|_ () () _|_ 'ocÁ0Ì>\x11' * * true '\x09)MÜ\x14' '{\x1f\x0e\x01àèâ\x1f4)hST+»¥E' () () '\x15\x02RÑ\x05E#\x19.Ð.C5v (H%@Z' b * ()
-{"arg":{"args":[{"value":"a","type":"ident"},{"type":"unit"},{"type":"false"},{"type":"false"},{"type":"unit"},{"type":"unit"},{"type":"false"},{"value":"ocÁ0Ì>\u0011","type":"string"},{"type":"true"},{"type":"true"},{"value":true,"type":"bool"},{"value":"\t)MÜ\u0014","type":"string"},{"value":"{\u001f\u000e\u0001àèâ\u001f4)hST+»¥E","type":"string"},{"type":"unit"},{"type":"unit"},{"value":"\u0015\u0002RÑ\u0005E#\u0019.Ð.C5v (H%@Z","type":"string"},{"value":"b","type":"ident"},{"type":"true"},{"type":"unit"}],"callee":{"type":"false"},"type":"application"},"name":"b","type":"named"}
+c : ()...
+{"arg":{"arg":{"type":"unit"},"type":"variadic"},"name":"c","type":"named"}

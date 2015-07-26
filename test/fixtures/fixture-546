@@ -1,2 +1,2 @@
-{a: *; b: _|_; bar: _|_; c: _|_; foo: false; x: 'HC\x19O=ð\x17°\x04Âi\x08j!z_ë\x08b\x07AÃ1'; z: '\'hz\x11¢3Ùñ{I]\x08xa\x0f|\x16\x16|y9'}?
-{"arg":{"type":"record","fields":{"z":{"value":"'hz\u0011¢3Ùñ{I]\u0008xa\u000f|\u0016\u0016|y9","type":"string"},"foo":{"value":false,"type":"bool"},"a":{"type":"true"},"b":{"type":"false"},"x":{"value":"HC\u0019O=ð\u0017°\u0004Âi\u0008j!z_ë\u0008b\u0007AÃ1","type":"string"},"c":{"type":"false"},"bar":{"type":"false"}}},"type":"optional"}
+(rec b -> false)?
+{"arg":{"arg":{"value":false,"type":"bool"},"name":"b","type":"recursive"},"type":"optional"}

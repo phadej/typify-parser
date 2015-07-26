@@ -1,2 +1,2 @@
-* -> y...
-{"result":{"arg":{"value":"y","type":"ident"},"type":"variadic"},"arg":{"type":"true"},"type":"function"}
+('\x1d\x15D^ò\x05Ð' -> ()) -> () -> ()
+{"result":{"result":{"type":"unit"},"arg":{"type":"unit"},"type":"function"},"arg":{"result":{"type":"unit"},"arg":{"value":"\u001d\u0015D^ò\u0005Ð","type":"string"},"type":"function"},"type":"function"}
