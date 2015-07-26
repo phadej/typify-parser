@@ -35,7 +35,7 @@ istanbul :
 	$(ISTANBUL) check-coverage --statements 100 --branches 100 --functions 100 coverage/coverage.json
 
 literate :
-	$(LJS) -c false -o README.md lib/parser.js
+	$(LJS) --no-code -o README.md lib/parser.js
 
 david :
 	$(DAVID)
