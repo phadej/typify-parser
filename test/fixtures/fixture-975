@@ -1,2 +1,2 @@
-_|_ false '\x00¦' '\x09ªâBw' * * () 10 * -> [16]
-{"result":{"arg":{"value":16,"type":"number"},"type":"brackets"},"arg":{"args":[{"value":false,"type":"bool"},{"value":"\u0000¦","type":"string"},{"value":"\tªâBw","type":"string"},{"type":"true"},{"type":"true"},{"type":"unit"},{"value":10,"type":"number"},{"type":"true"}],"callee":{"type":"false"},"type":"application"},"type":"function"}
+rec x -> [true]
+{"arg":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"name":"x","type":"recursive"}

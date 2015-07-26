@@ -1,2 +1,2 @@
-c : true & 8 & '' & '' & () & 9 & * & true & _|_ & x & '§\x18ÒJfQ'
-{"arg":{"args":[{"value":true,"type":"bool"},{"value":8,"type":"number"},{"value":"","type":"string"},{"value":"","type":"string"},{"type":"unit"},{"value":9,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"type":"false"},{"value":"x","type":"ident"},{"value":"§\u0018ÒJfQ","type":"string"}],"type":"conjunction"},"name":"c","type":"named"}
+y : _|_
+{"arg":{"type":"false"},"name":"y","type":"named"}

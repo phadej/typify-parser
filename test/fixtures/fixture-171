@@ -1,2 +1,2 @@
-b : _|_ b
-{"arg":{"args":[{"value":"b","type":"ident"}],"callee":{"type":"false"},"type":"application"},"name":"b","type":"named"}
+c : 82...
+{"arg":{"arg":{"value":82,"type":"number"},"type":"variadic"},"name":"c","type":"named"}

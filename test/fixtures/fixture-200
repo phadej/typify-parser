@@ -1,2 +1,2 @@
-c : *...
-{"arg":{"arg":{"type":"true"},"type":"variadic"},"name":"c","type":"named"}
+y : foo | _|_
+{"arg":{"args":[{"value":"foo","type":"ident"},{"type":"false"}],"type":"disjunction"},"name":"y","type":"named"}

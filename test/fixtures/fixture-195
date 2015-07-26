@@ -1,2 +1,2 @@
-c : 74 & () & 'o¦¤y!\x0f<lz\x18\x0e÷n' & '/0|^\x135mÀPÄÌO2´\x1f' & 24 & b & true & 80 & 'q+xY\x17ÔzWÔS1!Q1Â\x08^±>ë6?:\x06&v1O\x08í£Nñ+;»Wr\x1bV?\x14bpO'
-{"arg":{"args":[{"value":74,"type":"number"},{"type":"unit"},{"value":"o¦¤y!\u000f<lz\u0018\u000e÷n","type":"string"},{"value":"/0|^\u00135mÀPÄÌO2´\u001f","type":"string"},{"value":24,"type":"number"},{"value":"b","type":"ident"},{"value":true,"type":"bool"},{"value":80,"type":"number"},{"value":"q+xY\u0017ÔzWÔS1!Q1Â\u0008^±>ë6?:\u0006&v1O\u0008í£Nñ+;»Wr\u001bV?\u0014bpO","type":"string"}],"type":"conjunction"},"name":"c","type":"named"}
+x : (rec z -> *)
+{"arg":{"arg":{"type":"true"},"name":"z","type":"recursive"},"name":"x","type":"named"}

@@ -1,2 +1,2 @@
-{a: *; b: false; bar: 46; c: (); foo: *; x: _|_; y: a; z: 8}?
-{"arg":{"type":"record","fields":{"z":{"value":8,"type":"number"},"foo":{"type":"true"},"a":{"type":"true"},"b":{"value":false,"type":"bool"},"x":{"type":"false"},"c":{"type":"unit"},"bar":{"value":46,"type":"number"},"y":{"value":"a","type":"ident"}}},"type":"optional"}
+(rec x -> '(ñãDÿ¢Q;Û\x06ìL?g¼erÀmO=p´L')?
+{"arg":{"arg":{"value":"(ñãDÿ¢Q;Û\u0006ìL?g¼erÀmO=p´L","type":"string"},"name":"x","type":"recursive"},"type":"optional"}

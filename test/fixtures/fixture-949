@@ -1,2 +1,2 @@
-_|_? -> ()...
-{"result":{"arg":{"type":"unit"},"type":"variadic"},"arg":{"arg":{"type":"false"},"type":"optional"},"type":"function"}
+rec bar -> rec y -> true
+{"arg":{"arg":{"value":true,"type":"bool"},"name":"y","type":"recursive"},"name":"bar","type":"recursive"}

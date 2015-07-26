@@ -1,2 +1,2 @@
-',I²L' 2 '>\x0dÂ' false () *...
-{"arg":{"args":[{"value":2,"type":"number"},{"value":">\rÂ","type":"string"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"true"}],"callee":{"value":",I²L","type":"string"},"type":"application"},"type":"variadic"}
+[* -> 6]
+{"arg":{"result":{"value":6,"type":"number"},"arg":{"type":"true"},"type":"function"},"type":"brackets"}

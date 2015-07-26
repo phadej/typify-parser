@@ -1,2 +1,2 @@
-('2Y\x0d\x18\x0d\x037\x1c6*\x1d>{' -> false)...
-{"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":"2Y\r\u0018\r\u00037\u001c6*\u001d>{","type":"string"},"type":"function"},"type":"variadic"}
+[rec bar -> *]
+{"arg":{"arg":{"type":"true"},"name":"bar","type":"recursive"},"type":"brackets"}

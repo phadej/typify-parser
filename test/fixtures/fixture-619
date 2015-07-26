@@ -1,2 +1,2 @@
-(11 -> _|_)?
-{"arg":{"result":{"type":"false"},"arg":{"value":11,"type":"number"},"type":"function"},"type":"optional"}
+(() -> _|_)...
+{"arg":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"},"type":"variadic"}

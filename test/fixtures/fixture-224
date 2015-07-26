@@ -1,2 +1,2 @@
-x : z : _|_
-{"arg":{"arg":{"type":"false"},"name":"z","type":"named"},"name":"x","type":"named"}
+_|_ & (b : '¶e') & 2 & ()
+{"args":[{"type":"false"},{"arg":{"value":"¶e","type":"string"},"name":"b","type":"named"},{"value":2,"type":"number"},{"type":"unit"}],"type":"conjunction"}

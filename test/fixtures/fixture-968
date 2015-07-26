@@ -1,2 +1,2 @@
-[false] -> a -> 21
-{"result":{"result":{"value":21,"type":"number"},"arg":{"value":"a","type":"ident"},"type":"function"},"arg":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"type":"function"}
+rec x -> ()
+{"arg":{"type":"unit"},"name":"x","type":"recursive"}

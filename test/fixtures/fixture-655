@@ -1,2 +1,2 @@
-(c : '\x0c\x1dùqÚ[åyr\x05!Q\x1d>9')...
-{"arg":{"arg":{"value":"\u000c\u001dùqÚ[åyr\u0005!Q\u001d>9","type":"string"},"name":"c","type":"named"},"type":"variadic"}
+[* & * & 24 & * & () & 16 & a & _|_ & 0]
+{"arg":{"args":[{"type":"true"},{"type":"true"},{"value":24,"type":"number"},{"type":"true"},{"type":"unit"},{"value":16,"type":"number"},{"value":"a","type":"ident"},{"type":"false"},{"value":0,"type":"number"}],"type":"conjunction"},"type":"brackets"}

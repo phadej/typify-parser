@@ -1,2 +1,2 @@
-{a: (); bar: (); c: 6; y: 'w\x0b÷²'; z: ''} -> {bar: _|_; c: _|_; x: 'cS9½ffY'; z: 3}
-{"result":{"type":"record","fields":{"z":{"value":3,"type":"number"},"x":{"value":"cS9½ffY","type":"string"},"c":{"type":"false"},"bar":{"type":"false"}}},"arg":{"type":"record","fields":{"z":{"value":"","type":"string"},"a":{"type":"unit"},"c":{"value":6,"type":"number"},"bar":{"type":"unit"},"y":{"value":"w\u000b÷²","type":"string"}}},"type":"function"}
+rec a -> b : 23
+{"arg":{"arg":{"value":23,"type":"number"},"name":"b","type":"named"},"name":"a","type":"recursive"}

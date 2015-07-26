@@ -1,2 +1,2 @@
-x : ()
-{"arg":{"type":"unit"},"name":"x","type":"named"}
+z : (rec c -> 89)
+{"arg":{"arg":{"value":89,"type":"number"},"name":"c","type":"recursive"},"name":"z","type":"named"}

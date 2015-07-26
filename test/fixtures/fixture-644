@@ -1,2 +1,2 @@
-{b: _|_; c: z; x: (); y: 1}...
-{"arg":{"type":"record","fields":{"b":{"type":"false"},"x":{"type":"unit"},"c":{"value":"z","type":"ident"},"y":{"value":1,"type":"number"}}},"type":"variadic"}
+['\x17\x0c0DSC']
+{"arg":{"value":"\u0017\u000c0DSC","type":"string"},"type":"brackets"}

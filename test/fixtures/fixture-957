@@ -1,2 +1,2 @@
-3... -> ['ÆD|-&m\x09P³º&~¶\n\x15@\nW(I\x1a']
-{"result":{"arg":{"value":"ÆD|-&m\tP³º&~¶\n\u0015@\nW(I\u001a","type":"string"},"type":"brackets"},"arg":{"arg":{"value":3,"type":"number"},"type":"variadic"},"type":"function"}
+rec foo -> 12
+{"arg":{"value":12,"type":"number"},"name":"foo","type":"recursive"}

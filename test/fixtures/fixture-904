@@ -1,2 +1,2 @@
-'\x0bµ' -> {bar: '\x1f\x1b\x13\x1e'; c: *; foo: (); x: c}
-{"result":{"type":"record","fields":{"foo":{"type":"unit"},"x":{"value":"c","type":"ident"},"c":{"type":"true"},"bar":{"value":"\u001f\u001b\u0013\u001e","type":"string"}}},"arg":{"value":"\u000bµ","type":"string"},"type":"function"}
+(rec bar -> '\x19h§\'cÌ\\w\x010ÅÈýVH') -> ()...
+{"result":{"arg":{"type":"unit"},"type":"variadic"},"arg":{"arg":{"value":"\u0019h§'cÌ\\w\u00010ÅÈýVH","type":"string"},"name":"bar","type":"recursive"},"type":"function"}

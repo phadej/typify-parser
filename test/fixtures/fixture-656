@@ -1,2 +1,2 @@
-(foo : _|_)...
-{"arg":{"arg":{"type":"false"},"name":"foo","type":"named"},"type":"variadic"}
+[* & a & c & true & * & () & 11 & '[HZh\x09d`Óu' & false & x & * & * & _|_ & () & *]
+{"arg":{"args":[{"type":"true"},{"value":"a","type":"ident"},{"value":"c","type":"ident"},{"value":true,"type":"bool"},{"type":"true"},{"type":"unit"},{"value":11,"type":"number"},{"value":"[HZh\td`Óu","type":"string"},{"value":false,"type":"bool"},{"value":"x","type":"ident"},{"type":"true"},{"type":"true"},{"type":"false"},{"type":"unit"},{"type":"true"}],"type":"conjunction"},"type":"brackets"}

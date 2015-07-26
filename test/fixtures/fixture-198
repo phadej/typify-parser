@@ -1,2 +1,2 @@
-c : y | * | * | 'J:[qTÔ1Q]n»Iñ\x0d\x14QuN\x1cfg<\x1bÖ\x00\x173#(\x0f,·ï¶\\Sxþoi@F\x18\n°\x01ºZE.E´\x05' | * | true | _|_
-{"arg":{"args":[{"value":"y","type":"ident"},{"type":"true"},{"type":"true"},{"value":"J:[qTÔ1Q]n»Iñ\r\u0014QuN\u001cfg<\u001bÖ\u0000\u00173#(\u000f,·ï¶\\Sxþoi@F\u0018\n°\u0001ºZE.E´\u0005","type":"string"},{"type":"true"},{"value":true,"type":"bool"},{"type":"false"}],"type":"disjunction"},"name":"c","type":"named"}
+y : a : _|_
+{"arg":{"arg":{"type":"false"},"name":"a","type":"named"},"name":"y","type":"named"}

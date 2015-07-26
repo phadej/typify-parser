@@ -1,2 +1,2 @@
-x?
-{"arg":{"value":"x","type":"ident"},"type":"optional"}
+'5'...
+{"arg":{"value":"5","type":"string"},"type":"variadic"}

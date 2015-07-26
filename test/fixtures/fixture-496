@@ -1,2 +1,2 @@
-*?, () bar false * '@zx\x19=' false ()
-{"args":[{"arg":{"type":"true"},"type":"optional"},{"args":[{"value":"bar","type":"ident"},{"value":false,"type":"bool"},{"type":"true"},{"value":"@zx\u0019=","type":"string"},{"value":false,"type":"bool"},{"type":"unit"}],"callee":{"type":"unit"},"type":"application"}],"type":"product"}
+(x : ())?
+{"arg":{"arg":{"type":"unit"},"name":"x","type":"named"},"type":"optional"}

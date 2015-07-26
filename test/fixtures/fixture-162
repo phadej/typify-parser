@@ -1,2 +1,2 @@
-b : {a: 15; b: (); bar: false; c: _|_; x: *; z: 30}
-{"arg":{"type":"record","fields":{"z":{"value":30,"type":"number"},"a":{"value":15,"type":"number"},"b":{"type":"unit"},"x":{"type":"true"},"c":{"type":"false"},"bar":{"value":false,"type":"bool"}}},"name":"b","type":"named"}
+c : b : '"dÝ'
+{"arg":{"arg":{"value":"\"dÝ","type":"string"},"name":"b","type":"named"},"name":"c","type":"named"}

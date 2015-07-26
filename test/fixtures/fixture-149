@@ -1,2 +1,2 @@
-a : '\x01|' | false | 'X\x0b' | 2
-{"arg":{"args":[{"value":"\u0001|","type":"string"},{"value":false,"type":"bool"},{"value":"X\u000b","type":"string"},{"value":2,"type":"number"}],"type":"disjunction"},"name":"a","type":"named"}
+bar : 10
+{"arg":{"value":10,"type":"number"},"name":"bar","type":"named"}

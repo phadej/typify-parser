@@ -1,2 +1,2 @@
-[()] ('' & false) 'b³c\x1c\x00GNN'
-{"args":[{"args":[{"value":"","type":"string"},{"value":false,"type":"bool"}],"type":"conjunction"},{"value":"b³c\u001c\u0000GNN","type":"string"}],"callee":{"arg":{"type":"unit"},"type":"brackets"},"type":"application"}
+*... -> [b]
+{"result":{"arg":{"value":"b","type":"ident"},"type":"brackets"},"arg":{"arg":{"type":"true"},"type":"variadic"},"type":"function"}

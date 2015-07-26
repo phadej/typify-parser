@@ -1,2 +1,2 @@
-bar : *
-{"arg":{"type":"true"},"name":"bar","type":"named"}
+c : (rec z -> 'Ù\x15céPN!8\x08ß82RKþI\x1ch¶qre\x0fS^.!.\x1deÿæ:\x08ÔI\x1b;')
+{"arg":{"arg":{"value":"Ù\u0015céPN!8\u0008ß82RKþI\u001ch¶qre\u000fS^.!.\u001deÿæ:\u0008ÔI\u001b;","type":"string"},"name":"z","type":"recursive"},"name":"c","type":"named"}

@@ -1,2 +1,2 @@
-(b : true)...
-{"arg":{"arg":{"value":true,"type":"bool"},"name":"b","type":"named"},"type":"variadic"}
+[b : 28]
+{"arg":{"arg":{"value":28,"type":"number"},"name":"b","type":"named"},"type":"brackets"}

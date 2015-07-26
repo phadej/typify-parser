@@ -1,2 +1,2 @@
-{a: 3; c: 4; foo: 'Ô'; x: (); y: _|_; z: c} -> bar : foo
-{"result":{"arg":{"value":"foo","type":"ident"},"name":"bar","type":"named"},"arg":{"type":"record","fields":{"z":{"value":"c","type":"ident"},"foo":{"value":"Ô","type":"string"},"a":{"value":3,"type":"number"},"x":{"type":"unit"},"c":{"value":4,"type":"number"},"y":{"type":"false"}}},"type":"function"}
+rec a -> _|_ & 'R\x1a\x10\nP\x05' & true & _|_ & false & * & a
+{"arg":{"args":[{"type":"false"},{"value":"R\u001a\u0010\nP\u0005","type":"string"},{"value":true,"type":"bool"},{"type":"false"},{"value":false,"type":"bool"},{"type":"true"},{"value":"a","type":"ident"}],"type":"conjunction"},"name":"a","type":"recursive"}

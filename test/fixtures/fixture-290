@@ -1,2 +1,2 @@
-(foo : 5) & (_|_ | true | false) & _|_? & (y -> true)
-{"args":[{"arg":{"value":5,"type":"number"},"name":"foo","type":"named"},{"args":[{"type":"false"},{"value":true,"type":"bool"},{"value":false,"type":"bool"}],"type":"disjunction"},{"arg":{"type":"false"},"type":"optional"},{"result":{"value":true,"type":"bool"},"arg":{"value":"y","type":"ident"},"type":"function"}],"type":"conjunction"}
+19 false & (19...)
+{"args":[{"args":[{"value":false,"type":"bool"}],"callee":{"value":19,"type":"number"},"type":"application"},{"arg":{"value":19,"type":"number"},"type":"variadic"}],"type":"conjunction"}

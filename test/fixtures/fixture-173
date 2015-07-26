@@ -1,2 +1,2 @@
-b : false * _|_ () c * true _|_ 27 x 36 () *
-{"arg":{"args":[{"type":"true"},{"type":"false"},{"type":"unit"},{"value":"c","type":"ident"},{"type":"true"},{"value":true,"type":"bool"},{"type":"false"},{"value":27,"type":"number"},{"value":"x","type":"ident"},{"value":36,"type":"number"},{"type":"unit"},{"type":"true"}],"callee":{"value":false,"type":"bool"},"type":"application"},"name":"b","type":"named"}
+c : false 16 * true * x 'u;;ìr\x1f\x0e}û>rxB;Fçc\x1a'
+{"arg":{"args":[{"value":16,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"type":"true"},{"value":"x","type":"ident"},{"value":"u;;ìr\u001f\u000e}û>rxB;Fçc\u001a","type":"string"}],"callee":{"value":false,"type":"bool"},"type":"application"},"name":"c","type":"named"}

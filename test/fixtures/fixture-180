@@ -1,2 +1,2 @@
-bar : foo : '"?\x03í\x03\x1at\x0e'
-{"arg":{"arg":{"value":"\"?\u0003í\u0003\u001at\u000e","type":"string"},"name":"foo","type":"named"},"name":"bar","type":"named"}
+foo : bar : foo
+{"arg":{"arg":{"value":"foo","type":"ident"},"name":"bar","type":"named"},"name":"foo","type":"named"}

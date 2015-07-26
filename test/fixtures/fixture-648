@@ -1,2 +1,2 @@
-bar...
-{"arg":{"value":"bar","type":"ident"},"type":"variadic"}
+[{a: (); b: _|_; bar: (); c: *; foo: *; x: z; y: z; z: 'Ýd\n\x0f"]\x14H÷£6ejæ+\x1c\x16\x054p\x024.fàXè&A\x19Êb\x1dx\x03\x00¡\x1cª'}]
+{"arg":{"type":"record","fields":{"z":{"value":"Ýd\n\u000f\"]\u0014H÷£6ejæ+\u001c\u0016\u00054p\u00024.fàXè&A\u0019Êb\u001dx\u0003\u0000¡\u001cª","type":"string"},"foo":{"type":"true"},"a":{"type":"unit"},"b":{"type":"false"},"x":{"value":"z","type":"ident"},"c":{"type":"true"},"bar":{"type":"unit"},"y":{"value":"z","type":"ident"}}},"type":"brackets"}

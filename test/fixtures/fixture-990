@@ -1,2 +1,2 @@
-(_|_ -> 2) -> true | _|_ | * | _|_ | 30 | _|_ | *
-{"result":{"args":[{"value":true,"type":"bool"},{"type":"false"},{"type":"true"},{"type":"false"},{"value":30,"type":"number"},{"type":"false"},{"type":"true"}],"type":"disjunction"},"arg":{"result":{"value":2,"type":"number"},"arg":{"type":"false"},"type":"function"},"type":"function"}
+rec z -> z : true
+{"arg":{"arg":{"value":true,"type":"bool"},"name":"z","type":"named"},"name":"z","type":"recursive"}

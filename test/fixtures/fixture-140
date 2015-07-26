@@ -1,2 +1,2 @@
-x
-{"value":"x","type":"ident"}
+b : true
+{"arg":{"value":true,"type":"bool"},"name":"b","type":"named"}

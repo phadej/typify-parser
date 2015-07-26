@@ -1,2 +1,2 @@
-'*FmiCe]ø' & 12 & () & '»\x09D\x0b\x00\x09/|D"' & 6 & * & () & '\x0f©o&e¼çS' & bar -> z true foo () a
-{"result":{"args":[{"value":true,"type":"bool"},{"value":"foo","type":"ident"},{"type":"unit"},{"value":"a","type":"ident"}],"callee":{"value":"z","type":"ident"},"type":"application"},"arg":{"args":[{"value":"*FmiCe]ø","type":"string"},{"value":12,"type":"number"},{"type":"unit"},{"value":"»\tD\u000b\u0000\t/|D\"","type":"string"},{"value":6,"type":"number"},{"type":"true"},{"type":"unit"},{"value":"\u000f©o&e¼çS","type":"string"},{"value":"bar","type":"ident"}],"type":"conjunction"},"type":"function"}
+rec a -> 39 -> true
+{"arg":{"result":{"value":true,"type":"bool"},"arg":{"value":39,"type":"number"},"type":"function"},"name":"a","type":"recursive"}

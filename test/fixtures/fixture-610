@@ -1,2 +1,2 @@
-(_|_ false * '8' _|_ () false)?
-{"arg":{"args":[{"value":false,"type":"bool"},{"type":"true"},{"value":"8","type":"string"},{"type":"false"},{"type":"unit"},{"value":false,"type":"bool"}],"callee":{"type":"false"},"type":"application"},"type":"optional"}
+_|_ * 8 () false _|_ () * false * _|_ _|_ _|_ _|_ () ()...
+{"arg":{"args":[{"type":"true"},{"value":8,"type":"number"},{"type":"unit"},{"value":false,"type":"bool"},{"type":"false"},{"type":"unit"},{"type":"true"},{"value":false,"type":"bool"},{"type":"true"},{"type":"false"},{"type":"false"},{"type":"false"},{"type":"false"},{"type":"unit"},{"type":"unit"}],"callee":{"type":"false"},"type":"application"},"type":"variadic"}

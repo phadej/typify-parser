@@ -1,2 +1,2 @@
-[{a: _|_; bar: '\x17S×p'; foo: 't\x12ÜÑW'; x: *}]
-{"arg":{"type":"record","fields":{"foo":{"value":"t\u0012ÜÑW","type":"string"},"a":{"type":"false"},"x":{"type":"true"},"bar":{"value":"\u0017S×p","type":"string"}}},"type":"brackets"}
+1 c
+{"args":[{"value":"c","type":"ident"}],"callee":{"value":1,"type":"number"},"type":"application"}

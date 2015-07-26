@@ -1,2 +1,2 @@
-(* -> true)...
-{"arg":{"result":{"value":true,"type":"bool"},"arg":{"type":"true"},"type":"function"},"type":"variadic"}
+[2 -> ()]
+{"arg":{"result":{"type":"unit"},"arg":{"value":2,"type":"number"},"type":"function"},"type":"brackets"}

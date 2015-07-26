@@ -1,2 +1,2 @@
-(true -> *)?
-{"arg":{"result":{"type":"true"},"arg":{"value":true,"type":"bool"},"type":"function"},"type":"optional"}
+(5 -> b)...
+{"arg":{"result":{"value":"b","type":"ident"},"arg":{"value":5,"type":"number"},"type":"function"},"type":"variadic"}

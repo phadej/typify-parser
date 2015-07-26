@@ -1,2 +1,2 @@
-(x : c)?
-{"arg":{"arg":{"value":"c","type":"ident"},"name":"x","type":"named"},"type":"optional"}
+{a: 21; b: ';+1/"aR\\\x13-qE8JP\x05GèF\x05P\x04\x1f#'; bar: 68; c: true; foo: false; x: y; y: bar; z: ()}...
+{"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"value":false,"type":"bool"},"a":{"value":21,"type":"number"},"b":{"value":";+1/\"aR\\\u0013-qE8JP\u0005GèF\u0005P\u0004\u001f#","type":"string"},"x":{"value":"y","type":"ident"},"c":{"value":true,"type":"bool"},"bar":{"value":68,"type":"number"},"y":{"value":"bar","type":"ident"}}},"type":"variadic"}

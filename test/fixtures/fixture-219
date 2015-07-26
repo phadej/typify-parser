@@ -1,2 +1,2 @@
-foo : 'N¨'...
-{"arg":{"arg":{"value":"N¨","type":"string"},"type":"variadic"},"name":"foo","type":"named"}
+z : 0 'M_' *
+{"arg":{"args":[{"value":"M_","type":"string"},{"type":"true"}],"callee":{"value":0,"type":"number"},"type":"application"},"name":"z","type":"named"}

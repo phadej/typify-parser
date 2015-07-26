@@ -1,2 +1,2 @@
-b : [false]
-{"arg":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"name":"b","type":"named"}
+c : 18?
+{"arg":{"arg":{"value":18,"type":"number"},"type":"optional"},"name":"c","type":"named"}

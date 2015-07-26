@@ -1,2 +1,2 @@
-x : 'z\x11P\x1acêvàì½m'...
-{"arg":{"arg":{"value":"z\u0011P\u001acêvàì½m","type":"string"},"type":"variadic"},"name":"x","type":"named"}
+7 & 83?
+{"args":[{"value":7,"type":"number"},{"arg":{"value":83,"type":"number"},"type":"optional"}],"type":"conjunction"}

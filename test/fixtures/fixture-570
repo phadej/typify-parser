@@ -1,2 +1,2 @@
-(z : _|_)?
-{"arg":{"arg":{"type":"false"},"name":"z","type":"named"},"type":"optional"}
+{x: (); y: ()}...
+{"arg":{"type":"record","fields":{"x":{"type":"unit"},"y":{"type":"unit"}}},"type":"variadic"}

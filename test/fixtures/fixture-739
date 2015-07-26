@@ -1,2 +1,2 @@
-[foo : *]
-{"arg":{"arg":{"type":"true"},"name":"foo","type":"named"},"type":"brackets"}
+{b: '´'} (* -> 1) [true]
+{"args":[{"result":{"value":1,"type":"number"},"arg":{"type":"true"},"type":"function"},{"arg":{"value":true,"type":"bool"},"type":"brackets"}],"callee":{"type":"record","fields":{"b":{"value":"´","type":"string"}}},"type":"application"}

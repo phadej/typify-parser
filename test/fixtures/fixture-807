@@ -1,2 +1,2 @@
-'\\Êr\x1as' () ('%b\x1eh\x12' * z _|_) 'ÝEx'? false
-{"args":[{"type":"unit"},{"args":[{"type":"true"},{"value":"z","type":"ident"},{"type":"false"}],"callee":{"value":"%b\u001eh\u0012","type":"string"},"type":"application"},{"arg":{"value":"ÝEx","type":"string"},"type":"optional"},{"value":false,"type":"bool"}],"callee":{"value":"\\Êr\u001as","type":"string"},"type":"application"}
+_|_ -> ['Üv\x08;']
+{"result":{"arg":{"value":"Üv\u0008;","type":"string"},"type":"brackets"},"arg":{"type":"false"},"type":"function"}

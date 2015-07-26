@@ -1,2 +1,2 @@
-() () false ')¤®t×=r\\' true false () () 'O!õ~6Kë0' () * * -> y...
-{"result":{"arg":{"value":"y","type":"ident"},"type":"variadic"},"arg":{"args":[{"type":"unit"},{"value":false,"type":"bool"},{"value":")¤®t×=r\\","type":"string"},{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"unit"},{"value":"O!õ~6Kë0","type":"string"},{"type":"unit"},{"type":"true"},{"type":"true"}],"callee":{"type":"unit"},"type":"application"},"type":"function"}
+rec y -> {a: (); b: c; bar: (); c: true; foo: false; x: 'Úq'; y: false; z: true}
+{"arg":{"type":"record","fields":{"z":{"value":true,"type":"bool"},"foo":{"value":false,"type":"bool"},"a":{"type":"unit"},"b":{"value":"c","type":"ident"},"x":{"value":"Úq","type":"string"},"c":{"value":true,"type":"bool"},"bar":{"type":"unit"},"y":{"value":false,"type":"bool"}}},"name":"y","type":"recursive"}

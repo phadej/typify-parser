@@ -1,2 +1,2 @@
-false true () y...
-{"arg":{"args":[{"value":true,"type":"bool"},{"type":"unit"},{"value":"y","type":"ident"}],"callee":{"value":false,"type":"bool"},"type":"application"},"type":"variadic"}
+[* -> '']
+{"arg":{"result":{"value":"","type":"string"},"arg":{"type":"true"},"type":"function"},"type":"brackets"}

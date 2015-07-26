@@ -1,2 +1,2 @@
-x : _|_
-{"arg":{"type":"false"},"name":"x","type":"named"}
+z : (_|_ -> '\x0c')
+{"arg":{"result":{"value":"\u000c","type":"string"},"arg":{"type":"false"},"type":"function"},"name":"z","type":"named"}

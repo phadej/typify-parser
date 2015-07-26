@@ -1,2 +1,2 @@
-[false] -> c : '=¸PkT'
-{"result":{"arg":{"value":"=¸PkT","type":"string"},"name":"c","type":"named"},"arg":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"type":"function"}
+rec x -> _|_
+{"arg":{"type":"false"},"name":"x","type":"recursive"}

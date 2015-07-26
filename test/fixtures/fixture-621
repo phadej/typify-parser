@@ -1,2 +1,2 @@
-(false -> _|_)?
-{"arg":{"result":{"type":"false"},"arg":{"value":false,"type":"bool"},"type":"function"},"type":"optional"}
+(0 -> *)...
+{"arg":{"result":{"type":"true"},"arg":{"value":0,"type":"number"},"type":"function"},"type":"variadic"}

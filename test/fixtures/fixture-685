@@ -1,2 +1,2 @@
-(b, false, a)...
-{"arg":{"args":[{"value":"b","type":"ident"},{"value":false,"type":"bool"},{"value":"a","type":"ident"}],"type":"product"},"type":"variadic"}
+[67...]
+{"arg":{"arg":{"value":67,"type":"number"},"type":"variadic"},"type":"brackets"}

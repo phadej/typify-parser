@@ -1,2 +1,2 @@
-x : *...
-{"arg":{"arg":{"type":"true"},"type":"variadic"},"name":"x","type":"named"}
+3 & true & () & () & (rec y -> '¬\x06\x1d')
+{"args":[{"value":3,"type":"number"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"unit"},{"arg":{"value":"¬\u0006\u001d","type":"string"},"name":"y","type":"recursive"}],"type":"conjunction"}

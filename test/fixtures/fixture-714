@@ -1,2 +1,2 @@
-('GR2â\x18ÓÇ£\x0b¯ªÐðcuXSn\x16Uïeò' -> *)...
-{"arg":{"result":{"type":"true"},"arg":{"value":"GR2â\u0018ÓÇ£\u000b¯ªÐðcuXSn\u0016Uïeò","type":"string"},"type":"function"},"type":"variadic"}
+[rec c -> _|_]
+{"arg":{"arg":{"type":"false"},"name":"c","type":"recursive"},"type":"brackets"}

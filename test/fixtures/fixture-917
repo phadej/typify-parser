@@ -1,2 +1,2 @@
-{c: _|_} -> z, y
-{"result":{"args":[{"value":"z","type":"ident"},{"value":"y","type":"ident"}],"type":"product"},"arg":{"type":"record","fields":{"c":{"type":"false"}}},"type":"function"}
+rec a -> z?
+{"arg":{"arg":{"value":"z","type":"ident"},"type":"optional"},"name":"a","type":"recursive"}

@@ -1,2 +1,2 @@
-7?
-{"arg":{"value":7,"type":"number"},"type":"optional"}
+(b -> false)?
+{"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":"b","type":"ident"},"type":"function"},"type":"optional"}

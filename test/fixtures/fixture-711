@@ -1,2 +1,2 @@
-(() -> 'B-')...
-{"arg":{"result":{"value":"B-","type":"string"},"arg":{"type":"unit"},"type":"function"},"type":"variadic"}
+[c -> *]
+{"arg":{"result":{"type":"true"},"arg":{"value":"c","type":"ident"},"type":"function"},"type":"brackets"}

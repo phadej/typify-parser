@@ -1,2 +1,2 @@
-'Åã\'' (*...) (a : '1.\x00-U') (*...) (foo foo _|_ () () '7®Øu\x08' '\x1bN\x1fMtz' b _|_ *)
-{"args":[{"arg":{"type":"true"},"type":"variadic"},{"arg":{"value":"1.\u0000-U","type":"string"},"name":"a","type":"named"},{"arg":{"type":"true"},"type":"variadic"},{"args":[{"value":"foo","type":"ident"},{"type":"false"},{"type":"unit"},{"type":"unit"},{"value":"7®Øu\u0008","type":"string"},{"value":"\u001bN\u001fMtz","type":"string"},{"value":"b","type":"ident"},{"type":"false"},{"type":"true"}],"callee":{"value":"foo","type":"ident"},"type":"application"}],"callee":{"value":"Åã'","type":"string"},"type":"application"}
+_|_ -> (rec a -> 'ob¿vnM{\x1f:j\x18\n^¾^/îK!]MÙ<Pu/\x1a\x02V\x1a')
+{"result":{"arg":{"value":"ob¿vnM{\u001f:j\u0018\n^¾^/îK!]MÙ<Pu/\u001a\u0002V\u001a","type":"string"},"name":"a","type":"recursive"},"arg":{"type":"false"},"type":"function"}

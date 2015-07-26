@@ -1,2 +1,2 @@
-(* & 'ÓÛ\x18]I\x0f)eÍF&pmKE' & '\x1f\x00Náhp~>ÀJqD9$' & _|_ & _|_ & a & _|_ & true & c & a & bar)?
-{"arg":{"args":[{"type":"true"},{"value":"ÓÛ\u0018]I\u000f)eÍF&pmKE","type":"string"},{"value":"\u001f\u0000Náhp~>ÀJqD9$","type":"string"},{"type":"false"},{"type":"false"},{"value":"a","type":"ident"},{"type":"false"},{"value":true,"type":"bool"},{"value":"c","type":"ident"},{"value":"a","type":"ident"},{"value":"bar","type":"ident"}],"type":"conjunction"},"type":"optional"}
+(foo : _|_)...
+{"arg":{"arg":{"type":"false"},"name":"foo","type":"named"},"type":"variadic"}

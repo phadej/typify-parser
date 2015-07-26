@@ -1,2 +1,2 @@
-(_|_, *, (), 11, _|_, (), *, 55, false, 33, x, _|_, *, (), *, a, '\x0c¥aùE\x17\x01¼è:\x1eÞÓ\x0dpSXt{wià\x13u7\x00°\x071pü-[TUËw4UÈÁ~+\\!j\x08w(´\x02\x0f\x00A4!\x0d3+c[v\x13\x1e\x03\x1c$s;(T¢  ', _|_, ':\x1a\x0e1')...
-{"arg":{"args":[{"type":"false"},{"type":"true"},{"type":"unit"},{"value":11,"type":"number"},{"type":"false"},{"type":"unit"},{"type":"true"},{"value":55,"type":"number"},{"value":false,"type":"bool"},{"value":33,"type":"number"},{"value":"x","type":"ident"},{"type":"false"},{"type":"true"},{"type":"unit"},{"type":"true"},{"value":"a","type":"ident"},{"value":"\u000c¥aùE\u0017\u0001¼è:\u001eÞÓ\rpSXt{wià\u0013u7\u0000°\u00071pü-[TUËw4UÈÁ~+\\!j\u0008w(´\u0002\u000f\u0000A4!\r3+c[v\u0013\u001e\u0003\u001c$s;(T¢  ","type":"string"},{"type":"false"},{"value":":\u001a\u000e1","type":"string"}],"type":"product"},"type":"variadic"}
+[()...]
+{"arg":{"arg":{"type":"unit"},"type":"variadic"},"type":"brackets"}

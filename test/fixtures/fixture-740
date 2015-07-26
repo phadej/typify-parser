@@ -1,2 +1,2 @@
-[foo : _|_]
-{"arg":{"arg":{"type":"false"},"name":"foo","type":"named"},"type":"brackets"}
+x ()
+{"args":[{"type":"unit"}],"callee":{"value":"x","type":"ident"},"type":"application"}

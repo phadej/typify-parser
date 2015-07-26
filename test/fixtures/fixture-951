@@ -1,2 +1,2 @@
-()? -> foo : 17
-{"result":{"arg":{"value":17,"type":"number"},"name":"foo","type":"named"},"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"function"}
+rec c -> 95
+{"arg":{"value":95,"type":"number"},"name":"c","type":"recursive"}

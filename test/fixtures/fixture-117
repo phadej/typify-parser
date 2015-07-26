@@ -1,2 +1,2 @@
-{b: b}
-{"type":"record","fields":{"b":{"value":"b","type":"ident"}}}
+{foo: () -> _|_}
+{"type":"record","fields":{"foo":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"}}}

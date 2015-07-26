@@ -1,2 +1,2 @@
-bar : {a: 'û7á'; b: _|_; c: 15; foo: *; x: '\x13hGáXã ªHy¥\x14¹\x0e\x0cóÜ\x18MO+'; y: 30; z: *}
-{"arg":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"true"},"a":{"value":"û7á","type":"string"},"b":{"type":"false"},"x":{"value":"\u0013hGáXã ªHy¥\u0014¹\u000e\u000cóÜ\u0018MO+","type":"string"},"c":{"value":15,"type":"number"},"y":{"value":30,"type":"number"}}},"name":"bar","type":"named"}
+foo : {z: 2}
+{"arg":{"type":"record","fields":{"z":{"value":2,"type":"number"}}},"name":"foo","type":"named"}

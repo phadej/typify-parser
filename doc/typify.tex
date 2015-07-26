@@ -86,6 +86,9 @@ Essentially the language is dependent type theory, with omitted lambda construct
 \\&
 \textbf{Functions:} \\&
 \syntaxrule{Function}{a : \mathsf{type} \quad b : \mathsf{type}}{a \to b : \mathsf{type}}
+\\&
+\textbf{Recursive types:} \\&
+\syntaxrule{Recursive}{n : \mathsf{name} \quad a : \mathsf{type}}{\mu\ n \to a : \mathsf{type}}
 \end{flalign*}
 \caption{Typify syntax rules}
 \end{figure}
@@ -103,7 +106,8 @@ level & name & & associativity & example \\
 3 & type         & $:$      & right associative  & $x : a$ \\
 2 & product      & $\times$ & associative        & $(a \times b) \times c \equiv a \times (b \times c)$ \\
 1 & function     & $\to$    & right associative  & $a \to b \to c \equiv a \to (b \to c)$ \\
-0 & semicolon    & $;$      & associative        & \\
+0 & recursive    & $\mu$    & prefix, right associative & $\mu\; a \to \mu\; b \to a\; b \equiv \mu\; a \to (\mu\; b \to (a\; b))$ \\
+-1 & semicolon    & $;$      & associative        & \\
 \end{tabular}
 \end{center}
 \caption{Operator precedence}
@@ -125,7 +129,8 @@ ellipsis     & $\ldots$ & \texttt{\ldots} (either three dots, or unicode ellipsi
 type         & $:$      & $\mathtt{:}$ \\
 product      & $\times$ & $\times$ $\mathtt{,}$ \\
 function     & $\to$    & $\to$ \texttt{->} \\
-semicolon    & $;$      & $\mathtt{;}$
+semicolon    & $;$      & $\mathtt{;}$ \\
+rec          & $\mu$    & $\mu$ $\mathtt{rec}$
 \end{tabular}
 \end{center}
 \caption{Special character code representations}

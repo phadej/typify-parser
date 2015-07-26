@@ -1,2 +1,2 @@
-[_|_]...
-{"arg":{"arg":{"type":"false"},"type":"brackets"},"type":"variadic"}
+[_|_ 'Ú\x1fõL;}ï\x1d' * * ()]
+{"arg":{"args":[{"value":"Ú\u001fõL;}ï\u001d","type":"string"},{"type":"true"},{"type":"true"},{"type":"unit"}],"callee":{"type":"false"},"type":"application"},"type":"brackets"}

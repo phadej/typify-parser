@@ -1,2 +1,2 @@
-(*, _|_) [a] ()? (a | '' | _|_ | _|_)
-{"args":[{"arg":{"value":"a","type":"ident"},"type":"brackets"},{"arg":{"type":"unit"},"type":"optional"},{"args":[{"value":"a","type":"ident"},{"value":"","type":"string"},{"type":"false"},{"type":"false"}],"type":"disjunction"}],"callee":{"args":[{"type":"true"},{"type":"false"}],"type":"product"},"type":"application"}
+z : c -> (rec b -> a)
+{"result":{"arg":{"value":"a","type":"ident"},"name":"b","type":"recursive"},"arg":{"arg":{"value":"c","type":"ident"},"name":"z","type":"named"},"type":"function"}

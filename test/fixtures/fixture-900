@@ -1,2 +1,2 @@
-_|_ -> _|_?
-{"result":{"arg":{"type":"false"},"type":"optional"},"arg":{"type":"false"},"type":"function"}
+(true -> _|_) -> {a: '\x1a`¯\x0c\x13\x0e½Ý'; b: true; bar: foo; c: *; foo: (); x: *; y: *; z: *}
+{"result":{"type":"record","fields":{"z":{"type":"true"},"foo":{"type":"unit"},"a":{"value":"\u001a`¯\u000c\u0013\u000e½Ý","type":"string"},"b":{"value":true,"type":"bool"},"x":{"type":"true"},"c":{"type":"true"},"bar":{"value":"foo","type":"ident"},"y":{"type":"true"}}},"arg":{"result":{"type":"false"},"arg":{"value":true,"type":"bool"},"type":"function"},"type":"function"}

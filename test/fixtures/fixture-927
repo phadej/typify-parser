@@ -1,2 +1,2 @@
-b & _|_ & () & '46\\(\x0dt\x03";&îc%\x1co8c2í\x14\x0d¶\x02þ\x06\x01I' & 'äyjz]G7q\n\\íï,\'§#sM' & () & () & false & 7 & true -> * -> foo
-{"result":{"result":{"value":"foo","type":"ident"},"arg":{"type":"true"},"type":"function"},"arg":{"args":[{"value":"b","type":"ident"},{"type":"false"},{"type":"unit"},{"value":"46\\(\rt\u0003\";&îc%\u001co8c2í\u0014\r¶\u0002þ\u0006\u0001I","type":"string"},{"value":"äyjz]G7q\n\\íï,'§#sM","type":"string"},{"type":"unit"},{"type":"unit"},{"value":false,"type":"bool"},{"value":7,"type":"number"},{"value":true,"type":"bool"}],"type":"conjunction"},"type":"function"}
+rec b -> true
+{"arg":{"value":true,"type":"bool"},"name":"b","type":"recursive"}

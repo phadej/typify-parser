@@ -1,2 +1,2 @@
-{a: _|_; bar: *; c: (); foo: (); x: (); y: ()}?
-{"arg":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"type":"false"},"x":{"type":"unit"},"c":{"type":"unit"},"bar":{"type":"true"},"y":{"type":"unit"}}},"type":"optional"}
+(rec y -> _|_)?
+{"arg":{"arg":{"type":"false"},"name":"y","type":"recursive"},"type":"optional"}

@@ -1,2 +1,2 @@
-x x...
-{"arg":{"args":[{"value":"x","type":"ident"}],"callee":{"value":"x","type":"ident"},"type":"application"},"type":"variadic"}
+[() -> 'C']
+{"arg":{"result":{"value":"C","type":"string"},"arg":{"type":"unit"},"type":"function"},"type":"brackets"}

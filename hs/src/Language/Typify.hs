@@ -3,6 +3,7 @@
 module Language.Typify where
 
 import Control.Applicative hiding ((<|>), many, optional)
+import Control.Monad (void)
 
 import Text.Parsec
 import Text.Parsec.String
@@ -40,6 +41,7 @@ data Type  = TyTrue | TyFalse | TyUnit
            | TyBrackets Type
            | TyApplication Type [Type]
            | TyFunction Type Type
+           | TyRecursive Name Type
   deriving (Eq, Ord, Show)
 
 tyOptional :: Type -> Type
@@ -99,7 +101,8 @@ data PrettySpec = PrettySpec {
   pTimes       :: String,
   pColon       :: String,
   pRecColon    :: String,
-  pSemicolon   :: String
+  pSemicolon   :: String,
+  pRec         :: String
 }
 
 escapeString :: String -> String
@@ -134,7 +137,8 @@ defaultPrettySpec = PrettySpec {
   pTimes       = ", ",
   pColon       = " : ",
   pRecColon    = ": ",
-  pSemicolon   = "; "
+  pSemicolon   = "; ",
+  pRec         = "rec "
 }
 
 class Pretty a where
@@ -165,6 +169,7 @@ instance Pretty Type where
   prettyPrec p d (TyOptional x)        = prettyParens (d > 8) (prettyPrec p 8 x) ++ pQMark p
   prettyPrec p d (TyApplication x ys)  = prettyParens (d > 7) $ intercalate " " $ map (prettyPrec p 8) $ x : ys
   prettyPrec p d (TyFunction x y)      = prettyParens (d > 1) $ prettyPrec p 2 x ++ pTo p ++ prettyPrec p 1 y
+  prettyPrec p d (TyRecursive n x)     = prettyParens (d > 0) $ pRec p ++ n ++ pTo p ++ prettyPrec p 0 x
 
 -- @(a... -> b)... -> c@
 test0 :: Type
@@ -226,7 +231,8 @@ arbitraryType n = QC.oneof [
   tyVariadic <$> arbitraryType',
   TyBrackets <$> arbitraryType',
   TyApplication <$> arbitraryType' <*> QC.listOf1 arbitraryType',
-  TyFunction <$> arbitraryType' <*> arbitraryType'
+  TyFunction <$> arbitraryType' <*> arbitraryType',
+  TyRecursive <$> arbitraryName <*> arbitraryType'
   ]
   where arbitraryType' = arbitraryType $ n - 1
 
@@ -240,6 +246,7 @@ shrinkType (TyFunction x y)   = [ TyFunction x'' y | x'' <- x' ] ++ [ TyFunction
 shrinkType (TyApplication x ys) = [ tyApplication x'' ys | x'' <- x' ] ++ [ tyApplication x ys'' | ys'' <- ys' ] ++ [ tyApplication x'' ys'' | x'' <- x', ys'' <- ys' ]
   where x' = shrinkType x
         ys' = QC.shrinkList shrinkType ys
+shrinkType (TyRecursive n x) = [TyRecursive n x' | x' <- shrinkType x ] ++ [x]
 shrinkType _ = []
 
 instance QC.Arbitrary Type where
@@ -332,7 +339,7 @@ tyStringP :: Parser Type
 tyStringP = TyString <$> lexeme (singleStringP <|> doubleStringP)
 
 recordPairP :: Parser (Name, Type)
-recordPairP = (,) <$> nameP <* colonP <*> tyFunctionP
+recordPairP = (,) <$> nameP <* colonP <*> typeParser
 
 tyRecordP :: Parser Type
 tyRecordP = curlyBraces (TyRecord . Map.fromList <$> recordPairP `sepBy` semiColonP)
@@ -344,7 +351,7 @@ tyIdentifierP = f <$> nameP
         f n       = TyIdentifier n
 
 typeParser :: Parser Type
-typeParser = tyFunctionP
+typeParser = tyRecursiveP
 
 totalTypeParser :: Parser Type
 totalTypeParser = spaces *> typeParser <* eof
@@ -366,10 +373,10 @@ tyDisjunctionP :: Parser Type
 tyDisjunctionP = tyDisjunction <$> tyConjunctionP `sepBy1` lexeme (oneOf "∨|")
 
 colonP :: Parser ()
-colonP = const () <$> lexeme (char ':')
+colonP = void (lexeme (char ':'))
 
 semiColonP :: Parser ()
-semiColonP = const () <$> lexeme (char ';')
+semiColonP = void (lexeme (char ';'))
 
 tyVariadicP :: Parser Type
 tyVariadicP = f <$> tyDisjunctionP <*> optionMaybe ellipsisP
@@ -392,6 +399,15 @@ tyFunctionP :: Parser Type
 tyFunctionP = f <$> tyProductP <*> optionMaybe (arrowP *> tyFunctionP)
   where f a Nothing  = a
         f a (Just b) = TyFunction a b
+
+recP :: Parser ()
+recP = void (lexeme (try (string "rec") <|> string "μ"))
+
+tyRecursiveP :: Parser Type
+tyRecursiveP = r <|> f
+  where r = TyRecursive <$ recP <*> nameP <* arrowP <*> tyRecursiveP
+        f = tyFunctionP
+
 
 terminalP :: Parser Type
 terminalP = choice [
@@ -427,3 +443,4 @@ instance ToJSON Type where
   toJSON (TyBrackets t) = typeObject "brackets" [ "arg" .= t ]
   toJSON (TyApplication x ys) = typeObject "application" [ "callee" .= x, "args" .= ys ]
   toJSON (TyFunction a b) = typeObject "function" [ "arg" .= a, "result" .= b ]
+  toJSON (TyRecursive n x) = typeObject "recursive" [ "name" .= n, "arg" .= x ]

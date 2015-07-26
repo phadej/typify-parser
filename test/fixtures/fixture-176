@@ -1,2 +1,2 @@
-bar : ()
-{"arg":{"type":"unit"},"name":"bar","type":"named"}
+foo : ()
+{"arg":{"type":"unit"},"name":"foo","type":"named"}

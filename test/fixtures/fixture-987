@@ -1,2 +1,2 @@
-z false () _|_ () foo * () _|_ -> ()?
-{"result":{"arg":{"type":"unit"},"type":"optional"},"arg":{"args":[{"value":false,"type":"bool"},{"type":"unit"},{"type":"false"},{"type":"unit"},{"value":"foo","type":"ident"},{"type":"true"},{"type":"unit"},{"type":"false"}],"callee":{"value":"z","type":"ident"},"type":"application"},"type":"function"}
+rec z -> false
+{"arg":{"value":false,"type":"bool"},"name":"z","type":"recursive"}

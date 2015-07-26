@@ -1,2 +1,2 @@
-b : ()
-{"arg":{"type":"unit"},"name":"b","type":"named"}
+c : true
+{"arg":{"value":true,"type":"bool"},"name":"c","type":"named"}

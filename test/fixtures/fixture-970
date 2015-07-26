@@ -1,2 +1,2 @@
-[true] -> [()]
-{"result":{"arg":{"type":"unit"},"type":"brackets"},"arg":{"arg":{"value":true,"type":"bool"},"type":"brackets"},"type":"function"}
+rec x -> * & 79 & * & * & 'ÚoT0M¾U3{Ú{9´\x15Ðl\x122\x05\x0b`\x11\x1dM<ßM\\\x0e\x12òp<e~*pKÈLs' & () & 'Xfã6\x09ytl~/01CôOyï1A@³úa]\x03w}\x03v\x01oa`\x1b>Ðjïë0n\\mlB,#\x1d!0üF«' & _|_
+{"arg":{"args":[{"type":"true"},{"value":79,"type":"number"},{"type":"true"},{"type":"true"},{"value":"ÚoT0M¾U3{Ú{9´\u0015Ðl\u00122\u0005\u000b`\u0011\u001dM<ßM\\\u000e\u0012òp<e~*pKÈLs","type":"string"},{"type":"unit"},{"value":"Xfã6\tytl~/01CôOyï1A@³úa]\u0003w}\u0003v\u0001oa`\u001b>Ðjïë0n\\mlB,#\u001d!0üF«","type":"string"},{"type":"false"}],"type":"conjunction"},"name":"x","type":"recursive"}

@@ -1,2 +1,2 @@
-(false...)?
-{"arg":{"arg":{"value":false,"type":"bool"},"type":"variadic"},"type":"optional"}
+('yV>\x03CÙ!6ý\x0b£gâGc>Ò\x02åe½\x1f%\n\x15|\x1e\x11k\x07ýÌ\x07?\x07joîÎ\x06yWX)Éx\x1cVT\x1f\x1b', 50, '\x16gtÙ\x03f\x1b', '\x15®¨P>4!{2', 30, bar)...
+{"arg":{"args":[{"value":"yV>\u0003CÙ!6ý\u000b£gâGc>Ò\u0002åe½\u001f%\n\u0015|\u001e\u0011k\u0007ýÌ\u0007?\u0007joîÎ\u0006yWX)Éx\u001cVT\u001f\u001b","type":"string"},{"value":50,"type":"number"},{"value":"\u0016gtÙ\u0003f\u001b","type":"string"},{"value":"\u0015®¨P>4!{2","type":"string"},{"value":30,"type":"number"},{"value":"bar","type":"ident"}],"type":"product"},"type":"variadic"}

@@ -1,2 +1,2 @@
-{a: (); b: (); bar: (); c: false; foo: false; x: *; y: *}...
-{"arg":{"type":"record","fields":{"foo":{"value":false,"type":"bool"},"a":{"type":"unit"},"b":{"type":"unit"},"x":{"type":"true"},"c":{"value":false,"type":"bool"},"bar":{"type":"unit"},"y":{"type":"true"}}},"type":"variadic"}
+[_|_]
+{"arg":{"type":"false"},"type":"brackets"}

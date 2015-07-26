@@ -1,2 +1,2 @@
-{b: {b: 2; y: _|_; z: *}; c: [()]}
-{"type":"record","fields":{"b":{"type":"record","fields":{"z":{"type":"true"},"b":{"value":2,"type":"number"},"y":{"type":"false"}}},"c":{"arg":{"type":"unit"},"type":"brackets"}}}
+{foo: {a: ''}; y: 'õH', 3, z, 'ø°', 'e', 0}
+{"type":"record","fields":{"foo":{"type":"record","fields":{"a":{"value":"","type":"string"}}},"y":{"args":[{"value":"õH","type":"string"},{"value":3,"type":"number"},{"value":"z","type":"ident"},{"value":"ø°","type":"string"},{"value":"e","type":"string"},{"value":0,"type":"number"}],"type":"product"}}}
