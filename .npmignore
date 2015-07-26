@@ -1,0 +1,13 @@
+node_modules/
+coverage/
+test/
+hs/
+doc/
+.npmignore
+.travis.yml
+.jscsrc
+.jshintrc
+.eslintrc
+Makefile
+travis-install.sh
+travis-script.sh
