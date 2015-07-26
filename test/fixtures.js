@@ -6,6 +6,8 @@ var expect = require("chai").expect;
 var fs = require("fs");
 var path = require("path");
 
+var BUCKET_SIZE = parseInt(process.env.FIXTUREBUCKET, 10) || 10;
+
 function bucket(array, size) {
   var len = array.length;
   var res = [];
@@ -19,7 +21,7 @@ describe("fixtures", function () {
   var dirname = path.join(__dirname, "fixtures");
   var files = fs.readdirSync(dirname);
   files.sort();
-  var fileBuckets = bucket(files, 10);
+  var fileBuckets = bucket(files, BUCKET_SIZE);
 
   fileBuckets.forEach(function (b) {
     it(b[0] + " -- " + b[b.length - 1], function () {
