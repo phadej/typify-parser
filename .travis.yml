@@ -1,20 +1,23 @@
 sudo: false
 language: node_js
-node_js:
-  - "0.12"
-  - "0.11"
-  - "0.10"
-
-env:
-  - TESTSUITE=STACK
-  - TESTSUITE=NPM
 
 matrix:
-  exclude:
+  include:
     - node_js: "0.10"
-      env: TESTSUITE=STACK
+      env: TESTSUITE=NPM
     - node_js: "0.11"
+      env: TESTSUITE=NPM
+    - node_js: "0.12"
+      env: TESTSUITE=NPM
+    - node_js: "0.12"
       env: TESTSUITE=STACK
+      addons:
+        apt:
+          sources:
+          - hvr-ghc
+          packages:
+          - ghc-7.8.4
+
 
 before_install:
   # stack
@@ -32,9 +35,3 @@ cache:
   directories:
   - $HOME/.stack
 
-addons:
-  apt:
-    sources:
-    - hvr-ghc
-    packages:
-    - ghc-7.8.4
