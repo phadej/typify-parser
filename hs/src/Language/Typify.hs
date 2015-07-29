@@ -2,25 +2,18 @@
 
 module Language.Typify where
 
-import Control.Applicative hiding ((<|>), many, optional)
-import Control.Monad (void)
-
-import Text.Parsec
-import Text.Parsec.String
-
-import Numeric (showHex, readHex)
-
-import Data.Aeson
-import Data.Aeson.Types (Pair)
-
-import qualified Data.Text as T
-
-import Data.List (intercalate)
-
-import Data.Map (Map)
+import           Control.Applicative hiding ((<|>), many, optional)
+import           Control.Monad (void)
+import           Data.Aeson
+import           Data.Aeson.Types (Pair)
+import           Data.List (intercalate)
+import           Data.Map (Map)
 import qualified Data.Map as Map
-
+import qualified Data.Text as T
+import           Numeric (showHex, readHex)
 import qualified Test.QuickCheck as QC
+import           Text.Parsec
+import           Text.Parsec.String
 
 -- | Names are simply strings
 type Name = String
@@ -444,3 +437,23 @@ instance ToJSON Type where
   toJSON (TyApplication x ys) = typeObject "application" [ "callee" .= x, "args" .= ys ]
   toJSON (TyFunction a b) = typeObject "function" [ "arg" .= a, "result" .= b ]
   toJSON (TyRecursive n x) = typeObject "recursive" [ "name" .= n, "arg" .= x ]
+
+freeVars :: Type -> [Name]
+freeVars TyTrue                = []
+freeVars TyFalse               = []
+freeVars TyUnit                = []
+freeVars (TyNumber _)          = []
+freeVars (TyString _)          = []
+freeVars (TyBool _)            = []
+freeVars (TyRecord x)          = concatMap freeVars . Map.elems $ x
+freeVars (TyIdentifier i)      = [i]
+freeVars (TyNamed _ t)         = freeVars t
+freeVars (TyConjunction ts)    = concatMap freeVars ts
+freeVars (TyDisjunction ts)    = concatMap freeVars ts
+freeVars (TyProduct ts)        = concatMap freeVars ts
+freeVars (TyOptional t)        = freeVars t
+freeVars (TyVariadic t)        = freeVars t
+freeVars (TyBrackets t)        = freeVars t
+freeVars (TyApplication x ys)  = freeVars x ++ concatMap freeVars ys
+freeVars (TyFunction a b)      = freeVars a ++ freeVars b
+freeVars (TyRecursive n x)     = filter (/= n) . freeVars $ x

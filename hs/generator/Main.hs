@@ -2,13 +2,13 @@ module Main where
 
 import           Data.Aeson
 import qualified Data.ByteString.Lazy as B
-import           Data.List (sort)
+import           Data.List (sort, nub)
 import qualified Data.Text.Lazy as T
 import qualified Data.Text.Lazy.Encoding as E
+import           System.Random as R
 import           Test.QuickCheck
 import           Test.QuickCheck.Gen
 import           Test.QuickCheck.Random
-import System.Random as R
 
 import           Language.Typify
 
@@ -45,6 +45,8 @@ outputType :: Int -> Type -> IO ()
 outputType idx ty = B.writeFile filename contents
   where filename = "fixture-" ++ showIndex idx
         contents = B.concat [ stringToByteString $ pretty ty
+                            , stringToByteString "\n"
+                            , encode . nub . sort . freeVars $ ty
                             , stringToByteString "\n"
                             , encode ty
                             , stringToByteString "\n"
