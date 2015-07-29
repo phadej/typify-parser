@@ -35,9 +35,9 @@ describe("fixtures", function () {
         var fvs = JSON.parse(lines[1]);
         var json = JSON.parse(lines[2]);
 
-        // temporary
-        expect(fvs.every(function (el) { return typeof el === "string"; })).to.equal(true);
-        expect(parser(signature)).to.deep.equal(json);
+        var t = parser(signature);
+        expect(t).to.deep.equal(json);
+        expect(parser.freeVars(t)).to.deep.equal(fvs);
       });
     });
   });
