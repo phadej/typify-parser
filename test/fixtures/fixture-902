@@ -1,2 +1,3 @@
 (rec b -> 43) -> true & 21
+[]
 {"result":{"args":[{"value":true,"type":"bool"},{"value":21,"type":"number"}],"type":"conjunction"},"arg":{"arg":{"value":43,"type":"number"},"name":"b","type":"recursive"},"type":"function"}

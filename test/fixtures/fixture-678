@@ -1,2 +1,3 @@
 [foo?]
+["foo"]
 {"arg":{"arg":{"value":"foo","type":"ident"},"type":"optional"},"type":"brackets"}

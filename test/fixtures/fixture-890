@@ -1,2 +1,3 @@
 (_|_ -> *) -> (rec x -> 43)
+[]
 {"result":{"arg":{"value":43,"type":"number"},"name":"x","type":"recursive"},"arg":{"result":{"type":"true"},"arg":{"type":"false"},"type":"function"},"type":"function"}

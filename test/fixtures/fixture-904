@@ -1,2 +1,3 @@
 (rec bar -> '\x19h§\'cÌ\\w\x010ÅÈýVH') -> ()...
+[]
 {"result":{"arg":{"type":"unit"},"type":"variadic"},"arg":{"arg":{"value":"\u0019h§'cÌ\\w\u00010ÅÈýVH","type":"string"},"name":"bar","type":"recursive"},"type":"function"}

@@ -1,2 +1,3 @@
 rec a -> b : 23
+[]
 {"arg":{"arg":{"value":23,"type":"number"},"name":"b","type":"named"},"name":"a","type":"recursive"}

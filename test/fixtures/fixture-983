@@ -1,2 +1,3 @@
 rec y -> [_|_]
+[]
 {"arg":{"arg":{"type":"false"},"type":"brackets"},"name":"y","type":"recursive"}

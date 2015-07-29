@@ -1,2 +1,3 @@
 {b: rec x -> _|_; c: c}
+["c"]
 {"type":"record","fields":{"b":{"arg":{"type":"false"},"name":"x","type":"recursive"},"c":{"value":"c","type":"ident"}}}

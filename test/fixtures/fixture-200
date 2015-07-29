@@ -1,2 +1,3 @@
 y : foo | _|_
+["foo"]
 {"arg":{"args":[{"value":"foo","type":"ident"},{"type":"false"}],"type":"disjunction"},"name":"y","type":"named"}

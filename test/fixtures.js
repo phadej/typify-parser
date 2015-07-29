@@ -28,13 +28,16 @@ describe("fixtures", function () {
       b.forEach(function (file) {
         var contents = fs.readFileSync(path.join(dirname, file)).toString();
         var lines = contents.split("\n");
-        expect(lines.length).to.equal(3);
-        expect(lines[2]).to.equal("");
+        expect(lines.length).to.equal(4);
+        expect(lines[3]).to.equal("");
 
         var signature = lines[0];
-        var json = JSON.parse(lines[1]);
+        var fvs = JSON.parse(lines[1]);
+        var json = JSON.parse(lines[2]);
 
-        expect(parser(signature)).to.deep.equal(json);
+        var t = parser(signature);
+        expect(t).to.deep.equal(json);
+        expect(parser.freeVars(t)).to.deep.equal(fvs);
       });
     });
   });

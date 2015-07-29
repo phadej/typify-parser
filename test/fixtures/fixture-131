@@ -1,2 +1,3 @@
 a : false
+[]
 {"arg":{"value":false,"type":"bool"},"name":"a","type":"named"}

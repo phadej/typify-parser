@@ -1,2 +1,3 @@
 rec a -> () * * * * false true () 'Óg_iÕ\x17,' c true _|_ _|_ b () y _|_ true true true () z
+["b","c","y","z"]
 {"arg":{"args":[{"type":"true"},{"type":"true"},{"type":"true"},{"type":"true"},{"value":false,"type":"bool"},{"value":true,"type":"bool"},{"type":"unit"},{"value":"Óg_iÕ\u0017,","type":"string"},{"value":"c","type":"ident"},{"value":true,"type":"bool"},{"type":"false"},{"type":"false"},{"value":"b","type":"ident"},{"type":"unit"},{"value":"y","type":"ident"},{"type":"false"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"value":true,"type":"bool"},{"type":"unit"},{"value":"z","type":"ident"}],"callee":{"type":"unit"},"type":"application"},"name":"a","type":"recursive"}

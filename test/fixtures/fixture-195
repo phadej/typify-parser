@@ -1,2 +1,3 @@
 x : (rec z -> *)
+[]
 {"arg":{"arg":{"type":"true"},"name":"z","type":"recursive"},"name":"x","type":"named"}

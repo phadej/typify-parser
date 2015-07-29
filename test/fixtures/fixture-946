@@ -1,2 +1,3 @@
 rec bar -> * -> *
+[]
 {"arg":{"result":{"type":"true"},"arg":{"type":"true"},"type":"function"},"name":"bar","type":"recursive"}

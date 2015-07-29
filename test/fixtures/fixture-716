@@ -1,2 +1,3 @@
 [rec x -> x]
+[]
 {"arg":{"arg":{"value":"x","type":"ident"},"name":"x","type":"recursive"},"type":"brackets"}

@@ -1,2 +1,3 @@
 bar... -> 54...
+["bar"]
 {"result":{"arg":{"value":54,"type":"number"},"type":"variadic"},"arg":{"arg":{"value":"bar","type":"ident"},"type":"variadic"},"type":"function"}

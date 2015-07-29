@@ -1,2 +1,3 @@
 false & (rec a -> _|_) & (z : true)
+[]
 {"args":[{"value":false,"type":"bool"},{"arg":{"type":"false"},"name":"a","type":"recursive"},{"arg":{"value":true,"type":"bool"},"name":"z","type":"named"}],"type":"conjunction"}

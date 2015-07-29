@@ -1,2 +1,3 @@
 rec a -> '\x09\x1e\x12+M/'
+[]
 {"arg":{"value":"\t\u001e\u0012+M/","type":"string"},"name":"a","type":"recursive"}

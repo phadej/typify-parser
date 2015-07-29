@@ -1,2 +1,3 @@
 (5 -> b)...
+["b"]
 {"arg":{"result":{"value":"b","type":"ident"},"arg":{"value":5,"type":"number"},"type":"function"},"type":"variadic"}

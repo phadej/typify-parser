@@ -1,2 +1,3 @@
 {a: y; b: _|_; bar: _|_; c: y; foo: _|_; x: false; y: *; z: true} -> [false]
+["y"]
 {"result":{"arg":{"value":false,"type":"bool"},"type":"brackets"},"arg":{"type":"record","fields":{"z":{"value":true,"type":"bool"},"foo":{"type":"false"},"a":{"value":"y","type":"ident"},"b":{"type":"false"},"x":{"value":false,"type":"bool"},"c":{"value":"y","type":"ident"},"bar":{"type":"false"},"y":{"type":"true"}}},"type":"function"}

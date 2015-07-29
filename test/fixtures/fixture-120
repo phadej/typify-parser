@@ -1,2 +1,3 @@
 {y: 4}
+[]
 {"type":"record","fields":{"y":{"value":4,"type":"number"}}}

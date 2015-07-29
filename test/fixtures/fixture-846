@@ -1,2 +1,3 @@
 _|_ | false | '\x13rg\x00\x1aº' | * | * | false | 12 | _|_ -> (rec foo -> true)
+[]
 {"result":{"arg":{"value":true,"type":"bool"},"name":"foo","type":"recursive"},"arg":{"args":[{"type":"false"},{"value":false,"type":"bool"},{"value":"\u0013rg\u0000\u001aº","type":"string"},{"type":"true"},{"type":"true"},{"value":false,"type":"bool"},{"value":12,"type":"number"},{"type":"false"}],"type":"disjunction"},"type":"function"}

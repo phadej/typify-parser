@@ -1,2 +1,3 @@
 y?...
+["y"]
 {"arg":{"arg":{"value":"y","type":"ident"},"type":"optional"},"type":"variadic"}

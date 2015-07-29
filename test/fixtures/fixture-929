@@ -1,2 +1,3 @@
 rec b -> a : 'UM'
+[]
 {"arg":{"arg":{"value":"UM","type":"string"},"name":"a","type":"named"},"name":"b","type":"recursive"}

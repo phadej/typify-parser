@@ -1,2 +1,3 @@
 rec z -> 4 & _|_ & _|_ & _|_ & 6 & () & * & x & _|_ & _|_ & 7 & b & '~e$#h_\x16+©\x0e\x13Ës\\´{\'%' & * & _|_
+["b","x"]
 {"arg":{"args":[{"value":4,"type":"number"},{"type":"false"},{"type":"false"},{"type":"false"},{"value":6,"type":"number"},{"type":"unit"},{"type":"true"},{"value":"x","type":"ident"},{"type":"false"},{"type":"false"},{"value":7,"type":"number"},{"value":"b","type":"ident"},{"value":"~e$#h_\u0016+©\u000e\u0013Ës\\´{'%","type":"string"},{"type":"true"},{"type":"false"}],"type":"conjunction"},"name":"z","type":"recursive"}

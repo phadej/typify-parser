@@ -1,2 +1,3 @@
 c : y : ()
+[]
 {"arg":{"arg":{"type":"unit"},"name":"y","type":"named"},"name":"c","type":"named"}

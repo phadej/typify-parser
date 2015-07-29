@@ -1,2 +1,3 @@
 () & _|_ | [*]
+[]
 {"args":[{"args":[{"type":"unit"},{"type":"false"}],"type":"conjunction"},{"arg":{"type":"true"},"type":"brackets"}],"type":"disjunction"}

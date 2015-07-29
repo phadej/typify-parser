@@ -1,2 +1,3 @@
 {a: a?; b: {foo: x; z: _|_}; foo: _|_ & * & 0 & x; y: ()?; z: (), false, (), *}
+["a","x"]
 {"type":"record","fields":{"z":{"args":[{"type":"unit"},{"value":false,"type":"bool"},{"type":"unit"},{"type":"true"}],"type":"product"},"foo":{"args":[{"type":"false"},{"type":"true"},{"value":0,"type":"number"},{"value":"x","type":"ident"}],"type":"conjunction"},"a":{"arg":{"value":"a","type":"ident"},"type":"optional"},"b":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":"x","type":"ident"}}},"y":{"arg":{"type":"unit"},"type":"optional"}}}

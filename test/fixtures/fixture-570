@@ -1,2 +1,3 @@
 {x: (); y: ()}...
+[]
 {"arg":{"type":"record","fields":{"x":{"type":"unit"},"y":{"type":"unit"}}},"type":"variadic"}

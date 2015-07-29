@@ -1,2 +1,3 @@
 {a: *; b: '\x1bg5dÍc`SÀ\x04U&F.O(²c\x17iC\x0dl*\x08Kä7Z/\x1a'; bar: foo; c: 60; foo: 21; x: true; y: '\'\x06¡%n8C³s,#1d/C&J4\x16_Ý)_\x05çx4Mq\x17!\x1c]í\x0es?¶\x18ð~;5L\x0b<\x0f"R\n~å>Ú!'; z: 7}?
+["foo"]
 {"arg":{"type":"record","fields":{"z":{"value":7,"type":"number"},"foo":{"value":21,"type":"number"},"a":{"type":"true"},"b":{"value":"\u001bg5dÍc`SÀ\u0004U&F.O(²c\u0017iC\rl*\u0008Kä7Z/\u001a","type":"string"},"x":{"value":true,"type":"bool"},"c":{"value":60,"type":"number"},"bar":{"value":"foo","type":"ident"},"y":{"value":"'\u0006¡%n8C³s,#1d/C&J4\u0016_Ý)_\u0005çx4Mq\u0017!\u001c]í\u000es?¶\u0018ð~;5L\u000b<\u000f\"R\n~å>Ú!","type":"string"}}},"type":"optional"}

@@ -1,2 +1,3 @@
 (bar -> 11)...
+["bar"]
 {"arg":{"result":{"value":11,"type":"number"},"arg":{"value":"bar","type":"ident"},"type":"function"},"type":"variadic"}

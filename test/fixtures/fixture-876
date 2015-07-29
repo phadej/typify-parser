@@ -1,2 +1,3 @@
 [*] -> {a: '\x099°\x1e'; b: '\x1feF!Âv2²»°£vðr\x03(\x03jÝy<\x07\x19'; bar: _|_; c: _|_; foo: z; x: *; y: _|_; z: _|_}
+["z"]
 {"result":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":"z","type":"ident"},"a":{"value":"\t9°\u001e","type":"string"},"b":{"value":"\u001feF!Âv2²»°£vðr\u0003(\u0003jÝy<\u0007\u0019","type":"string"},"x":{"type":"true"},"c":{"type":"false"},"bar":{"type":"false"},"y":{"type":"false"}}},"arg":{"arg":{"type":"true"},"type":"brackets"},"type":"function"}

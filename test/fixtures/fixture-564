@@ -1,2 +1,3 @@
 {a: _|_; b: y; bar: (); z: *}...
+["y"]
 {"arg":{"type":"record","fields":{"z":{"type":"true"},"a":{"type":"false"},"b":{"value":"y","type":"ident"},"bar":{"type":"unit"}}},"type":"variadic"}

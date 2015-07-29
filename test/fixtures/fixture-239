@@ -1,2 +1,3 @@
 {a: (); bar: y; c: false; foo: 34; x: true; y: _|_} & {a: a; b: false; bar: ' \\ÔSkà)f\x00"_.ñ8k¥íF*¢§\x04&ªV=Ûll $'; c: c; foo: b; x: 'ÈfI.¡?RÏ'; y: b; z: *}
+["a","b","c","y"]
 {"args":[{"type":"record","fields":{"foo":{"value":34,"type":"number"},"a":{"type":"unit"},"x":{"value":true,"type":"bool"},"c":{"value":false,"type":"bool"},"bar":{"value":"y","type":"ident"},"y":{"type":"false"}}},{"type":"record","fields":{"z":{"type":"true"},"foo":{"value":"b","type":"ident"},"a":{"value":"a","type":"ident"},"b":{"value":false,"type":"bool"},"x":{"value":"ÈfI.¡?RÏ","type":"string"},"c":{"value":"c","type":"ident"},"bar":{"value":" \\ÔSkà)f\u0000\"_.ñ8k¥íF*¢§\u0004&ªV=Ûll $","type":"string"},"y":{"value":"b","type":"ident"}}}],"type":"conjunction"}

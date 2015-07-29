@@ -1,2 +1,3 @@
 'ì' -> '3'
+[]
 {"result":{"value":"3","type":"string"},"arg":{"value":"ì","type":"string"},"type":"function"}

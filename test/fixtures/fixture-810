@@ -1,2 +1,3 @@
 1 -> {a: y; c: *}
+["y"]
 {"result":{"type":"record","fields":{"a":{"value":"y","type":"ident"},"c":{"type":"true"}}},"arg":{"value":1,"type":"number"},"type":"function"}

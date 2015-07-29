@@ -1,2 +1,3 @@
 [b : 28]
+[]
 {"arg":{"arg":{"value":28,"type":"number"},"name":"b","type":"named"},"type":"brackets"}

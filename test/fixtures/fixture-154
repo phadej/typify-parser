@@ -1,2 +1,3 @@
 bar : (() -> _|_)
+[]
 {"arg":{"result":{"type":"false"},"arg":{"type":"unit"},"type":"function"},"name":"bar","type":"named"}

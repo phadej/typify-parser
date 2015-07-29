@@ -1,2 +1,3 @@
 rec z -> c : *
+[]
 {"arg":{"arg":{"type":"true"},"name":"c","type":"named"},"name":"z","type":"recursive"}

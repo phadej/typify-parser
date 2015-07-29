@@ -1,2 +1,3 @@
 (c -> true)?
+["c"]
 {"arg":{"result":{"value":true,"type":"bool"},"arg":{"value":"c","type":"ident"},"type":"function"},"type":"optional"}

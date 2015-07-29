@@ -1,2 +1,3 @@
 (_|_ -> x)...
+["x"]
 {"arg":{"result":{"value":"x","type":"ident"},"arg":{"type":"false"},"type":"function"},"type":"variadic"}

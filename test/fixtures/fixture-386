@@ -1,2 +1,3 @@
 (rec y -> _|_) | (* -> '¯B\x09\x0ef~L\x19ÙH#jPB\n<\x07=VAJf\x0e^cWE\x19+\x18\x0fw\x03ÐR\x06\\\n\x0e]#L\x10\x0d6%.ù#}\x16\x09?Æ^ã\x16Ûû=_N\x0clÒÔÍ')
+[]
 {"args":[{"arg":{"type":"false"},"name":"y","type":"recursive"},{"result":{"value":"¯B\t\u000ef~L\u0019ÙH#jPB\n<\u0007=VAJf\u000e^cWE\u0019+\u0018\u000fw\u0003ÐR\u0006\\\n\u000e]#L\u0010\r6%.ù#}\u0016\t?Æ^ã\u0016Ûû=_N\u000clÒÔÍ","type":"string"},"arg":{"type":"true"},"type":"function"}],"type":"disjunction"}

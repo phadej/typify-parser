@@ -1,2 +1,3 @@
 rec x -> () -> 15
+[]
 {"arg":{"result":{"value":15,"type":"number"},"arg":{"type":"unit"},"type":"function"},"name":"x","type":"recursive"}

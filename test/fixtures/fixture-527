@@ -1,2 +1,3 @@
 (* ())?
+[]
 {"arg":{"args":[{"type":"unit"}],"callee":{"type":"true"},"type":"application"},"type":"optional"}

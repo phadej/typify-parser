@@ -1,2 +1,3 @@
 foo : {b: true; c: 8; y: true; z: _|_}
+[]
 {"arg":{"type":"record","fields":{"z":{"type":"false"},"b":{"value":true,"type":"bool"},"c":{"value":8,"type":"number"},"y":{"value":true,"type":"bool"}}},"name":"foo","type":"named"}

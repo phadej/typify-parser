@@ -1,2 +1,3 @@
 (() -> *) -> ['rø`;8\x0d\x1aüokoùGyþ\x03S\x18^v¾T']
+[]
 {"result":{"arg":{"value":"rø`;8\r\u001aüokoùGyþ\u0003S\u0018^v¾T","type":"string"},"type":"brackets"},"arg":{"result":{"type":"true"},"arg":{"type":"unit"},"type":"function"},"type":"function"}

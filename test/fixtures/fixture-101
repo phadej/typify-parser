@@ -1,2 +1,3 @@
 {a: rec foo -> 3; b: [()]; bar: true; c: _|_?; foo: 12 _|_ b; x: 18 -> 12; y: bar : 16}
+["b"]
 {"type":"record","fields":{"foo":{"args":[{"type":"false"},{"value":"b","type":"ident"}],"callee":{"value":12,"type":"number"},"type":"application"},"a":{"arg":{"value":3,"type":"number"},"name":"foo","type":"recursive"},"b":{"arg":{"type":"unit"},"type":"brackets"},"x":{"result":{"value":12,"type":"number"},"arg":{"value":18,"type":"number"},"type":"function"},"c":{"arg":{"type":"false"},"type":"optional"},"bar":{"value":true,"type":"bool"},"y":{"arg":{"value":16,"type":"number"},"name":"bar","type":"named"}}}

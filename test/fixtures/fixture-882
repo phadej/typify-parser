@@ -1,2 +1,3 @@
 [b] -> {}
+["b"]
 {"result":{"type":"record","fields":{}},"arg":{"arg":{"value":"b","type":"ident"},"type":"brackets"},"type":"function"}

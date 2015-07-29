@@ -1,2 +1,3 @@
 (() -> *)...
+[]
 {"arg":{"result":{"type":"true"},"arg":{"type":"unit"},"type":"function"},"type":"variadic"}

@@ -1,2 +1,3 @@
 (* -> foo)...
+["foo"]
 {"arg":{"result":{"value":"foo","type":"ident"},"arg":{"type":"true"},"type":"function"},"type":"variadic"}

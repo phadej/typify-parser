@@ -1,2 +1,3 @@
 y : false...
+[]
 {"arg":{"arg":{"value":false,"type":"bool"},"type":"variadic"},"name":"y","type":"named"}

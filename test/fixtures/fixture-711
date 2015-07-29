@@ -1,2 +1,3 @@
 [c -> *]
+["c"]
 {"arg":{"result":{"type":"true"},"arg":{"value":"c","type":"ident"},"type":"function"},"type":"brackets"}

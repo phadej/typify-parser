@@ -1,2 +1,3 @@
 x : 8, a : '1Ê\x18.<J£', bar?
+["bar"]
 {"args":[{"arg":{"value":8,"type":"number"},"name":"x","type":"named"},{"arg":{"value":"1Ê\u0018.<J£","type":"string"},"name":"a","type":"named"},{"arg":{"value":"bar","type":"ident"},"type":"optional"}],"type":"product"}

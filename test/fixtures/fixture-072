@@ -1,2 +1,3 @@
 {a: ()?; bar: foo; c: 3; x: y : 8; z: rec b -> true}
+["foo"]
 {"type":"record","fields":{"z":{"arg":{"value":true,"type":"bool"},"name":"b","type":"recursive"},"a":{"arg":{"type":"unit"},"type":"optional"},"x":{"arg":{"value":8,"type":"number"},"name":"y","type":"named"},"c":{"value":3,"type":"number"},"bar":{"value":"foo","type":"ident"}}}

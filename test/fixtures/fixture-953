@@ -1,2 +1,3 @@
 rec c -> () | () | '<\x02-z9\x0e\x14¦s\x1b\x07G\x03mê¡\x1aÞZÕ\x06o\'y=y?~tfkq{*\x1c+ôFA\x0c\x14ÍK|q\x1f(hElC$Ek\x1e+O©!bO\x0c9z' | false | 61 | y
+["y"]
 {"arg":{"args":[{"type":"unit"},{"type":"unit"},{"value":"<\u0002-z9\u000e\u0014¦s\u001b\u0007G\u0003mê¡\u001aÞZÕ\u0006o'y=y?~tfkq{*\u001c+ôFA\u000c\u0014ÍK|q\u001f(hElC$Ek\u001e+O©!bO\u000c9z","type":"string"},{"value":false,"type":"bool"},{"value":61,"type":"number"},{"value":"y","type":"ident"}],"type":"disjunction"},"name":"c","type":"recursive"}

@@ -1,2 +1,3 @@
 rec foo -> 5?
+[]
 {"arg":{"arg":{"value":5,"type":"number"},"type":"optional"},"name":"foo","type":"recursive"}

@@ -1,2 +1,3 @@
 * -> '' & 5 & 'ý*z' & _|_ & _|_
+[]
 {"result":{"args":[{"value":"","type":"string"},{"value":5,"type":"number"},{"value":"ý*z","type":"string"},{"type":"false"},{"type":"false"}],"type":"conjunction"},"arg":{"type":"true"},"type":"function"}

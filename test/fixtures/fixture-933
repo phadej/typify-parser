@@ -1,2 +1,3 @@
 rec b -> b, 16, '\x04\x08iqÒð¶^úm&QR\x01$\'\x0b9\x0dÖö', y, *, (), *, c, (), *, (), 'È=/F§x<'
+["c","y"]
 {"arg":{"args":[{"value":"b","type":"ident"},{"value":16,"type":"number"},{"value":"\u0004\u0008iqÒð¶^úm&QR\u0001$'\u000b9\rÖö","type":"string"},{"value":"y","type":"ident"},{"type":"true"},{"type":"unit"},{"type":"true"},{"value":"c","type":"ident"},{"type":"unit"},{"type":"true"},{"type":"unit"},{"value":"È=/F§x<","type":"string"}],"type":"product"},"name":"b","type":"recursive"}

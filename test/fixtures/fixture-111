@@ -1,2 +1,3 @@
 {bar: *}
+[]
 {"type":"record","fields":{"bar":{"type":"true"}}}

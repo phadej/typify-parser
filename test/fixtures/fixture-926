@@ -1,2 +1,3 @@
 rec b -> false
+[]
 {"arg":{"value":false,"type":"bool"},"name":"b","type":"recursive"}

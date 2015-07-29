@@ -1,2 +1,3 @@
 (x : ())?
+[]
 {"arg":{"arg":{"type":"unit"},"name":"x","type":"named"},"type":"optional"}

@@ -1,2 +1,3 @@
 {a: true; b: c; bar: _|_; c: *; foo: true; y: _|_; z: foo}
+["c","foo"]
 {"type":"record","fields":{"z":{"value":"foo","type":"ident"},"foo":{"value":true,"type":"bool"},"a":{"value":true,"type":"bool"},"b":{"value":"c","type":"ident"},"c":{"type":"true"},"bar":{"type":"false"},"y":{"type":"false"}}}

@@ -1,2 +1,3 @@
 *..., {}, true
+[]
 {"args":[{"arg":{"type":"true"},"type":"variadic"},{"type":"record","fields":{}},{"value":true,"type":"bool"}],"type":"product"}

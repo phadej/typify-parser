@@ -1,2 +1,3 @@
 (*...) | (rec c -> true) | () () () * * a | 'já\'H%-\x1eyY' & 13 & * & 'h\x14' | (_|_...)
+["a"]
 {"args":[{"arg":{"type":"true"},"type":"variadic"},{"arg":{"value":true,"type":"bool"},"name":"c","type":"recursive"},{"args":[{"type":"unit"},{"type":"unit"},{"type":"true"},{"type":"true"},{"value":"a","type":"ident"}],"callee":{"type":"unit"},"type":"application"},{"args":[{"value":"já'H%-\u001eyY","type":"string"},{"value":13,"type":"number"},{"type":"true"},{"value":"h\u0014","type":"string"}],"type":"conjunction"},{"arg":{"type":"false"},"type":"variadic"}],"type":"disjunction"}

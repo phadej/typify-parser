@@ -1,2 +1,3 @@
 {a: foo : true; b: '\x12:9"\x04#\x1en&á\x11TÈ'; bar: () -> (); c: * -> 30; foo: rec a -> 2; x: rec x -> true; y: 4?; z: 30?}
+[]
 {"type":"record","fields":{"z":{"arg":{"value":30,"type":"number"},"type":"optional"},"foo":{"arg":{"value":2,"type":"number"},"name":"a","type":"recursive"},"a":{"arg":{"value":true,"type":"bool"},"name":"foo","type":"named"},"b":{"value":"\u0012:9\"\u0004#\u001en&á\u0011TÈ","type":"string"},"x":{"arg":{"value":true,"type":"bool"},"name":"x","type":"recursive"},"c":{"result":{"value":30,"type":"number"},"arg":{"type":"true"},"type":"function"},"bar":{"result":{"type":"unit"},"arg":{"type":"unit"},"type":"function"},"y":{"arg":{"value":4,"type":"number"},"type":"optional"}}}

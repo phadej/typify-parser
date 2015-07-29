@@ -1,2 +1,3 @@
 [x : _|_]
+[]
 {"arg":{"arg":{"type":"false"},"name":"x","type":"named"},"type":"brackets"}

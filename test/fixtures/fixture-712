@@ -1,2 +1,3 @@
 [rec a -> ()]
+[]
 {"arg":{"arg":{"type":"unit"},"name":"a","type":"recursive"},"type":"brackets"}

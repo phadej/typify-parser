@@ -1,2 +1,3 @@
 (bar : *)...
+[]
 {"arg":{"arg":{"type":"true"},"name":"bar","type":"named"},"type":"variadic"}

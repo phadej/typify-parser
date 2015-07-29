@@ -1,2 +1,3 @@
 b : ('aU1T \x18\'G5' -> _|_)
+[]
 {"arg":{"result":{"type":"false"},"arg":{"value":"aU1T \u0018'G5","type":"string"},"type":"function"},"name":"b","type":"named"}

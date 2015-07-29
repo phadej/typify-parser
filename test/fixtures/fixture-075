@@ -1,2 +1,3 @@
 {a: b?; y: a : true; z: 40}
+["b"]
 {"type":"record","fields":{"z":{"value":40,"type":"number"},"a":{"arg":{"value":"b","type":"ident"},"type":"optional"},"y":{"arg":{"value":true,"type":"bool"},"name":"a","type":"named"}}}

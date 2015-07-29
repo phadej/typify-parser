@@ -1,2 +1,3 @@
 {a: (); b: true; bar: ''; c: c; foo: '9{'; y: (); z: y} -> {bar: false; foo: true; x: true}
+["c","y"]
 {"result":{"type":"record","fields":{"foo":{"value":true,"type":"bool"},"x":{"value":true,"type":"bool"},"bar":{"value":false,"type":"bool"}}},"arg":{"type":"record","fields":{"z":{"value":"y","type":"ident"},"foo":{"value":"9{","type":"string"},"a":{"type":"unit"},"b":{"value":true,"type":"bool"},"c":{"value":"c","type":"ident"},"bar":{"value":"","type":"string"},"y":{"type":"unit"}}},"type":"function"}

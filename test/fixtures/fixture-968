@@ -1,2 +1,3 @@
 rec x -> ()
+[]
 {"arg":{"type":"unit"},"name":"x","type":"recursive"}

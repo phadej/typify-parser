@@ -1,2 +1,3 @@
 ('j=a' -> y) -> {a: (); b: *; bar: true; c: x; foo: true; x: bar; y: '!ZIDû\x00û\x06Q\x19b'; z: 50}
+["bar","x","y"]
 {"result":{"type":"record","fields":{"z":{"value":50,"type":"number"},"foo":{"value":true,"type":"bool"},"a":{"type":"unit"},"b":{"type":"true"},"x":{"value":"bar","type":"ident"},"c":{"value":"x","type":"ident"},"bar":{"value":true,"type":"bool"},"y":{"value":"!ZIDû\u0000û\u0006Q\u0019b","type":"string"}}},"arg":{"result":{"value":"y","type":"ident"},"arg":{"value":"j=a","type":"string"},"type":"function"},"type":"function"}

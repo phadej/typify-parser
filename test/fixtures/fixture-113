@@ -1,2 +1,3 @@
 {bar: 9...; foo: _|_; z: {a: _|_; b: b; bar: (); c: *; foo: _|_; x: (); y: 'ï"a>hj\x0cÎny|P}NE1j'; z: false}}
+["b"]
 {"type":"record","fields":{"z":{"type":"record","fields":{"z":{"value":false,"type":"bool"},"foo":{"type":"false"},"a":{"type":"false"},"b":{"value":"b","type":"ident"},"x":{"type":"unit"},"c":{"type":"true"},"bar":{"type":"unit"},"y":{"value":"ï\"a>hj\u000cÎny|P}NE1j","type":"string"}}},"foo":{"type":"false"},"bar":{"arg":{"value":9,"type":"number"},"type":"variadic"}}}

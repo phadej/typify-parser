@@ -1,2 +1,3 @@
 y : a : _|_
+[]
 {"arg":{"arg":{"type":"false"},"name":"a","type":"named"},"name":"y","type":"named"}
