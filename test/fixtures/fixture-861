@@ -1,2 +1,3 @@
 _|_? -> [*]
+[]
 {"result":{"arg":{"type":"true"},"type":"brackets"},"arg":{"arg":{"type":"false"},"type":"optional"},"type":"function"}

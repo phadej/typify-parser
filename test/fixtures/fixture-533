@@ -1,2 +1,3 @@
 (* -> 11)?
+[]
 {"arg":{"result":{"value":11,"type":"number"},"arg":{"type":"true"},"type":"function"},"type":"optional"}

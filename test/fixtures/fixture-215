@@ -1,2 +1,3 @@
 z : ((), *)
+[]
 {"arg":{"args":[{"type":"unit"},{"type":"true"}],"type":"product"},"name":"z","type":"named"}

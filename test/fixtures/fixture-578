@@ -1,2 +1,3 @@
 false & '' & * & 'TE~\x1c\\U.Ís\x1fÀh\x15Þ\x16P|`Ýùú°¢\x1c¾.KuK=n^poû\x01@J\x0b^2e' & '*/tYc\x05\x02\x0cæØø«\x1a\x047Y·\x1amx#6X\x1f´Z­gx\x0fô\x09=1tí' & _|_ & a & * & *...
+["a"]
 {"arg":{"args":[{"value":false,"type":"bool"},{"value":"","type":"string"},{"type":"true"},{"value":"TE~\u001c\\U.Ís\u001fÀh\u0015Þ\u0016P|`Ýùú°¢\u001c¾.KuK=n^poû\u0001@J\u000b^2e","type":"string"},{"value":"*/tYc\u0005\u0002\u000cæØø«\u001a\u00047Y·\u001amx#6X\u001f´Z­gx\u000fô\t=1tí","type":"string"},{"type":"false"},{"value":"a","type":"ident"},{"type":"true"},{"type":"true"}],"type":"conjunction"},"type":"variadic"}

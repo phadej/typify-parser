@@ -1,2 +1,3 @@
 (()...) | {a: 1; bar: ''}
+[]
 {"args":[{"arg":{"type":"unit"},"type":"variadic"},{"type":"record","fields":{"a":{"value":1,"type":"number"},"bar":{"value":"","type":"string"}}}],"type":"disjunction"}

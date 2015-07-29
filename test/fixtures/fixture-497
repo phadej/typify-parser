@@ -1,2 +1,3 @@
 (x : '')?
+[]
 {"arg":{"arg":{"value":"","type":"string"},"name":"x","type":"named"},"type":"optional"}

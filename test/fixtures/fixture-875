@@ -1,2 +1,3 @@
 z... -> (rec bar -> '\x10x]È6¼EzUÝ£9\x08d\'O<\x19`6nSHa\x01QiÀ"ÃLz]7.R\x023l6z\x1d½4t¼+\x11©¡²N_')
+["z"]
 {"result":{"arg":{"value":"\u0010x]È6¼EzUÝ£9\u0008d'O<\u0019`6nSHa\u0001QiÀ\"ÃLz]7.R\u00023l6z\u001d½4t¼+\u0011©¡²N_","type":"string"},"name":"bar","type":"recursive"},"arg":{"arg":{"value":"z","type":"ident"},"type":"variadic"},"type":"function"}

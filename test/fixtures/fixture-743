@@ -1,2 +1,3 @@
 (bar : foo) ['\x1c*VFëV\x1e@V\\_Zi¦;\x0e§'] (rec foo -> *)
+["foo"]
 {"args":[{"arg":{"value":"\u001c*VFëV\u001e@V\\_Zi¦;\u000e§","type":"string"},"type":"brackets"},{"arg":{"type":"true"},"name":"foo","type":"recursive"}],"callee":{"arg":{"value":"foo","type":"ident"},"name":"bar","type":"named"},"type":"application"}

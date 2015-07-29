@@ -1,2 +1,3 @@
 (rec y -> _|_)?
+[]
 {"arg":{"arg":{"type":"false"},"name":"y","type":"recursive"},"type":"optional"}

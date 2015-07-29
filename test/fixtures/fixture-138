@@ -1,2 +1,3 @@
 a : [2]
+[]
 {"arg":{"arg":{"value":2,"type":"number"},"type":"brackets"},"name":"a","type":"named"}

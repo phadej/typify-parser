@@ -1,2 +1,3 @@
 (rec c -> ()) -> _|_ -> bar
+["bar"]
 {"result":{"result":{"value":"bar","type":"ident"},"arg":{"type":"false"},"type":"function"},"arg":{"arg":{"type":"unit"},"name":"c","type":"recursive"},"type":"function"}

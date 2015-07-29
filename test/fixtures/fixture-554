@@ -1,2 +1,3 @@
 (rec z -> ())?
+[]
 {"arg":{"arg":{"type":"unit"},"name":"z","type":"recursive"},"type":"optional"}

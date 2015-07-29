@@ -1,2 +1,3 @@
 [{a: _|_; b: 'dK\x11\x0esHÌ\x13ÛønX\x09û\x0eÕ\x1cAK×^\x1e®\x1aID\x05X\n\x0cEª.÷}`Ï}y\x1e4Ü\x1bÏ0t'; bar: *; c: *; foo: 'èbC|²¢XE1êH©\x0eoïFâjf\n\n\x052A\x13µu\x061¸z%_w4|ò'; x: 'M¿g'; y: *; z: ()}]
+[]
 {"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"value":"èbC|²¢XE1êH©\u000eoïFâjf\n\n\u00052A\u0013µu\u00061¸z%_w4|ò","type":"string"},"a":{"type":"false"},"b":{"value":"dK\u0011\u000esHÌ\u0013ÛønX\tû\u000eÕ\u001cAK×^\u001e®\u001aID\u0005X\n\u000cEª.÷}`Ï}y\u001e4Ü\u001bÏ0t","type":"string"},"x":{"value":"M¿g","type":"string"},"c":{"type":"true"},"bar":{"type":"true"},"y":{"type":"true"}}},"type":"brackets"}

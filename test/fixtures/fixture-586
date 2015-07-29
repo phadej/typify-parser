@@ -1,2 +1,3 @@
 true | *...
+[]
 {"arg":{"args":[{"value":true,"type":"bool"},{"type":"true"}],"type":"disjunction"},"type":"variadic"}

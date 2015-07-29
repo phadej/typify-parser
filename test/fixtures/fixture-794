@@ -1,2 +1,3 @@
 (foo -> '') _|_ ('Zï\x06Ý' | x) [b] (* -> a) '^ùoo4q'? (foo...)
+["a","b","foo","x"]
 {"args":[{"type":"false"},{"args":[{"value":"Zï\u0006Ý","type":"string"},{"value":"x","type":"ident"}],"type":"disjunction"},{"arg":{"value":"b","type":"ident"},"type":"brackets"},{"result":{"value":"a","type":"ident"},"arg":{"type":"true"},"type":"function"},{"arg":{"value":"^ùoo4q","type":"string"},"type":"optional"},{"arg":{"value":"foo","type":"ident"},"type":"variadic"}],"callee":{"result":{"value":"","type":"string"},"arg":{"value":"foo","type":"ident"},"type":"function"},"type":"application"}

@@ -1,2 +1,3 @@
 c : b : '"dÝ'
+[]
 {"arg":{"arg":{"value":"\"dÝ","type":"string"},"name":"b","type":"named"},"name":"c","type":"named"}

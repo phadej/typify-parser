@@ -1,2 +1,3 @@
 (rec a -> '.')?
+[]
 {"arg":{"arg":{"value":".","type":"string"},"name":"a","type":"recursive"},"type":"optional"}

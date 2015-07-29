@@ -1,2 +1,3 @@
 rec foo -> rec y -> 'c\x1a_G\x12\x04I'
+[]
 {"arg":{"arg":{"value":"c\u001a_G\u0012\u0004I","type":"string"},"name":"y","type":"recursive"},"name":"foo","type":"recursive"}

@@ -1,2 +1,3 @@
 {b: _|_}
+[]
 {"type":"record","fields":{"b":{"type":"false"}}}

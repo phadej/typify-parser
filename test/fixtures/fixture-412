@@ -1,2 +1,3 @@
 {b: foo; y: y; z: 'lØ2|'}, 'Âd' & _|_, *..., *?, b : ()
+["foo","y"]
 {"args":[{"type":"record","fields":{"z":{"value":"lØ2|","type":"string"},"b":{"value":"foo","type":"ident"},"y":{"value":"y","type":"ident"}}},{"args":[{"value":"Âd","type":"string"},{"type":"false"}],"type":"conjunction"},{"arg":{"type":"true"},"type":"variadic"},{"arg":{"type":"true"},"type":"optional"},{"arg":{"type":"unit"},"name":"b","type":"named"}],"type":"product"}

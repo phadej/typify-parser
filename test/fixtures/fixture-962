@@ -1,2 +1,3 @@
 rec foo -> ['w\x1f]']
+[]
 {"arg":{"arg":{"value":"w\u001f]","type":"string"},"type":"brackets"},"name":"foo","type":"recursive"}

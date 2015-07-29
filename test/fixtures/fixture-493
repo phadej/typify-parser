@@ -1,2 +1,3 @@
 (b : c)?
+["c"]
 {"arg":{"arg":{"value":"c","type":"ident"},"name":"b","type":"named"},"type":"optional"}

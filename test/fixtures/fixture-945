@@ -1,2 +1,3 @@
 rec bar -> [_|_]
+[]
 {"arg":{"arg":{"type":"false"},"type":"brackets"},"name":"bar","type":"recursive"}

@@ -1,2 +1,3 @@
 [_|_] -> (), 41, true, 12, _|_, (), (), (), *, 80, *, (), 14, *
+[]
 {"result":{"args":[{"type":"unit"},{"value":41,"type":"number"},{"value":true,"type":"bool"},{"value":12,"type":"number"},{"type":"false"},{"type":"unit"},{"type":"unit"},{"type":"unit"},{"type":"true"},{"value":80,"type":"number"},{"type":"true"},{"type":"unit"},{"value":14,"type":"number"},{"type":"true"}],"type":"product"},"arg":{"arg":{"type":"false"},"type":"brackets"},"type":"function"}

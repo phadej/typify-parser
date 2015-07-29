@@ -1,2 +1,3 @@
 x ()
+["x"]
 {"args":[{"type":"unit"}],"callee":{"value":"x","type":"ident"},"type":"application"}

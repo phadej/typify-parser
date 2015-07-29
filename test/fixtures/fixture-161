@@ -1,2 +1,3 @@
 c : {a: true; b: (); bar: (); c: *; foo: foo; x: true; y: x; z: _|_}
+["foo","x"]
 {"arg":{"type":"record","fields":{"z":{"type":"false"},"foo":{"value":"foo","type":"ident"},"a":{"value":true,"type":"bool"},"b":{"type":"unit"},"x":{"value":true,"type":"bool"},"c":{"type":"true"},"bar":{"type":"unit"},"y":{"value":"x","type":"ident"}}},"name":"c","type":"named"}

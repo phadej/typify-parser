@@ -1,2 +1,3 @@
 (7 _|_ true * x * () 14 () false)?
+["x"]
 {"arg":{"args":[{"type":"false"},{"value":true,"type":"bool"},{"type":"true"},{"value":"x","type":"ident"},{"type":"true"},{"type":"unit"},{"value":14,"type":"number"},{"type":"unit"},{"value":false,"type":"bool"}],"callee":{"value":7,"type":"number"},"type":"application"},"type":"optional"}

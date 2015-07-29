@@ -1,2 +1,3 @@
 [rec c -> _|_]
+[]
 {"arg":{"arg":{"type":"false"},"name":"c","type":"recursive"},"type":"brackets"}

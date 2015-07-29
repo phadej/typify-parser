@@ -1,2 +1,3 @@
 2?...
+[]
 {"arg":{"arg":{"value":2,"type":"number"},"type":"optional"},"type":"variadic"}

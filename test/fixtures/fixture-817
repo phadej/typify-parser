@@ -1,2 +1,3 @@
 'r' -> x
+["x"]
 {"result":{"value":"x","type":"ident"},"arg":{"value":"r","type":"string"},"type":"function"}

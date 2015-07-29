@@ -1,2 +1,3 @@
 a...
+["a"]
 {"arg":{"value":"a","type":"ident"},"type":"variadic"}

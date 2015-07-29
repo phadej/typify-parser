@@ -1,2 +1,3 @@
 (z : 11) & (rec x -> 1) & x & _|_ & (x : *) & (rec c -> ()) & (true...) & (b : *)
+["x"]
 {"args":[{"arg":{"value":11,"type":"number"},"name":"z","type":"named"},{"arg":{"value":1,"type":"number"},"name":"x","type":"recursive"},{"value":"x","type":"ident"},{"type":"false"},{"arg":{"type":"true"},"name":"x","type":"named"},{"arg":{"type":"unit"},"name":"c","type":"recursive"},{"arg":{"value":true,"type":"bool"},"type":"variadic"},{"arg":{"type":"true"},"name":"b","type":"named"}],"type":"conjunction"}

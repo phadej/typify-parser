@@ -1,2 +1,3 @@
 (rec z -> 83)...
+[]
 {"arg":{"arg":{"value":83,"type":"number"},"name":"z","type":"recursive"},"type":"variadic"}

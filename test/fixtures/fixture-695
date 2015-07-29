@@ -1,2 +1,3 @@
 [_|_ true * 22 * 'P\x14xH3\x07c' bar c () '\x18H\x16»\x09\x19qò®ë¯' () 16 * false 'PÍÀY\\Rµw6\x03lM{¥\x0c\x14Ç' 'Kdd/\x0eë3Jþ^4}Qþ]Ó¤\x1d' b _|_]
+["b","bar","c"]
 {"arg":{"args":[{"value":true,"type":"bool"},{"type":"true"},{"value":22,"type":"number"},{"type":"true"},{"value":"P\u0014xH3\u0007c","type":"string"},{"value":"bar","type":"ident"},{"value":"c","type":"ident"},{"type":"unit"},{"value":"\u0018H\u0016»\t\u0019qò®ë¯","type":"string"},{"type":"unit"},{"value":16,"type":"number"},{"type":"true"},{"value":false,"type":"bool"},{"value":"PÍÀY\\Rµw6\u0003lM{¥\u000c\u0014Ç","type":"string"},{"value":"Kdd/\u000eë3Jþ^4}Qþ]Ó¤\u001d","type":"string"},{"value":"b","type":"ident"},{"type":"false"}],"callee":{"type":"false"},"type":"application"},"type":"brackets"}

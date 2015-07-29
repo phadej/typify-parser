@@ -1,2 +1,3 @@
 {a: _|_; b: x; bar: 'Ä\x14ç\'\x1aéôÖó\\gt'; c: *; foo: '³\x11áxnléè\x0e.\n¡^/N²\x14NwO°\x11P'; x: _|_; y: *; z: z}?
+["x","z"]
 {"arg":{"type":"record","fields":{"z":{"value":"z","type":"ident"},"foo":{"value":"³\u0011áxnléè\u000e.\n¡^/N²\u0014NwO°\u0011P","type":"string"},"a":{"type":"false"},"b":{"value":"x","type":"ident"},"x":{"type":"false"},"c":{"type":"true"},"bar":{"value":"Ä\u0014ç'\u001aéôÖó\\gt","type":"string"},"y":{"type":"true"}}},"type":"optional"}

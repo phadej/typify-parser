@@ -1,2 +1,3 @@
 a : {a: false; b: (); bar: false; c: false; foo: (); x: _|_; y: '¬xLÚK`\x03«]T\x083_é8©\x15\x12'; z: ()}
+[]
 {"arg":{"type":"record","fields":{"z":{"type":"unit"},"foo":{"type":"unit"},"a":{"value":false,"type":"bool"},"b":{"type":"unit"},"x":{"type":"false"},"c":{"value":false,"type":"bool"},"bar":{"value":false,"type":"bool"},"y":{"value":"¬xLÚK`\u0003«]T\u00083_é8©\u0015\u0012","type":"string"}}},"name":"a","type":"named"}

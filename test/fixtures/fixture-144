@@ -1,2 +1,3 @@
 b : () _|_ * true * 'e7(v\x19C' 7 * * () ' u{A\x15ve5q\x03' bar () 'CAtúÜç+Aâ Xrø\x01U %Ky8I\nK' _|_ 'ÂqD_É\x12^'
+["bar"]
 {"arg":{"args":[{"type":"false"},{"type":"true"},{"value":true,"type":"bool"},{"type":"true"},{"value":"e7(v\u0019C","type":"string"},{"value":7,"type":"number"},{"type":"true"},{"type":"true"},{"type":"unit"},{"value":" u{A\u0015ve5q\u0003","type":"string"},{"value":"bar","type":"ident"},{"type":"unit"},{"value":"CAtúÜç+Aâ Xrø\u0001U %Ky8I\nK","type":"string"},{"type":"false"},{"value":"ÂqD_É\u0012^","type":"string"}],"callee":{"type":"unit"},"type":"application"},"name":"b","type":"named"}

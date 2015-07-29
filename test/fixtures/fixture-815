@@ -1,2 +1,3 @@
 17 -> a : true
+[]
 {"result":{"arg":{"value":true,"type":"bool"},"name":"a","type":"named"},"arg":{"value":17,"type":"number"},"type":"function"}

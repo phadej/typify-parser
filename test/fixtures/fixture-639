@@ -1,2 +1,3 @@
 (rec z -> false)...
+[]
 {"arg":{"arg":{"value":false,"type":"bool"},"name":"z","type":"recursive"},"type":"variadic"}

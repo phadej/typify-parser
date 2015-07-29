@@ -1,2 +1,3 @@
 rec a -> z?
+["z"]
 {"arg":{"arg":{"value":"z","type":"ident"},"type":"optional"},"name":"a","type":"recursive"}

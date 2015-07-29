@@ -1,2 +1,3 @@
 _|_ | () | '60' | * | '\x09' | () | 'Iÿ%cévU' | true
+[]
 {"args":[{"type":"false"},{"type":"unit"},{"value":"60","type":"string"},{"type":"true"},{"value":"\t","type":"string"},{"type":"unit"},{"value":"Iÿ%cévU","type":"string"},{"value":true,"type":"bool"}],"type":"disjunction"}

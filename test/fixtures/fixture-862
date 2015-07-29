@@ -1,2 +1,3 @@
 ()? -> 3 & 8 & foo & 10 & foo & 'WPx\nJo\x0fF\x09z\x05' & _|_ & a & () & _|_ & * & _|_ & () & 15 & '\x02S\x16\x1bÿMp' & () & foo
+["a","foo"]
 {"result":{"args":[{"value":3,"type":"number"},{"value":8,"type":"number"},{"value":"foo","type":"ident"},{"value":10,"type":"number"},{"value":"foo","type":"ident"},{"value":"WPx\nJo\u000fF\tz\u0005","type":"string"},{"type":"false"},{"value":"a","type":"ident"},{"type":"unit"},{"type":"false"},{"type":"true"},{"type":"false"},{"type":"unit"},{"value":15,"type":"number"},{"value":"\u0002S\u0016\u001bÿMp","type":"string"},{"type":"unit"},{"value":"foo","type":"ident"}],"type":"conjunction"},"arg":{"arg":{"type":"unit"},"type":"optional"},"type":"function"}

@@ -1,2 +1,3 @@
 '2' & foo -> 1, 3, _|_, true
+["foo"]
 {"result":{"args":[{"value":1,"type":"number"},{"value":3,"type":"number"},{"type":"false"},{"value":true,"type":"bool"}],"type":"product"},"arg":{"args":[{"value":"2","type":"string"},{"value":"foo","type":"ident"}],"type":"conjunction"},"type":"function"}

@@ -1,2 +1,3 @@
 rec z -> {a: _|_; b: *; c: y; foo: (); x: 4; y: _|_}
+["y"]
 {"arg":{"type":"record","fields":{"foo":{"type":"unit"},"a":{"type":"false"},"b":{"type":"true"},"x":{"value":4,"type":"number"},"c":{"value":"y","type":"ident"},"y":{"type":"false"}}},"name":"z","type":"recursive"}

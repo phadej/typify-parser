@@ -1,2 +1,3 @@
 (*, z, 14) & ['GS\x03[r'] & {c: *; x: 18; z: *} & false & true? & (15 -> x) & ('\x19Q6·{'...)
+["x","z"]
 {"args":[{"args":[{"type":"true"},{"value":"z","type":"ident"},{"value":14,"type":"number"}],"type":"product"},{"arg":{"value":"GS\u0003[r","type":"string"},"type":"brackets"},{"type":"record","fields":{"z":{"type":"true"},"x":{"value":18,"type":"number"},"c":{"type":"true"}}},{"value":false,"type":"bool"},{"arg":{"value":true,"type":"bool"},"type":"optional"},{"result":{"value":"x","type":"ident"},"arg":{"value":15,"type":"number"},"type":"function"},{"arg":{"value":"\u0019Q6·{","type":"string"},"type":"variadic"}],"type":"conjunction"}

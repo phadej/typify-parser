@@ -1,2 +1,3 @@
 rec z -> rec a -> _|_
+[]
 {"arg":{"arg":{"type":"false"},"name":"a","type":"recursive"},"name":"z","type":"recursive"}

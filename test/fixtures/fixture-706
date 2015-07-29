@@ -1,2 +1,3 @@
 [() -> 'C']
+[]
 {"arg":{"result":{"value":"C","type":"string"},"arg":{"type":"unit"},"type":"function"},"type":"brackets"}

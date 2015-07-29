@@ -1,2 +1,3 @@
 z : y : a
+["a"]
 {"arg":{"arg":{"value":"a","type":"ident"},"name":"y","type":"named"},"name":"z","type":"named"}

@@ -1,2 +1,3 @@
 {a: [_|_]; bar: 5; c: foo -> '=ôû'}
+["foo"]
 {"type":"record","fields":{"a":{"arg":{"type":"false"},"type":"brackets"},"c":{"result":{"value":"=ôû","type":"string"},"arg":{"value":"foo","type":"ident"},"type":"function"},"bar":{"value":5,"type":"number"}}}

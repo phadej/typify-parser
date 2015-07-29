@@ -1,2 +1,3 @@
 rec x -> x | * | 20 | * | true | false | 16 | true | _|_
+[]
 {"arg":{"args":[{"value":"x","type":"ident"},{"type":"true"},{"value":20,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"value":false,"type":"bool"},{"value":16,"type":"number"},{"value":true,"type":"bool"},{"type":"false"}],"type":"disjunction"},"name":"x","type":"recursive"}

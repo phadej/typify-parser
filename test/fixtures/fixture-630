@@ -1,2 +1,3 @@
 (z -> 16)...
+["z"]
 {"arg":{"result":{"value":16,"type":"number"},"arg":{"value":"z","type":"ident"},"type":"function"},"type":"variadic"}

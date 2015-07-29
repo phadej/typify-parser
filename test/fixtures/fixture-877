@@ -1,2 +1,3 @@
 [*] -> (rec bar -> ())
+[]
 {"result":{"arg":{"type":"unit"},"name":"bar","type":"recursive"},"arg":{"arg":{"type":"true"},"type":"brackets"},"type":"function"}

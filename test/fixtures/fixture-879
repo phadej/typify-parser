@@ -1,2 +1,3 @@
 [38] -> (rec z -> *)
+[]
 {"result":{"arg":{"type":"true"},"name":"z","type":"recursive"},"arg":{"arg":{"value":38,"type":"number"},"type":"brackets"},"type":"function"}

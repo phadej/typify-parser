@@ -1,2 +1,3 @@
 rec c -> false & 4 & z & 1 & () & _|_ & true
+["z"]
 {"arg":{"args":[{"value":false,"type":"bool"},{"value":4,"type":"number"},{"value":"z","type":"ident"},{"value":1,"type":"number"},{"type":"unit"},{"type":"false"},{"value":true,"type":"bool"}],"type":"conjunction"},"name":"c","type":"recursive"}

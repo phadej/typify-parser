@@ -1,2 +1,3 @@
 (c : a) (19, (), 13, _|_, true, (), (), y, bar, 14, *, y, *, b, (), _|_)
+["a","b","bar","y"]
 {"args":[{"args":[{"value":19,"type":"number"},{"type":"unit"},{"value":13,"type":"number"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"unit"},{"value":"y","type":"ident"},{"value":"bar","type":"ident"},{"value":14,"type":"number"},{"type":"true"},{"value":"y","type":"ident"},{"type":"true"},{"value":"b","type":"ident"},{"type":"unit"},{"type":"false"}],"type":"product"}],"callee":{"arg":{"value":"a","type":"ident"},"name":"c","type":"named"},"type":"application"}

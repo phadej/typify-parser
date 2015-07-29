@@ -1,2 +1,3 @@
 [_|_ -> ()]
+[]
 {"arg":{"result":{"type":"unit"},"arg":{"type":"false"},"type":"function"},"type":"brackets"}

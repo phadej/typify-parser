@@ -1,2 +1,3 @@
 z : 0 'M_' *
+[]
 {"arg":{"args":[{"value":"M_","type":"string"},{"type":"true"}],"callee":{"value":0,"type":"number"},"type":"application"},"name":"z","type":"named"}

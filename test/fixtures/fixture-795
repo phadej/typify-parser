@@ -1,2 +1,3 @@
 (rec a -> *) (()...) '\x13¿èuÅYÕ'?
+[]
 {"args":[{"arg":{"type":"unit"},"type":"variadic"},{"arg":{"value":"\u0013¿èuÅYÕ","type":"string"},"type":"optional"}],"callee":{"arg":{"type":"true"},"name":"a","type":"recursive"},"type":"application"}

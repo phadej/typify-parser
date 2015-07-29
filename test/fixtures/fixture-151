@@ -1,2 +1,3 @@
 bar : ((), _|_, '\x0bÕ&h\x16', (), _|_, 'H~Í\x08Lh', (), false, false, c, '8[Ëg\x06_\x0b<:y#\x1b\x0b^', 'Y|#|', '%x\x1dí\n>â\x0e\x1d\\\x04pô\x04ú\x1e\x11V\x073N\x0f`OHalyG÷\x1f?2Ne', false)
+["c"]
 {"arg":{"args":[{"type":"unit"},{"type":"false"},{"value":"\u000bÕ&h\u0016","type":"string"},{"type":"unit"},{"type":"false"},{"value":"H~Í\u0008Lh","type":"string"},{"type":"unit"},{"value":false,"type":"bool"},{"value":false,"type":"bool"},{"value":"c","type":"ident"},{"value":"8[Ëg\u0006_\u000b<:y#\u001b\u000b^","type":"string"},{"value":"Y|#|","type":"string"},{"value":"%x\u001dí\n>â\u000e\u001d\\\u0004pô\u0004ú\u001e\u0011V\u00073N\u000f`OHalyG÷\u001f?2Ne","type":"string"},{"value":false,"type":"bool"}],"type":"product"},"name":"bar","type":"named"}

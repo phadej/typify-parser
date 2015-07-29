@@ -1,2 +1,3 @@
 (true, (), a, 3, a, _|_, true, (), (), 7, (), _|_, *, y)?
+["a","y"]
 {"arg":{"args":[{"value":true,"type":"bool"},{"type":"unit"},{"value":"a","type":"ident"},{"value":3,"type":"number"},{"value":"a","type":"ident"},{"type":"false"},{"value":true,"type":"bool"},{"type":"unit"},{"type":"unit"},{"value":7,"type":"number"},{"type":"unit"},{"type":"false"},{"type":"true"},{"value":"y","type":"ident"}],"type":"product"},"type":"optional"}

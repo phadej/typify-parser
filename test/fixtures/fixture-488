@@ -1,2 +1,3 @@
 {a: y; b: _|_; c: true; foo: '_{RÄ\'ÿi\x16N9zú\x05\x0cf\\1@\x12¡\x10\\\x15vS>:P\x17V\x1bB4\\»Ç)\x09ß\x16'; x: 'ªHNÞ>Ò|_\x175\x00\x11xo×Þ<ÓA.Ü\x0b'; y: 'wDãb%ü¥Q\x10?_tm;ZSùûÚA\x0e-\x0f\x0dNY/'; z: 10}?
+["y"]
 {"arg":{"type":"record","fields":{"z":{"value":10,"type":"number"},"foo":{"value":"_{RÄ'ÿi\u0016N9zú\u0005\u000cf\\1@\u0012¡\u0010\\\u0015vS>:P\u0017V\u001bB4\\»Ç)\tß\u0016","type":"string"},"a":{"value":"y","type":"ident"},"b":{"type":"false"},"x":{"value":"ªHNÞ>Ò|_\u00175\u0000\u0011xo×Þ<ÓA.Ü\u000b","type":"string"},"c":{"value":true,"type":"bool"},"y":{"value":"wDãb%ü¥Q\u0010?_tm;ZSùûÚA\u000e-\u000f\rNY/","type":"string"}}},"type":"optional"}

@@ -1,2 +1,3 @@
 {a: (); b: y; bar: bar; c: z; foo: y; x: true; y: 'e\x1frAr)nZ<}*MEG8|izC'; z: 14}?
+["bar","y","z"]
 {"arg":{"type":"record","fields":{"z":{"value":14,"type":"number"},"foo":{"value":"y","type":"ident"},"a":{"type":"unit"},"b":{"value":"y","type":"ident"},"x":{"value":true,"type":"bool"},"c":{"value":"z","type":"ident"},"bar":{"value":"bar","type":"ident"},"y":{"value":"e\u001frAr)nZ<}*MEG8|izC","type":"string"}}},"type":"optional"}

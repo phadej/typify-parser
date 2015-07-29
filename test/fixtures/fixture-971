@@ -1,2 +1,3 @@
 rec x -> * | * | c | true | _|_ | * | true | '`\x15È' | false | 14 | * | true | 2 | 11 | 'èóg6pXn' | false | 3
+["c"]
 {"arg":{"args":[{"type":"true"},{"type":"true"},{"value":"c","type":"ident"},{"value":true,"type":"bool"},{"type":"false"},{"type":"true"},{"value":true,"type":"bool"},{"value":"`\u0015È","type":"string"},{"value":false,"type":"bool"},{"value":14,"type":"number"},{"type":"true"},{"value":true,"type":"bool"},{"value":2,"type":"number"},{"value":11,"type":"number"},{"value":"èóg6pXn","type":"string"},{"value":false,"type":"bool"},{"value":3,"type":"number"}],"type":"disjunction"},"name":"x","type":"recursive"}

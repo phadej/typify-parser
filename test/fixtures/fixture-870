@@ -1,2 +1,3 @@
 '3\nD\x06lS+S"\x15\x10?\x1a\x09l'... -> '\x01t@^L\x12»/&CU:zJ÷\x13!&k'...
+[]
 {"result":{"arg":{"value":"\u0001t@^L\u0012»/&CU:zJ÷\u0013!&k","type":"string"},"type":"variadic"},"arg":{"arg":{"value":"3\nD\u0006lS+S\"\u0015\u0010?\u001a\tl","type":"string"},"type":"variadic"},"type":"function"}

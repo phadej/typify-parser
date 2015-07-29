@@ -1,2 +1,3 @@
 [{a: _|_; b: 82; bar: *; c: a; foo: z; x: true; y: *; z: '7-zk\x1f\x1d¡\x1c\x0d¬(ö'}]
+["a","z"]
 {"arg":{"type":"record","fields":{"z":{"value":"7-zk\u001f\u001d¡\u001c\r¬(ö","type":"string"},"foo":{"value":"z","type":"ident"},"a":{"type":"false"},"b":{"value":82,"type":"number"},"x":{"value":true,"type":"bool"},"c":{"value":"a","type":"ident"},"bar":{"type":"true"},"y":{"type":"true"}}},"type":"brackets"}

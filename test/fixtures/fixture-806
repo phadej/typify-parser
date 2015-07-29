@@ -1,2 +1,3 @@
 * -> x?
+["x"]
 {"result":{"arg":{"value":"x","type":"ident"},"type":"optional"},"arg":{"type":"true"},"type":"function"}

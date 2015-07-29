@@ -1,2 +1,3 @@
 (()...) | y | (z : foo) | (rec z -> _|_) | (rec a -> x) | (* -> _|_)
+["foo","x","y"]
 {"args":[{"arg":{"type":"unit"},"type":"variadic"},{"value":"y","type":"ident"},{"arg":{"value":"foo","type":"ident"},"name":"z","type":"named"},{"arg":{"type":"false"},"name":"z","type":"recursive"},{"arg":{"value":"x","type":"ident"},"name":"a","type":"recursive"},{"result":{"type":"false"},"arg":{"type":"true"},"type":"function"}],"type":"disjunction"}

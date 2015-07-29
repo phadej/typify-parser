@@ -1,2 +1,3 @@
 {foo: {a: ''}; y: 'õH', 3, z, 'ø°', 'e', 0}
+["z"]
 {"type":"record","fields":{"foo":{"type":"record","fields":{"a":{"value":"","type":"string"}}},"y":{"args":[{"value":"õH","type":"string"},{"value":3,"type":"number"},{"value":"z","type":"ident"},{"value":"ø°","type":"string"},{"value":"e","type":"string"},{"value":0,"type":"number"}],"type":"product"}}}

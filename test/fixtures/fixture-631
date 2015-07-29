@@ -1,2 +1,3 @@
 (z -> false)...
+["z"]
 {"arg":{"result":{"value":false,"type":"bool"},"arg":{"value":"z","type":"ident"},"type":"function"},"type":"variadic"}

@@ -1,2 +1,3 @@
 c -> 'hÔÙY\x1d1)Ì' * 'c+' x _|_ false _|_ * foo () * _|_ * 'G³@|üUëfñ*[W~,\x06'
+["c","foo","x"]
 {"result":{"args":[{"type":"true"},{"value":"c+","type":"string"},{"value":"x","type":"ident"},{"type":"false"},{"value":false,"type":"bool"},{"type":"false"},{"type":"true"},{"value":"foo","type":"ident"},{"type":"unit"},{"type":"true"},{"type":"false"},{"type":"true"},{"value":"G³@|üUëfñ*[W~,\u0006","type":"string"}],"callee":{"value":"hÔÙY\u001d1)Ì","type":"string"},"type":"application"},"arg":{"value":"c","type":"ident"},"type":"function"}

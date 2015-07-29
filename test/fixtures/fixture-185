@@ -1,2 +1,3 @@
 foo : b...
+["b"]
 {"arg":{"arg":{"value":"b","type":"ident"},"type":"variadic"},"name":"foo","type":"named"}

@@ -1,2 +1,3 @@
 '5'...
+[]
 {"arg":{"value":"5","type":"string"},"type":"variadic"}

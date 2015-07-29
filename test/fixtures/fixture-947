@@ -1,2 +1,3 @@
 rec bar -> rec b -> 'O\x00Ä\x1f,1iY&[G³\x19S\x1f8Ê\x1a@&?;<cAse½È\'AÛ\x1fnÚß;\x19ýäST\\0¤@\x10}wz\x15ÿi0I'
+[]
 {"arg":{"arg":{"value":"O\u0000Ä\u001f,1iY&[G³\u0019S\u001f8Ê\u001a@&?;<cAse½È'AÛ\u001fnÚß;\u0019ýäST\\0¤@\u0010}wz\u0015ÿi0I","type":"string"},"name":"b","type":"recursive"},"name":"bar","type":"recursive"}

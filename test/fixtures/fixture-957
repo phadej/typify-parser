@@ -1,2 +1,3 @@
 rec foo -> 12
+[]
 {"arg":{"value":12,"type":"number"},"name":"foo","type":"recursive"}

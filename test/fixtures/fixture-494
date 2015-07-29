@@ -1,2 +1,3 @@
 (bar : '\x08«-\x04Åsp')?
+[]
 {"arg":{"arg":{"value":"\u0008«-\u0004Åsp","type":"string"},"name":"bar","type":"named"},"type":"optional"}

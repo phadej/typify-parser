@@ -1,2 +1,3 @@
 z : a : *
+[]
 {"arg":{"arg":{"type":"true"},"name":"a","type":"named"},"name":"z","type":"named"}

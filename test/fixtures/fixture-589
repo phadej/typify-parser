@@ -1,2 +1,3 @@
 (_|_, foo, 1, (), '', 17, _|_, *, 'ã\x0bðâXdy\x0dg', true, z, _|_, *, foo, 1)...
+["foo","z"]
 {"arg":{"args":[{"type":"false"},{"value":"foo","type":"ident"},{"value":1,"type":"number"},{"type":"unit"},{"value":"","type":"string"},{"value":17,"type":"number"},{"type":"false"},{"type":"true"},{"value":"ã\u000bðâXdy\rg","type":"string"},{"value":true,"type":"bool"},{"value":"z","type":"ident"},{"type":"false"},{"type":"true"},{"value":"foo","type":"ident"},{"value":1,"type":"number"}],"type":"product"},"type":"variadic"}

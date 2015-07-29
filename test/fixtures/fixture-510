@@ -1,2 +1,3 @@
 ((), *, _|_, (), 18, 'Â/H»\x11', b, (), bar, foo, 15, _|_, 'GfºÄºD\x0dXà\x1e\x17 \x06\\\x0e', *, false, _|_, (), _|_, (), false, 'µÁwj)Kð_\x1e', ())?
+["b","bar","foo"]
 {"arg":{"args":[{"type":"unit"},{"type":"true"},{"type":"false"},{"type":"unit"},{"value":18,"type":"number"},{"value":"Â/H»\u0011","type":"string"},{"value":"b","type":"ident"},{"type":"unit"},{"value":"bar","type":"ident"},{"value":"foo","type":"ident"},{"value":15,"type":"number"},{"type":"false"},{"value":"GfºÄºD\rXà\u001e\u0017 \u0006\\\u000e","type":"string"},{"type":"true"},{"value":false,"type":"bool"},{"type":"false"},{"type":"unit"},{"type":"false"},{"type":"unit"},{"value":false,"type":"bool"},{"value":"µÁwj)Kð_\u001e","type":"string"},{"type":"unit"}],"type":"product"},"type":"optional"}
