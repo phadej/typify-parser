@@ -1,7 +1,7 @@
 {
   "name": "typify-parser",
   "description": "Type signature parser for typify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/phadej/typify-parser",
   "author": {
     "name": "Oleg Grenrus",

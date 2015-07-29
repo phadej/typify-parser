@@ -40,3 +40,16 @@ Turns `(foo, bar 42) -> quux` into
   }
 }
 ```
+
+## Synopsis
+
+```js
+var parser = require("typify-parser");
+
+// Example from above
+var t = parser("(foo, bar 42) -> quux");
+
+// Free vars
+p.freeVars(t);                             // ['bar', 'foo', 'quux']
+p.freeVars(p("rec list -> () | a & list")) // ['a']
+```
